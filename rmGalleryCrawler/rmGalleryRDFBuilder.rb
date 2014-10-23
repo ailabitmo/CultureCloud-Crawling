@@ -45,6 +45,18 @@ require 'io/console'
 
 @proxy = URI.parse(ENV['HTTP_PROXY']) if ENV['HTTP_PROXY']
 
+def getFinalUrl(url)
+  u = URI.parse(url)
+  h = Net::HTTP.new u.host, u.port
+
+  head = h.start do |ua|
+    ua.head u.path
+  end
+  
+  return head['location']
+  
+end
+
 def wikipediaToDBbpedia(wikipedia)
   url_key = wikipedia.split('/').last
   return "http://dbpedia.org/resource/" + url_key
@@ -62,7 +74,7 @@ def wikipediaSearch(label, locale="en")
   h.start do |h|
     res = h.get(url.path + "?" + url.query)
     json = JSON.parse(res.body)
-    results = json["query"]["search"].map { |result| hostUrl+"wiki/"+URI.encode(result["title"]) }
+    results = json["query"]["search"].map { |result| getFinalUrl(URI.encode(hostUrl+"wiki/"+result["title"])) }
     if (results.empty?) then
       suggestion = json["query"]["searchinfo"]["suggestion"]
       if !(suggestion.empty?) then
