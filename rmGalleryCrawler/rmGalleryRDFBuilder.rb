@@ -120,7 +120,7 @@ cidocCRM = RDF::Vocabulary.new('http://www.cidoc-crm.org/rdfs/cidoc_crm_v5.1-dra
 puts cidocCRM
 
 authorsSize.times { |i|
-  authorsFile = File.new("rmgallery_authors.rdf","w")
+  
           
   dbPediaResUrl = getDPediaName(authors[i].text, authors[i].parent.parent.parent["locale"])
   authorURI = RDF::URI.new(dbPediaResUrl)
@@ -131,7 +131,8 @@ authorsSize.times { |i|
                   
   percentage = "authors process: #{i+1} of #{authorsSize} "                
   puts percentage+"#"*(consoleWidth-percentage.length)
-        
+                  
+  authorsFile = File.new("rmgallery_authors.rdf","w")      
   authorsFile.write(authorsGraph.dump(:rdfxml))
   authorsFile.close      
 }
