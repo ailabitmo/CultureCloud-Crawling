@@ -35,6 +35,7 @@ require 'uri'
 require 'json'
 require 'net/http'
 require 'nokogiri'
+require 'rdf/rdfxml'
 require 'io/console'
 
 # TODO: cotribute to dbpediafinder: https://github.com/moustaki/dbpediafinder/
@@ -103,6 +104,7 @@ def getDPediaName(searchString, disambiguation="")
 end
 
 artFile = File.open("rmgallery_art.xml","r")
+
 doc = Nokogiri::XML(artFile)
 
 consoleWidth = IO.console.winsize[1]
@@ -111,10 +113,29 @@ authors = doc.xpath('//section[@label="author"]/sectionItem/fullName')
 authorsSize = authors.size
 puts "Found #{authors.size} authors"
 puts authors[0].parent.parent.parent["locale"]
+
+authorsGraph =  RDF::Graph.new
+
+cidocCRM = RDF::Vocabulary.new('http://www.cidoc-crm.org/rdfs/cidoc_crm_v5.1-draft-2014March.rdfs#')
+puts cidocCRM
+
 authorsSize.times { |i|
-  puts getDPediaName(authors[i].text, authors[i].parent.parent.parent["locale"])
+  authorsFile = File.new("rmgallery_authors.rdf","w")
+          
+  dbPediaResUrl = getDPediaName(authors[i].text, authors[i].parent.parent.parent["locale"])
+  authorURI = RDF::URI.new(dbPediaResUrl)
   
+  authorsGraph << [authorURI, cidocCRM[:P2_has_type], cidocCRM.E21_Person]
+  authorsGraph << [authorURI, cidocCRM[:P1_is_identified_by], authors[i].text]
+  authorsGraph << [authorURI, cidocCRM[:P3_has_note], authors[i].parent.css("bio")[0].text]      
+                  
   percentage = "authors process: #{i+1} of #{authorsSize} "                
-  puts percentage+"#"*(consoleWidth-percentage.length)                
+  puts percentage+"#"*(consoleWidth-percentage.length)
+        
+  authorsFile.write(authorsGraph.dump(:rdfxml))
+  authorsFile.close      
 }
+
+
+
 artFile.close
