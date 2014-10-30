@@ -117,11 +117,14 @@ end
 # DBPedia Spotlight text annotator
 # https://github.com/dbpedia-spotlight/dbpedia-spotlight/wiki
 def dpdepiaSpotlighAnnotator(inputText)
-  u = URI.encode("http://spotlight.dbpedia.org/rest/annotate?text=#{inputText}")
+  u = URI.encode("http://spotlight.dbpedia.org/rest/annotate")
   uri = URI.parse(u)
-  res = Net::HTTP.post_form(uri,'confidence' => @dbPediaSpotlightConfidence, 'support' => @dbPediaSpotlightSupport)
-  res[:Accept] = "text/xml"
-  puts res.body
+  puts "INPUT TEXT:"
+  puts inputText
+  url = URI("http://spotlight.dbpedia.org/rest/annotate")
+  res = Net::HTTP.post_form(url, {'text' => inputText, 'confidence' => @dbPediaSpotlightConfidence, 'support' => @dbPediaSpotlightSupport})
+  res['Accept'] = "text/xml"
+  # puts res.body
   return res.body
 end
 
@@ -149,8 +152,11 @@ cidocCRM = RDF::Vocabulary.new('http://www.cidoc-crm.org/rdfs/cidoc_crm_v5.1-dra
 rdf_prefixes = {
   'cidoc-crm' =>  "http://www.cidoc-crm.org/rdfs/cidoc_crm_v5.1-draft-2014March.rdfs#",
   rdf:  "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-  dbpedia:  "http://dbpedia.org/resource/"
+  dbp:  "http://dbpedia.org/resource/",
+  owl: "http://www.w3.org/2002/07/owl#",
+  ourprefix: "http://oursite.org/resource/"
 }
+owlVocabulary = RDF::Vocabulary.new(rdf_prefixes['owl'])
 
 # authors file # TODO: specify it
 rmgallery_authors_filepath = "rmgallery_authors.ttl"
@@ -174,15 +180,16 @@ authorsSize.times { |i|
   authorFullName = authors[i].text 
   authorFullNameLiteral = RDF::Literal.new(authorFullName, :language => currentLocale)                  
   if (authorsGraph.query([nil, cidocCRM[:P1_is_identified_by], authorFullNameLiteral]).empty?) then
+    authorURI =  RDF::URI.new(authorFullName) #FIXME: generate real URI             
     dbPediaResUrl = getDPediaUrl(authors[i].text, currentLocale)
-    authorURI = RDF::URI.new(dbPediaResUrl)          
+    dbPediaURI = RDF::URI.new(dbPediaResUrl)
+    authorsGraph << [authorURI, owlVocabulary[:sameAs], dbPediaURI]              
     authorsGraph.insert([authorURI, cidocCRM[:P2_has_type], cidocCRM.E21_Person])
                 
     authorsGraph << [authorURI, cidocCRM[:P1_is_identified_by], authorFullNameLiteral]
     annotationText = authors[i].parent.css("bio")[0].text     
-    authorsGraph << [authorURI, cidocCRM[:P3_has_note], annotationText]
-    # TODO: dpdepiaSpotlighAnnotator          
-    # dpdepiaSpotlighAnnotator(annotationText)                
+    authorsGraph << [authorURI, cidocCRM[:P3_has_note], annotationText]         
+    # puts dpdepiaSpotlighAnnotator(annotationText)                
   end
                 
                   
