@@ -1,0 +1,19 @@
+<mappingSpec>
+  <!-- todo: authors, genres, artTypes, artItems-->
+ 
+  <rule id="authors" nodeBase="/rmgallery/gallery/section[@label='author']/*" owlType="MyAuthor" objectId="author/{./@id}" objectLabel="{./@label}">
+  <datatypePropertyMapping value="{./@fullName}" owlProperty="fullName" />
+  <datatypePropertyMapping value="{./bio/text()}" owlProperty="bio" />
+   </rule>
+   
+   <!-- <rule id="artItem" nodeBase="/rmgallery/gallery[@locale='en']/section[@label='author']/sectionItem/artItem" owlType="MyArt" objectId="art/{./@id}" objectLabel="{./@label}"> -->
+   <rule id="artItem" nodeBase="//artItem" owlType="MyArt" objectId="art/{./@id}" objectLabel="{./@label}">
+  <datatypePropertyMapping value="{./@authorName}" owlProperty="authorName" />
+  <datatypePropertyMapping value="{./description/text()}" owlProperty="description" />
+  <datatypePropertyMapping value="{./annotation/text()}" owlProperty="annotation" />
+  <datatypePropertyMapping value="{./imageUrl/text()}" owlProperty="imageUrl" />
+<!-- we cannot generate exact author uri here -->
+<!-- <objectPropertyMapping nodeBase="." value="{./@authorName}" owlProperty="author" referredRule="authors" /> -->
+   </rule>
+   
+</mappingSpec>
