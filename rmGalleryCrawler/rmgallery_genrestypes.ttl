@@ -1,0 +1,99 @@
+@prefix cidoc-crm: <http://www.cidoc-crm.org/rdfs/cidoc_crm_v5.1-draft-2014March.rdfs#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<127> <FIXME:tagType> "genre";
+   cidoc-crm:P102_has_title "Abstraction"@en,
+     "Абстракция"@ru .
+
+<128> <FIXME:tagType> "genre";
+   cidoc-crm:P102_has_title "Biblical Subject"@en,
+     "Библейский сюжет"@ru .
+
+<129> <FIXME:tagType> "genre";
+   cidoc-crm:P102_has_title "Genre Painting"@en,
+     "Бытовой жанр"@ru .
+
+<132> <FIXME:tagType> "genre";
+   cidoc-crm:P102_has_title "History Painting"@en,
+     "Исторический сюжет"@ru .
+
+<133> <FIXME:tagType> "genre";
+   cidoc-crm:P102_has_title "Mythological Subject"@en,
+     "Мифологический сюжет"@ru .
+
+<134> <FIXME:tagType> "genre";
+   cidoc-crm:P102_has_title "Still Life"@en,
+     "Натюрморт"@ru .
+
+<135> <FIXME:tagType> "genre";
+   cidoc-crm:P102_has_title "Landscape"@en,
+     "Пейзаж"@ru .
+
+<136> <FIXME:tagType> "genre";
+   cidoc-crm:P102_has_title "Portrait"@en,
+     "Портрет"@ru .
+
+<1662> <FIXME:tagType> "type";
+   cidoc-crm:P102_has_title "Архитектура"@ru .
+
+<1666> <FIXME:tagType> "type";
+   cidoc-crm:P102_has_title "Folk Art"@en,
+     "Народное искусство"@ru .
+
+<1695> <FIXME:tagType> "genre";
+   cidoc-crm:P102_has_title "Интерьер"@ru .
+
+<1776> <FIXME:tagType> "genre";
+   cidoc-crm:P102_has_title "Театральная декорация"@ru .
+
+<1792> <FIXME:tagType> "genre";
+   cidoc-crm:P102_has_title "Батальный жанр"@ru .
+
+<2118> <FIXME:tagType> "type";
+   cidoc-crm:P102_has_title "Монументальное искусство"@ru .
+
+<2124> <FIXME:tagType> "type";
+   cidoc-crm:P102_has_title "Фотография"@ru .
+
+<216> <FIXME:tagType> "type";
+   cidoc-crm:P102_has_title "Painting"@en,
+     "Живопись"@ru .
+
+<217> <FIXME:tagType> "type";
+   cidoc-crm:P102_has_title "Drawing"@en,
+     "Рисунок"@ru .
+
+<218> <FIXME:tagType> "type";
+   cidoc-crm:P102_has_title "Sculpture"@en,
+     "Скульптура"@ru .
+
+<219> <FIXME:tagType> "type";
+   cidoc-crm:P102_has_title "ДПИ"@ru .
+
+<2360> <FIXME:tagType> "type";
+   cidoc-crm:P102_has_title "Icons"@en,
+     "Иконопись"@ru .
+
+<2362> <FIXME:tagType> "type";
+   cidoc-crm:P102_has_title "Миниатюра"@ru .
+
+<2363> <FIXME:tagType> "genre";
+   cidoc-crm:P102_has_title "Анималистика"@ru .
+
+<2364> <FIXME:tagType> "genre";
+   cidoc-crm:P102_has_title "Карикатура"@ru .
+
+<2365> <FIXME:tagType> "genre";
+   cidoc-crm:P102_has_title "Аллегория"@ru .
+
+<2366> <FIXME:tagType> "type";
+   cidoc-crm:P102_has_title "Театрально-декорационное искусство"@ru .
+
+<2398> <FIXME:tagType> "type";
+   cidoc-crm:P102_has_title "Гравюра"@ru .
+
+<2452> <FIXME:tagType> "genre";
+   cidoc-crm:P102_has_title "Иллюстрация"@ru .
+
+<932> <FIXME:tagType> "type";
+   cidoc-crm:P102_has_title "Нумизматика"@ru .
