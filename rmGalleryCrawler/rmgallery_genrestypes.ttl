@@ -1,99 +1,100 @@
-@prefix cidoc-crm: <http://www.cidoc-crm.org/rdfs/cidoc_crm_v5.1-draft-2014March.rdfs#> .
+@prefix ourprefix: <http://oursite.org/resource/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-<127> <FIXME:tagType> "genre";
-   cidoc-crm:P102_has_title "Abstraction"@en,
-     "Абстракция"@ru .
+<http://oursite.org/resource/object/127> rdfs:label "Abstraction"@en,
+     "Абстракция"@ru;
+   <FIXME:tagType> "genre" .
 
-<128> <FIXME:tagType> "genre";
-   cidoc-crm:P102_has_title "Biblical Subject"@en,
-     "Библейский сюжет"@ru .
+<http://oursite.org/resource/object/128> rdfs:label "Biblical Subject"@en,
+     "Библейский сюжет"@ru;
+   <FIXME:tagType> "genre" .
 
-<129> <FIXME:tagType> "genre";
-   cidoc-crm:P102_has_title "Genre Painting"@en,
-     "Бытовой жанр"@ru .
+<http://oursite.org/resource/object/129> rdfs:label "Genre Painting"@en,
+     "Бытовой жанр"@ru;
+   <FIXME:tagType> "genre" .
 
-<132> <FIXME:tagType> "genre";
-   cidoc-crm:P102_has_title "History Painting"@en,
-     "Исторический сюжет"@ru .
+<http://oursite.org/resource/object/132> rdfs:label "History Painting"@en,
+     "Исторический сюжет"@ru;
+   <FIXME:tagType> "genre" .
 
-<133> <FIXME:tagType> "genre";
-   cidoc-crm:P102_has_title "Mythological Subject"@en,
-     "Мифологический сюжет"@ru .
+<http://oursite.org/resource/object/133> rdfs:label "Mythological Subject"@en,
+     "Мифологический сюжет"@ru;
+   <FIXME:tagType> "genre" .
 
-<134> <FIXME:tagType> "genre";
-   cidoc-crm:P102_has_title "Still Life"@en,
-     "Натюрморт"@ru .
+<http://oursite.org/resource/object/134> rdfs:label "Still Life"@en,
+     "Натюрморт"@ru;
+   <FIXME:tagType> "genre" .
 
-<135> <FIXME:tagType> "genre";
-   cidoc-crm:P102_has_title "Landscape"@en,
-     "Пейзаж"@ru .
+<http://oursite.org/resource/object/135> rdfs:label "Landscape"@en,
+     "Пейзаж"@ru;
+   <FIXME:tagType> "genre" .
 
-<136> <FIXME:tagType> "genre";
-   cidoc-crm:P102_has_title "Portrait"@en,
-     "Портрет"@ru .
+<http://oursite.org/resource/object/136> rdfs:label "Portrait"@en,
+     "Портрет"@ru;
+   <FIXME:tagType> "genre" .
 
-<1662> <FIXME:tagType> "type";
-   cidoc-crm:P102_has_title "Архитектура"@ru .
+<http://oursite.org/resource/object/1662> rdfs:label "Архитектура"@ru;
+   <FIXME:tagType> "type" .
 
-<1666> <FIXME:tagType> "type";
-   cidoc-crm:P102_has_title "Folk Art"@en,
-     "Народное искусство"@ru .
+<http://oursite.org/resource/object/1666> rdfs:label "Folk Art"@en,
+     "Народное искусство"@ru;
+   <FIXME:tagType> "type" .
 
-<1695> <FIXME:tagType> "genre";
-   cidoc-crm:P102_has_title "Интерьер"@ru .
+<http://oursite.org/resource/object/1695> rdfs:label "Интерьер"@ru;
+   <FIXME:tagType> "genre" .
 
-<1776> <FIXME:tagType> "genre";
-   cidoc-crm:P102_has_title "Театральная декорация"@ru .
+<http://oursite.org/resource/object/1776> rdfs:label "Театральная декорация"@ru;
+   <FIXME:tagType> "genre" .
 
-<1792> <FIXME:tagType> "genre";
-   cidoc-crm:P102_has_title "Батальный жанр"@ru .
+<http://oursite.org/resource/object/1792> rdfs:label "Батальный жанр"@ru;
+   <FIXME:tagType> "genre" .
 
-<2118> <FIXME:tagType> "type";
-   cidoc-crm:P102_has_title "Монументальное искусство"@ru .
+<http://oursite.org/resource/object/2118> rdfs:label "Монументальное искусство"@ru;
+   <FIXME:tagType> "type" .
 
-<2124> <FIXME:tagType> "type";
-   cidoc-crm:P102_has_title "Фотография"@ru .
+<http://oursite.org/resource/object/2124> rdfs:label "Фотография"@ru;
+   <FIXME:tagType> "type" .
 
-<216> <FIXME:tagType> "type";
-   cidoc-crm:P102_has_title "Painting"@en,
-     "Живопись"@ru .
+<http://oursite.org/resource/object/216> rdfs:label "Painting"@en,
+     "Живопись"@ru;
+   <FIXME:tagType> "type" .
 
-<217> <FIXME:tagType> "type";
-   cidoc-crm:P102_has_title "Drawing"@en,
-     "Рисунок"@ru .
+<http://oursite.org/resource/object/217> rdfs:label "Drawing"@en,
+     "Рисунок"@ru;
+   <FIXME:tagType> "type" .
 
-<218> <FIXME:tagType> "type";
-   cidoc-crm:P102_has_title "Sculpture"@en,
-     "Скульптура"@ru .
+<http://oursite.org/resource/object/218> rdfs:label "Sculpture"@en,
+     "Скульптура"@ru;
+   <FIXME:tagType> "type" .
 
-<219> <FIXME:tagType> "type";
-   cidoc-crm:P102_has_title "ДПИ"@ru .
+<http://oursite.org/resource/object/219> rdfs:label "ДПИ"@ru;
+   <FIXME:tagType> "type" .
 
-<2360> <FIXME:tagType> "type";
-   cidoc-crm:P102_has_title "Icons"@en,
-     "Иконопись"@ru .
+<http://oursite.org/resource/object/2360> rdfs:label "Icons"@en,
+     "Иконопись"@ru;
+   <FIXME:tagType> "type" .
 
-<2362> <FIXME:tagType> "type";
-   cidoc-crm:P102_has_title "Миниатюра"@ru .
+<http://oursite.org/resource/object/2362> rdfs:label "Миниатюра"@ru;
+   <FIXME:tagType> "type" .
 
-<2363> <FIXME:tagType> "genre";
-   cidoc-crm:P102_has_title "Анималистика"@ru .
+<http://oursite.org/resource/object/2363> rdfs:label "Анималистика"@ru;
+   <FIXME:tagType> "genre" .
 
-<2364> <FIXME:tagType> "genre";
-   cidoc-crm:P102_has_title "Карикатура"@ru .
+<http://oursite.org/resource/object/2364> rdfs:label "Карикатура"@ru;
+   <FIXME:tagType> "genre" .
 
-<2365> <FIXME:tagType> "genre";
-   cidoc-crm:P102_has_title "Аллегория"@ru .
+<http://oursite.org/resource/object/2365> rdfs:label "Аллегория"@ru;
+   <FIXME:tagType> "genre" .
 
-<2366> <FIXME:tagType> "type";
-   cidoc-crm:P102_has_title "Театрально-декорационное искусство"@ru .
+<http://oursite.org/resource/object/2366> rdfs:label "Театрально-декорационное искусство"@ru;
+   <FIXME:tagType> "type" .
 
-<2398> <FIXME:tagType> "type";
-   cidoc-crm:P102_has_title "Гравюра"@ru .
+<http://oursite.org/resource/object/2398> rdfs:label "Гравюра"@ru;
+   <FIXME:tagType> "type" .
 
-<2452> <FIXME:tagType> "genre";
-   cidoc-crm:P102_has_title "Иллюстрация"@ru .
+<http://oursite.org/resource/object/2452> rdfs:label "Иллюстрация"@ru;
+   <FIXME:tagType> "genre" .
 
-<932> <FIXME:tagType> "type";
-   cidoc-crm:P102_has_title "Нумизматика"@ru .
+<http://oursite.org/resource/object/932> rdfs:label "Нумизматика"@ru;
+   <FIXME:tagType> "type" .

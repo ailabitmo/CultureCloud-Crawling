@@ -6,8 +6,8 @@ Linked Data of the Russian Museum
 how to run current ruby scripts from windows:
 ---------------------------------------------
 
-Newest version have some problems running Nokogiri ruby gem from sources,
-so I reccomend to try Ruby 2.00:
+Newest version have some problems building Nokogiri ruby gem from sources,
+so I recommend to try Ruby 2.00:
 
 - Download Ruby 2.0.0-p594 (x86 or x86_64) from: http://rubyinstaller.org/downloads/
 - Install it, for, let's say: <code>C:\Ruby200\ </code>
@@ -24,5 +24,5 @@ so I reccomend to try Ruby 2.00:
 - Install required rdf-turtle gem: <code>gem install rdf-turtle </code>
 
 - Clone rm-lod project to your local machine
-- Change working dir to rmGalleryCrawler path: <code>cd C:\Ruby200\code\path\to\rmGalleryCrawler </code>
+- Change working dir to rmGalleryCrawler path: <code>cd C:\Ruby200\code\path\to\rm-lod\rmGalleryCrawler </code>
 - Run ruby script: <code>ruby rmGalleryRDFBuilder.rb </code>
