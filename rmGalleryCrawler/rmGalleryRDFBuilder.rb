@@ -36,112 +36,6 @@ require 'securerandom'
 
 @ecrmVocabulary = RDF::Vocabulary.new(@rdf_prefixes['ecrm'])
 
-# Get final Url After Redirects
-def getFinalUrl(url)
-    return Net::HTTP.get_response(URI(url))['location']
-end
-
-# transform wikipedia link to dbpedia resource link
-def wikipediaToDBbpedia(wikipedia)
-    if ((wikipedia.nil?) or (wikipedia.empty?)) then return nil end
-    #TODO: check string with regexp
-    url_key = wikipedia.split('/').last
-    return "http://dbpedia.org/resource/" + url_key
-end
-
-# Search for wikipedia article links
-# by title with wikipedia search api
-def wikipediaSearch(label, locale="en")
-    hostUrl = "http://#{locale}.wikipedia.org/"
-    wikipedia_url_s = "#{hostUrl}w/api.php?action=query&format=json&list=search&srsearch=#{URI.encode(label)}&srprop="
-    url = URI.parse(wikipedia_url_s)
-    if @proxy
-        h = Net::HTTP::Proxy(@proxy.host, @proxy.port).new(url.host, url.port)
-    else
-        h = Net::HTTP.new(url.host, url.port)
-    end
-    h.open_timeout = 1
-    h.read_timeout = 1
-    h.start do |h|
-        begin
-            res = h.get(url.path + "?" + url.query)
-        rescue Exception => e
-            puts "#{e.message}. Press return to retry."
-            gets
-            retry
-        end
-        json = JSON.parse(res.body)
-        results = json["query"]["search"].map { |result|
-          getFinalUrl(URI.encode(hostUrl+"wiki/"+result["title"]))
-        }
-        if (results.empty?) then
-            suggestion = json["query"]["searchinfo"]["suggestion"]
-            if !(suggestion.nil?) then
-                return wikipediaSearch(suggestion,locale)
-            else
-                puts "Result for not found. Enter new search string or return to skip"
-                answer = gets
-                if (answer=="\n") then
-                    puts "skipped"
-                    return nil
-                else
-                    wikipediaSearch(answer,locale)
-                end
-            end
-        else
-            return results
-        end
-    end
-end
-
-# Search for dbpedia resource link by title
-def getDPediaUrl(searchString, locale)
-    puts "Searching for: #{searchString} in #{locale}-wiki...".blue.on_red
-    puts
-    foundWikiData = wikipediaSearch(searchString, locale)
-    puts "Search results:"
-
-    if foundWikiData.nil? then return end
-
-    foundWikiDataSize = foundWikiData.size
-    foundWikiDataSize.size.times { |i|
-        puts "#{(i+1).to_s}.: #{foundWikiData[i]}".colorize(:color => (i==0)?:yellow : :light_yellow)
-    }
-    puts
-    puts "Is first result ok? Enter:"
-    puts "Return to accept first current result"
-    puts "Number of wikipedia result (will be transformed to DBPedia resource)"
-    puts "New search string to specify and search again"
-    puts "- symbol to skip current artist"
-    answer = gets
-    answerToI = answer.to_i
-    if (answer=="\n") then
-        puts "Got it!"
-        return wikipediaToDBbpedia(foundWikiData[0]) # http://dbpedia.org/resource/...
-    puts answerToI
-    elsif ((answerToI!=0) and (answerToI<foundWikiDataSize))
-        return wikipediaToDBbpedia(foundWikiData[answerToI-1])
-    elsif (answer=="-\n")
-        return
-    else
-        getDPediaUrl(answer,locale)
-    end
-end
-
-# DBPedia Spotlight text annotator
-# https://github.com/dbpedia-spotlight/dbpedia-spotlight/wiki
-def dpdepiaSpotlighAnnotator(inputText)
-    u = URI.encode("http://spotlight.dbpedia.org/rest/annotate")
-    uri = URI.parse(u)
-    puts "INPUT TEXT:"
-    puts inputText
-    url = URI("http://spotlight.dbpedia.org/rest/annotate")
-    res = Net::HTTP.post_form(url, {'text' => inputText, 'confidence' => @dbPediaSpotlightConfidence, 'support' => @dbPediaSpotlightSupport})
-    res['Accept'] = "text/xml"
-    # puts res.body
-    return res.body
-end
-
 def authorsRdfGenerator()
     # Authors rdf generator:
 
@@ -379,4 +273,4 @@ puts "please, uncomment functions calls you need in sources"
 authorsRdfGenerator()
 artRdfGenerator()
 genresTypesRdfGenerator()
-puts "done. exit"
+puts "done. exiting."
