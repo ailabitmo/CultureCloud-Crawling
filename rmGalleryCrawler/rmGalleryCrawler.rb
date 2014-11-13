@@ -1,3 +1,5 @@
+# encoding: utf-8
+
 # rmgallery.ru HTML data parser
 # Alexey Andreyev: yetanotherandreyev@gmail.com
 
