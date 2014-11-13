@@ -127,29 +127,66 @@ def dpdepiaSpotlighAnnotator(inputText,locale)
     return response.body
 end
 
-# source file #TODO: specify it
-artFile = File.open("rmgallery_art.xml","r")
-doc = Nokogiri::XML(artFile)
+def authorsEnrichment()
+    # source file #TODO: specify it
+    artFile = File.open("rmgallery_art.xml","r")
+    doc = Nokogiri::XML(artFile)
 
-authors = doc.xpath('//section[@label="author"]/sectionItem')
+    authors = doc.xpath('//section[@label="author"]/sectionItem')
 
-artXMLenriched = Nokogiri::XML::Builder.new('encoding' => 'UTF-8') { |xml|
-    xml.rmGalleryAuthorsEnrichment {                                                                 
-    4.times { |i|
-        currentLocale = authors[i].parent.parent["locale"] # FIXME: shame on me
-        authorID = authors[i].attributes["id"].text
-        authorFullName = authors[i].attributes["label"].text
-        annotationText = authors[i].css("bio")[0].text # FIXME: shame on me
-        
+    artXMLenriched = Nokogiri::XML::Builder.new('encoding' => 'UTF-8') { |xml|
+        xml.rmGalleryAuthorsEnrichment {
+        4.times { |i|
+            currentLocale = authors[i].parent.parent["locale"] # FIXME: shame on me
+            authorID = authors[i].attributes["id"].text
+            authorFullName = authors[i].attributes["label"].text
+            annotationText = authors[i].css("bio")[0].text # FIXME: shame on me
+
             xml.author('id' => authorID, 'fullName' => authorFullName) {
                 xml.dbpURI getDPediaUrl(authorFullName,currentLocale)
-                xml << Nokogiri::XML(dpdepiaSpotlighAnnotator(annotationText,currentLocale)).xpath("/Annotation").to_xml        
-            }            
-                                 
-    }
-    }                               
-}
+                xml << Nokogiri::XML(dpdepiaSpotlighAnnotator(annotationText,currentLocale)).xpath("/Annotation").to_xml
+            }
 
-artFileEnriched = File.open("rmgallery_authors_enrichment.xml","w")
-artFileEnriched.write(artXMLenriched.to_xml)
-artFile.close
+
+        }
+        }
+    }
+
+    artFileEnriched = File.open("rmgallery_authors_enrichment.xml","w")
+    artFileEnriched.write(artXMLenriched.to_xml)
+    artFile.close
+
+end
+
+def worksEnrichment()
+    # source file #TODO: specify it
+    artFile = File.open("rmgallery_art.xml","r")
+    doc = Nokogiri::XML(artFile)
+
+    works = doc.xpath('//artItem')
+
+    artXMLenriched = Nokogiri::XML::Builder.new('encoding' => 'UTF-8') { |xml|
+        xml.rmGalleryAuthorsEnrichment {
+        works.size.times { |i|
+            puts "i=#{i}"
+            currentLocale = works[i].parent.parent.parent["locale"] # FIXME: shame on me
+            workID = works[i].attributes["id"].text
+            label = works[i].attributes["label"].text
+            annotationText = works[i].css("annotation")[0].text # FIXME
+            workDescription = works[i].css("description").text
+
+            xml.work('id' => workID, 'label' => label) {
+                xml << Nokogiri::XML(dpdepiaSpotlighAnnotator(label,currentLocale)).xpath("/Annotation").to_xml
+                xml << Nokogiri::XML(dpdepiaSpotlighAnnotator(annotationText,currentLocale)).xpath("/Annotation").to_xml
+                xml << Nokogiri::XML(dpdepiaSpotlighAnnotator(workDescription,currentLocale)).xpath("/Annotation").to_xml
+            }
+        }
+        }
+    }
+
+    artFileEnriched = File.open("rmgallery_works_enrichment.xml","w")
+    artFileEnriched.write(artXMLenriched.to_xml)
+    artFile.close
+end
+
+worksEnrichment()
