@@ -26,7 +26,7 @@ require 'securerandom'
 # TODO: types rdf
 
 @rdf_prefixes = {
-    'ecrm' =>  "http://erlangen-crm.org/ontology/ecrm/ecrm_current.owl#",
+    'ecrm' =>  "http://erlangen-crm.org/current",
     :rdf => RDF.to_uri,
     :rdfs => RDFS.to_uri,
     :dbp =>  "http://dbpedia.org/resource/",
@@ -89,17 +89,18 @@ def authorsRdfGenerator()
         authorFullName = authors[i].attributes["label"].text
         authorFullNameLiteral = RDF::Literal.new(authorFullName, :language => currentLocale)
         
-        new_E82_ActorAppellation =  RDF::URI.new("#{@rdf_prefixes['ourprefix']}objects/#{SecureRandom.urlsafe_base64(5)}")          
+        new_E82_ActorAppellation =  RDF::URI.new("#{@rdf_prefixes['ourprefix']}objects/appelations/#{SecureRandom.urlsafe_base64(5)}")          
                       
         authorsGraph << [new_E82_ActorAppellation,RDFS.label,authorFullNameLiteral]
         authorsGraph << [new_E82_ActorAppellation,RDF.type,@ecrmVocabulary.E82_Actor_Appellation]
                       
         annotationText = authors[i].css("bio")[0].text # FIXME
         annotationTextLiteral = RDF::Literal.new(annotationText, :language => currentLocale)             
-        new_E62_String =  RDF::URI.new("#{@rdf_prefixes['ourprefix']}objects/#{SecureRandom.urlsafe_base64(5)}") #TODO: create separated function
-        authorsGraph << [new_E62_String, RDF.type, @ecrmVocabulary.E62_String]
-        authorsGraph << [new_E62_String, RDFS.label, annotationTextLiteral]              
-        authorsGraph << [new_E82_ActorAppellation, @ecrmVocabulary[:P3_has_note], new_E62_String]              
+        #new_E62_String =  RDF::URI.new("#{@rdf_prefixes['ourprefix']}objects/#{SecureRandom.urlsafe_base64(5)}") #TODO: create separated function
+        #authorsGraph << [new_E62_String, RDF.type, @ecrmVocabulary.E62_String]
+        #authorsGraph << [new_E62_String, RDFS.label, annotationTextLiteral]              
+        #authorsGraph << [new_E82_ActorAppellation, @ecrmVocabulary[:P3_has_note], new_E62_String]
+        authorsGraph << [new_E82_ActorAppellation, @ecrmVocabulary[:P3_has_note], annotationTextLiteral]              
                       
         
 
@@ -167,42 +168,43 @@ def artRdfGenerator()
         #authorFullName = works[i].attributes["authorName"].text
         #authorFullNameLiteral = RDF::Literal.new(authorFullName, :language => currentLocale)
         worksGraph << [workURI, RDF.type, @ecrmVocabulary.E38_Image]
-        new_E65_Creation =  RDF::URI.new("#{@rdf_prefixes['ourprefix']}objects/#{SecureRandom.urlsafe_base64(5)}") #FIXME
+        new_E65_Creation =  RDF::URI.new("#{@rdf_prefixes['ourprefix']}objects/creation/#{SecureRandom.urlsafe_base64(5)}") #FIXME
         worksGraph << [new_E65_Creation, RDF.type, @ecrmVocabulary.E65_Creation]            
         worksGraph << [new_E65_Creation, @ecrmVocabulary[:P94_has_created], workURI]              
         
         workTitle = works[i].attributes["label"].text
         workTitleLiteral = RDF::Literal.new(workTitle, :language => currentLocale)
-        new_E35_Title =  RDF::URI.new("#{@rdf_prefixes['ourprefix']}objects/#{SecureRandom.urlsafe_base64(5)}")
+        new_E35_Title =  RDF::URI.new("#{@rdf_prefixes['ourprefix']}objects/titles/#{SecureRandom.urlsafe_base64(5)}")
         worksGraph << [new_E35_Title, RDF.type, @ecrmVocabulary.E35_Title]
         worksGraph << [new_E35_Title, RDFS.label, workTitleLiteral]           
         worksGraph << [workURI, @ecrmVocabulary[:P102_has_title], new_E35_Title]
                     
         annotationText = works[i].css("annotation")[0].text # FIXME
         annotationTextLiteral = RDF::Literal.new(annotationText, :language => currentLocale)             
-        new_E62_String =  RDF::URI.new("#{@rdf_prefixes['ourprefix']}objects/#{SecureRandom.urlsafe_base64(5)}")
-        worksGraph << [new_E62_String, RDF.type, @ecrmVocabulary.E62_String]
-        worksGraph << [new_E62_String, RDFS.label, annotationTextLiteral]
-        worksGraph << [workURI, @ecrmVocabulary[:P3_has_note], new_E62_String]
+        #new_E62_String =  RDF::URI.new("#{@rdf_prefixes['ourprefix']}objects/#{SecureRandom.urlsafe_base64(5)}")
+        #worksGraph << [new_E62_String, RDF.type, @ecrmVocabulary.E62_String]
+        #worksGraph << [new_E62_String, RDFS.label, annotationTextLiteral]
+        #worksGraph << [workURI, @ecrmVocabulary[:P3_has_note], new_E62_String]
+        worksGraph << [workURI, @ecrmVocabulary[:P3_has_note], annotationTextLiteral]      
                     
         workDescription = works[i].css("description").text
         workDescriptions = workDescription.split(".")
         workDescriptions.each { |wd|
             if ( !(wd.index(" х ").nil?) or !(wd.index(" x ").nil?) )
             then
-                new_E54_Dimension =  RDF::URI.new("#{@rdf_prefixes['ourprefix']}objects/#{SecureRandom.urlsafe_base64(5)}")
+                new_E54_Dimension =  RDF::URI.new("#{@rdf_prefixes['ourprefix']}objects/dimensions/#{SecureRandom.urlsafe_base64(5)}")
                 dimensionsLiteralEn = RDF::Literal.new("dimensions", :language => "en")
                 dimensionsLiteralRu = RDF::Literal.new("размеры", :language => "ru")              
                 worksGraph << [new_E54_Dimension,RDFS.label,dimensionsLiteralEn]
                 worksGraph << [new_E54_Dimension,RDFS.label,dimensionsLiteralRu]
-                new_E60_Number =  RDF::URI.new("#{@rdf_prefixes['ourprefix']}objects/#{SecureRandom.urlsafe_base64(5)}")
+                new_E60_Number =  RDF::URI.new("#{@rdf_prefixes['ourprefix']}objects/numbers/#{SecureRandom.urlsafe_base64(5)}")
                 worksGraph << [new_E60_Number,RDFS.label,wd]
                 worksGraph << [new_E54_Dimension, @ecrmVocabulary[:P90_has_value], new_E60_Number]              
                 worksGraph << [workURI, @ecrmVocabulary[:P43_has_dimension] ,new_E54_Dimension]
                 workDescriptions.delete(wd)
             end
         }
-        new_E55_Type =  RDF::URI.new("#{@rdf_prefixes['ourprefix']}objects/#{SecureRandom.urlsafe_base64(5)}") #FIXME
+        new_E55_Type =  RDF::URI.new("#{@rdf_prefixes['ourprefix']}objects/thetypes/#{SecureRandom.urlsafe_base64(5)}") #FIXME
         worksGraph << [new_E55_Type, RDF.type, @ecrmVocabulary.E55_Type]
         workDescriptionsLiteral =  workDescriptions.join(". ")
         worksGraph << [new_E55_Type, RDFS.label, workDescriptionsLiteral]            
@@ -215,11 +217,11 @@ def artRdfGenerator()
             worksGraph << [new_E65_Creation, @ecrmVocabulary[:P14_carried_out_by],authorURI] #FIXME: wrong usage cdcrm
         when "genge"
             genreID= works[i].parent["id"]
-            genreID=  RDF::URI.new("#{@rdf_prefixes['ourprefix']}object/#{genreID}")             
+            genreID=  RDF::URI.new("#{@rdf_prefixes['ourprefix']}object/genres/#{genreID}")             
             worksGraph << [workURI, "FIXME:genreID" ,genreID] #FIXME: wrong usage cdcrm
         when "type"
             typeID= works[i].parent["id"]
-            typeIDURI = RDF::URI.new("#{@rdf_prefixes['ourprefix']}object/#{typeID}")        
+            typeIDURI = RDF::URI.new("#{@rdf_prefixes['ourprefix']}object/types/#{typeID}")        
             worksGraph << [workURI, "FIXME:typeID" ,typeIDURI] #FIXME: wrong usage cdcrm
         end
         
@@ -255,7 +257,7 @@ def genresTypesRdfGenerator()
         tags = doc.xpath("//section[@label='#{label}']/sectionItem")
         tags.size.times { |i|
             currentLocale = tags[i].parent.parent["locale"] # FIXME: shame on me
-            labelURI = RDF::URI.new("#{@rdf_prefixes['ourprefix']}object/#{tags[i].attributes["id"].text}")
+            labelURI = RDF::URI.new("#{@rdf_prefixes['ourprefix']}object/#{label}s/#{tags[i].attributes["id"].text}")
             labelTitle = tags[i].attributes["label"].text
             labelTitlelLiteral = RDF::Literal.new(labelTitle, :language => currentLocale)
             graph << [labelURI, RDFS.label, labelTitlelLiteral]

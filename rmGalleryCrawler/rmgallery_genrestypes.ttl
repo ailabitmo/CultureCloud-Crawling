@@ -2,99 +2,99 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-<http://oursite.org/resource/object/127> rdfs:label "Abstraction"@en,
+<http://oursite.org/resource/object/genres/127> rdfs:label "Abstraction"@en,
      "Абстракция"@ru;
    <FIXME:tagType> "genre" .
 
-<http://oursite.org/resource/object/128> rdfs:label "Biblical Subject"@en,
+<http://oursite.org/resource/object/genres/128> rdfs:label "Biblical Subject"@en,
      "Библейский сюжет"@ru;
    <FIXME:tagType> "genre" .
 
-<http://oursite.org/resource/object/129> rdfs:label "Genre Painting"@en,
+<http://oursite.org/resource/object/genres/129> rdfs:label "Genre Painting"@en,
      "Бытовой жанр"@ru;
    <FIXME:tagType> "genre" .
 
-<http://oursite.org/resource/object/132> rdfs:label "History Painting"@en,
+<http://oursite.org/resource/object/genres/132> rdfs:label "History Painting"@en,
      "Исторический сюжет"@ru;
    <FIXME:tagType> "genre" .
 
-<http://oursite.org/resource/object/133> rdfs:label "Mythological Subject"@en,
+<http://oursite.org/resource/object/genres/133> rdfs:label "Mythological Subject"@en,
      "Мифологический сюжет"@ru;
    <FIXME:tagType> "genre" .
 
-<http://oursite.org/resource/object/134> rdfs:label "Still Life"@en,
+<http://oursite.org/resource/object/genres/134> rdfs:label "Still Life"@en,
      "Натюрморт"@ru;
    <FIXME:tagType> "genre" .
 
-<http://oursite.org/resource/object/135> rdfs:label "Landscape"@en,
+<http://oursite.org/resource/object/genres/135> rdfs:label "Landscape"@en,
      "Пейзаж"@ru;
    <FIXME:tagType> "genre" .
 
-<http://oursite.org/resource/object/136> rdfs:label "Portrait"@en,
+<http://oursite.org/resource/object/genres/136> rdfs:label "Portrait"@en,
      "Портрет"@ru;
    <FIXME:tagType> "genre" .
 
-<http://oursite.org/resource/object/1662> rdfs:label "Архитектура"@ru;
+<http://oursite.org/resource/object/genres/1695> rdfs:label "Интерьер"@ru;
+   <FIXME:tagType> "genre" .
+
+<http://oursite.org/resource/object/genres/1776> rdfs:label "Театральная декорация"@ru;
+   <FIXME:tagType> "genre" .
+
+<http://oursite.org/resource/object/genres/1792> rdfs:label "Батальный жанр"@ru;
+   <FIXME:tagType> "genre" .
+
+<http://oursite.org/resource/object/genres/2363> rdfs:label "Анималистика"@ru;
+   <FIXME:tagType> "genre" .
+
+<http://oursite.org/resource/object/genres/2364> rdfs:label "Карикатура"@ru;
+   <FIXME:tagType> "genre" .
+
+<http://oursite.org/resource/object/genres/2365> rdfs:label "Аллегория"@ru;
+   <FIXME:tagType> "genre" .
+
+<http://oursite.org/resource/object/genres/2452> rdfs:label "Иллюстрация"@ru;
+   <FIXME:tagType> "genre" .
+
+<http://oursite.org/resource/object/types/1662> rdfs:label "Архитектура"@ru;
    <FIXME:tagType> "type" .
 
-<http://oursite.org/resource/object/1666> rdfs:label "Folk Art"@en,
+<http://oursite.org/resource/object/types/1666> rdfs:label "Folk Art"@en,
      "Народное искусство"@ru;
    <FIXME:tagType> "type" .
 
-<http://oursite.org/resource/object/1695> rdfs:label "Интерьер"@ru;
-   <FIXME:tagType> "genre" .
-
-<http://oursite.org/resource/object/1776> rdfs:label "Театральная декорация"@ru;
-   <FIXME:tagType> "genre" .
-
-<http://oursite.org/resource/object/1792> rdfs:label "Батальный жанр"@ru;
-   <FIXME:tagType> "genre" .
-
-<http://oursite.org/resource/object/2118> rdfs:label "Монументальное искусство"@ru;
+<http://oursite.org/resource/object/types/2118> rdfs:label "Монументальное искусство"@ru;
    <FIXME:tagType> "type" .
 
-<http://oursite.org/resource/object/2124> rdfs:label "Фотография"@ru;
+<http://oursite.org/resource/object/types/2124> rdfs:label "Фотография"@ru;
    <FIXME:tagType> "type" .
 
-<http://oursite.org/resource/object/216> rdfs:label "Painting"@en,
+<http://oursite.org/resource/object/types/216> rdfs:label "Painting"@en,
      "Живопись"@ru;
    <FIXME:tagType> "type" .
 
-<http://oursite.org/resource/object/217> rdfs:label "Drawing"@en,
+<http://oursite.org/resource/object/types/217> rdfs:label "Drawing"@en,
      "Рисунок"@ru;
    <FIXME:tagType> "type" .
 
-<http://oursite.org/resource/object/218> rdfs:label "Sculpture"@en,
+<http://oursite.org/resource/object/types/218> rdfs:label "Sculpture"@en,
      "Скульптура"@ru;
    <FIXME:tagType> "type" .
 
-<http://oursite.org/resource/object/219> rdfs:label "ДПИ"@ru;
+<http://oursite.org/resource/object/types/219> rdfs:label "ДПИ"@ru;
    <FIXME:tagType> "type" .
 
-<http://oursite.org/resource/object/2360> rdfs:label "Icons"@en,
+<http://oursite.org/resource/object/types/2360> rdfs:label "Icons"@en,
      "Иконопись"@ru;
    <FIXME:tagType> "type" .
 
-<http://oursite.org/resource/object/2362> rdfs:label "Миниатюра"@ru;
+<http://oursite.org/resource/object/types/2362> rdfs:label "Миниатюра"@ru;
    <FIXME:tagType> "type" .
 
-<http://oursite.org/resource/object/2363> rdfs:label "Анималистика"@ru;
-   <FIXME:tagType> "genre" .
-
-<http://oursite.org/resource/object/2364> rdfs:label "Карикатура"@ru;
-   <FIXME:tagType> "genre" .
-
-<http://oursite.org/resource/object/2365> rdfs:label "Аллегория"@ru;
-   <FIXME:tagType> "genre" .
-
-<http://oursite.org/resource/object/2366> rdfs:label "Театрально-декорационное искусство"@ru;
+<http://oursite.org/resource/object/types/2366> rdfs:label "Театрально-декорационное искусство"@ru;
    <FIXME:tagType> "type" .
 
-<http://oursite.org/resource/object/2398> rdfs:label "Гравюра"@ru;
+<http://oursite.org/resource/object/types/2398> rdfs:label "Гравюра"@ru;
    <FIXME:tagType> "type" .
 
-<http://oursite.org/resource/object/2452> rdfs:label "Иллюстрация"@ru;
-   <FIXME:tagType> "genre" .
-
-<http://oursite.org/resource/object/932> rdfs:label "Нумизматика"@ru;
+<http://oursite.org/resource/object/types/932> rdfs:label "Нумизматика"@ru;
    <FIXME:tagType> "type" .
