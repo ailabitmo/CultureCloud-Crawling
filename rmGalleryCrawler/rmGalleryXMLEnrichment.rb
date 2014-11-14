@@ -125,7 +125,13 @@ def dpdepiaSpotlighAnnotator(inputText,locale)
     uri = URI.parse(u)
     headers = {'text' => inputText, 'confidence' => @dbPediaSpotlightConfidence, 'support' => @dbPediaSpotlightSupport}
     spotlighthttp = Net::HTTP.new(uri.host, uri.port)
-    response = spotlighthttp.post(uri.path, URI.encode_www_form(headers),{ "Accept" => "text/xml"})
+    begin
+        response = spotlighthttp.post(uri.path, URI.encode_www_form(headers),{ "Accept" => "text/xml"})
+    rescue Exception => e
+        puts "#{e.message}. Press return to retry."
+        gets
+        retry
+    end
     return response.body
 end
 
@@ -138,24 +144,42 @@ def authorsEnrichment()
 
     artXMLenriched = Nokogiri::XML::Builder.new('encoding' => 'UTF-8') { |xml|
         xml.rmGalleryAuthorsEnrichment {
-        4.times { |i|
-            currentLocale = authors[i].parent.parent["locale"] # FIXME: shame on me
-            authorID = authors[i].attributes["id"].text
-            authorFullName = authors[i].attributes["label"].text
-            annotationText = authors[i].css("bio")[0].text # FIXME: shame on me
+            artFileEnrichedOld = File.open("rmgallery_authors_enrichment.xml","r")
+            currentDoc  = Nokogiri::XML(artFileEnrichedOld)
+            xml << currentDoc.xpath("//rmGalleryAuthorsEnrichment/author").to_xml
+            artFileEnrichedOld.close
 
-            xml.author('id' => authorID, 'fullName' => authorFullName) {
-                xml.dbpURI getDPediaUrl(authorFullName,currentLocale)
-                xml << Nokogiri::XML(dpdepiaSpotlighAnnotator(annotationText,currentLocale)).xpath("/Annotation").to_xml
+            authors.size.times { |i|
+                puts "Author: #{i+1} of #{authors.size}"
+                currentLocale = authors[i].parent.parent["locale"] # FIXME: shame on me
+                authorID = authors[i].attributes["id"].text
+
+                puts Nokogiri::XML(xml.to_xml).xpath("//author/@id='#{authorID}'")
+                # FIXME: why Nokogiri::XML(xml.to_xml) not xml -- don't know.
+                if !(Nokogiri::XML(xml.to_xml).xpath("//author/@id='#{authorID}'"))
+                then
+                    authorFullName = authors[i].attributes["label"].text
+                    annotationText = authors[i].css("bio")[0].text # FIXME: shame on me
+
+                    xml.author('id' => authorID, 'fullName' => authorFullName) {
+                        xml.dbpURI getDPediaUrl(authorFullName,currentLocale)
+                        xml << Nokogiri::XML(dpdepiaSpotlighAnnotator(annotationText,currentLocale)).xpath("/Annotation").to_xml
+                    }
+
+                    artFileEnriched = File.open("rmgallery_authors_enrichment.xml","w")
+                    artFileEnriched.write(xml.to_xml)
+                else
+                    puts "already enriched"
+                end
+
+
+
+
             }
-
-
-        }
         }
     }
 
-    artFileEnriched = File.open("rmgallery_authors_enrichment.xml","w")
-    artFileEnriched.write(artXMLenriched.to_xml)
+    
     artFile.close
 
 end
@@ -169,20 +193,20 @@ def worksEnrichment()
 
     artXMLenriched = Nokogiri::XML::Builder.new('encoding' => 'UTF-8') { |xml|
         xml.rmGalleryAuthorsEnrichment {
-        works.size.times { |i|
-            puts "i=#{i}"
-            currentLocale = works[i].parent.parent.parent["locale"] # FIXME: shame on me
-            workID = works[i].attributes["id"].text
-            label = works[i].attributes["label"].text
-            annotationText = works[i].css("annotation")[0].text # FIXME
-            workDescription = works[i].css("description").text
+            works.size.times { |i|
+                puts "i=#{i}"
+                currentLocale = works[i].parent.parent.parent["locale"] # FIXME: shame on me
+                workID = works[i].attributes["id"].text
+                label = works[i].attributes["label"].text
+                annotationText = works[i].css("annotation")[0].text # FIXME
+                workDescription = works[i].css("description").text
 
-            xml.work('id' => workID, 'label' => label) {
-                xml << Nokogiri::XML(dpdepiaSpotlighAnnotator(label,currentLocale)).xpath("/Annotation").to_xml
-                xml << Nokogiri::XML(dpdepiaSpotlighAnnotator(annotationText,currentLocale)).xpath("/Annotation").to_xml
-                xml << Nokogiri::XML(dpdepiaSpotlighAnnotator(workDescription,currentLocale)).xpath("/Annotation").to_xml
+                xml.work('id' => workID, 'label' => label) {
+                    xml << Nokogiri::XML(dpdepiaSpotlighAnnotator(label,currentLocale)).xpath("/Annotation").to_xml
+                    xml << Nokogiri::XML(dpdepiaSpotlighAnnotator(annotationText,currentLocale)).xpath("/Annotation").to_xml
+                    xml << Nokogiri::XML(dpdepiaSpotlighAnnotator(workDescription,currentLocale)).xpath("/Annotation").to_xml
+                }
             }
-        }
         }
     }
 
