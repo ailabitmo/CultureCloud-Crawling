@@ -25,7 +25,7 @@ require 'securerandom'
     'ecrm' =>  "http://erlangen-crm.org/current/",
     :rdf => RDF.to_uri,
     :rdfs => RDFS.to_uri,
-    :dbp =>  "http://dbpedia.org/resource/",
+    :dbp =>  "http://dbpedia.org/resource/", # Do we really need it? Resources depend from locale
     :owl => OWL.to_uri,
     "rm-lod" => "http://rm-lod.org/"
 }
@@ -33,64 +33,138 @@ require 'securerandom'
 @ecrmVocabulary = RDF::Vocabulary.new(@rdf_prefixes['ecrm'])
 @rmlodVocabulary = RDF::Vocabulary.new(@rdf_prefixes['rm-lod'])
 
-authorsPrefix = "#{@rdf_prefixes["rm-lod"]}authors"
+def authorsEnrichmentRdfGenerator
 
-idsArray = []
+    authorsPrefix = "#{@rdf_prefixes["rm-lod"]}authors"
 
-authorIdRegexp = Regexp.new("^#{authorsPrefix}\/[0-9]+$")
+    idsArray = []
 
-RDF::Reader.open("rmgallery_authors.ttl") { |reader|
-    reader.each_statement { |statement|
-        authorIdRegexpMatch = authorIdRegexp.match(statement.subject)
-        if !(authorIdRegexpMatch.nil?)
-        then
-            id = authorIdRegexpMatch.to_s.split("\/").last
-            if (idsArray.index(id).nil?)
+    authorIdRegexp = Regexp.new("^#{authorsPrefix}\/[0-9]+$")
+
+    RDF::Reader.open("rmgallery_authors.ttl") { |reader|
+        reader.each_statement { |statement|
+            authorIdRegexpMatch = authorIdRegexp.match(statement.subject)
+            if !(authorIdRegexpMatch.nil?)
             then
-                idsArray.push(id)
+                id = authorIdRegexpMatch.to_s.split("\/").last
+                if (idsArray.index(id).nil?)
+                then
+                    idsArray.push(id)
+                end
             end
+
+        }
+    }
+
+    authorsGraph = RDF::Graph.new(:format => :ttl, :prefixes => @rdf_prefixes)
+
+    authorsEnrichmentXMLFile = File.open("rmgallery_authors_enrichment.xml","r")
+    doc = Nokogiri::XML(authorsEnrichmentXMLFile)
+
+    idsArray.each { |authorId|
+        authorURI =  RDF::URI.new("#{@rdf_prefixes['rm-lod']}authors/#{authorId}")
+        authorNode = doc.xpath("/rmGalleryAuthorsEnrichment/author[@id='#{authorId}']")
+
+        dbpResUrl = authorNode.css("dbpURI").text # FIXME: want to use xpath, but smth wrong with it
+        annotationTexts = authorNode.css("Resource") # FIXME: want to use xpath, but smth wrong with it
+
+        if ( !(dbpResUrl.empty?) or !(annotationTexts.empty?) )
+        then
+            authorsGraph <<[authorURI, RDF.type, @ecrmVocabulary.E21_Person]
         end
 
+        if !(dbpResUrl.empty?)
+        then
+            dbpResUrl = RDF::URI.new(dbpResUrl)
+            authorsGraph <<[authorURI, RDF.type, dbpResUrl]
+        end
+        if !(annotationTexts.empty?)
+        then
+            aid = authorId # FIXME !!1 Why authorId is invisible for next method?
+            newAnnotationObject = RDF::URI.new("#{@rdf_prefixes['rm-lod']}authors/#{aid}/annotations/#{SecureRandom.urlsafe_base64(5)}")
+            authorsGraph << [newAnnotationObject, RDF.type, @rmlodVocabulary.AnnotationObject]
+            authorsGraph << [authorURI, @rmlodVocabulary[:haveAnnotation], newAnnotationObject]
+            annotationTexts.each { |dbpRes|
+                dbpResURI =  RDF::URI.new(dbpRes['URI'])
+                authorsGraph << [newAnnotationObject, @rmlodVocabulary[:dbpRes], dbpResURI]
+            }
+        end
     }
-}
 
-authorsGraph = RDF::Graph.new(:format => :ttl, :prefixes => @rdf_prefixes)
+    authorsEnrichmentXMLFile.close
 
-authorsEnrichmentXMLFile = File.open("rmgallery_authors_enrichment.xml","r")
-doc = Nokogiri::XML(authorsEnrichmentXMLFile)
+    rmgalleryAuthorsEnrichmentRdfFile = File.open("rmgallery_authors_enrichment.ttl","w")
+    rmgalleryAuthorsEnrichmentRdfFile.write(authorsGraph.dump(:ttl, :prefixes => @rdf_prefixes))
+    rmgalleryAuthorsEnrichmentRdfFile.close
 
-idsArray.each { |authorId|
-    authorURI =  RDF::URI.new("#{@rdf_prefixes['rm-lod']}authors/#{authorId}")
-    authorNode = doc.xpath("/rmGalleryAuthorsEnrichment/author[@id='#{authorId}']")
+end
 
-    dbpResUrl = authorNode.css("dbpURI").text # FIXME: want to use xpath, but smth wrong with it
-    annotationTexts = authorNode.css("Resource") # FIXME: want to use xpath, but smth wrong with it
+def worksEnrichmentRdfGenerator
 
-    if ( !(dbpResUrl.empty?) or !(annotationTexts.empty?) )
-    then
-        authorsGraph <<[authorURI, RDF.type, @ecrmVocabulary.E21_Person]
-    end
+    worksPrefix = "#{@rdf_prefixes["rm-lod"]}objects"
 
-    if !(dbpResUrl.empty?)
-    then
-        dbpResUrl = RDF::URI.new(dbpResUrl)
-        authorsGraph <<[authorURI, RDF.type, dbpResUrl]
-    end
-    if !(annotationTexts.empty?)
-    then
-        aid = authorId # FIXME !!1 Why authorId is invisible for next method?
-        newAnnotationObject = RDF::URI.new("#{@rdf_prefixes['rm-lod']}authors/#{aid}/annotations/#{SecureRandom.urlsafe_base64(5)}")
-        authorsGraph << [newAnnotationObject, RDF.type, @rmlodVocabulary.AnnotationObject]
-        authorsGraph << [authorURI, @rmlodVocabulary[:haveAnnotation], newAnnotationObject]
-        annotationTexts.each { |dbpRes|
-            dbpResURI =  RDF::URI.new(dbpRes['URI'])
-            authorsGraph << [newAnnotationObject, @rmlodVocabulary[:dbpRes], dbpResURI]
+    idsArray = []
+
+    workIdRegexp = Regexp.new("^#{worksPrefix}\/[0-9]+$")
+
+    RDF::Reader.open("rmgallery_works.ttl") { |reader|
+        reader.each_statement { |statement|
+            workIdRegexpMatch = workIdRegexp.match(statement.subject)
+            if !(workIdRegexpMatch.nil?)
+            then
+                id = workIdRegexpMatch.to_s.split("\/").last
+                if (idsArray.index(id).nil?)
+                then
+                    idsArray.push(id)
+                end
+            end
+
         }
-    end
-}
+    }
 
-authorsEnrichmentXMLFile.close
+    worksGraph = RDF::Graph.new(:format => :ttl, :prefixes => @rdf_prefixes)
 
-rmgalleryAuthorsEnrichmentRdfFile = File.open("rmgallery_authors_enrichment.ttl","w")
-rmgalleryAuthorsEnrichmentRdfFile.write(authorsGraph.dump(:ttl, :prefixes => @rdf_prefixes))
-rmgalleryAuthorsEnrichmentRdfFile.close
+    worksEnrichmentXMLFile = File.open("rmgallery_works_enrichment.xml","r")
+    doc = Nokogiri::XML(worksEnrichmentXMLFile)
+
+    idsArray.each { |workId|
+        workURI =  RDF::URI.new("#{@rdf_prefixes['rm-lod']}objects/#{workId}")
+        workNode = doc.xpath("/rmGalleryWorksEnrichment/work[@id='#{workId}']")
+
+        dbpResUrl = ""
+        #dbpResUrl = workNode.css("dbpURI").text # FIXME: want to use xpath, but smth wrong with it
+        annotationTexts = workNode.css("Resource") # FIXME: want to use xpath, but smth wrong with it
+
+        if ( !(dbpResUrl.empty?) or !(annotationTexts.empty?) )
+        then
+            worksGraph <<[workURI, RDF.type, @ecrmVocabulary["E22_Man-Made_Object"]]
+        end
+
+        if !(dbpResUrl.empty?)
+        then
+            dbpResUrl = RDF::URI.new(dbpResUrl)
+            worksGraph <<[workURI, RDF.type, dbpResUrl]
+        end
+        if !(annotationTexts.empty?)
+        then
+            aid = workId # FIXME !!1 Why workId is invisible for next method?
+            newAnnotationObject = RDF::URI.new("#{@rdf_prefixes['rm-lod']}objects/#{aid}/annotations/#{SecureRandom.urlsafe_base64(5)}")
+            worksGraph << [newAnnotationObject, RDF.type, @rmlodVocabulary.AnnotationObject]
+            worksGraph << [workURI, @rmlodVocabulary[:haveAnnotation], newAnnotationObject]
+            annotationTexts.each { |dbpRes|
+                dbpResURI =  RDF::URI.new(dbpRes['URI'])
+                worksGraph << [newAnnotationObject, @rmlodVocabulary[:dbpRes], dbpResURI]
+            }
+        end
+    }
+
+    worksEnrichmentXMLFile.close
+
+    rmgalleryWorksEnrichmentRdfFile = File.open("rmgallery_works_enrichment.ttl","w")
+    rmgalleryWorksEnrichmentRdfFile.write(worksGraph.dump(:ttl, :prefixes => @rdf_prefixes))
+    rmgalleryWorksEnrichmentRdfFile.close
+
+end
+
+authorsEnrichmentRdfGenerator
+worksEnrichmentRdfGenerator

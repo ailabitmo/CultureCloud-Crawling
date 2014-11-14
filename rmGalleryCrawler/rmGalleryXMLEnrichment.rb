@@ -192,7 +192,7 @@ def worksEnrichment()
     works = doc.xpath('//artItem')
 
     artXMLenriched = Nokogiri::XML::Builder.new('encoding' => 'UTF-8') { |xml|
-        xml.rmGalleryAuthorsEnrichment {
+        xml.rmGalleryWorksEnrichment {
             works.size.times { |i|
                 puts "i=#{i}"
                 currentLocale = works[i].parent.parent.parent["locale"] # FIXME: shame on me
@@ -216,4 +216,4 @@ def worksEnrichment()
 end
 
 authorsEnrichment()
-#worksEnrichment()
+worksEnrichment()

@@ -1,0 +1,2355 @@
+@prefix dbp: <http://dbpedia.org/resource/> .
+@prefix ecrm: <http://erlangen-crm.org/current/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rm-lod: <http://rm-lod.org/> .
+
+<http://rm-lod.org/objects/1003> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/1003/annotations/CuCNa7I> .
+
+<http://rm-lod.org/objects/1005> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/1005/annotations/5juiL2U> .
+
+<http://rm-lod.org/objects/1040> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/1040/annotations/ea-0Qb4> .
+
+<http://rm-lod.org/objects/1056> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/1056/annotations/2z5-OFk> .
+
+<http://rm-lod.org/objects/1057> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/1057/annotations/xinTzkE> .
+
+<http://rm-lod.org/objects/1066> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/1066/annotations/3KEDX4I> .
+
+<http://rm-lod.org/objects/1070> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/1070/annotations/HEyJUmI> .
+
+<http://rm-lod.org/objects/1073> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/1073/annotations/tNZN9WE> .
+
+<http://rm-lod.org/objects/1076> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/1076/annotations/rOt9hhU> .
+
+<http://rm-lod.org/objects/1078> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/1078/annotations/BiQec0o> .
+
+<http://rm-lod.org/objects/1079> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/1079/annotations/jpMrVoI> .
+
+<http://rm-lod.org/objects/1081> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/1081/annotations/a7B4CFU> .
+
+<http://rm-lod.org/objects/1083> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/1083/annotations/DGy68mE> .
+
+<http://rm-lod.org/objects/1087> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/1087/annotations/35-1So8> .
+
+<http://rm-lod.org/objects/1088> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/1088/annotations/a-7CdVk> .
+
+<http://rm-lod.org/objects/1089> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/1089/annotations/IbGvyhQ> .
+
+<http://rm-lod.org/objects/1092> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/1092/annotations/w44z36A> .
+
+<http://rm-lod.org/objects/1095> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/1095/annotations/pD1kV_M> .
+
+<http://rm-lod.org/objects/1097> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/1097/annotations/KYJZ7vQ> .
+
+<http://rm-lod.org/objects/1098> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/1098/annotations/NfQ2sa8> .
+
+<http://rm-lod.org/objects/1101> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/1101/annotations/sYbNmdI> .
+
+<http://rm-lod.org/objects/1119> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/1119/annotations/WWImhPA> .
+
+<http://rm-lod.org/objects/118> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/118/annotations/mj4I-cc> .
+
+<http://rm-lod.org/objects/119> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/119/annotations/ehYJCHs> .
+
+<http://rm-lod.org/objects/122> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/122/annotations/xLzQtvE> .
+
+<http://rm-lod.org/objects/1248> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/1248/annotations/Kgqx4Bw> .
+
+<http://rm-lod.org/objects/125> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/125/annotations/e6KsJkc> .
+
+<http://rm-lod.org/objects/126> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/126/annotations/kt6rBmY> .
+
+<http://rm-lod.org/objects/138> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/138/annotations/pLiXF40> .
+
+<http://rm-lod.org/objects/139> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/139/annotations/YvfS7ok> .
+
+<http://rm-lod.org/objects/140> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/140/annotations/z38Z7Jo> .
+
+<http://rm-lod.org/objects/1403> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/1403/annotations/Qknv2-A> .
+
+<http://rm-lod.org/objects/1419> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/1419/annotations/NlFn5aA> .
+
+<http://rm-lod.org/objects/1440> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/1440/annotations/GYjFeT0> .
+
+<http://rm-lod.org/objects/1441> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/1441/annotations/0sSxJUM> .
+
+<http://rm-lod.org/objects/145> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/145/annotations/1o2yiu4> .
+
+<http://rm-lod.org/objects/148> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/148/annotations/shNh8_A> .
+
+<http://rm-lod.org/objects/149> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/149/annotations/psNcEsE> .
+
+<http://rm-lod.org/objects/150> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/150/annotations/UPH9lO4> .
+
+<http://rm-lod.org/objects/1509> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/1509/annotations/KNUYjZ4> .
+
+<http://rm-lod.org/objects/151> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/151/annotations/mWp4jqc> .
+
+<http://rm-lod.org/objects/1511> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/1511/annotations/wqRM8A4> .
+
+<http://rm-lod.org/objects/155> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/155/annotations/FArxiJo> .
+
+<http://rm-lod.org/objects/1580> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/1580/annotations/NwGMAgE> .
+
+<http://rm-lod.org/objects/161> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/161/annotations/9doXHQk> .
+
+<http://rm-lod.org/objects/168> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/168/annotations/p04dslE> .
+
+<http://rm-lod.org/objects/169> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/169/annotations/-2qaWuE> .
+
+<http://rm-lod.org/objects/170> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/170/annotations/x79KWxo> .
+
+<http://rm-lod.org/objects/171> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/171/annotations/lRDdmOE> .
+
+<http://rm-lod.org/objects/182> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/182/annotations/Cs-IIZI> .
+
+<http://rm-lod.org/objects/186> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/186/annotations/SrTmWr4> .
+
+<http://rm-lod.org/objects/187> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/187/annotations/_v6FDiY> .
+
+<http://rm-lod.org/objects/1885> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/1885/annotations/5xDUDxM> .
+
+<http://rm-lod.org/objects/189> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/189/annotations/Qed8EX0> .
+
+<http://rm-lod.org/objects/203> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/203/annotations/Mdt2NGU> .
+
+<http://rm-lod.org/objects/2164> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/2164/annotations/2jATAK4> .
+
+<http://rm-lod.org/objects/2370> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/2370/annotations/8soommU> .
+
+<http://rm-lod.org/objects/2377> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/2377/annotations/sWy93Fk> .
+
+<http://rm-lod.org/objects/2389> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/2389/annotations/G6d0hL0> .
+
+<http://rm-lod.org/objects/2390> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/2390/annotations/9ydZU0k> .
+
+<http://rm-lod.org/objects/2429> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/2429/annotations/RCD5HRk> .
+
+<http://rm-lod.org/objects/2430> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/2430/annotations/lCAGf8U> .
+
+<http://rm-lod.org/objects/2431> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/2431/annotations/Edl9PoE> .
+
+<http://rm-lod.org/objects/2438> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/2438/annotations/_CJd-gw> .
+
+<http://rm-lod.org/objects/2440> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/2440/annotations/ZZ3Mxao> .
+
+<http://rm-lod.org/objects/2443> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/2443/annotations/VWbW6s8> .
+
+<http://rm-lod.org/objects/2445> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/2445/annotations/dDCLuYM> .
+
+<http://rm-lod.org/objects/2446> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/2446/annotations/dEV9M0A> .
+
+<http://rm-lod.org/objects/2448> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/2448/annotations/Gj0UyMA> .
+
+<http://rm-lod.org/objects/2449> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/2449/annotations/o1ooL6U> .
+
+<http://rm-lod.org/objects/2459> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/2459/annotations/cA9xbJQ> .
+
+<http://rm-lod.org/objects/2460> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/2460/annotations/kOiWJxY> .
+
+<http://rm-lod.org/objects/2461> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/2461/annotations/nigWHLo> .
+
+<http://rm-lod.org/objects/2467> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/2467/annotations/AaF5ZpI> .
+
+<http://rm-lod.org/objects/502> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/502/annotations/PJYgAG0> .
+
+<http://rm-lod.org/objects/503> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/503/annotations/5I068KU> .
+
+<http://rm-lod.org/objects/504> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/504/annotations/81VXsp8> .
+
+<http://rm-lod.org/objects/506> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/506/annotations/yQucknY> .
+
+<http://rm-lod.org/objects/509> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/509/annotations/3S5NVe0> .
+
+<http://rm-lod.org/objects/513> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/513/annotations/JEsr3bA> .
+
+<http://rm-lod.org/objects/515> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/515/annotations/pYuUWkw> .
+
+<http://rm-lod.org/objects/555> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/555/annotations/sODFBGM> .
+
+<http://rm-lod.org/objects/556> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/556/annotations/xzGm_Tg> .
+
+<http://rm-lod.org/objects/557> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/557/annotations/My4WI7s> .
+
+<http://rm-lod.org/objects/559> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/559/annotations/0ogikbM> .
+
+<http://rm-lod.org/objects/561> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/561/annotations/s3Z4Hsk> .
+
+<http://rm-lod.org/objects/566> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/566/annotations/uwG4Ukw> .
+
+<http://rm-lod.org/objects/567> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/567/annotations/5ANlMI0> .
+
+<http://rm-lod.org/objects/573> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/573/annotations/CgfDL5Q> .
+
+<http://rm-lod.org/objects/574> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/574/annotations/nqI7wxI> .
+
+<http://rm-lod.org/objects/575> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/575/annotations/x3dHuRE> .
+
+<http://rm-lod.org/objects/578> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/578/annotations/-TMYeFM> .
+
+<http://rm-lod.org/objects/582> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/582/annotations/735LICw> .
+
+<http://rm-lod.org/objects/585> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/585/annotations/Z08ujME> .
+
+<http://rm-lod.org/objects/587> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/587/annotations/4gbOAh8> .
+
+<http://rm-lod.org/objects/615> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/615/annotations/0QXZ0h4> .
+
+<http://rm-lod.org/objects/617> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/617/annotations/GnQZCH0> .
+
+<http://rm-lod.org/objects/618> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/618/annotations/JHlrlfc> .
+
+<http://rm-lod.org/objects/620> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/620/annotations/-4Qrqh4> .
+
+<http://rm-lod.org/objects/622> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/622/annotations/N0Gpy8A> .
+
+<http://rm-lod.org/objects/625> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/625/annotations/FZ5B5Sw> .
+
+<http://rm-lod.org/objects/627> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/627/annotations/u8amYGo> .
+
+<http://rm-lod.org/objects/629> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/629/annotations/FrZnkSE> .
+
+<http://rm-lod.org/objects/631> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/631/annotations/fQ1s8xM> .
+
+<http://rm-lod.org/objects/632> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/632/annotations/SmzVSr4> .
+
+<http://rm-lod.org/objects/643> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/643/annotations/a3Ik4Uk> .
+
+<http://rm-lod.org/objects/647> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/647/annotations/qnObSBg> .
+
+<http://rm-lod.org/objects/648> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/648/annotations/rM3xBNA> .
+
+<http://rm-lod.org/objects/649> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/649/annotations/jZfXgbc> .
+
+<http://rm-lod.org/objects/651> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/651/annotations/Oqfi4VU> .
+
+<http://rm-lod.org/objects/652> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/652/annotations/SDh3JFQ> .
+
+<http://rm-lod.org/objects/653> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/653/annotations/ytP5oZY> .
+
+<http://rm-lod.org/objects/654> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/654/annotations/HLIUfI8> .
+
+<http://rm-lod.org/objects/656> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/656/annotations/KmOVWeM> .
+
+<http://rm-lod.org/objects/657> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/657/annotations/UnZ9NFM> .
+
+<http://rm-lod.org/objects/660> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/660/annotations/LR57J3I> .
+
+<http://rm-lod.org/objects/661> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/661/annotations/ElaFDl4> .
+
+<http://rm-lod.org/objects/665> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/665/annotations/ARHAVmQ> .
+
+<http://rm-lod.org/objects/667> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/667/annotations/Hql0qUs> .
+
+<http://rm-lod.org/objects/668> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/668/annotations/oic2zC8> .
+
+<http://rm-lod.org/objects/669> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/669/annotations/1xziLYc> .
+
+<http://rm-lod.org/objects/673> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/673/annotations/a_9uSqA> .
+
+<http://rm-lod.org/objects/674> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/674/annotations/1oDHaZM> .
+
+<http://rm-lod.org/objects/676> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/676/annotations/fpmmSpM> .
+
+<http://rm-lod.org/objects/677> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/677/annotations/aDRnCpA> .
+
+<http://rm-lod.org/objects/679> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/679/annotations/PTqrNGQ> .
+
+<http://rm-lod.org/objects/681> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/681/annotations/trXqDNk> .
+
+<http://rm-lod.org/objects/682> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/682/annotations/zt8e0cw> .
+
+<http://rm-lod.org/objects/684> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/684/annotations/Y-R5HJU> .
+
+<http://rm-lod.org/objects/687> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/687/annotations/Y9Roj68> .
+
+<http://rm-lod.org/objects/688> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/688/annotations/AYYX9ME> .
+
+<http://rm-lod.org/objects/689> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/689/annotations/Sy29Luk> .
+
+<http://rm-lod.org/objects/691> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/691/annotations/XgPor6Q> .
+
+<http://rm-lod.org/objects/692> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/692/annotations/3Bk2pgk> .
+
+<http://rm-lod.org/objects/695> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/695/annotations/-drox-0> .
+
+<http://rm-lod.org/objects/697> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/697/annotations/rGRQexM> .
+
+<http://rm-lod.org/objects/702> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/702/annotations/Horz8tk> .
+
+<http://rm-lod.org/objects/754> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/754/annotations/4WeoD-Y> .
+
+<http://rm-lod.org/objects/756> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/756/annotations/iaBo77s> .
+
+<http://rm-lod.org/objects/762> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/762/annotations/btDtVgA> .
+
+<http://rm-lod.org/objects/763> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/763/annotations/DZikW3M> .
+
+<http://rm-lod.org/objects/765> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/765/annotations/SEOgooU> .
+
+<http://rm-lod.org/objects/768> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/768/annotations/jVMe_P8> .
+
+<http://rm-lod.org/objects/769> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/769/annotations/aYjGzqY> .
+
+<http://rm-lod.org/objects/770> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/770/annotations/959usuQ> .
+
+<http://rm-lod.org/objects/771> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/771/annotations/6dbEUKA> .
+
+<http://rm-lod.org/objects/775> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/775/annotations/-F6q77k> .
+
+<http://rm-lod.org/objects/776> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/776/annotations/o_9RcA8> .
+
+<http://rm-lod.org/objects/779> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/779/annotations/H8HbC1Y> .
+
+<http://rm-lod.org/objects/780> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/780/annotations/grlbaOM> .
+
+<http://rm-lod.org/objects/781> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/781/annotations/KHdowf4> .
+
+<http://rm-lod.org/objects/782> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/782/annotations/rvRFnno> .
+
+<http://rm-lod.org/objects/783> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/783/annotations/UG8SKaM> .
+
+<http://rm-lod.org/objects/786> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/786/annotations/0-I_LhE> .
+
+<http://rm-lod.org/objects/787> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/787/annotations/XDFgENo> .
+
+<http://rm-lod.org/objects/790> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/790/annotations/6xiOQDc> .
+
+<http://rm-lod.org/objects/791> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/791/annotations/qs_HoD4> .
+
+<http://rm-lod.org/objects/792> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/792/annotations/s3Ck6zw> .
+
+<http://rm-lod.org/objects/795> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/795/annotations/1XevZUY> .
+
+<http://rm-lod.org/objects/797> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/797/annotations/bvDJjF4> .
+
+<http://rm-lod.org/objects/799> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/799/annotations/A1PkPY0> .
+
+<http://rm-lod.org/objects/801> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/801/annotations/8FtNjbk> .
+
+<http://rm-lod.org/objects/803> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/803/annotations/1sNFOz8> .
+
+<http://rm-lod.org/objects/804> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/804/annotations/WYWh714> .
+
+<http://rm-lod.org/objects/806> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/806/annotations/ADyJZ8w> .
+
+<http://rm-lod.org/objects/810> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/810/annotations/JJPEEcY> .
+
+<http://rm-lod.org/objects/817> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/817/annotations/NEEEAhw> .
+
+<http://rm-lod.org/objects/823> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/823/annotations/13HD41E> .
+
+<http://rm-lod.org/objects/825> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/825/annotations/O-c92xo> .
+
+<http://rm-lod.org/objects/826> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/826/annotations/6WtY2Oo> .
+
+<http://rm-lod.org/objects/828> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/828/annotations/HuX9-lE> .
+
+<http://rm-lod.org/objects/829> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/829/annotations/0MTPN6I> .
+
+<http://rm-lod.org/objects/830> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/830/annotations/IPE6SoY> .
+
+<http://rm-lod.org/objects/831> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/831/annotations/416Rgks> .
+
+<http://rm-lod.org/objects/832> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/832/annotations/7CvGD30> .
+
+<http://rm-lod.org/objects/834> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/834/annotations/PJlr3FI> .
+
+<http://rm-lod.org/objects/835> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/835/annotations/hOlqtbw> .
+
+<http://rm-lod.org/objects/836> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/836/annotations/By3kPfM> .
+
+<http://rm-lod.org/objects/863> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/863/annotations/d3aE9-M> .
+
+<http://rm-lod.org/objects/876> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/876/annotations/N29BHGk> .
+
+<http://rm-lod.org/objects/879> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/879/annotations/OUJnHMA> .
+
+<http://rm-lod.org/objects/991> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/991/annotations/a_efjUs> .
+
+<http://rm-lod.org/objects/992> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/992/annotations/3KdjNMw> .
+
+<http://rm-lod.org/objects/995> a ecrm:E22_Man-Made_Object;
+   rm-lod:haveAnnotation <http://rm-lod.org/objects/995/annotations/ON0ob9c> .
+
+<http://rm-lod.org/objects/1003/annotations/CuCNa7I> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Oil,
+     dbp:Canvas,
+     <http://ru.dbpedia.org/resource/Мир_искусства_(организация)>,
+     <http://ru.dbpedia.org/resource/Неоклассицизм> .
+
+<http://rm-lod.org/objects/1005/annotations/5juiL2U> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Peasant,
+     <http://dbpedia.org/resource/Family_(biology)>,
+     <http://dbpedia.org/resource/The_Holy_Family_(book)>,
+     dbp:Oil,
+     dbp:Canvas .
+
+<http://rm-lod.org/objects/1040/annotations/ea-0Qb4> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Portrait,
+     dbp:Paul_I_of_Russia,
+     dbp:Marble,
+     <http://ru.dbpedia.org/resource/XVIII_век>,
+     <http://ru.dbpedia.org/resource/Павел_I>,
+     <http://ru.dbpedia.org/resource/Пётр_III>,
+     <http://ru.dbpedia.org/resource/Екатерина_II>,
+     <http://ru.dbpedia.org/resource/11_марта> .
+
+<http://rm-lod.org/objects/1056/annotations/2z5-OFk> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes <http://dbpedia.org/resource/Lady_(word)>,
+     dbp:Pheasant,
+     dbp:Oil,
+     dbp:Canvas,
+     <http://ru.dbpedia.org/resource/Обыкновенный_фазан> .
+
+<http://rm-lod.org/objects/1057/annotations/xinTzkE> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:List_of_people_known_as_The_Great,
+     dbp:The_Seventh_Tower,
+     dbp:Oil,
+     dbp:Canvas,
+     <http://ru.dbpedia.org/resource/Мельников,_Павел_Иванович_(писатель)> .
+
+<http://rm-lod.org/objects/1066/annotations/3KEDX4I> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Portrait,
+     <http://dbpedia.org/resource/Sylvester_(Looney_Tunes)>,
+     dbp:Archbishop,
+     dbp:Saint_Petersburg,
+     dbp:Shlisselburg,
+     dbp:Oil,
+     dbp:Canvas_element,
+     <http://ru.dbpedia.org/resource/Сильвестр_(Кулябка)>,
+     <http://ru.dbpedia.org/resource/Лубны>,
+     <http://ru.dbpedia.org/resource/Полтавская_губерния>,
+     <http://ru.dbpedia.org/resource/Елизавета_Петровна>,
+     <http://ru.dbpedia.org/resource/18_ноября>,
+     <http://ru.dbpedia.org/resource/Александро-Невская_лавра> .
+
+<http://rm-lod.org/objects/1070/annotations/HEyJUmI> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Italy,
+     dbp:Noon,
+     <http://dbpedia.org/resource/Girl_(band)>,
+     dbp:Guitar_picking,
+     dbp:Grape,
+     dbp:Oil,
+     dbp:Canvas,
+     dbp:Girl_Distribution_Company,
+     <http://ru.dbpedia.org/resource/Итальянский_полдень> .
+
+<http://rm-lod.org/objects/1073/annotations/tNZN9WE> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Cycling,
+     dbp:Oil,
+     dbp:Canvas,
+     <http://ru.dbpedia.org/resource/Футуризм> .
+
+<http://rm-lod.org/objects/1076/annotations/rOt9hhU> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes <http://dbpedia.org/resource/Countryside,_Illinois>,
+     dbp:Oil,
+     dbp:Canvas_element,
+     dbp:Rural_area .
+
+<http://rm-lod.org/objects/1078/annotations/BiQec0o> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Improvisation,
+     dbp:Oil,
+     dbp:Canvas_element,
+     <http://ru.dbpedia.org/resource/Кандинский,_Василий_Васильевич> .
+
+<http://rm-lod.org/objects/1079/annotations/jpMrVoI> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Musical_composition,
+     dbp:Norwegian_language,
+     dbp:Oil,
+     dbp:Canvas,
+     <http://ru.dbpedia.org/resource/Кандинский,_Василий_Васильевич> .
+
+<http://rm-lod.org/objects/1081/annotations/a7B4CFU> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Conversation,
+     dbp:Oil,
+     dbp:Canvas .
+
+<http://rm-lod.org/objects/1083/annotations/DGy68mE> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Portrait,
+     dbp:Feodor_Chaliapin,
+     dbp:Oil,
+     dbp:Canvas,
+     <http://ru.dbpedia.org/resource/Кустодиев,_Борис_Михайлович>,
+     <http://ru.dbpedia.org/resource/Бас>,
+     <http://ru.dbpedia.org/resource/Волков,_Фёдор_Григорьевич>,
+     <http://ru.dbpedia.org/resource/Московская_частная_русская_опера> .
+
+<http://rm-lod.org/objects/1087/annotations/35-1So8> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Self-portrait,
+     dbp:Artist,
+     dbp:Oil,
+     dbp:Canvas,
+     <http://ru.dbpedia.org/resource/Возрождение> .
+
+<http://rm-lod.org/objects/1088/annotations/a-7CdVk> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes <http://dbpedia.org/resource/Study_(room)>,
+     dbp:Fresco,
+     dbp:Painting,
+     dbp:Self-portrait,
+     dbp:Tempera,
+     dbp:Paperboard,
+     <http://ru.dbpedia.org/resource/Модерн> .
+
+<http://rm-lod.org/objects/1089/annotations/IbGvyhQ> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Victory_Records,
+     dbp:Oil,
+     dbp:Canvas,
+     <http://dbpedia.org/resource/Victoria_(mythology)> .
+
+<http://rm-lod.org/objects/1092/annotations/w44z36A> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:List_of_Torchwood_characters,
+     dbp:God,
+     <http://dbpedia.org/resource/Tenderness_(song)>,
+     dbp:Evil,
+     <http://dbpedia.org/resource/Heart_of_Midlothian_F.C.>,
+     dbp:Oil,
+     dbp:Canvas,
+     <http://dbpedia.org/resource/Alignment_(Dungeons_&_Dragons)>,
+     <http://ru.dbpedia.org/resource/Кронштадт>,
+     <http://ru.dbpedia.org/resource/Сумы>,
+     <http://ru.dbpedia.org/resource/Первая_мировая_война>,
+     <http://ru.dbpedia.org/resource/Православие>,
+     <http://ru.dbpedia.org/resource/Умягчение_злых_сердец> .
+
+<http://rm-lod.org/objects/1095/annotations/pD1kV_M> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes <http://dbpedia.org/resource/Morning_Prayer_(Anglican)>,
+     dbp:Oil,
+     dbp:Canvas,
+     dbp:Morning,
+     <http://ru.dbpedia.org/resource/Ферапонтов_монастырь> .
+
+<http://rm-lod.org/objects/1097/annotations/KYJZ7vQ> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:ZX_Spectrum,
+     dbp:Flight_International,
+     dbp:Oil,
+     dbp:Canvas,
+     <http://dbpedia.org/resource/Letter_(alphabet)>,
+     <http://ru.dbpedia.org/resource/Пуни,_Цезарь>,
+     <http://ru.dbpedia.org/resource/Штурм_(атака)>,
+     <http://ru.dbpedia.org/resource/Россия> .
+
+<http://rm-lod.org/objects/1098/annotations/NfQ2sa8> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes <http://dbpedia.org/resource/Table_(database)>,
+     dbp:Oil,
+     dbp:Canvas,
+     dbp:Tabula_Peutingeriana,
+     <http://ru.dbpedia.org/resource/Пуни,_Цезарь> .
+
+<http://rm-lod.org/objects/1101/annotations/sYbNmdI> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Battle,
+     dbp:Tempera,
+     dbp:Paperboard,
+     <http://ru.dbpedia.org/resource/Мистицизм>,
+     <http://ru.dbpedia.org/resource/Облако> .
+
+<http://rm-lod.org/objects/1119/annotations/WWImhPA> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Violin,
+     dbp:Oil,
+     dbp:Canvas,
+     <http://ru.dbpedia.org/resource/Италия>,
+     <http://ru.dbpedia.org/resource/Скрипка> .
+
+<http://rm-lod.org/objects/118/annotations/mj4I-cc> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Dionysus,
+     dbp:Workshop,
+     dbp:List_of_Torchwood_characters,
+     dbp:God,
+     <http://dbpedia.org/resource/Circa_(company)>,
+     dbp:Tempera,
+     dbp:Wood,
+     <http://ru.dbpedia.org/resource/Одигитрия>,
+     <http://ru.dbpedia.org/resource/Лука_(евангелист)>,
+     <http://ru.dbpedia.org/resource/Ферапонтов_монастырь> .
+
+<http://rm-lod.org/objects/119/annotations/ehYJCHs> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Dionysus,
+     dbp:Workshop,
+     dbp:Joseph_Stalin,
+     dbp:Thomas_the_Apostle,
+     dbp:Circa,
+     dbp:Tempera,
+     dbp:Wood .
+
+<http://rm-lod.org/objects/122/annotations/xLzQtvE> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:VMware_Horizon_View,
+     dbp:Peter_the_Great,
+     dbp:Paul_I_of_Russia,
+     dbp:Fortification,
+     dbp:Palace_Embankment,
+     dbp:Oil,
+     dbp:Canvas_element,
+     <http://ru.dbpedia.org/resource/Петропавловская_крепость>,
+     <http://ru.dbpedia.org/resource/Дворцовая_набережная>,
+     <http://ru.dbpedia.org/resource/Нева>,
+     <http://ru.dbpedia.org/resource/Главное_адмиралтейство>,
+     <http://ru.dbpedia.org/resource/Большой_Эрмитаж>,
+     <http://ru.dbpedia.org/resource/Эрмитажный_театр>,
+     <http://ru.dbpedia.org/resource/Зимняя_канавка> .
+
+<http://rm-lod.org/objects/1248/annotations/Kgqx4Bw> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Portrait,
+     dbp:Count,
+     dbp:Felix_Sumarokov-Elston,
+     dbp:Prince,
+     dbp:House_of_Yusupov,
+     dbp:Oil,
+     dbp:Canvas_element .
+
+<http://rm-lod.org/objects/125/annotations/e6KsJkc> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Portrait,
+     dbp:Peter_III_of_Aragon,
+     dbp:Oil,
+     dbp:Canvas,
+     <http://ru.dbpedia.org/resource/Пётр_III>,
+     <http://ru.dbpedia.org/resource/Преображенский_лейб-гвардии_полк>,
+     <http://ru.dbpedia.org/resource/Орден_Святого_апостола_Андрея_Первозванного>,
+     <http://ru.dbpedia.org/resource/Пётр_I>,
+     <http://ru.dbpedia.org/resource/Ропшинский_дворец> .
+
+<http://rm-lod.org/objects/126/annotations/kt6rBmY> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Portrait,
+     dbp:Princess,
+     dbp:Oil,
+     dbp:Canvas_element,
+     <http://ru.dbpedia.org/resource/Лобанова-Ростовская,_Екатерина_Александровна> .
+
+<http://rm-lod.org/objects/138/annotations/pLiXF40> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Portrait,
+     dbp:Count,
+     dbp:Anna_of_Russia,
+     dbp:Alexander_Bezborodko,
+     dbp:Lyubov_Dostoyevskaya,
+     dbp:Cleopatra,
+     dbp:Oil,
+     dbp:Canvas_element,
+     <http://dbpedia.org/resource/Anna_(given_name)>,
+     <http://ru.dbpedia.org/resource/Боровиковский,_Владимир_Лукич>,
+     <http://ru.dbpedia.org/resource/Безбородко,_Александр_Андреевич> .
+
+<http://rm-lod.org/objects/139/annotations/YvfS7ok> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Portrait,
+     dbp:Ekaterina_Svanidze,
+     dbp:Roman_Republic,
+     dbp:Oil,
+     dbp:Canvas_element,
+     <http://ru.dbpedia.org/resource/Боровиковский,_Владимир_Лукич>,
+     <http://ru.dbpedia.org/resource/Штурм_Измаила>,
+     <http://ru.dbpedia.org/resource/Смольный_институт_благородных_девиц>,
+     <http://ru.dbpedia.org/resource/Смольный_монастырь> .
+
+<http://rm-lod.org/objects/140/annotations/z38Z7Jo> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Portrait,
+     dbp:Alexander_of_Battenberg,
+     dbp:Alexander_Kurakin,
+     dbp:Oil,
+     dbp:Canvas,
+     <http://ru.dbpedia.org/resource/Боровиковский,_Владимир_Лукич>,
+     <http://ru.dbpedia.org/resource/Далматика_(облачение)>,
+     <http://ru.dbpedia.org/resource/Павел_I>,
+     <http://ru.dbpedia.org/resource/Лейденский_университет>,
+     <http://ru.dbpedia.org/resource/Камергер>,
+     <http://ru.dbpedia.org/resource/Президент>,
+     <http://ru.dbpedia.org/resource/Государственный_совет_Российской_империи>,
+     <http://ru.dbpedia.org/resource/Вена>,
+     <http://ru.dbpedia.org/resource/Париж>,
+     <http://ru.dbpedia.org/resource/Наполеон_I>,
+     <http://ru.dbpedia.org/resource/Павловск_(Санкт-Петербург)>,
+     <http://ru.dbpedia.org/resource/Мария_Фёдоровна_(жена_Павла_I)>,
+     <http://ru.dbpedia.org/resource/Звезда> .
+
+<http://rm-lod.org/objects/1403/annotations/Qknv2-A> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes <http://dbpedia.org/resource/Crest_(heraldry)>,
+     dbp:Oil,
+     dbp:Canvas,
+     <http://ru.dbpedia.org/resource/Кандинский,_Василий_Васильевич> .
+
+<http://rm-lod.org/objects/1419/annotations/NlFn5aA> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Water,
+     <http://dbpedia.org/resource/Rock_(geology)>,
+     <http://dbpedia.org/resource/Study_(room)>,
+     dbp:Bronze_Age,
+     dbp:Oil,
+     dbp:Taxidermy,
+     dbp:Canvas,
+     <http://ru.dbpedia.org/resource/Явление_Христа_народу> .
+
+<http://rm-lod.org/objects/1440/annotations/GYjFeT0> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Artist,
+     <http://dbpedia.org/resource/Model_(profession)>,
+     dbp:Oil,
+     dbp:Canvas_element,
+     <http://ru.dbpedia.org/resource/Остоженка>,
+     <http://ru.dbpedia.org/resource/Пикассо,_Пабло>,
+     <http://ru.dbpedia.org/resource/Кубизм> .
+
+<http://rm-lod.org/objects/1441/annotations/0sSxJUM> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Portrait,
+     dbp:Hurricane_Ivan,
+     dbp:Cupid,
+     dbp:Oil,
+     dbp:Canvas,
+     dbp:Ivan_Crnojević,
+     <http://ru.dbpedia.org/resource/Амур> .
+
+<http://rm-lod.org/objects/145/annotations/1o2yiu4> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:The_Ninth_Wave,
+     dbp:Oil,
+     dbp:Canvas,
+     <http://ru.dbpedia.org/resource/Государственный_Эрмитаж>,
+     <http://ru.dbpedia.org/resource/Государственный_Русский_музей> .
+
+<http://rm-lod.org/objects/148/annotations/shNh8_A> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Circa,
+     dbp:Oil,
+     dbp:Canvas_element,
+     <http://ru.dbpedia.org/resource/Архипов,_Абрам_Ефимович> .
+
+<http://rm-lod.org/objects/149/annotations/psNcEsE> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Reign_of_Terror,
+     dbp:Oil,
+     dbp:Canvas,
+     <http://ru.dbpedia.org/resource/Греция>,
+     <http://ru.dbpedia.org/resource/Париж>,
+     <http://ru.dbpedia.org/resource/Брюссель> .
+
+<http://rm-lod.org/objects/150/annotations/UPH9lO4> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Portrait,
+     dbp:Sergei_Diaghilev,
+     <http://dbpedia.org/resource/Nanny_(comics)>,
+     dbp:Oil,
+     dbp:Canvas,
+     <http://ru.dbpedia.org/resource/Дягилев,_Сергей_Павлович>,
+     <http://ru.dbpedia.org/resource/Мир_искусства_(журнал)>,
+     <http://ru.dbpedia.org/resource/Париж> .
+
+<http://rm-lod.org/objects/1509/annotations/KNUYjZ4> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Vegetable,
+     dbp:Oil_painting,
+     dbp:Canvas .
+
+<http://rm-lod.org/objects/151/annotations/mWp4jqc> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Eucharist,
+     dbp:Oil,
+     dbp:Canvas,
+     <http://ru.dbpedia.org/resource/Мир_искусства_(организация)> .
+
+<http://rm-lod.org/objects/1511/annotations/wqRM8A4> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Self-portrait,
+     dbp:Red,
+     dbp:Oil_painting,
+     dbp:Canvas .
+
+<http://rm-lod.org/objects/155/annotations/FArxiJo> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Paul_the_Apostle,
+     dbp:Moscow,
+     dbp:Circa,
+     dbp:Tempera,
+     dbp:Wood,
+     <http://ru.dbpedia.org/resource/Владимир_(город)>,
+     <http://ru.dbpedia.org/resource/Иоанн_Креститель>,
+     <http://ru.dbpedia.org/resource/Даниил_Чёрный>,
+     <http://ru.dbpedia.org/resource/Государственный_Русский_музей>,
+     <http://ru.dbpedia.org/resource/ГТГ> .
+
+<http://rm-lod.org/objects/1580/annotations/NwGMAgE> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Bread,
+     dbp:Oil,
+     dbp:Canvas,
+     <http://ru.dbpedia.org/resource/Бубновый_валет_(художественная_группа)>,
+     <http://ru.dbpedia.org/resource/Сезанн,_Поль>,
+     <http://ru.dbpedia.org/resource/Скипидар> .
+
+<http://rm-lod.org/objects/161/annotations/9doXHQk> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Nehushtan,
+     dbp:Oil,
+     dbp:Canvas,
+     <http://ru.dbpedia.org/resource/Бруни,_Фёдор_Антонович>,
+     <http://ru.dbpedia.org/resource/Медный_змей>,
+     <http://ru.dbpedia.org/resource/Классицизм>,
+     <http://ru.dbpedia.org/resource/Ветхий_Завет>,
+     <http://ru.dbpedia.org/resource/Израиль>,
+     <http://ru.dbpedia.org/resource/Яхве>,
+     <http://ru.dbpedia.org/resource/Помпеи> .
+
+<http://rm-lod.org/objects/168/annotations/p04dslE> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Portrait,
+     dbp:Count,
+     dbp:Aleksey_Nikolayevich_Tolstoy,
+     dbp:Youth,
+     dbp:Oil,
+     dbp:Canvas,
+     <http://ru.dbpedia.org/resource/Толстой,_Алексей_Константинович>,
+     <http://ru.dbpedia.org/resource/Егермейстер_(звание)>,
+     <http://ru.dbpedia.org/resource/Козьма_Прутков>,
+     <http://ru.dbpedia.org/resource/Московский_государственный_университет>,
+     <http://ru.dbpedia.org/resource/Камзол> .
+
+<http://rm-lod.org/objects/169/annotations/-2qaWuE> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Portrait,
+     dbp:Count,
+     dbp:Samoilova,
+     dbp:Ball,
+     <http://dbpedia.org/resource/Foster,_Rhode_Island>,
+     dbp:Daughter,
+     dbp:Giovanni_Pacini,
+     dbp:Unfinished_creative_work,
+     dbp:Apartheid_in_South_Africa,
+     dbp:Oil,
+     dbp:Canvas,
+     <http://dbpedia.org/resource/Emma_de_Guader,_Countess_of_Norfolk>,
+     <http://ru.dbpedia.org/resource/Самойлова,_Юлия_Павловна>,
+     <http://ru.dbpedia.org/resource/Скавронские>,
+     <http://ru.dbpedia.org/resource/Флигель-адъютант>,
+     <http://ru.dbpedia.org/resource/Пери_(станция)>,
+     <http://ru.dbpedia.org/resource/Николай_I>,
+     <http://ru.dbpedia.org/resource/Пачини,_Джованни>,
+     <http://ru.dbpedia.org/resource/Ионический_ордер>,
+     <http://ru.dbpedia.org/resource/Кадуцей>,
+     <http://ru.dbpedia.org/resource/Брюллов,_Карл_Павлович>,
+     <http://ru.dbpedia.org/resource/Помпеи> .
+
+<http://rm-lod.org/objects/170/annotations/x79KWxo> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Portrait,
+     dbp:Nun,
+     dbp:Oil,
+     dbp:Canvas,
+     <http://ru.dbpedia.org/resource/Олсуфьев,_Захар_Дмитриевич>,
+     <http://ru.dbpedia.org/resource/Новая_Деревня_(исторический_район,_Санкт-Петербург)> .
+
+<http://rm-lod.org/objects/171/annotations/lRDdmOE> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Pompeii,
+     dbp:Oil,
+     dbp:Canvas_element,
+     <http://ru.dbpedia.org/resource/Помпеи>,
+     <http://ru.dbpedia.org/resource/Италия>,
+     <http://ru.dbpedia.org/resource/Геркуланум>,
+     <http://ru.dbpedia.org/resource/Везувий>,
+     <http://ru.dbpedia.org/resource/24_августа>,
+     <http://ru.dbpedia.org/resource/Плиний_Младший>,
+     <http://ru.dbpedia.org/resource/Возрождение>,
+     <http://ru.dbpedia.org/resource/Рим>,
+     <http://ru.dbpedia.org/resource/Париж>,
+     <http://ru.dbpedia.org/resource/Императорская_Академия_художеств>,
+     <http://ru.dbpedia.org/resource/XIX_век> .
+
+<http://rm-lod.org/objects/182/annotations/Cs-IIZI> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Red_Cavalry,
+     dbp:Circa,
+     dbp:Oil,
+     dbp:Canvas .
+
+<http://rm-lod.org/objects/186/annotations/SrTmWr4> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Suprematism,
+     <http://dbpedia.org/resource/1915–16_Blackpool_F.C._season>,
+     dbp:Oil,
+     dbp:Canvas_element,
+     <http://ru.dbpedia.org/resource/Супрематизм>,
+     <http://ru.dbpedia.org/resource/Вселенная> .
+
+<http://rm-lod.org/objects/187/annotations/_v6FDiY> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Perfection,
+     dbp:Portrait,
+     dbp:Ivan_Kliun,
+     dbp:Oil,
+     dbp:Canvas_element,
+     <http://ru.dbpedia.org/resource/Союз_молодёжи_(общество_художников)>,
+     <http://ru.dbpedia.org/resource/Кубофутуризм>,
+     <http://ru.dbpedia.org/resource/Всевидящее_Око>,
+     <http://ru.dbpedia.org/resource/Клюн,_Иван_Васильевич> .
+
+<http://rm-lod.org/objects/1885/annotations/5xDUDxM> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Portrait,
+     dbp:Most_Serene_Republic,
+     dbp:Elizabeth_of_Russia,
+     dbp:Oil_painting,
+     dbp:Canvas,
+     <http://ru.dbpedia.org/resource/Строганов,_Павел_Александрович> .
+
+<http://rm-lod.org/objects/189/annotations/Qed8EX0> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes <http://dbpedia.org/resource/Black_Square_(album)>,
+     dbp:Circa,
+     dbp:Oil,
+     dbp:Canvas,
+     dbp:Kazimir_Malevich,
+     <http://ru.dbpedia.org/resource/Чёрный_квадрат> .
+
+<http://rm-lod.org/objects/203/annotations/Mdt2NGU> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes <http://dbpedia.org/resource/Venus_(mythology)>,
+     dbp:Oil,
+     dbp:Canvas_element,
+     <http://ru.dbpedia.org/resource/Венера_(планета)>,
+     <http://ru.dbpedia.org/resource/Китч>,
+     <http://ru.dbpedia.org/resource/Ларионов,_Михаил_Фёдорович> .
+
+<http://rm-lod.org/objects/2164/annotations/2jATAK4> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Hymn,
+     dbp:October,
+     dbp:Oil_painting,
+     dbp:Canvas,
+     <http://ru.dbpedia.org/resource/Немирович-Данченко,_Василий_Иванович>,
+     <http://ru.dbpedia.org/resource/Толстой,_Алексей_Николаевич>,
+     <http://ru.dbpedia.org/resource/Хрущёв,_Никита_Сергеевич> .
+
+<http://rm-lod.org/objects/2370/annotations/8soommU> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:VMware_Horizon_View,
+     dbp:Odessa,
+     dbp:Night,
+     dbp:Oil_painting,
+     dbp:Canvas,
+     <http://ru.dbpedia.org/resource/Одесса>,
+     <http://ru.dbpedia.org/resource/Феодосия> .
+
+<http://rm-lod.org/objects/2377/annotations/sWy93Fk> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Alarm_device,
+     dbp:Oil,
+     dbp:Canvas,
+     <http://ru.dbpedia.org/resource/Петров-Водкин,_Кузьма_Сергеевич> .
+
+<http://rm-lod.org/objects/2389/annotations/G6d0hL0> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Portrait,
+     dbp:Alexander_the_Great,
+     dbp:Italy,
+     dbp:Pencil,
+     dbp:Pastel,
+     dbp:Charcoal,
+     dbp:Chalk,
+     dbp:Grey,
+     <http://dbpedia.org/resource/Priming_(psychology)>,
+     <http://ru.dbpedia.org/resource/Кипренский,_Орест_Адамович>,
+     <http://ru.dbpedia.org/resource/Бородинское_сражение>,
+     <http://ru.dbpedia.org/resource/Лейб-гвардии_Гусарский_Его_Величества_полк>,
+     <http://ru.dbpedia.org/resource/Сражение_при_Лютцене_(1813)>,
+     <http://ru.dbpedia.org/resource/Сражение_при_Бауцене>,
+     <http://ru.dbpedia.org/resource/Сражение_под_Кульмом>,
+     <http://ru.dbpedia.org/resource/Битва_народов>,
+     <http://ru.dbpedia.org/resource/Париж>,
+     <http://ru.dbpedia.org/resource/Вольный_общник>,
+     <http://ru.dbpedia.org/resource/Императорская_Академия_художеств>,
+     <http://ru.dbpedia.org/resource/Италия>,
+     <http://ru.dbpedia.org/resource/Мел> .
+
+<http://rm-lod.org/objects/2390/annotations/9ydZU0k> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Portrait,
+     dbp:Mikhail_Dostoyevsky,
+     dbp:Italy,
+     dbp:Pencil,
+     <http://ru.dbpedia.org/resource/Кипренский,_Орест_Адамович>,
+     <http://ru.dbpedia.org/resource/XIX_век>,
+     <http://ru.dbpedia.org/resource/Сентиментализм>,
+     <http://ru.dbpedia.org/resource/Италия> .
+
+<http://rm-lod.org/objects/2429/annotations/RCD5HRk> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:VMware_Horizon_View,
+     dbp:English_Embankment,
+     dbp:Vasilyevsky_Island,
+     dbp:Oil_painting,
+     dbp:Canvas_element,
+     <http://ru.dbpedia.org/resource/Английская_набережная>,
+     <http://ru.dbpedia.org/resource/Васильевский_остров>,
+     <http://ru.dbpedia.org/resource/Английская_набережная_(Санкт-Петербург)>,
+     <http://ru.dbpedia.org/resource/Императорская_Академия_художеств> .
+
+<http://rm-lod.org/objects/2430/annotations/lCAGf8U> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Portrait,
+     dbp:Olga_of_Kiev,
+     dbp:Oil_painting,
+     dbp:Canvas_element,
+     <http://ru.dbpedia.org/resource/Боровиковский,_Владимир_Лукич>,
+     <http://ru.dbpedia.org/resource/Вахмистр>,
+     <http://ru.dbpedia.org/resource/Казанский_собор_(Санкт-Петербург)> .
+
+<http://rm-lod.org/objects/2431/annotations/Edl9PoE> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Portrait,
+     <http://dbpedia.org/resource/Marfa,_Texas>,
+     dbp:Oil,
+     dbp:Canvas_element,
+     <http://ru.dbpedia.org/resource/Боровиковский,_Владимир_Лукич> .
+
+<http://rm-lod.org/objects/2438/annotations/_CJd-gw> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Dream,
+     dbp:Grandparent,
+     dbp:Watercolor_painting,
+     dbp:Bronze,
+     dbp:Varnish,
+     <http://dbpedia.org/resource/Mount_(computing)>,
+     dbp:Card_stock .
+
+<http://rm-lod.org/objects/2440/annotations/ZZ3Mxao> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Portrait,
+     dbp:Vasily_Alekseevich_Perovsky,
+     dbp:Watercolor_painting,
+     dbp:UV_coating,
+     <http://ru.dbpedia.org/resource/Италия>,
+     <http://ru.dbpedia.org/resource/Перовский,_Василий_Алексеевич>,
+     <http://ru.dbpedia.org/resource/Государственный_совет_Российской_империи> .
+
+<http://rm-lod.org/objects/2443/annotations/VWbW6s8> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Boris_Spassky,
+     dbp:Bill_Gates,
+     dbp:Moscow,
+     dbp:Oil_painting,
+     dbp:Canvas,
+     <http://dbpedia.org/resource/Gates_County,_North_Carolina>,
+     <http://ru.dbpedia.org/resource/Московский_Кремль>,
+     <http://ru.dbpedia.org/resource/XV_век>,
+     <http://ru.dbpedia.org/resource/Одигитрия>,
+     <http://ru.dbpedia.org/resource/Лампада> .
+
+<http://rm-lod.org/objects/2445/annotations/dDCLuYM> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Portrait,
+     dbp:Ekaterina_Svanidze,
+     dbp:Oil,
+     dbp:Canvas,
+     <http://ru.dbpedia.org/resource/Тропинин,_Василий_Андреевич> .
+
+<http://rm-lod.org/objects/2446/annotations/dEV9M0A> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Dream,
+     dbp:Kanji,
+     dbp:Hill,
+     <http://dbpedia.org/resource/Life_(magazine)>,
+     dbp:Christ,
+     dbp:Television_program,
+     dbp:Oil,
+     dbp:Canvas,
+     dbp:Life .
+
+<http://rm-lod.org/objects/2448/annotations/Gj0UyMA> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Siberia,
+     dbp:Woman,
+     dbp:Oil_painting,
+     dbp:Canvas_element,
+     <http://ru.dbpedia.org/resource/Серебрякова,_Зинаида_Евгеньевна>,
+     <http://ru.dbpedia.org/resource/Мельци,_Франческо> .
+
+<http://rm-lod.org/objects/2449/annotations/o1ooL6U> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes <http://dbpedia.org/resource/Dreaming_(spirituality)>,
+     <http://dbpedia.org/resource/Future_(rapper)>,
+     dbp:Oil,
+     dbp:Canvas,
+     dbp:Future_tense,
+     <http://ru.dbpedia.org/resource/Императорская_Академия_художеств>,
+     <http://ru.dbpedia.org/resource/Табель_о_рангах> .
+
+<http://rm-lod.org/objects/2459/annotations/cA9xbJQ> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Joseph_Stalin,
+     <http://dbpedia.org/resource/Raising_of_Jairus'_daughter>,
+     dbp:Daughter,
+     dbp:Oil_painting,
+     dbp:Canvas,
+     <http://ru.dbpedia.org/resource/Иванов,_Александр_Андреевич>,
+     <http://ru.dbpedia.org/resource/Явление_Христа_народу>,
+     <http://ru.dbpedia.org/resource/Архитектоника>,
+     <http://ru.dbpedia.org/resource/Императорская_Академия_художеств> .
+
+<http://rm-lod.org/objects/2460/annotations/kOiWJxY> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Bar_examination,
+     dbp:Oil_painting,
+     dbp:Canvas_element,
+     <http://ru.dbpedia.org/resource/Императорская_Академия_художеств> .
+
+<http://rm-lod.org/objects/2461/annotations/nigWHLo> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Landscape,
+     dbp:Barge,
+     dbp:Haulage,
+     dbp:World_War_I,
+     dbp:Watercolor_painting,
+     dbp:Bistre,
+     dbp:Brush,
+     dbp:Chalk_Group,
+     <http://ru.dbpedia.org/resource/Кипренский,_Орест_Адамович>,
+     <http://ru.dbpedia.org/resource/Бурлак>,
+     <http://ru.dbpedia.org/resource/Барка>,
+     <http://ru.dbpedia.org/resource/XIX_век>,
+     <http://ru.dbpedia.org/resource/XVIII_век> .
+
+<http://rm-lod.org/objects/2467/annotations/AaF5ZpI> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Yelagin_Island,
+     dbp:Night,
+     dbp:Devonian,
+     dbp:Oil_painting,
+     dbp:Canvas_element,
+     <http://ru.dbpedia.org/resource/Елагин_остров> .
+
+<http://rm-lod.org/objects/502/annotations/PJYgAG0> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes <http://dbpedia.org/resource/Angel_(Buffy_the_Vampire_Slayer)>,
+     <http://dbpedia.org/resource/Golden,_Colorado>,
+     <http://dbpedia.org/resource/Hair_(musical)>,
+     dbp:Tempera,
+     dbp:Wood,
+     <http://ru.dbpedia.org/resource/Византия>,
+     <http://ru.dbpedia.org/resource/Архангелы> .
+
+<http://rm-lod.org/objects/503/annotations/5I068KU> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:List_of_Torchwood_characters,
+     dbp:God,
+     <http://dbpedia.org/resource/Tenderness_(song)>,
+     <http://dbpedia.org/resource/White_Lake_Township,_Michigan>,
+     dbp:Tempera,
+     dbp:Wood,
+     <http://ru.dbpedia.org/resource/Елеуса>,
+     <http://ru.dbpedia.org/resource/Страсти_Христовы>,
+     <http://ru.dbpedia.org/resource/Архангел> .
+
+<http://rm-lod.org/objects/504/annotations/81VXsp8> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:List_of_Entourage_episodes,
+     dbp:Pentecost,
+     dbp:Otherplace,
+     dbp:Pskov,
+     dbp:Devonian,
+     <http://dbpedia.org/resource/Century_(cricket)>,
+     dbp:Tempera,
+     dbp:Wood,
+     <http://ru.dbpedia.org/resource/Воскресение_Иисуса_Христа>,
+     <http://ru.dbpedia.org/resource/Библия>,
+     <http://ru.dbpedia.org/resource/Апокриф>,
+     <http://ru.dbpedia.org/resource/Мандорла> .
+
+<http://rm-lod.org/objects/506/annotations/yQucknY> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Intercession_of_the_Theotokos,
+     <http://dbpedia.org/resource/Mary_(mother_of_Jesus)>,
+     dbp:Veliky_Novgorod,
+     dbp:World_War_II,
+     <http://dbpedia.org/resource/Century_(cricket)>,
+     dbp:Tempera,
+     dbp:Wood,
+     <http://ru.dbpedia.org/resource/Покров_Пресвятой_Богородицы>,
+     <http://ru.dbpedia.org/resource/Оранта>,
+     <http://ru.dbpedia.org/resource/Давид>,
+     <http://ru.dbpedia.org/resource/Мандорла>,
+     <http://ru.dbpedia.org/resource/Роман_Сладкопевец>,
+     <http://ru.dbpedia.org/resource/Лев_VI>,
+     <http://ru.dbpedia.org/resource/Феофано_(императрица_Византии)>,
+     <http://ru.dbpedia.org/resource/Второй_Никейский_собор>,
+     <http://ru.dbpedia.org/resource/Иконоборчество>,
+     <http://ru.dbpedia.org/resource/Софийский_собор_(Константинополь)>,
+     <http://ru.dbpedia.org/resource/Константинополь>,
+     <http://ru.dbpedia.org/resource/Вселенские_соборы> .
+
+<http://rm-lod.org/objects/509/annotations/3S5NVe0> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes <http://dbpedia.org/resource/Boris_(band)>,
+     dbp:Saint,
+     dbp:Boris_and_Gleb,
+     dbp:Tempera,
+     dbp:Wood,
+     <http://ru.dbpedia.org/resource/XIV_век>,
+     <http://ru.dbpedia.org/resource/Киев>,
+     <http://ru.dbpedia.org/resource/Святополк_Владимирович_Окаянный>,
+     <http://ru.dbpedia.org/resource/Канонизация>,
+     <http://ru.dbpedia.org/resource/Константинополь>,
+     <http://ru.dbpedia.org/resource/Ярослав_Владимирович_Мудрый>,
+     <http://ru.dbpedia.org/resource/Муром> .
+
+<http://rm-lod.org/objects/513/annotations/JEsr3bA> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Old_Testament,
+     dbp:Trinity,
+     dbp:Veliky_Novgorod,
+     <http://dbpedia.org/resource/Century_(cricket)>,
+     dbp:Lefkada,
+     dbp:Wood,
+     <http://ru.dbpedia.org/resource/Тайная_вечеря>,
+     <http://ru.dbpedia.org/resource/Евхаристия>,
+     <http://ru.dbpedia.org/resource/Символ_веры>,
+     <http://ru.dbpedia.org/resource/Христианская_символика> .
+
+<http://rm-lod.org/objects/515/annotations/pYuUWkw> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes <http://dbpedia.org/resource/The_Miracle_(album)>,
+     dbp:Icon,
+     dbp:Sacred,
+     <http://dbpedia.org/resource/Sign_(band)>,
+     dbp:Battle,
+     dbp:Veliky_Novgorod,
+     dbp:Early_Middle_Ages,
+     dbp:Century,
+     dbp:Tempera,
+     dbp:Wood,
+     <http://ru.dbpedia.org/resource/Андрей_Юрьевич_Боголюбский>,
+     <http://ru.dbpedia.org/resource/Волхов>,
+     <http://ru.dbpedia.org/resource/Александр_Ярославич_Невский>,
+     <http://ru.dbpedia.org/resource/XV_век>,
+     <http://ru.dbpedia.org/resource/Великий_Новгород>,
+     <http://ru.dbpedia.org/resource/Москва> .
+
+<http://rm-lod.org/objects/555/annotations/sODFBGM> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Threshing,
+     dbp:Barn,
+     dbp:Oil,
+     dbp:Canvas_element,
+     <http://ru.dbpedia.org/resource/Венецианов,_Алексей_Гаврилович>,
+     <http://ru.dbpedia.org/resource/Гумно>,
+     <http://ru.dbpedia.org/resource/Гране,_Франсуа_Мариус>,
+     <http://ru.dbpedia.org/resource/Рим>,
+     <http://ru.dbpedia.org/resource/Александр_I>,
+     <http://ru.dbpedia.org/resource/29_апреля>,
+     <http://ru.dbpedia.org/resource/Государственный_Эрмитаж> .
+
+<http://rm-lod.org/objects/556/annotations/xzGm_Tg> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Reaper,
+     dbp:Late_Antiquity,
+     dbp:Oil,
+     dbp:Canvas_element,
+     dbp:Devonian,
+     <http://ru.dbpedia.org/resource/Венецианов,_Алексей_Гаврилович> .
+
+<http://rm-lod.org/objects/557/annotations/My4WI7s> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes <http://dbpedia.org/resource/Reaper_(TV_series)>,
+     dbp:Roman_Republic,
+     dbp:Oil,
+     dbp:Canvas,
+     <http://dbpedia.org/resource/Death_(personification)>,
+     <http://ru.dbpedia.org/resource/Венецианов,_Алексей_Гаврилович> .
+
+<http://rm-lod.org/objects/559/annotations/0ogikbM> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Sleep,
+     dbp:Shepherd,
+     <http://dbpedia.org/resource/Between_(Frankmusik_album)>,
+     dbp:Oil,
+     dbp:Canvas_element,
+     <http://ru.dbpedia.org/resource/Венецианов,_Алексей_Гаврилович>,
+     <http://ru.dbpedia.org/resource/Императорское_общество_поощрения_художеств> .
+
+<http://rm-lod.org/objects/561/annotations/s3Z4Hsk> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Neva_River,
+     dbp:Thames_Embankment,
+     dbp:Imperial_Academy_of_Arts,
+     dbp:Art,
+     dbp:VMware_Horizon_View,
+     dbp:Landing,
+     dbp:Wharf,
+     dbp:Egypt,
+     dbp:Sphinx,
+     dbp:Christmas,
+     dbp:Oil,
+     dbp:Canvas,
+     <http://ru.dbpedia.org/resource/Нева>,
+     <http://ru.dbpedia.org/resource/Императорская_Академия_художеств>,
+     <http://ru.dbpedia.org/resource/Аменхотеп_III> .
+
+<http://rm-lod.org/objects/566/annotations/uwG4Ukw> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes <http://dbpedia.org/resource/4_(number)>,
+     dbp:Nudity,
+     dbp:Boy,
+     <http://dbpedia.org/resource/Study_(room)>,
+     dbp:Oil,
+     dbp:Canvas_element .
+
+<http://rm-lod.org/objects/567/annotations/5ANlMI0> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Christ,
+     dbp:Color,
+     dbp:Mary_Magdalene,
+     dbp:Resurrection,
+     dbp:Oil,
+     dbp:Canvas,
+     <http://ru.dbpedia.org/resource/Не_прикасайся_ко_Мне>,
+     <http://ru.dbpedia.org/resource/Императорская_Академия_художеств>,
+     <http://ru.dbpedia.org/resource/Натурщик>,
+     <http://ru.dbpedia.org/resource/Италия>,
+     <http://ru.dbpedia.org/resource/Николай_I> .
+
+<http://rm-lod.org/objects/573/annotations/CgfDL5Q> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Portrait,
+     dbp:Ekaterina_Svanidze,
+     dbp:Oil,
+     dbp:Canvas_element,
+     <http://ru.dbpedia.org/resource/Кипренский,_Орест_Адамович>,
+     <http://ru.dbpedia.org/resource/XIX_век>,
+     <http://ru.dbpedia.org/resource/Действительный_статский_советник>,
+     <http://ru.dbpedia.org/resource/Кавалергардский_полк>,
+     <http://ru.dbpedia.org/resource/Императорское_общество_поощрения_художеств>,
+     <http://ru.dbpedia.org/resource/Санкт-Петербург>,
+     <http://ru.dbpedia.org/resource/Париж>,
+     <http://ru.dbpedia.org/resource/Лувр> .
+
+<http://rm-lod.org/objects/574/annotations/nqI7wxI> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Portrait,
+     dbp:Lifeguard,
+     dbp:Colonel,
+     dbp:Anatoli_Davydov,
+     dbp:Oil,
+     dbp:Canvas,
+     <http://ru.dbpedia.org/resource/Кипренский,_Орест_Адамович>,
+     <http://ru.dbpedia.org/resource/Давыдов,_Денис_Васильевич>,
+     <http://ru.dbpedia.org/resource/Ротмистр>,
+     <http://ru.dbpedia.org/resource/Бородинское_сражение>,
+     <http://ru.dbpedia.org/resource/Давыдов,_Евграф_Владимирович> .
+
+<http://rm-lod.org/objects/575/annotations/x3dHuRE> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Winter,
+     dbp:Landscape,
+     dbp:Russian_Winter,
+     dbp:Oil,
+     dbp:Canvas,
+     <http://ru.dbpedia.org/resource/Императорское_общество_поощрения_художеств> .
+
+<http://rm-lod.org/objects/578/annotations/-TMYeFM> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Fisherman,
+     dbp:World_War_II,
+     dbp:Oil,
+     dbp:Canvas,
+     <http://ru.dbpedia.org/resource/Козловский_уезд>,
+     <http://ru.dbpedia.org/resource/Тамбовская_губерния>,
+     <http://ru.dbpedia.org/resource/Сороки_(город)> .
+
+<http://rm-lod.org/objects/582/annotations/735LICw> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Young_Widow,
+     dbp:Oil,
+     dbp:Canvas_element,
+     <http://ru.dbpedia.org/resource/Государственная_Третьяковская_галерея>,
+     <http://ru.dbpedia.org/resource/XIX_век> .
+
+<http://rm-lod.org/objects/585/annotations/Z08ujME> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:List_of_Hellsing_characters,
+     dbp:Research_vessel,
+     dbp:Bride,
+     dbp:Merchant,
+     dbp:United_States_House_of_Representatives,
+     dbp:Circa,
+     dbp:Oil,
+     dbp:Canvas,
+     <http://dbpedia.org/resource/House_(TV_series)>,
+     <http://ru.dbpedia.org/resource/Федотов,_Павел_Андреевич>,
+     <http://ru.dbpedia.org/resource/Кулебяка>,
+     <http://ru.dbpedia.org/resource/Государственный_Русский_музей> .
+
+<http://rm-lod.org/objects/587/annotations/4gbOAh8> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes <http://dbpedia.org/resource/Terrace,_British_Columbia>,
+     dbp:Shore,
+     dbp:Sorrento,
+     dbp:Oil,
+     dbp:Canvas_element,
+     <http://ru.dbpedia.org/resource/Сорренто>,
+     <http://ru.dbpedia.org/resource/XIX_век> .
+
+<http://rm-lod.org/objects/615/annotations/0QXZ0h4> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Khrushchev_Thaw,
+     dbp:Oil,
+     dbp:Canvas_element,
+     <http://ru.dbpedia.org/resource/ГТГ>,
+     <http://ru.dbpedia.org/resource/Императорское_общество_поощрения_художеств>,
+     <http://ru.dbpedia.org/resource/Государственный_Русский_музей> .
+
+<http://rm-lod.org/objects/617/annotations/GnQZCH0> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Portrait,
+     dbp:Leo_Tolstoy,
+     dbp:Oil,
+     dbp:Canvas,
+     <http://ru.dbpedia.org/resource/Толстой,_Лев_Николаевич>,
+     <http://ru.dbpedia.org/resource/Хамовники_(район_Москвы)> .
+
+<http://rm-lod.org/objects/618/annotations/JHlrlfc> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Last_Supper,
+     dbp:Oil,
+     dbp:Canvas,
+     <http://ru.dbpedia.org/resource/Пенсионер_(Академия_художеств)>,
+     <http://ru.dbpedia.org/resource/Флоренция>,
+     <http://ru.dbpedia.org/resource/Императорская_Академия_художеств> .
+
+<http://rm-lod.org/objects/620/annotations/-4Qrqh4> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes <http://dbpedia.org/resource/Immortal_(Highlander)>,
+     dbp:Coal,
+     dbp:Mining,
+     dbp:Oil,
+     dbp:Canvas_element,
+     <http://ru.dbpedia.org/resource/Касаткин,_Николай_Алексеевич>,
+     <http://ru.dbpedia.org/resource/Россия>,
+     <http://ru.dbpedia.org/resource/Донецкий_каменноугольный_бассейн>,
+     <http://ru.dbpedia.org/resource/Земли_Германии>,
+     <http://ru.dbpedia.org/resource/Перов,_Василий_Григорьевич> .
+
+<http://rm-lod.org/objects/622/annotations/N0Gpy8A> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Oil,
+     dbp:Canvas_element,
+     <http://ru.dbpedia.org/resource/Репин,_Илья_Ефимович> .
+
+<http://rm-lod.org/objects/625/annotations/FZ5B5Sw> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Evening,
+     dbp:Ukraine,
+     dbp:Oil,
+     dbp:Canvas,
+     <http://ru.dbpedia.org/resource/Украина>,
+     <http://ru.dbpedia.org/resource/Россия> .
+
+<http://rm-lod.org/objects/627/annotations/u8amYGo> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes <http://dbpedia.org/resource/Patch_(computing)>,
+     dbp:Moonlight,
+     dbp:Forest,
+     dbp:Winter,
+     dbp:Oil,
+     dbp:Canvas_element,
+     <http://ru.dbpedia.org/resource/Модерн> .
+
+<http://rm-lod.org/objects/629/annotations/FrZnkSE> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Autumn,
+     <http://dbpedia.org/resource/Yeshivas_Knesses_Yisrael_(Slabodka)>,
+     dbp:Oil,
+     dbp:Canvas_element,
+     dbp:Sloboda,
+     <http://ru.dbpedia.org/resource/Левитан,_Исаак_Ильич>,
+     <http://ru.dbpedia.org/resource/Волга>,
+     <http://ru.dbpedia.org/resource/Мюнхенский_Сецессион> .
+
+<http://rm-lod.org/objects/631/annotations/fQ1s8xM> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes <http://dbpedia.org/resource/Twilight_(2008_film)>,
+     dbp:Moon,
+     dbp:Oil,
+     dbp:Canvas_element,
+     <http://dbpedia.org/resource/Twilight_(series)>,
+     <http://ru.dbpedia.org/resource/Сумерки_(фильм,_2008)>,
+     <http://ru.dbpedia.org/resource/Сумерки_(серия_романов)>,
+     <http://ru.dbpedia.org/resource/Россия>,
+     <http://ru.dbpedia.org/resource/Пейзаж> .
+
+<http://rm-lod.org/objects/632/annotations/SmzVSr4> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes <http://dbpedia.org/resource/Dull,_Perth_and_Kinross>,
+     dbp:Christmas,
+     dbp:Oil,
+     dbp:Canvas .
+
+<http://rm-lod.org/objects/643/annotations/a3Ik4Uk> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Monasticism,
+     dbp:Refectory,
+     dbp:Oil,
+     dbp:Canvas,
+     <http://ru.dbpedia.org/resource/Обжорство> .
+
+<http://rm-lod.org/objects/647/annotations/qnObSBg> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Overgrown,
+     dbp:Pond,
+     dbp:Oil,
+     dbp:Canvas_element,
+     <http://ru.dbpedia.org/resource/Государственная_Третьяковская_галерея> .
+
+<http://rm-lod.org/objects/648/annotations/rM3xBNA> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Jesus,
+     dbp:Sin,
+     dbp:Oil,
+     dbp:Canvas,
+     <http://ru.dbpedia.org/resource/Сирия>,
+     <http://ru.dbpedia.org/resource/Палестина>,
+     <http://ru.dbpedia.org/resource/Греция>,
+     <http://ru.dbpedia.org/resource/Рим>,
+     <http://ru.dbpedia.org/resource/Товарищество_передвижных_художественных_выставок> .
+
+<http://rm-lod.org/objects/649/annotations/jZfXgbc> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Word_Records,
+     dbp:List_of_Star_Trek_regions_of_space,
+     dbp:Oil,
+     dbp:Canvas_element,
+     <http://ru.dbpedia.org/resource/Финский_залив> .
+
+<http://rm-lod.org/objects/651/annotations/Oqfi4VU> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Barge,
+     dbp:Haulage,
+     dbp:Volga_River,
+     dbp:Oil,
+     dbp:Canvas_element,
+     <http://ru.dbpedia.org/resource/Волга>,
+     <http://ru.dbpedia.org/resource/Бурлак>,
+     <http://ru.dbpedia.org/resource/Всемирная_выставка>,
+     <http://ru.dbpedia.org/resource/Вена> .
+
+<http://rm-lod.org/objects/652/annotations/SDh3JFQ> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Zaporozhian_Cossacks,
+     dbp:Oil,
+     dbp:Canvas,
+     <http://ru.dbpedia.org/resource/Мехмед_IV>,
+     <http://ru.dbpedia.org/resource/Запорожская_Сечь>,
+     <http://ru.dbpedia.org/resource/Серко,_Иван_Дмитриевич>,
+     <http://ru.dbpedia.org/resource/Веласкес,_Диего>,
+     <http://ru.dbpedia.org/resource/Александр_III>,
+     <http://ru.dbpedia.org/resource/Государственный_Русский_музей>,
+     <http://ru.dbpedia.org/resource/Мюнхен>,
+     <http://ru.dbpedia.org/resource/Будапешт> .
+
+<http://rm-lod.org/objects/653/annotations/ytP5oZY> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Book_of_Job,
+     dbp:Friends,
+     dbp:Oil,
+     dbp:Canvas,
+     <http://ru.dbpedia.org/resource/Мученик>,
+     <http://ru.dbpedia.org/resource/Праведность>,
+     <http://ru.dbpedia.org/resource/Проказа> .
+
+<http://rm-lod.org/objects/654/annotations/HLIUfI8> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Leo_Tolstoy,
+     dbp:Barefoot,
+     dbp:Oil,
+     dbp:Canvas,
+     dbp:Ninet_Tayeb,
+     <http://ru.dbpedia.org/resource/Толстой,_Лев_Николаевич>,
+     <http://ru.dbpedia.org/resource/Ясная_Поляна>,
+     <http://ru.dbpedia.org/resource/Опрощение_(идеология)>,
+     <http://ru.dbpedia.org/resource/Зевс> .
+
+<http://rm-lod.org/objects/656/annotations/KmOVWeM> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Portrait,
+     dbp:Anton_Rubinstein,
+     dbp:Oil,
+     dbp:Canvas,
+     <http://ru.dbpedia.org/resource/Рубинштейн,_Антон_Григорьевич>,
+     <http://ru.dbpedia.org/resource/Соединённые_Штаты_Америки>,
+     <http://ru.dbpedia.org/resource/Государственный_Русский_музей>,
+     <http://ru.dbpedia.org/resource/Санкт-Петербург>,
+     <http://ru.dbpedia.org/resource/Николай_I>,
+     <http://ru.dbpedia.org/resource/Ницца>,
+     <http://ru.dbpedia.org/resource/Россия>,
+     <http://ru.dbpedia.org/resource/Дирижёр>,
+     <http://ru.dbpedia.org/resource/Санкт-Петербургская_государственная_консерватория_имени_Н._А._Римского-Корсакова> .
+
+<http://rm-lod.org/objects/657/annotations/UnZ9NFM> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Portrait,
+     dbp:Alexander_Glazunov,
+     dbp:Oil,
+     dbp:Canvas_element,
+     <http://ru.dbpedia.org/resource/XIX_век>,
+     <http://ru.dbpedia.org/resource/Могучая_кучка>,
+     <http://ru.dbpedia.org/resource/Глазунов,_Александр_Константинович> .
+
+<http://rm-lod.org/objects/660/annotations/LR57J3I> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Sadko,
+     dbp:Oil,
+     dbp:Canvas_element,
+     <http://ru.dbpedia.org/resource/Садко>,
+     <http://ru.dbpedia.org/resource/Александр_III>,
+     <http://ru.dbpedia.org/resource/Нормандия>,
+     <http://ru.dbpedia.org/resource/Хрустальный_дворец>,
+     <http://ru.dbpedia.org/resource/Лондон> .
+
+<http://rm-lod.org/objects/661/annotations/ElaFDl4> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:21-gun_salute,
+     dbp:Sitting,
+     <http://dbpedia.org/resource/State_Council_of_the_People's_Republic_of_China>,
+     dbp:May,
+     <http://dbpedia.org/resource/Mark_(Australian_football)>,
+     dbp:Century,
+     <http://dbpedia.org/resource/Foundation_(novel)>,
+     dbp:Oil,
+     dbp:Canvas,
+     <http://ru.dbpedia.org/resource/Государственный_совет_Российской_империи>,
+     <http://ru.dbpedia.org/resource/7_мая>,
+     <http://ru.dbpedia.org/resource/Мариинский_дворец_(Киев)>,
+     <http://ru.dbpedia.org/resource/Александр_I>,
+     <http://ru.dbpedia.org/resource/Мариинский_дворец_(Санкт-Петербург)>,
+     <http://ru.dbpedia.org/resource/Николай_II> .
+
+<http://rm-lod.org/objects/665/annotations/ARHAVmQ> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Festival,
+     dbp:Poseidon,
+     dbp:Eleusinian_Mysteries,
+     dbp:Oil,
+     dbp:Canvas_element,
+     <http://ru.dbpedia.org/resource/Фрина>,
+     <http://ru.dbpedia.org/resource/Гетера>,
+     <http://ru.dbpedia.org/resource/Пракситель>,
+     <http://ru.dbpedia.org/resource/Семирадский,_Генрих_Ипполитович>,
+     <http://ru.dbpedia.org/resource/Академизм> .
+
+<http://rm-lod.org/objects/667/annotations/Hql0qUs> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Watchmen,
+     dbp:Singing,
+     dbp:Oil,
+     dbp:Canvas .
+
+<http://rm-lod.org/objects/668/annotations/oic2zC8> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Town,
+     dbp:Oil,
+     dbp:Canvas,
+     dbp:List_of_MÄR_characters,
+     <http://ru.dbpedia.org/resource/Взятие_снежного_городка>,
+     <http://ru.dbpedia.org/resource/Снежная_пушка> .
+
+<http://rm-lod.org/objects/669/annotations/1xziLYc> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes <http://dbpedia.org/resource/Italian_and_Swiss_expedition_(1799–1800)>,
+     dbp:Level_crossing,
+     dbp:Alps,
+     dbp:Oil,
+     dbp:Canvas,
+     <http://ru.dbpedia.org/resource/Альпы>,
+     <http://ru.dbpedia.org/resource/Швейцарские_Альпы>,
+     <http://ru.dbpedia.org/resource/Австрия>,
+     <http://ru.dbpedia.org/resource/Франция>,
+     <http://ru.dbpedia.org/resource/Паникс>,
+     <http://ru.dbpedia.org/resource/XVIII_век>,
+     <http://ru.dbpedia.org/resource/Павел_I>,
+     <http://ru.dbpedia.org/resource/Памятник_Суворову_(Москва)>,
+     <http://ru.dbpedia.org/resource/5_мая>,
+     <http://ru.dbpedia.org/resource/Марсово_поле_(Санкт-Петербург)>,
+     <http://ru.dbpedia.org/resource/Александр_I>,
+     <http://ru.dbpedia.org/resource/Мраморный_дворец_(Санкт-Петербург)>,
+     <http://ru.dbpedia.org/resource/Суворовская_площадь_(Санкт-Петербург)>,
+     <http://ru.dbpedia.org/resource/Командование>,
+     <http://ru.dbpedia.org/resource/Россия>,
+     <http://ru.dbpedia.org/resource/Прага>,
+     <http://ru.dbpedia.org/resource/6_мая> .
+
+<http://rm-lod.org/objects/673/annotations/a_9uSqA> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Epsom_Oaks,
+     dbp:Oil,
+     dbp:Canvas,
+     <http://ru.dbpedia.org/resource/XIX_век>,
+     <http://ru.dbpedia.org/resource/Финский_залив> .
+
+<http://rm-lod.org/objects/674/annotations/1oDHaZM> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Winter_Olympic_Games,
+     dbp:Oil,
+     dbp:Canvas_element,
+     <http://ru.dbpedia.org/resource/Архитектоника> .
+
+<http://rm-lod.org/objects/676/annotations/fpmmSpM> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Pargolovo,
+     <http://dbpedia.org/resource/Study_(art)>,
+     dbp:Oil,
+     dbp:Canvas,
+     <http://dbpedia.org/resource/Mount_(computing)>,
+     dbp:Paperboard,
+     <http://dbpedia.org/resource/Study_(room)>,
+     <http://ru.dbpedia.org/resource/Парголово> .
+
+<http://rm-lod.org/objects/677/annotations/aDRnCpA> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Indium,
+     dbp:Warm_Records,
+     dbp:Parts_of_Lincolnshire,
+     dbp:Oil,
+     dbp:Canvas,
+     <http://ru.dbpedia.org/resource/Бестужевские_курсы> .
+
+<http://rm-lod.org/objects/679/annotations/PTqrNGQ> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Broadway_theatre,
+     <http://dbpedia.org/resource/Swing_(seat)>,
+     dbp:Oil,
+     dbp:Canvas_element,
+     dbp:Kanji,
+     <http://ru.dbpedia.org/resource/Калужская_губерния> .
+
+<http://rm-lod.org/objects/681/annotations/trXqDNk> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Portrait,
+     dbp:William_George_Ainslie,
+     dbp:World_War_II,
+     dbp:Oil,
+     dbp:Canvas,
+     <http://ru.dbpedia.org/resource/Преображенский_лейб-гвардии_полк> .
+
+<http://rm-lod.org/objects/682/annotations/zt8e0cw> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Portrait,
+     <http://dbpedia.org/resource/Sarah_Connor_(Terminator)>,
+     dbp:Oil,
+     dbp:Canvas_element,
+     <http://ru.dbpedia.org/resource/Балюстрада>,
+     <http://ru.dbpedia.org/resource/Рококо> .
+
+<http://rm-lod.org/objects/684/annotations/Y-R5HJU> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Portrait,
+     dbp:Alexander_the_Great,
+     dbp:Oil,
+     dbp:Canvas,
+     <http://ru.dbpedia.org/resource/Екатерина_II>,
+     <http://ru.dbpedia.org/resource/Ланской,_Александр_Дмитриевич>,
+     <http://ru.dbpedia.org/resource/Измайловский_лейб-гвардии_полк>,
+     <http://ru.dbpedia.org/resource/Флигель-адъютант>,
+     <http://ru.dbpedia.org/resource/Камергер>,
+     <http://ru.dbpedia.org/resource/Генерал-майор>,
+     <http://ru.dbpedia.org/resource/Смоленский_3-й_уланский_полк>,
+     <http://ru.dbpedia.org/resource/Генерал-поручик>,
+     <http://ru.dbpedia.org/resource/Орден_Белого_орла>,
+     <http://ru.dbpedia.org/resource/Польша> .
+
+<http://rm-lod.org/objects/687/annotations/Y9Roj68> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Portrait,
+     dbp:Ekaterina_Svanidze,
+     dbp:Oil,
+     dbp:Canvas,
+     <http://ru.dbpedia.org/resource/Смольный_институт_благородных_девиц>,
+     <http://ru.dbpedia.org/resource/Екатерина_II>,
+     <http://ru.dbpedia.org/resource/Нелидова,_Екатерина_Ивановна>,
+     <http://ru.dbpedia.org/resource/Придворные_дамы_Российской_империи> .
+
+<http://rm-lod.org/objects/688/annotations/AYYX9ME> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Portrait,
+     dbp:Ekaterina_Svanidze,
+     dbp:Oil,
+     dbp:Canvas,
+     <http://ru.dbpedia.org/resource/Смольный_институт_благородных_девиц>,
+     <http://ru.dbpedia.org/resource/Екатерина_II>,
+     <http://ru.dbpedia.org/resource/Премьер-майор>,
+     <http://ru.dbpedia.org/resource/Павел_I>,
+     <http://ru.dbpedia.org/resource/Петербургский_Воспитательный_дом> .
+
+<http://rm-lod.org/objects/689/annotations/Sy29Luk> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Portrait,
+     dbp:Catherine_the_Great,
+     dbp:Temple,
+     dbp:Goddess,
+     dbp:Justice,
+     dbp:Oil,
+     dbp:Canvas,
+     <http://ru.dbpedia.org/resource/Ангальт-Цербст_(княжество)>,
+     <http://ru.dbpedia.org/resource/Щецин>,
+     <http://ru.dbpedia.org/resource/Пётр_III>,
+     <http://ru.dbpedia.org/resource/Павел_I>,
+     <http://ru.dbpedia.org/resource/Эпоха_Просвещения>,
+     <http://ru.dbpedia.org/resource/Пугачёв,_Емельян_Иванович>,
+     <http://ru.dbpedia.org/resource/Великая_французская_революция>,
+     <http://ru.dbpedia.org/resource/Русско-шведская_война_(1788—1790)>,
+     <http://ru.dbpedia.org/resource/Российская_империя>,
+     <http://ru.dbpedia.org/resource/Крымское_ханство>,
+     <http://ru.dbpedia.org/resource/Прибалтика>,
+     <http://ru.dbpedia.org/resource/Речь_Посполитая>,
+     <http://ru.dbpedia.org/resource/Алеутские_острова>,
+     <http://ru.dbpedia.org/resource/Аляска>,
+     <http://ru.dbpedia.org/resource/Грузия>,
+     <http://ru.dbpedia.org/resource/Екатерина_II>,
+     <http://ru.dbpedia.org/resource/Фемида>,
+     <http://ru.dbpedia.org/resource/Конституция> .
+
+<http://rm-lod.org/objects/691/annotations/XgPor6Q> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Vladimir_the_Great,
+     dbp:Rogneda_of_Polotsk,
+     dbp:Oil,
+     dbp:Canvas_element,
+     <http://ru.dbpedia.org/resource/Рогнеда_Рогволодовна>,
+     <http://ru.dbpedia.org/resource/Классицизм>,
+     <http://ru.dbpedia.org/resource/Императорская_Академия_художеств> .
+
+<http://rm-lod.org/objects/692/annotations/3Bk2pgk> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Zeus,
+     dbp:Thetis,
+     dbp:Oil,
+     dbp:Canvas,
+     <http://ru.dbpedia.org/resource/Зевс>,
+     <http://ru.dbpedia.org/resource/Фетида>,
+     <http://ru.dbpedia.org/resource/Рим>,
+     <http://ru.dbpedia.org/resource/Троянская_война> .
+
+<http://rm-lod.org/objects/695/annotations/-drox-0> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Portrait,
+     dbp:Hetman,
+     dbp:Oil,
+     dbp:Canvas,
+     <http://ru.dbpedia.org/resource/XIX_век>,
+     <http://ru.dbpedia.org/resource/Сапега,_Казимир_Ян>,
+     <http://ru.dbpedia.org/resource/Генерал-фельдмаршал_(Россия)>,
+     <http://ru.dbpedia.org/resource/Украина>,
+     <http://ru.dbpedia.org/resource/Польша>,
+     <http://ru.dbpedia.org/resource/Великое_княжество_Литовское>,
+     <http://ru.dbpedia.org/resource/Никитин,_Иван_Никитич>,
+     <http://ru.dbpedia.org/resource/Невский_проспект> .
+
+<http://rm-lod.org/objects/697/annotations/rGRQexM> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Portrait,
+     dbp:Grand_duke,
+     dbp:Paul_I_of_Russia,
+     dbp:Childhood,
+     dbp:Oil,
+     dbp:Canvas_element,
+     <http://ru.dbpedia.org/resource/Рокотов,_Фёдор_Степанович>,
+     <http://ru.dbpedia.org/resource/Павел_I>,
+     <http://ru.dbpedia.org/resource/Рококо>,
+     <http://ru.dbpedia.org/resource/Пётр_III>,
+     <http://ru.dbpedia.org/resource/Екатерина_II> .
+
+<http://rm-lod.org/objects/702/annotations/Horz8tk> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Software_testing,
+     dbp:Physical_strength,
+     dbp:Jan_Hus,
+     dbp:Oil,
+     dbp:Canvas,
+     <http://ru.dbpedia.org/resource/Ян_Усмошвец>,
+     <http://ru.dbpedia.org/resource/XII_век>,
+     <http://ru.dbpedia.org/resource/Киев>,
+     <http://ru.dbpedia.org/resource/Печенеги>,
+     <http://ru.dbpedia.org/resource/Императорская_Академия_художеств>,
+     <http://ru.dbpedia.org/resource/XVIII_век> .
+
+<http://rm-lod.org/objects/754/annotations/4WeoD-Y> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Portrait,
+     dbp:Anna_Akhmatova,
+     dbp:Oil,
+     dbp:Canvas_element,
+     <http://ru.dbpedia.org/resource/Ахматова,_Анна_Андреевна> .
+
+<http://rm-lod.org/objects/756/annotations/iaBo77s> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Self-portrait,
+     dbp:Nun,
+     dbp:Tempera,
+     dbp:Oil_painting,
+     dbp:Canvas,
+     <http://ru.dbpedia.org/resource/Борисов-Мусатов,_Виктор_Эльпидифорович>,
+     <http://ru.dbpedia.org/resource/Вторая_эпоха_Средиземья> .
+
+<http://rm-lod.org/objects/762/annotations/btDtVgA> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Knight,
+     <http://dbpedia.org/resource/Crossroads_(soap_opera)>,
+     dbp:Oil,
+     dbp:Canvas,
+     <http://dbpedia.org/resource/Crossroads,_Cape_Town>,
+     <http://ru.dbpedia.org/resource/Васнецов,_Виктор_Михайлович>,
+     <http://ru.dbpedia.org/resource/Витязь_(хоккейный_клуб)> .
+
+<http://rm-lod.org/objects/763/annotations/DZikW3M> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Bogatyr,
+     <http://dbpedia.org/resource/1898–99_in_English_football>,
+     dbp:Oil,
+     dbp:Canvas_element .
+
+<http://rm-lod.org/objects/765/annotations/SEOgooU> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Flight,
+     dbp:Demon,
+     dbp:Oil,
+     dbp:Canvas_element .
+
+<http://rm-lod.org/objects/768/annotations/jVMe_P8> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Seraph,
+     dbp:Oil,
+     dbp:Canvas .
+
+<http://rm-lod.org/objects/769/annotations/aYjGzqY> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Portrait,
+     dbp:Feodor_Chaliapin,
+     dbp:Role,
+     <http://dbpedia.org/resource/Boris_Godunov_(opera)>,
+     dbp:Tempera,
+     dbp:Sizing,
+     dbp:Paint,
+     dbp:Gouache,
+     dbp:Pastel,
+     dbp:Chalk,
+     dbp:Gold,
+     dbp:Silver,
+     dbp:Metal_leaf,
+     dbp:Canvas,
+     <http://ru.dbpedia.org/resource/Борис_Годунов>,
+     <http://ru.dbpedia.org/resource/Борис_Годунов_(опера)>,
+     <http://ru.dbpedia.org/resource/Вторая_эпоха_Средиземья>,
+     <http://ru.dbpedia.org/resource/Мариинский_театр> .
+
+<http://rm-lod.org/objects/770/annotations/959usuQ> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Oil,
+     dbp:Canvas,
+     <http://ru.dbpedia.org/resource/Гоген,_Поль>,
+     <http://ru.dbpedia.org/resource/Каменная_баба>,
+     <http://ru.dbpedia.org/resource/Россия> .
+
+<http://rm-lod.org/objects/771/annotations/6dbEUKA> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Portrait,
+     dbp:Vsevolod_Meyerhold,
+     dbp:Oil,
+     dbp:Canvas,
+     <http://ru.dbpedia.org/resource/Вторая_эпоха_Средиземья>,
+     <http://ru.dbpedia.org/resource/Мейерхольд,_Всеволод_Эмильевич>,
+     <http://ru.dbpedia.org/resource/Живописец_(созвездие)>,
+     <http://ru.dbpedia.org/resource/Модернизм> .
+
+<http://rm-lod.org/objects/775/annotations/-F6q77k> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Portrait,
+     dbp:Feodor_Chaliapin,
+     dbp:Oil,
+     dbp:Canvas,
+     <http://ru.dbpedia.org/resource/Коровин,_Константин_Алексеевич>,
+     <http://ru.dbpedia.org/resource/Виши>,
+     <http://ru.dbpedia.org/resource/Хованщина_(опера)>,
+     <http://ru.dbpedia.org/resource/Большой_театр>,
+     <http://ru.dbpedia.org/resource/Бас>,
+     <http://ru.dbpedia.org/resource/Волков,_Фёдор_Григорьевич>,
+     <http://ru.dbpedia.org/resource/Московская_частная_русская_опера> .
+
+<http://rm-lod.org/objects/776/annotations/o_9RcA8> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Portrait,
+     <http://dbpedia.org/resource/Eugene_Onegin_(opera)>,
+     dbp:Oil,
+     dbp:Canvas,
+     <http://ru.dbpedia.org/resource/Коровин,_Константин_Алексеевич>,
+     <http://ru.dbpedia.org/resource/Мамонтов,_Савва_Иванович> .
+
+<http://rm-lod.org/objects/779/annotations/H8HbC1Y> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes <http://dbpedia.org/resource/Church_(building)>,
+     dbp:New_Jerusalem,
+     dbp:Oil,
+     dbp:Paperboard .
+
+<http://rm-lod.org/objects/780/annotations/grlbaOM> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Portrait,
+     dbp:Artist,
+     dbp:Daughter,
+     dbp:Oil,
+     dbp:Canvas_element,
+     <http://ru.dbpedia.org/resource/Уфа> .
+
+<http://rm-lod.org/objects/781/annotations/KHdowf4> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Forge,
+     dbp:Oil,
+     dbp:Canvas .
+
+<http://rm-lod.org/objects/782/annotations/rvRFnno> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Writing,
+     <http://dbpedia.org/resource/Table_(database)>,
+     dbp:Oil,
+     dbp:Canvas,
+     <http://ru.dbpedia.org/resource/Эфрос,_Абрам_Маркович>,
+     <http://ru.dbpedia.org/resource/Розанова,_Ольга_Владимировна>,
+     <http://ru.dbpedia.org/resource/Футуризм> .
+
+<http://rm-lod.org/objects/783/annotations/UG8SKaM> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Street,
+     dbp:Oil,
+     dbp:Canvas .
+
+<http://rm-lod.org/objects/786/annotations/0-I_LhE> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Moscow,
+     dbp:Street,
+     dbp:Public_holidays_in_the_United_Kingdom,
+     dbp:Oil,
+     dbp:Canvas,
+     <http://ru.dbpedia.org/resource/Историческая_живопись> .
+
+<http://rm-lod.org/objects/787/annotations/XDFgENo> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Merchant,
+     <http://dbpedia.org/resource/Family_(biology)>,
+     dbp:Oil,
+     dbp:Canvas,
+     <http://ru.dbpedia.org/resource/Россия>,
+     <http://ru.dbpedia.org/resource/Всемирная_выставка>,
+     <http://ru.dbpedia.org/resource/Париж> .
+
+<http://rm-lod.org/objects/790/annotations/6xiOQDc> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Child,
+     dbp:Oil,
+     dbp:Canvas,
+     <http://ru.dbpedia.org/resource/Финский_залив>,
+     <http://ru.dbpedia.org/resource/Первая_мировая_война>,
+     <http://ru.dbpedia.org/resource/Московский_Художественный_театр>,
+     <http://ru.dbpedia.org/resource/Франция> .
+
+<http://rm-lod.org/objects/791/annotations/qs_HoD4> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Indium,
+     dbp:Winter_Olympic_Games,
+     dbp:Pastel,
+     dbp:Gouache,
+     dbp:Paperboard .
+
+<http://rm-lod.org/objects/792/annotations/s3Ck6zw> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Peter_II_of_Yugoslavia,
+     dbp:Elizabeth_II,
+     dbp:Equestrianism,
+     dbp:Hound,
+     dbp:Tempera,
+     dbp:Gouache,
+     dbp:Cavalry,
+     dbp:Paperboard,
+     <http://ru.dbpedia.org/resource/Пётр_I>,
+     <http://ru.dbpedia.org/resource/Россия>,
+     <http://ru.dbpedia.org/resource/Елизавета_Петровна> .
+
+<http://rm-lod.org/objects/795/annotations/1XevZUY> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Ida_Rubinstein,
+     dbp:Oil_painting,
+     dbp:Charcoal,
+     dbp:Canvas,
+     <http://ru.dbpedia.org/resource/Рубинштейн,_Ида_Львовна>,
+     <http://ru.dbpedia.org/resource/Модерн>,
+     <http://ru.dbpedia.org/resource/Париж>,
+     <http://ru.dbpedia.org/resource/Артисты_балета>,
+     <http://ru.dbpedia.org/resource/Русский_балет_Дягилева> .
+
+<http://rm-lod.org/objects/797/annotations/bvDJjF4> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Portrait,
+     dbp:Olga_of_Kiev,
+     dbp:Oil,
+     dbp:Canvas_element,
+     <http://ru.dbpedia.org/resource/Орлова,_Ольга_Юрьевна>,
+     <http://ru.dbpedia.org/resource/Всемирная_выставка>,
+     <http://ru.dbpedia.org/resource/Рим> .
+
+<http://rm-lod.org/objects/799/annotations/A1PkPY0> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Winter_Olympic_Games,
+     dbp:Ice_skating,
+     dbp:Holland_Park_Rink,
+     dbp:Oil,
+     dbp:Canvas,
+     dbp:1984_Winter_Olympics,
+     <http://ru.dbpedia.org/resource/Мир_искусства_(организация)>,
+     <http://ru.dbpedia.org/resource/XVIII_век> .
+
+<http://rm-lod.org/objects/801/annotations/8FtNjbk> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Sheep_shearing,
+     dbp:1938_Cleveland_Rams_season,
+     dbp:Circa,
+     dbp:Tempera,
+     dbp:Pastel,
+     dbp:Canvas,
+     dbp:St._Louis_Rams,
+     <http://ru.dbpedia.org/resource/Овца>,
+     <http://ru.dbpedia.org/resource/Средняя_Азия> .
+
+<http://rm-lod.org/objects/803/annotations/1sNFOz8> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Merchant,
+     <http://dbpedia.org/resource/Wife_(film)>,
+     dbp:Oil,
+     dbp:Canvas,
+     <http://ru.dbpedia.org/resource/Кустодиев,_Борис_Михайлович> .
+
+<http://rm-lod.org/objects/804/annotations/WYWh714> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Merchant,
+     <http://dbpedia.org/resource/Wife_(film)>,
+     dbp:Tea,
+     dbp:Oil,
+     dbp:Canvas,
+     <http://ru.dbpedia.org/resource/Кустодиев,_Борис_Михайлович> .
+
+<http://rm-lod.org/objects/806/annotations/ADyJZ8w> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Shrove_Tuesday,
+     dbp:Oil,
+     dbp:Canvas_element,
+     <http://ru.dbpedia.org/resource/Кустодиев,_Борис_Михайлович>,
+     <http://ru.dbpedia.org/resource/Мир_искусства_(объединение)> .
+
+<http://rm-lod.org/objects/810/annotations/JJPEEcY> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Peasant,
+     dbp:Woman,
+     dbp:Oil,
+     dbp:Canvas,
+     <http://ru.dbpedia.org/resource/Рязань> .
+
+<http://rm-lod.org/objects/817/annotations/NEEEAhw> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Mother,
+     dbp:Oil,
+     dbp:Canvas_element,
+     <http://dbpedia.org/resource/Mother_(video_game)>,
+     <http://ru.dbpedia.org/resource/Перспектива> .
+
+<http://rm-lod.org/objects/823/annotations/13HD41E> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Isle_of_Man,
+     dbp:Atmosphere_of_Earth,
+     dbp:Space,
+     dbp:Oil,
+     dbp:Canvas,
+     <http://ru.dbpedia.org/resource/Попова,_Любовь_Сергеевна>,
+     <http://ru.dbpedia.org/resource/Кубофутуризм>,
+     <http://ru.dbpedia.org/resource/Кубизм>,
+     <http://ru.dbpedia.org/resource/Футуризм> .
+
+<http://rm-lod.org/objects/825/annotations/O-c92xo> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Overseas,
+     dbp:Oil,
+     dbp:Canvas,
+     dbp:Overseas_departments_and_territories_of_France,
+     <http://ru.dbpedia.org/resource/Заморские_гости>,
+     <http://ru.dbpedia.org/resource/Париж> .
+
+<http://rm-lod.org/objects/826/annotations/6WtY2Oo> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Red,
+     dbp:Yellow,
+     dbp:Oil,
+     dbp:Canvas .
+
+<http://rm-lod.org/objects/828/annotations/HuX9-lE> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Girl_Distribution_Company,
+     dbp:Sport,
+     dbp:Shirt,
+     dbp:Tempera,
+     dbp:Oil_painting,
+     dbp:Canvas,
+     <http://ru.dbpedia.org/resource/Париж> .
+
+<http://rm-lod.org/objects/829/annotations/0MTPN6I> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:London_Underground,
+     dbp:Daily_Worker,
+     dbp:Drill,
+     dbp:Oil,
+     dbp:Canvas,
+     <http://ru.dbpedia.org/resource/Микеланджело> .
+
+<http://rm-lod.org/objects/830/annotations/IPE6SoY> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Sailor,
+     dbp:Oil,
+     dbp:Canvas_element .
+
+<http://rm-lod.org/objects/831/annotations/416Rgks> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Germany,
+     dbp:World_War_II,
+     dbp:Oil,
+     dbp:Canvas_element .
+
+<http://rm-lod.org/objects/832/annotations/7CvGD30> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Animal,
+     <http://dbpedia.org/resource/1925–26_Northern_Rugby_Football_League_season>,
+     dbp:Oil,
+     dbp:Canvas,
+     <http://ru.dbpedia.org/resource/Хлебников,_Велимир>,
+     <http://ru.dbpedia.org/resource/Пятнашки> .
+
+<http://rm-lod.org/objects/834/annotations/PJlr3FI> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Jews,
+     dbp:Red,
+     dbp:Oil,
+     dbp:Canvas_element,
+     dbp:List_of_Pokémon_Adventures_characters,
+     <http://ru.dbpedia.org/resource/Витебск> .
+
+<http://rm-lod.org/objects/835/annotations/hOlqtbw> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Esplanade,
+     dbp:Oil,
+     dbp:Canvas_element,
+     <http://ru.dbpedia.org/resource/Шагал,_Марк_Захарович> .
+
+<http://rm-lod.org/objects/836/annotations/By3kPfM> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Harlequin,
+     dbp:Pierrot,
+     dbp:Oil,
+     dbp:Canvas,
+     <http://ru.dbpedia.org/resource/Мир_искусства_(организация)>,
+     <http://ru.dbpedia.org/resource/Шницлер,_Артур>,
+     <http://ru.dbpedia.org/resource/Санкт-Петербург> .
+
+<http://rm-lod.org/objects/863/annotations/d3aE9-M> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Ariccia,
+     dbp:Rome,
+     dbp:Oil,
+     dbp:Canvas,
+     <http://ru.dbpedia.org/resource/Стаффаж>,
+     <http://ru.dbpedia.org/resource/Земли_Германии>,
+     <http://ru.dbpedia.org/resource/Италия>,
+     <http://ru.dbpedia.org/resource/Аричча>,
+     <http://ru.dbpedia.org/resource/Бернини,_Джованни_Лоренцо>,
+     <http://ru.dbpedia.org/resource/Тарту>,
+     <http://ru.dbpedia.org/resource/Неаполь>,
+     <http://ru.dbpedia.org/resource/Акварель>,
+     <http://ru.dbpedia.org/resource/Пейзаж>,
+     <http://ru.dbpedia.org/resource/Пенсионер_(Академия_художеств)>,
+     <http://ru.dbpedia.org/resource/Сорренто>,
+     <http://ru.dbpedia.org/resource/Капри> .
+
+<http://rm-lod.org/objects/876/annotations/N29BHGk> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Portrait,
+     dbp:Baron,
+     <http://dbpedia.org/resource/Mary_(mother_of_Jesus)>,
+     <http://dbpedia.org/resource/Between_(Frankmusik_album)>,
+     dbp:Oil,
+     dbp:Canvas_element,
+     <http://ru.dbpedia.org/resource/Придворные_дамы_Российской_империи>,
+     <http://ru.dbpedia.org/resource/Екатерина_I>,
+     <http://ru.dbpedia.org/resource/Анна_Иоанновна>,
+     <http://ru.dbpedia.org/resource/Строгановы>,
+     <http://ru.dbpedia.org/resource/Пётр_I> .
+
+<http://rm-lod.org/objects/879/annotations/OUJnHMA> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Moscow,
+     dbp:Courtyard,
+     dbp:Oil,
+     dbp:Canvas_element,
+     <http://ru.dbpedia.org/resource/Москва> .
+
+<http://rm-lod.org/objects/991/annotations/a_efjUs> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Divine_Comedy,
+     <http://dbpedia.org/resource/Dell_(landform)>,
+     dbp:Arte,
+     dbp:Oil,
+     dbp:Canvas_element,
+     <http://ru.dbpedia.org/resource/Театр_итальянской_комедии_(Париж)>,
+     <http://ru.dbpedia.org/resource/Сады_и_парк_Версаля>,
+     <http://ru.dbpedia.org/resource/Буффонада> .
+
+<http://rm-lod.org/objects/992/annotations/3KdjNMw> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Danish_Defence,
+     dbp:Oil,
+     dbp:Canvas,
+     <http://ru.dbpedia.org/resource/Оборона_Севастополя_(1941—1942)>,
+     <http://ru.dbpedia.org/resource/Севастополь> .
+
+<http://rm-lod.org/objects/995/annotations/ON0ob9c> a rm-lod:AnnotationObject;
+   rm-lod:dbpRes dbp:Christ,
+     dbp:Color,
+     <http://dbpedia.org/resource/People_(magazine)>,
+     dbp:Begun,
+     dbp:Oil,
+     dbp:Canvas,
+     <http://ru.dbpedia.org/resource/Явление_Христа_народу>,
+     <http://ru.dbpedia.org/resource/Государственный_Русский_музей>,
+     <http://ru.dbpedia.org/resource/ГТГ>,
+     <http://ru.dbpedia.org/resource/Иоанн_Креститель>,
+     <http://ru.dbpedia.org/resource/Иордан>,
+     <http://ru.dbpedia.org/resource/Того>,
+     <http://ru.dbpedia.org/resource/Фарисеи>,
+     <http://ru.dbpedia.org/resource/XIX_век> .
