@@ -1,0 +1,98 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rm-lod: <http://rm-lod.org/> .
+
+<http://rm-lod.org/authors/1006> owl:sameAs "http://dbpedia.org/resource/Aleksandr_Deyneka" .
+
+<http://rm-lod.org/authors/1018> owl:sameAs "http://dbpedia.org/resource/Evsey_Moiseenko" .
+
+<http://rm-lod.org/authors/1028> owl:sameAs "http://dbpedia.org/resource/Gely_Korzhev" .
+
+<http://rm-lod.org/authors/1426> owl:sameAs "http://dbpedia.org/resource/Pyotr_Konchalovsky" .
+
+<http://rm-lod.org/authors/2005> owl:sameAs "http://dbpedia.org/resource/Aleksandr_Gerasimov_(painter)" .
+
+<http://rm-lod.org/authors/2084> owl:sameAs "http://dbpedia.org/resource/Alexander_Brullov" .
+
+<http://rm-lod.org/authors/527> owl:sameAs "http://dbpedia.org/resource/Fyodor_Alekseyev" .
+
+<http://rm-lod.org/authors/528> owl:sameAs "http://dbpedia.org/resource/Aleksey_Antropov" .
+
+<http://rm-lod.org/authors/529> owl:sameAs "http://dbpedia.org/resource/Ivan_Argunov" .
+
+<http://rm-lod.org/authors/530> owl:sameAs "http://dbpedia.org/resource/Vladimir_Borovikovsky" .
+
+<http://rm-lod.org/authors/533> owl:sameAs "http://dbpedia.org/resource/Dmitry_Levitzky" .
+
+<http://rm-lod.org/authors/534> owl:sameAs "http://dbpedia.org/resource/Anton_Losenko" .
+
+<http://rm-lod.org/authors/536> owl:sameAs "http://dbpedia.org/resource/Ivan_Nikitich_Nikitin" .
+
+<http://rm-lod.org/authors/542> owl:sameAs "http://dbpedia.org/resource/Fyodor_Bruni" .
+
+<http://rm-lod.org/authors/543> owl:sameAs "http://dbpedia.org/resource/Karl_Bryullov" .
+
+<http://rm-lod.org/authors/546> owl:sameAs "http://dbpedia.org/resource/Alexander_Andreyevich_Ivanov" .
+
+<http://rm-lod.org/authors/548> owl:sameAs "http://dbpedia.org/resource/Orest_Kiprensky" .
+
+<http://rm-lod.org/authors/550> owl:sameAs "http://dbpedia.org/resource/Mikhail_Lebedev" .
+
+<http://rm-lod.org/authors/553> owl:sameAs "http://dbpedia.org/resource/Pavel_Fedotov" .
+
+<http://rm-lod.org/authors/589> owl:sameAs "http://dbpedia.org/resource/Ivan_Aivazovsky" .
+
+<http://rm-lod.org/authors/592> owl:sameAs "http://dbpedia.org/resource/Nikolai_Ge" .
+
+<http://rm-lod.org/authors/594> owl:sameAs "http://dbpedia.org/resource/Nikolay_Kasatkin" .
+
+<http://rm-lod.org/authors/595> owl:sameAs "http://dbpedia.org/resource/Ivan_Kramskoi" .
+
+<http://rm-lod.org/authors/596> owl:sameAs "http://dbpedia.org/resource/Arkhip_Kuindzhi" .
+
+<http://rm-lod.org/authors/597> owl:sameAs "http://dbpedia.org/resource/Isaac_Levitan" .
+
+<http://rm-lod.org/authors/600> owl:sameAs "http://dbpedia.org/resource/Vassily_Maximov" .
+
+<http://rm-lod.org/authors/603> owl:sameAs "http://dbpedia.org/resource/Vasily_Perov" .
+
+<http://rm-lod.org/authors/613> owl:sameAs "http://dbpedia.org/resource/Nikolai_Yaroshenko" .
+
+<http://rm-lod.org/authors/707> owl:sameAs "http://dbpedia.org/resource/Nathan_Altman" .
+
+<http://rm-lod.org/authors/708> owl:sameAs "http://dbpedia.org/resource/Abram_Arkhipov" .
+
+<http://rm-lod.org/authors/709> owl:sameAs "http://dbpedia.org/resource/L%C3%A9on_Bakst" .
+
+<http://rm-lod.org/authors/710> owl:sameAs "http://dbpedia.org/resource/Alexandre_Benois" .
+
+<http://rm-lod.org/authors/712> owl:sameAs "http://dbpedia.org/resource/Victor_Borisov-Musatov" .
+
+<http://rm-lod.org/authors/716> owl:sameAs "http://dbpedia.org/resource/Aleksandr_Golovin_(artist)" .
+
+<http://rm-lod.org/authors/717> owl:sameAs "http://dbpedia.org/resource/Natalia_Goncharova" .
+
+<http://rm-lod.org/authors/718> owl:sameAs "http://dbpedia.org/resource/Boris_Grigoriev" .
+
+<http://rm-lod.org/authors/720> owl:sameAs "http://dbpedia.org/resource/Wassily_Kandinsky" .
+
+<http://rm-lod.org/authors/721> owl:sameAs "http://dbpedia.org/resource/Konstantin_Korovin" .
+
+<http://rm-lod.org/authors/723> owl:sameAs "http://dbpedia.org/resource/Aristarkh_Lentulov" .
+
+<http://rm-lod.org/authors/724> owl:sameAs "http://dbpedia.org/resource/Mikhail_Nesterov" .
+
+<http://rm-lod.org/authors/732> owl:sameAs "http://dbpedia.org/resource/Pavel_Kuznetsov" .
+
+<http://rm-lod.org/authors/733> owl:sameAs "http://dbpedia.org/resource/Boris_Kustodiev" .
+
+<http://rm-lod.org/authors/734> owl:sameAs "http://dbpedia.org/resource/Mikhail_Larionov" .
+
+<http://rm-lod.org/authors/735> owl:sameAs "http://dbpedia.org/resource/Kazimir_Malevich" .
+
+<http://rm-lod.org/authors/736> owl:sameAs "http://dbpedia.org/resource/Filipp_Malyavin" .
+
+<http://rm-lod.org/authors/738> owl:sameAs "http://dbpedia.org/resource/Ilya_Mashkov" .
+
+<http://rm-lod.org/authors/749> owl:sameAs "http://dbpedia.org/resource/Pavel_Filonov" .
+
+<http://rm-lod.org/authors/750> owl:sameAs "http://dbpedia.org/resource/Marc_Chagall" .

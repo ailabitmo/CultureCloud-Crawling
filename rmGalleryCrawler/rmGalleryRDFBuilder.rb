@@ -2,7 +2,6 @@
 
 # rmgallery.ru HTML data parser generated
 # rmgallery_art.xml to turtle-rdf data parser
-# with DBPedia enrichment
 # Alexey Andreyev: yetanotherandreyev@gmail.com
 
 
@@ -18,7 +17,6 @@ require 'io/console'
 
 require 'nokogiri'
 require 'rdf/turtle'
-#FIXME: correct rdf prefixes if using include RDF
 include RDF # Additional built-in vocabularies: http://rdf.greggkellogg.net/yard/RDF/Vocabulary.html
 require 'securerandom'
 
@@ -215,7 +213,7 @@ def artRdfGenerator()
                 workDescriptions.delete(wd)
             end
         }
-        new_E55_Type =  RDF::URI.new("#{@rdf_prefixes['rm-lod']}objects/thetypes/#{SecureRandom.urlsafe_base64(5)}") #FIXME
+        new_E55_Type =  RDF::URI.new("#{@rdf_prefixes['rm-lod']}objects/thetypes/#{SecureRandom.urlsafe_base64(5)}") #TODO: unify
         worksGraph << [new_E55_Type, RDF.type, @ecrmVocabulary.E55_Type]
         workDescriptionsLiteral =  workDescriptions.join(". ")
         worksGraph << [new_E55_Type, RDFS.label, workDescriptionsLiteral]            
