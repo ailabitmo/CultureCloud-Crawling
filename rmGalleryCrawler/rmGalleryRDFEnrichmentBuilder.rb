@@ -30,6 +30,9 @@ require 'securerandom'
     "rm-lod" => "http://rm-lod.org/"
 }
 
+@ecrmVocabulary = RDF::Vocabulary.new(@rdf_prefixes['ecrm'])
+@rmlodVocabulary = RDF::Vocabulary.new(@rdf_prefixes['rm-lod'])
+
 authorsPrefix = "#{@rdf_prefixes["rm-lod"]}authors"
 
 idsArray = []
@@ -59,10 +62,30 @@ doc = Nokogiri::XML(authorsEnrichmentXMLFile)
 idsArray.each { |authorId|
     authorURI =  RDF::URI.new("#{@rdf_prefixes['rm-lod']}authors/#{authorId}")
     authorNode = doc.xpath("/rmGalleryAuthorsEnrichment/author[@id='#{authorId}']")
-    dbpResURI = authorNode.css("dbpURI").text
-    if !(dbpResURI.empty?)
+
+    dbpResUrl = authorNode.css("dbpURI").text # FIXME: want to use xpath, but smth wrong with it
+    annotationTexts = authorNode.css("Resource") # FIXME: want to use xpath, but smth wrong with it
+
+    if ( !(dbpResUrl.empty?) or !(annotationTexts.empty?) )
     then
-        authorsGraph << [authorURI, OWL.sameAs, dbpResURI]
+        authorsGraph <<[authorURI, RDF.type, @ecrmVocabulary.E21_Person]
+    end
+
+    if !(dbpResUrl.empty?)
+    then
+        dbpResUrl = RDF::URI.new(dbpResUrl)
+        authorsGraph <<[authorURI, RDF.type, dbpResUrl]
+    end
+    if !(annotationTexts.empty?)
+    then
+        aid = authorId # FIXME !!1 Why authorId is invisible for next method?
+        newAnnotationObject = RDF::URI.new("#{@rdf_prefixes['rm-lod']}authors/#{aid}/annotations/#{SecureRandom.urlsafe_base64(5)}")
+        authorsGraph << [newAnnotationObject, RDF.type, @rmlodVocabulary.AnnotationObject]
+        authorsGraph << [authorURI, @rmlodVocabulary[:haveAnnotation], newAnnotationObject]
+        annotationTexts.each { |dbpRes|
+            dbpResURI =  RDF::URI.new(dbpRes['URI'])
+            authorsGraph << [newAnnotationObject, @rmlodVocabulary[:dbpRes], dbpResURI]
+        }
     end
 }
 
