@@ -31,7 +31,7 @@ require 'securerandom'
 }
 
 @ecrmVocabulary = RDF::Vocabulary.new(@rdf_prefixes['ecrm'])
-@rmlodVocabulary = RDF::Vocabulary.new(@rdf_prefixes['rm-lod'])
+@rmlodVocabulary = RDF::Vocabulary.new("#{@rdf_prefixes['rm-lod']}schema/")
 
 def authorsEnrichmentRdfGenerator
 
@@ -160,7 +160,7 @@ def worksEnrichmentRdfGenerator
 
     worksEnrichmentXMLFile.close
 
-    rmgalleryWorksEnrichmentRdfFile = File.open("rmgallery_works_enrichment.ttl","w")
+    rmgalleryWorksEnrichmentRdfFile = File.new("rmgallery_works_enrichment.ttl","w")
     rmgalleryWorksEnrichmentRdfFile.write(worksGraph.dump(:ttl, :prefixes => @rdf_prefixes))
     rmgalleryWorksEnrichmentRdfFile.close
 

@@ -5,205 +5,205 @@
 
 <http://rm-lod.org/authors/1006> a ecrm:E21_Person,
      dbp:Aleksandr_Deyneka;
-   rm-lod:haveAnnotation <http://rm-lod.org/authors/1006/annotations/W_RZFUQ> .
+   <http://rm-lod.org/schema/haveAnnotation> <http://rm-lod.org/authors/1006/annotations/wk9MGKs> .
 
 <http://rm-lod.org/authors/1018> a ecrm:E21_Person,
      dbp:Evsey_Moiseenko;
-   rm-lod:haveAnnotation <http://rm-lod.org/authors/1018/annotations/imtso7A> .
+   <http://rm-lod.org/schema/haveAnnotation> <http://rm-lod.org/authors/1018/annotations/xiVwE0E> .
 
 <http://rm-lod.org/authors/1028> a ecrm:E21_Person,
      dbp:Gely_Korzhev .
 
 <http://rm-lod.org/authors/1426> a ecrm:E21_Person,
      dbp:Pyotr_Konchalovsky;
-   rm-lod:haveAnnotation <http://rm-lod.org/authors/1426/annotations/6owM9SQ> .
+   <http://rm-lod.org/schema/haveAnnotation> <http://rm-lod.org/authors/1426/annotations/srF5sR8> .
 
 <http://rm-lod.org/authors/2005> a ecrm:E21_Person,
      <http://dbpedia.org/resource/Aleksandr_Gerasimov_(painter)>;
-   rm-lod:haveAnnotation <http://rm-lod.org/authors/2005/annotations/GqTTvuQ> .
+   <http://rm-lod.org/schema/haveAnnotation> <http://rm-lod.org/authors/2005/annotations/ZNV1W34> .
 
 <http://rm-lod.org/authors/2084> a ecrm:E21_Person,
      dbp:Alexander_Brullov;
-   rm-lod:haveAnnotation <http://rm-lod.org/authors/2084/annotations/-5odxE8> .
+   <http://rm-lod.org/schema/haveAnnotation> <http://rm-lod.org/authors/2084/annotations/FspmNbw> .
 
 <http://rm-lod.org/authors/518> a ecrm:E21_Person;
-   rm-lod:haveAnnotation <http://rm-lod.org/authors/518/annotations/jy8D--U> .
+   <http://rm-lod.org/schema/haveAnnotation> <http://rm-lod.org/authors/518/annotations/S51PdA8> .
 
 <http://rm-lod.org/authors/527> a ecrm:E21_Person,
      dbp:Fyodor_Alekseyev;
-   rm-lod:haveAnnotation <http://rm-lod.org/authors/527/annotations/JwVAoYs> .
+   <http://rm-lod.org/schema/haveAnnotation> <http://rm-lod.org/authors/527/annotations/qXfhm8M> .
 
 <http://rm-lod.org/authors/528> a ecrm:E21_Person,
      dbp:Aleksey_Antropov;
-   rm-lod:haveAnnotation <http://rm-lod.org/authors/528/annotations/Y99Qxok> .
+   <http://rm-lod.org/schema/haveAnnotation> <http://rm-lod.org/authors/528/annotations/LPvvzvk> .
 
 <http://rm-lod.org/authors/529> a ecrm:E21_Person,
      dbp:Ivan_Argunov;
-   rm-lod:haveAnnotation <http://rm-lod.org/authors/529/annotations/UqHAh6s> .
+   <http://rm-lod.org/schema/haveAnnotation> <http://rm-lod.org/authors/529/annotations/2KmaLiQ> .
 
 <http://rm-lod.org/authors/530> a ecrm:E21_Person,
      dbp:Vladimir_Borovikovsky;
-   rm-lod:haveAnnotation <http://rm-lod.org/authors/530/annotations/hClDThA> .
+   <http://rm-lod.org/schema/haveAnnotation> <http://rm-lod.org/authors/530/annotations/M7hu_Og> .
 
 <http://rm-lod.org/authors/533> a ecrm:E21_Person,
      dbp:Dmitry_Levitzky;
-   rm-lod:haveAnnotation <http://rm-lod.org/authors/533/annotations/GiJ762Y> .
+   <http://rm-lod.org/schema/haveAnnotation> <http://rm-lod.org/authors/533/annotations/TcEYtq0> .
 
 <http://rm-lod.org/authors/534> a ecrm:E21_Person,
      dbp:Anton_Losenko;
-   rm-lod:haveAnnotation <http://rm-lod.org/authors/534/annotations/qar54pE> .
+   <http://rm-lod.org/schema/haveAnnotation> <http://rm-lod.org/authors/534/annotations/5qj2K6U> .
 
 <http://rm-lod.org/authors/536> a ecrm:E21_Person,
      dbp:Ivan_Nikitich_Nikitin;
-   rm-lod:haveAnnotation <http://rm-lod.org/authors/536/annotations/LnTONFI> .
+   <http://rm-lod.org/schema/haveAnnotation> <http://rm-lod.org/authors/536/annotations/M8ALArE> .
 
 <http://rm-lod.org/authors/537> a ecrm:E21_Person;
-   rm-lod:haveAnnotation <http://rm-lod.org/authors/537/annotations/oHs7Iwo> .
+   <http://rm-lod.org/schema/haveAnnotation> <http://rm-lod.org/authors/537/annotations/b8kbrYg> .
 
 <http://rm-lod.org/authors/542> a ecrm:E21_Person,
      dbp:Fyodor_Bruni;
-   rm-lod:haveAnnotation <http://rm-lod.org/authors/542/annotations/de7dFQs> .
+   <http://rm-lod.org/schema/haveAnnotation> <http://rm-lod.org/authors/542/annotations/M9sp5Os> .
 
 <http://rm-lod.org/authors/543> a ecrm:E21_Person,
      dbp:Karl_Bryullov;
-   rm-lod:haveAnnotation <http://rm-lod.org/authors/543/annotations/42rpvEk> .
+   <http://rm-lod.org/schema/haveAnnotation> <http://rm-lod.org/authors/543/annotations/ILgTFIs> .
 
 <http://rm-lod.org/authors/546> a ecrm:E21_Person,
      dbp:Alexander_Andreyevich_Ivanov;
-   rm-lod:haveAnnotation <http://rm-lod.org/authors/546/annotations/4B3i2qI> .
+   <http://rm-lod.org/schema/haveAnnotation> <http://rm-lod.org/authors/546/annotations/HS8sEoQ> .
 
 <http://rm-lod.org/authors/548> a ecrm:E21_Person,
      dbp:Orest_Kiprensky;
-   rm-lod:haveAnnotation <http://rm-lod.org/authors/548/annotations/SZXHo4U> .
+   <http://rm-lod.org/schema/haveAnnotation> <http://rm-lod.org/authors/548/annotations/QrAniuA> .
 
 <http://rm-lod.org/authors/549> a ecrm:E21_Person;
-   rm-lod:haveAnnotation <http://rm-lod.org/authors/549/annotations/1ceRlCI> .
+   <http://rm-lod.org/schema/haveAnnotation> <http://rm-lod.org/authors/549/annotations/xjL5xjs> .
 
 <http://rm-lod.org/authors/550> a ecrm:E21_Person,
      dbp:Mikhail_Lebedev;
-   rm-lod:haveAnnotation <http://rm-lod.org/authors/550/annotations/knFVH7s> .
+   <http://rm-lod.org/schema/haveAnnotation> <http://rm-lod.org/authors/550/annotations/FS9GPuc> .
 
 <http://rm-lod.org/authors/553> a ecrm:E21_Person,
      dbp:Pavel_Fedotov;
-   rm-lod:haveAnnotation <http://rm-lod.org/authors/553/annotations/azNafbQ> .
+   <http://rm-lod.org/schema/haveAnnotation> <http://rm-lod.org/authors/553/annotations/F2qxXNg> .
 
 <http://rm-lod.org/authors/589> a ecrm:E21_Person,
      dbp:Ivan_Aivazovsky;
-   rm-lod:haveAnnotation <http://rm-lod.org/authors/589/annotations/nNUFa7s> .
+   <http://rm-lod.org/schema/haveAnnotation> <http://rm-lod.org/authors/589/annotations/jRB9zdk> .
 
 <http://rm-lod.org/authors/592> a ecrm:E21_Person,
      dbp:Nikolai_Ge;
-   rm-lod:haveAnnotation <http://rm-lod.org/authors/592/annotations/crBRcdU> .
+   <http://rm-lod.org/schema/haveAnnotation> <http://rm-lod.org/authors/592/annotations/uLHHEyY> .
 
 <http://rm-lod.org/authors/594> a ecrm:E21_Person,
      dbp:Nikolay_Kasatkin;
-   rm-lod:haveAnnotation <http://rm-lod.org/authors/594/annotations/Xhklvs8> .
+   <http://rm-lod.org/schema/haveAnnotation> <http://rm-lod.org/authors/594/annotations/cao4zdQ> .
 
 <http://rm-lod.org/authors/595> a ecrm:E21_Person,
      dbp:Ivan_Kramskoi;
-   rm-lod:haveAnnotation <http://rm-lod.org/authors/595/annotations/DQz3vLw> .
+   <http://rm-lod.org/schema/haveAnnotation> <http://rm-lod.org/authors/595/annotations/frGZbmk> .
 
 <http://rm-lod.org/authors/596> a ecrm:E21_Person,
      dbp:Arkhip_Kuindzhi;
-   rm-lod:haveAnnotation <http://rm-lod.org/authors/596/annotations/cjbtoy8> .
+   <http://rm-lod.org/schema/haveAnnotation> <http://rm-lod.org/authors/596/annotations/d-gJ75A> .
 
 <http://rm-lod.org/authors/597> a ecrm:E21_Person,
      dbp:Isaac_Levitan;
-   rm-lod:haveAnnotation <http://rm-lod.org/authors/597/annotations/Su3BfqA> .
+   <http://rm-lod.org/schema/haveAnnotation> <http://rm-lod.org/authors/597/annotations/bJqpIyc> .
 
 <http://rm-lod.org/authors/600> a ecrm:E21_Person,
      dbp:Vassily_Maximov .
 
 <http://rm-lod.org/authors/603> a ecrm:E21_Person,
      dbp:Vasily_Perov;
-   rm-lod:haveAnnotation <http://rm-lod.org/authors/603/annotations/QLUhgsQ> .
+   <http://rm-lod.org/schema/haveAnnotation> <http://rm-lod.org/authors/603/annotations/n3DcOv4> .
 
 <http://rm-lod.org/authors/613> a ecrm:E21_Person,
      dbp:Nikolai_Yaroshenko;
-   rm-lod:haveAnnotation <http://rm-lod.org/authors/613/annotations/z0fyP60> .
+   <http://rm-lod.org/schema/haveAnnotation> <http://rm-lod.org/authors/613/annotations/Gj8m-Lk> .
 
 <http://rm-lod.org/authors/707> a ecrm:E21_Person,
      dbp:Nathan_Altman;
-   rm-lod:haveAnnotation <http://rm-lod.org/authors/707/annotations/ojMBums> .
+   <http://rm-lod.org/schema/haveAnnotation> <http://rm-lod.org/authors/707/annotations/2YSd6tI> .
 
 <http://rm-lod.org/authors/708> a ecrm:E21_Person,
      dbp:Abram_Arkhipov;
-   rm-lod:haveAnnotation <http://rm-lod.org/authors/708/annotations/CDLW1sM> .
+   <http://rm-lod.org/schema/haveAnnotation> <http://rm-lod.org/authors/708/annotations/LzRjAs4> .
 
 <http://rm-lod.org/authors/709> a ecrm:E21_Person,
      dbp:L%C3%A9on_Bakst;
-   rm-lod:haveAnnotation <http://rm-lod.org/authors/709/annotations/Gadzq1c> .
+   <http://rm-lod.org/schema/haveAnnotation> <http://rm-lod.org/authors/709/annotations/r5DQiEA> .
 
 <http://rm-lod.org/authors/710> a ecrm:E21_Person,
      dbp:Alexandre_Benois;
-   rm-lod:haveAnnotation <http://rm-lod.org/authors/710/annotations/YKMB4aw> .
+   <http://rm-lod.org/schema/haveAnnotation> <http://rm-lod.org/authors/710/annotations/f3yA5k0> .
 
 <http://rm-lod.org/authors/712> a ecrm:E21_Person,
      dbp:Victor_Borisov-Musatov;
-   rm-lod:haveAnnotation <http://rm-lod.org/authors/712/annotations/orqaLrE> .
+   <http://rm-lod.org/schema/haveAnnotation> <http://rm-lod.org/authors/712/annotations/a4Nq5eI> .
 
 <http://rm-lod.org/authors/716> a ecrm:E21_Person,
      <http://dbpedia.org/resource/Aleksandr_Golovin_(artist)>;
-   rm-lod:haveAnnotation <http://rm-lod.org/authors/716/annotations/t4h8rAE> .
+   <http://rm-lod.org/schema/haveAnnotation> <http://rm-lod.org/authors/716/annotations/RHodzGw> .
 
 <http://rm-lod.org/authors/717> a ecrm:E21_Person,
      dbp:Natalia_Goncharova;
-   rm-lod:haveAnnotation <http://rm-lod.org/authors/717/annotations/_w5ESbg> .
+   <http://rm-lod.org/schema/haveAnnotation> <http://rm-lod.org/authors/717/annotations/PFVePgU> .
 
 <http://rm-lod.org/authors/718> a ecrm:E21_Person,
      dbp:Boris_Grigoriev;
-   rm-lod:haveAnnotation <http://rm-lod.org/authors/718/annotations/CWLuS1M> .
+   <http://rm-lod.org/schema/haveAnnotation> <http://rm-lod.org/authors/718/annotations/yTvhyng> .
 
 <http://rm-lod.org/authors/720> a ecrm:E21_Person,
      dbp:Wassily_Kandinsky;
-   rm-lod:haveAnnotation <http://rm-lod.org/authors/720/annotations/XyWkaBI> .
+   <http://rm-lod.org/schema/haveAnnotation> <http://rm-lod.org/authors/720/annotations/0M2PbdE> .
 
 <http://rm-lod.org/authors/721> a ecrm:E21_Person,
      dbp:Konstantin_Korovin;
-   rm-lod:haveAnnotation <http://rm-lod.org/authors/721/annotations/hGu2NqY> .
+   <http://rm-lod.org/schema/haveAnnotation> <http://rm-lod.org/authors/721/annotations/oeZYsSA> .
 
 <http://rm-lod.org/authors/723> a ecrm:E21_Person,
      dbp:Aristarkh_Lentulov;
-   rm-lod:haveAnnotation <http://rm-lod.org/authors/723/annotations/452i-nc> .
+   <http://rm-lod.org/schema/haveAnnotation> <http://rm-lod.org/authors/723/annotations/dFXpho4> .
 
 <http://rm-lod.org/authors/724> a ecrm:E21_Person,
      dbp:Mikhail_Nesterov;
-   rm-lod:haveAnnotation <http://rm-lod.org/authors/724/annotations/Yk5hSlY> .
+   <http://rm-lod.org/schema/haveAnnotation> <http://rm-lod.org/authors/724/annotations/rvYMRvI> .
 
 <http://rm-lod.org/authors/732> a ecrm:E21_Person,
      dbp:Pavel_Kuznetsov;
-   rm-lod:haveAnnotation <http://rm-lod.org/authors/732/annotations/dgvwTZk> .
+   <http://rm-lod.org/schema/haveAnnotation> <http://rm-lod.org/authors/732/annotations/ttvwh2M> .
 
 <http://rm-lod.org/authors/733> a ecrm:E21_Person,
      dbp:Boris_Kustodiev;
-   rm-lod:haveAnnotation <http://rm-lod.org/authors/733/annotations/khJFJ4Q> .
+   <http://rm-lod.org/schema/haveAnnotation> <http://rm-lod.org/authors/733/annotations/clGScno> .
 
 <http://rm-lod.org/authors/734> a ecrm:E21_Person,
      dbp:Mikhail_Larionov;
-   rm-lod:haveAnnotation <http://rm-lod.org/authors/734/annotations/rkXDRN0> .
+   <http://rm-lod.org/schema/haveAnnotation> <http://rm-lod.org/authors/734/annotations/2SYdQ3E> .
 
 <http://rm-lod.org/authors/735> a ecrm:E21_Person,
      dbp:Kazimir_Malevich;
-   rm-lod:haveAnnotation <http://rm-lod.org/authors/735/annotations/a-l-H4g> .
+   <http://rm-lod.org/schema/haveAnnotation> <http://rm-lod.org/authors/735/annotations/uhuno0A> .
 
 <http://rm-lod.org/authors/736> a ecrm:E21_Person,
      dbp:Filipp_Malyavin;
-   rm-lod:haveAnnotation <http://rm-lod.org/authors/736/annotations/mWDn8hw> .
+   <http://rm-lod.org/schema/haveAnnotation> <http://rm-lod.org/authors/736/annotations/Jkd6mRg> .
 
 <http://rm-lod.org/authors/738> a ecrm:E21_Person,
      dbp:Ilya_Mashkov;
-   rm-lod:haveAnnotation <http://rm-lod.org/authors/738/annotations/Z1u-UjM> .
+   <http://rm-lod.org/schema/haveAnnotation> <http://rm-lod.org/authors/738/annotations/waEoWso> .
 
 <http://rm-lod.org/authors/749> a ecrm:E21_Person,
      dbp:Pavel_Filonov;
-   rm-lod:haveAnnotation <http://rm-lod.org/authors/749/annotations/hBFCUZk> .
+   <http://rm-lod.org/schema/haveAnnotation> <http://rm-lod.org/authors/749/annotations/l1qmfjA> .
 
 <http://rm-lod.org/authors/750> a ecrm:E21_Person,
      dbp:Marc_Chagall;
-   rm-lod:haveAnnotation <http://rm-lod.org/authors/750/annotations/0_lxbDs> .
+   <http://rm-lod.org/schema/haveAnnotation> <http://rm-lod.org/authors/750/annotations/4Vh7aBQ> .
 
-<http://rm-lod.org/authors/1006/annotations/W_RZFUQ> a rm-lod:AnnotationObject;
-   rm-lod:dbpRes dbp:Deyneka,
+<http://rm-lod.org/authors/1006/annotations/wk9MGKs> a <http://rm-lod.org/schema/AnnotationObject>;
+   <http://rm-lod.org/schema/dbpRes> dbp:Deyneka,
      dbp:Alexander_I_of_Russia,
      dbp:Kursk,
      dbp:Moscow,
@@ -221,8 +221,8 @@
      dbp:Institute_of_technology,
      dbp:Studio .
 
-<http://rm-lod.org/authors/1018/annotations/imtso7A> a rm-lod:AnnotationObject;
-   rm-lod:dbpRes dbp:Uvarovichi,
+<http://rm-lod.org/authors/1018/annotations/xiVwE0E> a <http://rm-lod.org/schema/AnnotationObject>;
+   <http://rm-lod.org/schema/dbpRes> dbp:Uvarovichi,
      dbp:Belarus,
      dbp:Saint_Petersburg,
      dbp:Painting,
@@ -249,8 +249,8 @@
      dbp:Lenin_Prize,
      dbp:USSR_State_Prize .
 
-<http://rm-lod.org/authors/1426/annotations/6owM9SQ> a rm-lod:AnnotationObject;
-   rm-lod:dbpRes dbp:Peter_the_Great,
+<http://rm-lod.org/authors/1426/annotations/srF5sR8> a <http://rm-lod.org/schema/AnnotationObject>;
+   <http://rm-lod.org/schema/dbpRes> dbp:Peter_the_Great,
      dbp:Sloviansk,
      dbp:Kharkiv_Oblast,
      dbp:Moscow,
@@ -283,8 +283,8 @@
      dbp:Artist,
      dbp:Member_of_Parliament .
 
-<http://rm-lod.org/authors/2005/annotations/GqTTvuQ> a rm-lod:AnnotationObject;
-   rm-lod:dbpRes <http://dbpedia.org/resource/Aleksandr_Gerasimov_(painter)>,
+<http://rm-lod.org/authors/2005/annotations/ZNV1W34> a <http://rm-lod.org/schema/AnnotationObject>;
+   <http://rm-lod.org/schema/dbpRes> <http://dbpedia.org/resource/Aleksandr_Gerasimov_(painter)>,
      dbp:Grand_Duke_Alexander_Mikhailovich_of_Russia,
      dbp:Michurinsk,
      dbp:Moscow,
@@ -297,8 +297,8 @@
      dbp:Sculpture,
      dbp:Konstantin_Korovin .
 
-<http://rm-lod.org/authors/2084/annotations/-5odxE8> a rm-lod:AnnotationObject;
-   rm-lod:dbpRes dbp:Alexander_I_of_Russia,
+<http://rm-lod.org/authors/2084/annotations/FspmNbw> a <http://rm-lod.org/schema/AnnotationObject>;
+   <http://rm-lod.org/schema/dbpRes> dbp:Alexander_I_of_Russia,
      dbp:Saint_Petersburg,
      dbp:Architect,
      dbp:Drawing,
@@ -338,8 +338,8 @@
      dbp:London,
      dbp:Royal_Institute_of_Painters_in_Water_Colours .
 
-<http://rm-lod.org/authors/518/annotations/jy8D--U> a rm-lod:AnnotationObject;
-   rm-lod:dbpRes dbp:Dionysus,
+<http://rm-lod.org/authors/518/annotations/S51PdA8> a <http://rm-lod.org/schema/AnnotationObject>;
+   <http://rm-lod.org/schema/dbpRes> dbp:Dionysus,
      dbp:Circa,
      dbp:Apartheid_in_South_Africa,
      dbp:Russian_language,
@@ -362,8 +362,8 @@
      dbp:Masterpiece,
      dbp:Crucifixion .
 
-<http://rm-lod.org/authors/527/annotations/JwVAoYs> a rm-lod:AnnotationObject;
-   rm-lod:dbpRes dbp:Nikolay_Alexeyev,
+<http://rm-lod.org/authors/527/annotations/qXfhm8M> a <http://rm-lod.org/schema/AnnotationObject>;
+   <http://rm-lod.org/schema/dbpRes> dbp:Nikolay_Alexeyev,
      dbp:Feodor_I_of_Russia,
      dbp:Saint_Petersburg,
      dbp:Painting,
@@ -394,8 +394,8 @@
      dbp:Alderman,
      <http://dbpedia.org/resource/Perspective_(graphical)> .
 
-<http://rm-lod.org/authors/528/annotations/Y99Qxok> a rm-lod:AnnotationObject;
-   rm-lod:dbpRes <http://dbpedia.org/resource/Alexei_Petrovich,_Tsarevich_of_Russia>,
+<http://rm-lod.org/authors/528/annotations/LPvvzvk> a <http://rm-lod.org/schema/AnnotationObject>;
+   <http://rm-lod.org/schema/dbpRes> <http://dbpedia.org/resource/Alexei_Petrovich,_Tsarevich_of_Russia>,
      dbp:Saint_Petersburg,
      dbp:Painting,
      dbp:Portrait,
@@ -423,8 +423,8 @@
      dbp:Dmitry_of_Uglich,
      dbp:Peter_the_Great .
 
-<http://rm-lod.org/authors/529/annotations/UqHAh6s> a rm-lod:AnnotationObject;
-   rm-lod:dbpRes dbp:Crimson_Dynamo,
+<http://rm-lod.org/authors/529/annotations/2KmaLiQ> a <http://rm-lod.org/schema/AnnotationObject>;
+   <http://rm-lod.org/schema/dbpRes> dbp:Crimson_Dynamo,
      dbp:Saint_Petersburg,
      dbp:Myst,
      dbp:Painting,
@@ -444,8 +444,8 @@
      dbp:Paint,
      dbp:Portrait_miniature .
 
-<http://rm-lod.org/authors/530/annotations/hClDThA> a rm-lod:AnnotationObject;
-   rm-lod:dbpRes dbp:Vladimir,
+<http://rm-lod.org/authors/530/annotations/M7hu_Og> a <http://rm-lod.org/schema/AnnotationObject>;
+   <http://rm-lod.org/schema/dbpRes> dbp:Vladimir,
      dbp:Myrhorod,
      dbp:Saint_Petersburg,
      dbp:Painting,
@@ -478,8 +478,8 @@
      dbp:Mysticism,
      dbp:Sect .
 
-<http://rm-lod.org/authors/533/annotations/GiJ762Y> a rm-lod:AnnotationObject;
-   rm-lod:dbpRes dbp:Dmitry_of_Uglich,
+<http://rm-lod.org/authors/533/annotations/TcEYtq0> a <http://rm-lod.org/schema/AnnotationObject>;
+   <http://rm-lod.org/schema/dbpRes> dbp:Dmitry_of_Uglich,
      dbp:Kiev,
      dbp:Saint_Petersburg,
      dbp:Russians,
@@ -504,8 +504,8 @@
      dbp:retirement,
      dbp:Reason .
 
-<http://rm-lod.org/authors/534/annotations/qar54pE> a rm-lod:AnnotationObject;
-   rm-lod:dbpRes dbp:Anton_Rubinstein,
+<http://rm-lod.org/authors/534/annotations/5qj2K6U> a <http://rm-lod.org/schema/AnnotationObject>;
+   <http://rm-lod.org/schema/dbpRes> dbp:Anton_Rubinstein,
      dbp:Hlukhiv,
      dbp:Saint_Petersburg,
      dbp:History_painting,
@@ -535,8 +535,8 @@
      <http://dbpedia.org/resource/Class_(biology)>,
      dbp:Theatre_director .
 
-<http://rm-lod.org/authors/536/annotations/LnTONFI> a rm-lod:AnnotationObject;
-   rm-lod:dbpRes dbp:Alexandrov_Ensemble,
+<http://rm-lod.org/authors/536/annotations/M8ALArE> a <http://rm-lod.org/schema/AnnotationObject>;
+   <http://rm-lod.org/schema/dbpRes> dbp:Alexandrov_Ensemble,
      dbp:Ivan_V_of_Russia,
      dbp:Moscow,
      dbp:Myst,
@@ -579,8 +579,8 @@
      dbp:Privy_Council_of_the_United_Kingdom,
      <http://dbpedia.org/resource/Died_(Alice_in_Chains_song)> .
 
-<http://rm-lod.org/authors/537/annotations/oHs7Iwo> a rm-lod:AnnotationObject;
-   rm-lod:dbpRes dbp:Alexandrov_Ensemble,
+<http://rm-lod.org/authors/537/annotations/b8kbrYg> a <http://rm-lod.org/schema/AnnotationObject>;
+   <http://rm-lod.org/schema/dbpRes> dbp:Alexandrov_Ensemble,
      dbp:Rome,
      dbp:Circa,
      dbp:Moscow,
@@ -624,8 +624,8 @@
      dbp:Annenhof,
      dbp:Palace .
 
-<http://rm-lod.org/authors/542/annotations/de7dFQs> a rm-lod:AnnotationObject;
-   rm-lod:dbpRes dbp:Carla_Bruni,
+<http://rm-lod.org/authors/542/annotations/M9sp5Os> a <http://rm-lod.org/schema/AnnotationObject>;
+   <http://rm-lod.org/schema/dbpRes> dbp:Carla_Bruni,
      dbp:Fidelio,
      dbp:Feodor_I_of_Russia,
      dbp:Milan,
@@ -671,8 +671,8 @@
      dbp:Association_football,
      dbp:Mosaic .
 
-<http://rm-lod.org/authors/543/annotations/42rpvEk> a rm-lod:AnnotationObject;
-   rm-lod:dbpRes dbp:Charles_I_of_Austria,
+<http://rm-lod.org/authors/543/annotations/ILgTFIs> a <http://rm-lod.org/schema/AnnotationObject>;
+   <http://rm-lod.org/schema/dbpRes> dbp:Charles_I_of_Austria,
      dbp:Saint_Petersburg,
      dbp:Manziana,
      dbp:Rome,
@@ -722,8 +722,8 @@
      dbp:Physician,
      dbp:Settler .
 
-<http://rm-lod.org/authors/546/annotations/4B3i2qI> a rm-lod:AnnotationObject;
-   rm-lod:dbpRes dbp:Vyacheslav_Ivanovich_Ivanov,
+<http://rm-lod.org/authors/546/annotations/HS8sEoQ> a <http://rm-lod.org/schema/AnnotationObject>;
+   <http://rm-lod.org/schema/dbpRes> dbp:Vyacheslav_Ivanovich_Ivanov,
      dbp:Alexander_I_of_Russia,
      dbp:Saint_Petersburg,
      dbp:Painting,
@@ -753,8 +753,8 @@
      dbp:En_plein_air,
      dbp:Russia .
 
-<http://rm-lod.org/authors/548/annotations/SZXHo4U> a rm-lod:AnnotationObject;
-   rm-lod:dbpRes dbp:Orestes,
+<http://rm-lod.org/authors/548/annotations/QrAniuA> a <http://rm-lod.org/schema/AnnotationObject>;
+   <http://rm-lod.org/schema/dbpRes> dbp:Orestes,
      dbp:Saint_Petersburg,
      dbp:Province,
      dbp:Rome,
@@ -800,8 +800,8 @@
      dbp:Andrea,
      dbp:Delle .
 
-<http://rm-lod.org/authors/549/annotations/1ceRlCI> a rm-lod:AnnotationObject;
-   rm-lod:dbpRes dbp:Ivan_Krylov,
+<http://rm-lod.org/authors/549/annotations/xjL5xjs> a <http://rm-lod.org/schema/AnnotationObject>;
+   <http://rm-lod.org/schema/dbpRes> dbp:Ivan_Krylov,
      dbp:Nikephoros_Theotokis,
      dbp:Kalyazin,
      dbp:Tver_Oblast,
@@ -821,8 +821,8 @@
      dbp:Infant_mortality,
      dbp:Cholera .
 
-<http://rm-lod.org/authors/550/annotations/knFVH7s> a rm-lod:AnnotationObject;
-   rm-lod:dbpRes dbp:Vyacheslav_Ivanovich_Lebedev,
+<http://rm-lod.org/authors/550/annotations/FS9GPuc> a <http://rm-lod.org/schema/AnnotationObject>;
+   <http://rm-lod.org/schema/dbpRes> dbp:Vyacheslav_Ivanovich_Lebedev,
      dbp:Mikhail_Dostoyevsky,
      dbp:Tartu,
      dbp:Naples,
@@ -851,8 +851,8 @@
      dbp:Sorrento,
      dbp:Capri .
 
-<http://rm-lod.org/authors/553/annotations/azNafbQ> a rm-lod:AnnotationObject;
-   rm-lod:dbpRes dbp:Pavel_Fedotov,
+<http://rm-lod.org/authors/553/annotations/F2qxXNg> a <http://rm-lod.org/schema/AnnotationObject>;
+   <http://rm-lod.org/schema/dbpRes> dbp:Pavel_Fedotov,
      dbp:Pavel_Tretyakov,
      dbp:Moscow,
      dbp:Saint_Petersburg,
@@ -882,8 +882,8 @@
      dbp:Russian_Academy_of_Sciences,
      dbp:List_of_Hellsing_characters .
 
-<http://rm-lod.org/authors/589/annotations/nNUFa7s> a rm-lod:AnnotationObject;
-   rm-lod:dbpRes dbp:Ivan_Aivazovsky,
+<http://rm-lod.org/authors/589/annotations/jRB9zdk> a <http://rm-lod.org/schema/AnnotationObject>;
+   <http://rm-lod.org/schema/dbpRes> dbp:Ivan_Aivazovsky,
      dbp:Hovhannes,
      <http://dbpedia.org/resource/Ivan's_Childhood>,
      dbp:Feodosiya,
@@ -922,8 +922,8 @@
      dbp:Studio,
      dbp:Dulwich_Picture_Gallery .
 
-<http://rm-lod.org/authors/592/annotations/crBRcdU> a rm-lod:AnnotationObject;
-   rm-lod:dbpRes dbp:Germany,
+<http://rm-lod.org/authors/592/annotations/uLHHEyY> a <http://rm-lod.org/schema/AnnotationObject>;
+   <http://rm-lod.org/schema/dbpRes> dbp:Germany,
      dbp:Nicholas_II_of_Russia,
      dbp:Voronezh,
      dbp:Ivanovskoye_District,
@@ -958,8 +958,8 @@
      dbp:Munich,
      dbp:London .
 
-<http://rm-lod.org/authors/594/annotations/Xhklvs8> a rm-lod:AnnotationObject;
-   rm-lod:dbpRes dbp:Nicholas_II_of_Russia,
+<http://rm-lod.org/authors/594/annotations/cao4zdQ> a <http://rm-lod.org/schema/AnnotationObject>;
+   <http://rm-lod.org/schema/dbpRes> dbp:Nicholas_II_of_Russia,
      dbp:Moscow,
      dbp:Painting,
      dbp:Genre_art,
@@ -995,8 +995,8 @@
      <http://dbpedia.org/resource/People_(magazine)>,
      dbp:Soviet_Union .
 
-<http://rm-lod.org/authors/595/annotations/DQz3vLw> a rm-lod:AnnotationObject;
-   rm-lod:dbpRes dbp:Ivan_V_of_Russia,
+<http://rm-lod.org/authors/595/annotations/frGZbmk> a <http://rm-lod.org/schema/AnnotationObject>;
+   <http://rm-lod.org/schema/dbpRes> dbp:Ivan_V_of_Russia,
      dbp:Ostrogozhsk,
      dbp:Voronezh_Oblast,
      dbp:Saint_Petersburg,
@@ -1029,8 +1029,8 @@
      <http://dbpedia.org/resource/Interval_(music)>,
      dbp:Member_of_Parliament .
 
-<http://rm-lod.org/authors/596/annotations/cjbtoy8> a rm-lod:AnnotationObject;
-   rm-lod:dbpRes dbp:Arkhip_Kuindzhi,
+<http://rm-lod.org/authors/596/annotations/d-gJ75A> a <http://rm-lod.org/schema/AnnotationObject>;
+   <http://rm-lod.org/schema/dbpRes> dbp:Arkhip_Kuindzhi,
      dbp:Saint_Petersburg,
      dbp:Painting,
      dbp:Landscape_art,
@@ -1058,8 +1058,8 @@
      dbp:Imperial_Academy_of_Arts,
      dbp:Fine_art .
 
-<http://rm-lod.org/authors/597/annotations/Su3BfqA> a rm-lod:AnnotationObject;
-   rm-lod:dbpRes <http://dbpedia.org/resource/Levitan_(band)>,
+<http://rm-lod.org/authors/597/annotations/bJqpIyc> a <http://rm-lod.org/schema/AnnotationObject>;
+   <http://rm-lod.org/schema/dbpRes> <http://dbpedia.org/resource/Levitan_(band)>,
      dbp:Isaac,
      dbp:Lithuania,
      dbp:Moscow,
@@ -1092,8 +1092,8 @@
      dbp:Chicago,
      <http://dbpedia.org/resource/Exposition_Universelle_(1900)> .
 
-<http://rm-lod.org/authors/603/annotations/QLUhgsQ> a rm-lod:AnnotationObject;
-   rm-lod:dbpRes dbp:Vasily_Perov,
+<http://rm-lod.org/authors/603/annotations/n3DcOv4> a <http://rm-lod.org/schema/AnnotationObject>;
+   <http://rm-lod.org/schema/dbpRes> dbp:Vasily_Perov,
      dbp:Vasili_III_of_Russia,
      dbp:Tobolsk,
      <http://dbpedia.org/resource/Kuzminki_(Moscow_Metro)>,
@@ -1117,8 +1117,8 @@
      dbp:Sculpture,
      dbp:Architecture .
 
-<http://rm-lod.org/authors/613/annotations/z0fyP60> a rm-lod:AnnotationObject;
-   rm-lod:dbpRes dbp:Nicholas_II_of_Russia,
+<http://rm-lod.org/authors/613/annotations/Gj8m-Lk> a <http://rm-lod.org/schema/AnnotationObject>;
+   <http://rm-lod.org/schema/dbpRes> dbp:Nicholas_II_of_Russia,
      dbp:Poltava,
      dbp:Kislovodsk,
      dbp:Painting,
@@ -1149,8 +1149,8 @@
      dbp:Major_general,
      dbp:Late_Antiquity .
 
-<http://rm-lod.org/authors/707/annotations/ojMBums> a rm-lod:AnnotationObject;
-   rm-lod:dbpRes dbp:Robert_Altman,
+<http://rm-lod.org/authors/707/annotations/2YSd6tI> a <http://rm-lod.org/schema/AnnotationObject>;
+   <http://rm-lod.org/schema/dbpRes> dbp:Robert_Altman,
      <http://dbpedia.org/resource/Nathan_(prophet)>,
      dbp:Vinnytsia,
      dbp:Saint_Petersburg,
@@ -1196,8 +1196,8 @@
      dbp:Russians,
      dbp:Estonian_Soviet_Socialist_Republic .
 
-<http://rm-lod.org/authors/708/annotations/CDLW1sM> a rm-lod:AnnotationObject;
-   rm-lod:dbpRes dbp:Ryazan,
+<http://rm-lod.org/authors/708/annotations/LzRjAs4> a <http://rm-lod.org/schema/AnnotationObject>;
+   <http://rm-lod.org/schema/dbpRes> dbp:Ryazan,
      dbp:Province,
      dbp:Moscow,
      dbp:Painting,
@@ -1232,8 +1232,8 @@
      dbp:Higher_education,
      dbp:People .
 
-<http://rm-lod.org/authors/709/annotations/Gadzq1c> a rm-lod:AnnotationObject;
-   rm-lod:dbpRes dbp:Léon_Bakst,
+<http://rm-lod.org/authors/709/annotations/r5DQiEA> a <http://rm-lod.org/schema/AnnotationObject>;
+   <http://rm-lod.org/schema/dbpRes> dbp:Léon_Bakst,
      dbp:Bulgarian_lev,
      dbp:Rudolf_Samoylovich,
      dbp:Grodno,
@@ -1280,8 +1280,8 @@
      dbp:Ida_Rubinstein,
      dbp:White_émigré .
 
-<http://rm-lod.org/authors/710/annotations/YKMB4aw> a rm-lod:AnnotationObject;
-   rm-lod:dbpRes dbp:Alexandre_Benois,
+<http://rm-lod.org/authors/710/annotations/f3yA5k0> a <http://rm-lod.org/schema/AnnotationObject>;
+   <http://rm-lod.org/schema/dbpRes> dbp:Alexandre_Benois,
      dbp:Alexander_I_of_Russia,
      dbp:Saint_Petersburg,
      dbp:Paris,
@@ -1340,8 +1340,8 @@
      dbp:Literary_magazine,
      dbp:White_émigré .
 
-<http://rm-lod.org/authors/712/annotations/orqaLrE> a rm-lod:AnnotationObject;
-   rm-lod:dbpRes dbp:Victor_Talking_Machine_Company,
+<http://rm-lod.org/authors/712/annotations/a4Nq5eI> a <http://rm-lod.org/schema/AnnotationObject>;
+   <http://rm-lod.org/schema/dbpRes> dbp:Victor_Talking_Machine_Company,
      dbp:Saratov,
      dbp:Tarusa,
      dbp:Painting,
@@ -1375,8 +1375,8 @@
      dbp:Route_nationale,
      dbp:New_York_World .
 
-<http://rm-lod.org/authors/716/annotations/t4h8rAE> a rm-lod:AnnotationObject;
-   rm-lod:dbpRes <http://dbpedia.org/resource/Aleksandr_Golovin_(artist)>,
+<http://rm-lod.org/authors/716/annotations/RHodzGw> a <http://rm-lod.org/schema/AnnotationObject>;
+   <http://rm-lod.org/schema/dbpRes> <http://dbpedia.org/resource/Aleksandr_Golovin_(artist)>,
      dbp:Alexander_I_of_Russia,
      dbp:Moscow,
      dbp:Village,
@@ -1425,8 +1425,8 @@
      dbp:Silicon,
      dbp:Sergei_Diaghilev .
 
-<http://rm-lod.org/authors/717/annotations/_w5ESbg> a rm-lod:AnnotationObject;
-   rm-lod:dbpRes dbp:Natalia_Pushkina,
+<http://rm-lod.org/authors/717/annotations/PFVePgU> a <http://rm-lod.org/schema/AnnotationObject>;
+   <http://rm-lod.org/schema/dbpRes> dbp:Natalia_Pushkina,
      <http://dbpedia.org/resource/Tula,_Russia>,
      dbp:Province,
      dbp:Paris,
@@ -1468,8 +1468,8 @@
      dbp:Switzerland,
      dbp:Italy .
 
-<http://rm-lod.org/authors/718/annotations/CWLuS1M> a rm-lod:AnnotationObject;
-   rm-lod:dbpRes dbp:Nikifor_Grigoriev,
+<http://rm-lod.org/authors/718/annotations/yTvhyng> a <http://rm-lod.org/schema/AnnotationObject>;
+   <http://rm-lod.org/schema/dbpRes> dbp:Nikifor_Grigoriev,
      dbp:Boris_III_of_Bulgaria,
      dbp:Moscow,
      dbp:France,
@@ -1494,8 +1494,8 @@
      dbp:Finland,
      dbp:Germany .
 
-<http://rm-lod.org/authors/720/annotations/XyWkaBI> a rm-lod:AnnotationObject;
-   rm-lod:dbpRes dbp:Wassily_Kandinsky,
+<http://rm-lod.org/authors/720/annotations/0M2PbdE> a <http://rm-lod.org/schema/AnnotationObject>;
+   <http://rm-lod.org/schema/dbpRes> dbp:Wassily_Kandinsky,
      dbp:Vasili_III_of_Russia,
      dbp:Moscow_State_University,
      dbp:France,
@@ -1533,8 +1533,8 @@
      dbp:White_émigré,
      dbp:Germany .
 
-<http://rm-lod.org/authors/721/annotations/hGu2NqY> a rm-lod:AnnotationObject;
-   rm-lod:dbpRes dbp:Konstantin_Korovin,
+<http://rm-lod.org/authors/721/annotations/oeZYsSA> a <http://rm-lod.org/schema/AnnotationObject>;
+   <http://rm-lod.org/schema/dbpRes> dbp:Konstantin_Korovin,
      dbp:Grand_Duke_Constantine_Pavlovich_of_Russia,
      dbp:Moscow,
      dbp:Paris_Painter,
@@ -1579,8 +1579,8 @@
      dbp:Stroganov_School,
      dbp:White_émigré .
 
-<http://rm-lod.org/authors/723/annotations/452i-nc> a rm-lod:AnnotationObject;
-   rm-lod:dbpRes dbp:Penza,
+<http://rm-lod.org/authors/723/annotations/dFXpho4> a <http://rm-lod.org/schema/AnnotationObject>;
+   <http://rm-lod.org/schema/dbpRes> dbp:Penza,
      dbp:Province,
      dbp:Moscow,
      dbp:Painting,
@@ -1621,8 +1621,8 @@
      dbp:Pasteur_Institute,
      dbp:Fine_art .
 
-<http://rm-lod.org/authors/724/annotations/Yk5hSlY> a rm-lod:AnnotationObject;
-   rm-lod:dbpRes dbp:Nesterov,
+<http://rm-lod.org/authors/724/annotations/rvYMRvI> a <http://rm-lod.org/schema/AnnotationObject>;
+   <http://rm-lod.org/schema/dbpRes> dbp:Nesterov,
      dbp:Michael_I_of_Russia,
      dbp:Ufa,
      dbp:Moscow,
@@ -1655,8 +1655,8 @@
      dbp:Meritorious_Artist,
      dbp:Russian_Soviet_Federative_Socialist_Republic .
 
-<http://rm-lod.org/authors/732/annotations/dgvwTZk> a rm-lod:AnnotationObject;
-   rm-lod:dbpRes dbp:Nikolai_Dmitriyevich_Kuznetsov,
+<http://rm-lod.org/authors/732/annotations/ttvwh2M> a <http://rm-lod.org/schema/AnnotationObject>;
+   <http://rm-lod.org/schema/dbpRes> dbp:Nikolai_Dmitriyevich_Kuznetsov,
      dbp:Pavel_Tretyakov,
      dbp:Saratov,
      dbp:Moscow,
@@ -1687,8 +1687,8 @@
      dbp:Meritorious_Artist,
      dbp:Russian_Soviet_Federative_Socialist_Republic .
 
-<http://rm-lod.org/authors/733/annotations/khJFJ4Q> a rm-lod:AnnotationObject;
-   rm-lod:dbpRes dbp:Boris_III_of_Bulgaria,
+<http://rm-lod.org/authors/733/annotations/clGScno> a <http://rm-lod.org/schema/AnnotationObject>;
+   <http://rm-lod.org/schema/dbpRes> dbp:Boris_III_of_Bulgaria,
      dbp:Astrakhan,
      dbp:Saint_Petersburg,
      dbp:Painting,
@@ -1725,8 +1725,8 @@
      dbp:Design,
      dbp:Theatre .
 
-<http://rm-lod.org/authors/734/annotations/rkXDRN0> a rm-lod:AnnotationObject;
-   rm-lod:dbpRes dbp:Mikhail_Larionov,
+<http://rm-lod.org/authors/734/annotations/2SYdQ3E> a <http://rm-lod.org/schema/AnnotationObject>;
+   <http://rm-lod.org/schema/dbpRes> dbp:Mikhail_Larionov,
      dbp:Grand_Duke_Michael_Nikolaevich_of_Russia,
      dbp:Fontenay-aux-Roses,
      dbp:France,
@@ -1774,8 +1774,8 @@
      dbp:Sergei_Diaghilev,
      dbp:Ballets_Russes .
 
-<http://rm-lod.org/authors/735/annotations/a-l-H4g> a rm-lod:AnnotationObject;
-   rm-lod:dbpRes dbp:Kazimir_Malevich,
+<http://rm-lod.org/authors/735/annotations/uhuno0A> a <http://rm-lod.org/schema/AnnotationObject>;
+   <http://rm-lod.org/schema/dbpRes> dbp:Kazimir_Malevich,
      dbp:Casimir,
      dbp:Kiev,
      dbp:Saint_Petersburg,
@@ -1824,8 +1824,8 @@
      dbp:Pasteur_Institute,
      dbp:Culture .
 
-<http://rm-lod.org/authors/736/annotations/mWDn8hw> a rm-lod:AnnotationObject;
-   rm-lod:dbpRes dbp:Philipp_Spitta,
+<http://rm-lod.org/authors/736/annotations/Jkd6mRg> a <http://rm-lod.org/schema/AnnotationObject>;
+   <http://rm-lod.org/schema/dbpRes> dbp:Philipp_Spitta,
      dbp:Kazanki,
      <http://dbpedia.org/resource/Samara,_Russia>,
      dbp:Province,
@@ -1860,8 +1860,8 @@
      <http://dbpedia.org/resource/Salon_(Paris)>,
      dbp:White_émigré .
 
-<http://rm-lod.org/authors/738/annotations/Z1u-UjM> a rm-lod:AnnotationObject;
-   rm-lod:dbpRes dbp:Ilya_Golosov,
+<http://rm-lod.org/authors/738/annotations/waEoWso> a <http://rm-lod.org/schema/AnnotationObject>;
+   <http://rm-lod.org/schema/dbpRes> dbp:Ilya_Golosov,
      <http://dbpedia.org/resource/Mikhaylovsky,_Russia>,
      dbp:Rostov_Oblast,
      dbp:Abramtsevo_Colony,
@@ -1901,8 +1901,8 @@
      dbp:Meritorious_Artist,
      dbp:Russian_Soviet_Federative_Socialist_Republic .
 
-<http://rm-lod.org/authors/749/annotations/hBFCUZk> a rm-lod:AnnotationObject;
-   rm-lod:dbpRes dbp:Pavel_Tretyakov,
+<http://rm-lod.org/authors/749/annotations/l1qmfjA> a <http://rm-lod.org/schema/AnnotationObject>;
+   <http://rm-lod.org/schema/dbpRes> dbp:Pavel_Tretyakov,
      dbp:Moscow_State_University,
      dbp:Saint_Petersburg,
      dbp:Painting,
@@ -1950,8 +1950,8 @@
      dbp:Maxim_Gorky_Literature_Institute,
      dbp:Universal_Flowering .
 
-<http://rm-lod.org/authors/750/annotations/0_lxbDs> a rm-lod:AnnotationObject;
-   rm-lod:dbpRes dbp:Marc_Chagall,
+<http://rm-lod.org/authors/750/annotations/4Vh7aBQ> a <http://rm-lod.org/schema/AnnotationObject>;
+   <http://rm-lod.org/schema/dbpRes> dbp:Marc_Chagall,
      dbp:Franz_Marc,
      dbp:German_gold_mark,
      dbp:Vitebsk,

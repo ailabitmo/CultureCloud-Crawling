@@ -4,6 +4,7 @@
 # rmgallery_art.xml to turtle-rdf data parser
 # Alexey Andreyev: yetanotherandreyev@gmail.com
 
+require 'io/console'
 
 require 'rubygems'
 
@@ -27,15 +28,15 @@ require 'securerandom'
 # TODO: types rdf
 
 @rdf_prefixes = {
-    'ecrm' =>  "http://erlangen-crm.org/current/",
+    :ecrm =>  "http://erlangen-crm.org/current/",
     :rdf => RDF.to_uri,
     :rdfs => RDFS.to_uri,
     :dbp =>  "http://dbpedia.org/resource/",
     :owl => OWL.to_uri,
-    "rm-lod" => "http://rm-lod.org/"
+    'rm-lod' => "http://rm-lod.org/"
 }
 
-@ecrmVocabulary = RDF::Vocabulary.new(@rdf_prefixes['ecrm'])
+@ecrmVocabulary = RDF::Vocabulary.new(@rdf_prefixes[:ecrm])
 
 def authorsRdfGenerator()
 	puts "Generating authors"
@@ -47,7 +48,7 @@ def authorsRdfGenerator()
     @dbPediaSpotlightConfidence = 0.2
     @dbPediaSpotlightSupport = 20
 
-    consoleWidth = IO.console.winsize[1]
+    #consoleWidth = IO.console.winsize[1]
 
     # source file #TODO: specify it
     
@@ -73,6 +74,7 @@ def authorsRdfGenerator()
 =end
 
     authorsGraph = RDF::Graph.new(:format => :ttl, :prefixes => @rdf_prefixes)
+
 
 =begin    
     if !(previousAuthorsGraph.nil?) then
@@ -115,22 +117,23 @@ def authorsRdfGenerator()
     }
     puts "generating file..."
 
-	RDF::Writer.open(rmgallery_authors_filepath, :prefixes => @rdf_prefixes) do |writer|
-	  authorsGraph.each_statement do |statement|
-		writer << statement
-	  end
-	end
-	
-    #authorsFile = File.new(rmgallery_authors_filepath,"w")
-    #authorsFile.write(authorsGraph.dump(:ttl, :prefixes => @rdf_prefixes))
-    #authorsFile.close
+    #RDF::Writer.open(rmgallery_authors_filepath, :prefixes => @rdf_prefixes) do |writer|
+    #    authorsGraph.each_statement do |statement|
+    #        writer << statement
+    #    end
+    #end
+
+    #puts @rdf_prefixes
+    authorsFile = File.new(rmgallery_authors_filepath,"w")
+    authorsFile.write(authorsGraph.dump(:ttl, :prefixes => @rdf_prefixes))
+    authorsFile.close
     
     
   
 end
 
 def artRdfGenerator()
-	puts "Generating objects"
+    puts "Generating objects"
     # Works rdf generator:
 
     @proxy = URI.parse(ENV['HTTP_PROXY']) if ENV['HTTP_PROXY']
@@ -139,7 +142,7 @@ def artRdfGenerator()
     @dbPediaSpotlightConfidence = 0.2
     @dbPediaSpotlightSupport = 20
 
-    consoleWidth = IO.console.winsize[1]
+    #consoleWidth = IO.console.winsize[1]
 
 
     works = @doc.xpath('//artItem')
@@ -167,7 +170,7 @@ def artRdfGenerator()
     end
 =end  
     # worksSize
-    400.times { |i|
+    worksSize.times { |i|
         currentLocale = works[i].parent.parent.parent["locale"] # FIXME: shame on me
         workID = works[i].attributes["id"].text
         workURI =  RDF::URI.new("#{@rdf_prefixes['rm-lod']}objects/#{workID}") #FIXME: generate real URI
@@ -230,11 +233,11 @@ def artRdfGenerator()
         when "genge"
             genreID= works[i].parent["id"]
             genreID=  RDF::URI.new("#{@rdf_prefixes['rm-lod']}object/genres/#{genreID}")             
-            worksGraph << [workURI, "FIXME:genreID" ,genreID] #FIXME: wrong usage cdcrm
+            worksGraph << [workURI, RDF::URI("FIXME:genreID") ,genreID] #FIXME: wrong usage cdcrm
         when "type"
             typeID= works[i].parent["id"]
             typeIDURI = RDF::URI.new("#{@rdf_prefixes['rm-lod']}object/types/#{typeID}")        
-            worksGraph << [workURI, "FIXME:typeID" ,typeIDURI] #FIXME: wrong usage cdcrm
+            worksGraph << [workURI, RDF::URI("FIXME:typeID") ,typeIDURI] #FIXME: wrong usage cdcrm
         end
         
         jpgURI = RDF::URI.new("http://rmgallery.ru/files/medium/#{workID}_98.jpg") #TODO: save all data to our server 
@@ -250,15 +253,23 @@ def artRdfGenerator()
     #gets
     puts "generating file..."
 
-	RDF::Writer.open(rmgallery_works_filepath, :prefixes => @rdf_prefixes) do |writer|
-	  worksGraph.each_statement do |statement|
-		writer << statement
-	  end
-	end
+    #RDF::Writer.open(rmgallery_works_filepath, :format => :ttl) do |writer|
+    #    writer.prefix 'ecrm', RDF::URI("http://erlangen-crm.org/current/")
+    #    writer.prefix :rdf , RDF.to_uri
+    #    writer.prefix :rdfs , RDFS.to_uri
+    #    writer.prefix :dbp ,  RDF::URI("http://dbpedia.org/resource/") # Do we really need it? Resources depend from locale
+    #    writer.prefix :owl , OWL.to_uri
+    #    writer.prefix "rm-lod", RDF::URI("http://rm-lod.org/")
+    #    puts writer.prefixes
+    #    worksGraph.each do |statement|
+    #        writer << statement
+    #    end
+    #end
 	
-    #worksFile = File.new(rmgallery_works_filepath,"w")
-    #worksFile.write(worksGraph.dump(:ttl, :prefixes => @rdf_prefixes))
-    #worksFile.close
+    #puts @rdf_prefixes
+    worksFile = File.new("rmgallery_works.ttl","w")
+    worksFile.write(worksGraph.dump(:ttl, :prefixes => @rdf_prefixes))
+    worksFile.close
 
 end
 
@@ -276,21 +287,21 @@ def genresTypesRdfGenerator()
             labelTitle = tags[i].attributes["label"].text
             labelTitlelLiteral = RDF::Literal.new(labelTitle, :language => currentLocale)
             graph << [labelURI, RDFS.label, labelTitlelLiteral]
-            graph << [labelURI, "FIXME:tagType", label] #FIXME:
+            graph << [labelURI, RDF::URI("FIXME:tagType"), label] #FIXME:
         }
     }
     puts "generating file..."
     rmgallery_genrestypes_filepath = "rmgallery_genrestypes.ttl"
+
+    #RDF::Writer.open(rmgallery_genrestypes_filepath, :prefixes => @rdf_prefixes) do |writer|
+    #    graph.each_statement do |statement|
+    #        writer << statement
+    #    end
+    #end
 	
-	RDF::Writer.open(rmgallery_genrestypes_filepath, :prefixes => @rdf_prefixes) do |writer|
-	  graph.each_statement do |statement|
-		writer << statement
-	  end
-	end
-	
-    #tagsFile = File.new(rmgallery_genrestypes_filepath,"w")
-    #tagsFile.write(graph.dump(:ttl, :prefixes => @rdf_prefixes))
-    #tagsFile.close
+    tagsFile = File.new(rmgallery_genrestypes_filepath,"w")
+    tagsFile.write(graph.dump(:ttl, :prefixes => @rdf_prefixes))
+    tagsFile.close
 end
 
 puts "please, uncomment functions calls you need in sources"
