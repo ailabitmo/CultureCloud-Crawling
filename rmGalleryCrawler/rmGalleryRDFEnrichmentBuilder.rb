@@ -27,11 +27,12 @@ require 'securerandom'
     :rdfs => RDFS.to_uri,
     :dbp =>  "http://dbpedia.org/resource/", # Do we really need it? Resources depend from locale
     :owl => OWL.to_uri,
-    "rm-lod" => "http://rm-lod.org/"
+    "rm-lod" => "http://rm-lod.org/",
+	"rm-lod-schema" => "http://rm-lod.org/schema/",
 }
 
 @ecrmVocabulary = RDF::Vocabulary.new(@rdf_prefixes['ecrm'])
-@rmlodVocabulary = RDF::Vocabulary.new("#{@rdf_prefixes['rm-lod']}schema/")
+@rmlodVocabulary = RDF::Vocabulary.new(@rdf_prefixes['rm-lod-schema'])
 
 def authorsEnrichmentRdfGenerator
 
@@ -68,22 +69,23 @@ def authorsEnrichmentRdfGenerator
         dbpResUrl = authorNode.css("dbpURI").text # FIXME: want to use xpath, but smth wrong with it
         annotationTexts = authorNode.css("Resource") # FIXME: want to use xpath, but smth wrong with it
 
-        if ( !(dbpResUrl.empty?) or !(annotationTexts.empty?) )
-        then
-            authorsGraph <<[authorURI, RDF.type, @ecrmVocabulary.E21_Person]
-        end
+		# you don't need this - we allready have entity as person, we need just to reference uri
+        #if ( !(dbpResUrl.empty?) or !(annotationTexts.empty?) )
+        #then
+        #    authorsGraph <<[authorURI, RDF.type, @ecrmVocabulary.E21_Person]
+        #end
 
         if !(dbpResUrl.empty?)
         then
             dbpResUrl = RDF::URI.new(dbpResUrl)
-            authorsGraph <<[authorURI, RDF.type, dbpResUrl]
+            authorsGraph <<[authorURI, 'http://www.w3.org/2002/07/owl#sameAs', dbpResUrl]
         end
         if !(annotationTexts.empty?)
         then
             aid = authorId # FIXME !!1 Why authorId is invisible for next method?
             newAnnotationObject = RDF::URI.new("#{@rdf_prefixes['rm-lod']}authors/#{aid}/annotations/#{SecureRandom.urlsafe_base64(5)}")
             authorsGraph << [newAnnotationObject, RDF.type, @rmlodVocabulary.AnnotationObject]
-            authorsGraph << [authorURI, @rmlodVocabulary[:haveAnnotation], newAnnotationObject]
+            authorsGraph << [authorURI, @rmlodVocabulary[:hasAnnotation], newAnnotationObject]
             annotationTexts.each { |dbpRes|
                 dbpResURI =  RDF::URI.new(dbpRes['URI'])
                 authorsGraph << [newAnnotationObject, @rmlodVocabulary[:dbpRes], dbpResURI]
@@ -150,7 +152,7 @@ def worksEnrichmentRdfGenerator
             aid = workId # FIXME !!1 Why workId is invisible for next method?
             newAnnotationObject = RDF::URI.new("#{@rdf_prefixes['rm-lod']}objects/#{aid}/annotations/#{SecureRandom.urlsafe_base64(5)}")
             worksGraph << [newAnnotationObject, RDF.type, @rmlodVocabulary.AnnotationObject]
-            worksGraph << [workURI, @rmlodVocabulary[:haveAnnotation], newAnnotationObject]
+            worksGraph << [workURI, @rmlodVocabulary[:hasAnnotation], newAnnotationObject]
             annotationTexts.each { |dbpRes|
                 dbpResURI =  RDF::URI.new(dbpRes['URI'])
                 worksGraph << [newAnnotationObject, @rmlodVocabulary[:dbpRes], dbpResURI]
