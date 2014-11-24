@@ -1,0 +1,69 @@
+@prefix bmthes: <http://collection.britishmuseum.org/id/thesauri/> .
+@prefix ecrm: <http://erlangen-crm.org/current/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://collection.britishmuseum.org/id/thesauri/dimension/circumference> a ecrm:E55_Type,
+     skos:Concept;
+   skos:inScheme bmthes:dimension;
+   skos:prefLabel "Circumference" .
+
+<http://collection.britishmuseum.org/id/thesauri/dimension/currency> a ecrm:E55_Type,
+     skos:Concept;
+   skos:inScheme bmthes:dimension;
+   skos:prefLabel "Currency" .
+
+<http://collection.britishmuseum.org/id/thesauri/dimension/curvature> a ecrm:E55_Type,
+     skos:Concept;
+   skos:inScheme bmthes:dimension;
+   skos:prefLabel "Curvature" .
+
+<http://collection.britishmuseum.org/id/thesauri/dimension/depth> a ecrm:E55_Type,
+     skos:Concept;
+   skos:inScheme bmthes:dimension;
+   skos:prefLabel "Depth" .
+
+<http://collection.britishmuseum.org/id/thesauri/dimension/diameter> a ecrm:E55_Type,
+     skos:Concept;
+   skos:inScheme bmthes:dimension;
+   skos:prefLabel "Diameter" .
+
+<http://collection.britishmuseum.org/id/thesauri/dimension/die-axis> a ecrm:E55_Type,
+     skos:Concept;
+   skos:inScheme bmthes:dimension;
+   skos:prefLabel "Die-axis" .
+
+<http://collection.britishmuseum.org/id/thesauri/dimension/height> a ecrm:E55_Type,
+     skos:Concept;
+   skos:inScheme bmthes:dimension;
+   skos:prefLabel "Height" .
+
+<http://collection.britishmuseum.org/id/thesauri/dimension/length> a ecrm:E55_Type,
+     skos:Concept;
+   skos:inScheme bmthes:dimension;
+   skos:prefLabel "Length" .
+
+<http://collection.britishmuseum.org/id/thesauri/dimension/percentage> a ecrm:E55_Type,
+     skos:Concept;
+   skos:inScheme bmthes:dimension;
+   skos:prefLabel "Percentage" .
+
+<http://collection.britishmuseum.org/id/thesauri/dimension/thickness> a ecrm:E55_Type,
+     skos:Concept;
+   skos:inScheme bmthes:dimension;
+   skos:prefLabel "Thickness" .
+
+<http://collection.britishmuseum.org/id/thesauri/dimension/volume> a ecrm:E55_Type,
+     skos:Concept;
+   skos:inScheme bmthes:dimension;
+   skos:prefLabel "Volume" .
+
+<http://collection.britishmuseum.org/id/thesauri/dimension/weight> a ecrm:E55_Type,
+     skos:Concept;
+   skos:inScheme bmthes:dimension;
+   skos:prefLabel "Weight" .
+
+<http://collection.britishmuseum.org/id/thesauri/dimension/width> a ecrm:E55_Type,
+     skos:Concept;
+   skos:inScheme bmthes:dimension;
+   skos:prefLabel "Width" .
