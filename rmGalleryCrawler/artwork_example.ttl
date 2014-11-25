@@ -39,6 +39,15 @@
                                 ecrm:P3_has_note "Art object desription"@en ,
                                                  "Описание объекта"@ru ;
                                 
+
+                                # Here is how to connect Man-Made Object with materials. 
+                                # Links to BM thesauri entries for 'canvas' and 'oil' respectively.
+                                # I extracted material and dimension data from BM to file bm_thesauri.ttl.
+                                # There are a lot of materials in this thesauri, probably we wouldn't need to add something.
+                                # We would first need to extract a list of materials from the crawled data to prepare links,
+                                # pointing to the materials in BM thesauri.
+                                # TODO: russian translation of skos:prefLabel properties of materials.
+                                
                                 ecrm:P45_consists_of <http://collection.britishmuseum.org/id/thesauri/x10489> ,
                                                      <http://collection.britishmuseum.org/id/thesauri/x11321> ;
                                 
@@ -53,6 +62,11 @@
 <http://rm-lod.org/object/4082/production> rdf:type ecrm:E12_Production ,
                                                     owl:NamedIndividual ;
                                            
+                                           # This is time-span representation I used.
+                                           # We could use '1982-1999' or 'Circa 1600' right here instead of '1982'.
+                                           # It is rather trivial way and there are better ways to deal with dates,
+                                           # but for now it's OK I think.
+
                                            ecrm:P82_at_some_time_within 1982 ;
                                            
                                            ecrm:P108_has_produced <http://rm-lod.org/object/4082> ;
@@ -62,12 +76,17 @@
 
 
 ###  http://rm-lod.org/object/4082/height/188
+###
+###  For each art object we should create two E54_Dimension individuals: for width and for height.
 
 <http://rm-lod.org/object/4082/height/188> rdf:type ecrm:E54_Dimension ,
                                                     owl:NamedIndividual ;
                                            
+                                           # TODO: Unit information using P91_has_unit property and http://qudt.org/vocab/unit ontology.
+                                           # TODO: Maybe we should use xsd:float?
                                            ecrm:P90_has_value "188"^^xsd:int ;
                                            
+                                           # We get type information from 
                                            ecrm:P2_has_type <http://collection.britishmuseum.org/id/thesauri/dimension/height> .
 
 
@@ -83,6 +102,8 @@
 
 
 ###  http://rm-lod.org/object/4082/width/228
+###
+###  Second dimension individual.
 
 <http://rm-lod.org/object/4082/width/228> rdf:type ecrm:E54_Dimension ,
                                                    owl:NamedIndividual ;
