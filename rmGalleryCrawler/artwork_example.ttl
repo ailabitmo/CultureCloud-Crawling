@@ -51,6 +51,9 @@
                                 ecrm:P45_consists_of <http://collection.britishmuseum.org/id/thesauri/x10489> ,
                                                      <http://collection.britishmuseum.org/id/thesauri/x11321> ;
                                 
+                                ecrm:P43_has_dimension <http://rm-lod.org/object/4082/height/188> ,
+                                                       <http://rm-lod.org/object/4082/width/228> ;
+                                
                                 ecrm:P138i_has_representation <http://rm-lod.org/image/image_id> ;
                                 
                                 ecrm:P102_has_title <http://rm-lod.org/object/4082/title/title_id> .
