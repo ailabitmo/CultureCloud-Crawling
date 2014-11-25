@@ -1,0 +1,120 @@
+@prefix : <http://rm-lod.org/#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ecrm: <http://erlangen-crm.org/current/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rm-lod: <http://rm-lod.org/> .
+@prefix bm-thes: <http://collection.britishmuseum.org/id/thesauri> .
+@base <http://rm-lod.org/> .
+
+<http://rm-lod.org/> rdf:type owl:Ontology ;
+                     
+                     owl:imports <http://collection.britishmuseum.org/id/thesauri> ,
+                                 ecrm: .
+
+
+#################################################################
+#
+#    Individuals
+#
+#################################################################
+
+
+###  http://rm-lod.org/image/image_id
+
+<http://rm-lod.org/image/image_id> rdf:type ecrm:E38_Image ,
+                                            owl:NamedIndividual ;
+                                   
+                                   rdfs:label "http://rmgallery.ru/files/medium/4082_98.jpg" .
+
+
+
+###  http://rm-lod.org/object/4082
+
+<http://rm-lod.org/object/4082> rdf:type ecrm:E22_Man-Made_Object ,
+                                         owl:NamedIndividual ;
+                                
+                                ecrm:P3_has_note "Art object desription"@en ,
+                                                 "Описание объекта"@ru ;
+                                
+                                ecrm:P45_consists_of <http://collection.britishmuseum.org/id/thesauri/x10489> ,
+                                                     <http://collection.britishmuseum.org/id/thesauri/x11321> ;
+                                
+                                ecrm:P138i_has_representation <http://rm-lod.org/image/image_id> ;
+                                
+                                ecrm:P102_has_title <http://rm-lod.org/object/4082/title/title_id> .
+
+
+
+###  http://rm-lod.org/object/4082/production
+
+<http://rm-lod.org/object/4082/production> rdf:type ecrm:E12_Production ,
+                                                    owl:NamedIndividual ;
+                                           
+                                           ecrm:P82_at_some_time_within 1982 ;
+                                           
+                                           ecrm:P108_has_produced <http://rm-lod.org/object/4082> ;
+                                           
+                                           ecrm:P14_carried_out_by <http://rm-lod.org/person/person_id> .
+
+
+
+###  http://rm-lod.org/object/4082/height/188
+
+<http://rm-lod.org/object/4082/height/188> rdf:type ecrm:E54_Dimension ,
+                                                    owl:NamedIndividual ;
+                                           
+                                           ecrm:P90_has_value "188"^^xsd:int ;
+                                           
+                                           ecrm:P2_has_type <http://collection.britishmuseum.org/id/thesauri/dimension/height> .
+
+
+
+###  http://rm-lod.org/object/4082/title/title_id
+
+<http://rm-lod.org/object/4082/title/title_id> rdf:type ecrm:E35_Title ,
+                                                        owl:NamedIndividual ;
+                                               
+                                               rdfs:label "Art object title"@en ,
+                                                          "Название объекта"@ru .
+
+
+
+###  http://rm-lod.org/object/4082/width/228
+
+<http://rm-lod.org/object/4082/width/228> rdf:type ecrm:E54_Dimension ,
+                                                   owl:NamedIndividual ;
+                                          
+                                          ecrm:P90_has_value "228"^^xsd:int ;
+                                          
+                                          ecrm:P2_has_type <http://collection.britishmuseum.org/id/thesauri/dimension/width> .
+
+
+
+###  http://rm-lod.org/person/person_id
+
+<http://rm-lod.org/person/person_id> rdf:type ecrm:E21_Person ,
+                                              owl:NamedIndividual ;
+                                     
+                                     ecrm:P3_has_note "Author's bio"@ru ,
+                                                      "Биография автора"@ru ;
+                                     
+                                     ecrm:P131_is_identified_by <http://rm-lod.org/person/person_id/appelation/appelation_id> .
+
+
+
+###  http://rm-lod.org/person/person_id/appelation/appelation_id
+
+<http://rm-lod.org/person/person_id/appelation/appelation_id> rdf:type ecrm:E82_Actor_Appellation ,
+                                                                       owl:NamedIndividual ;
+                                                              
+                                                              rdfs:label "Author appelation"@en ,
+                                                                         "Аппеляция к автору"@ru .
+
+
+
+
+###  Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net
+
