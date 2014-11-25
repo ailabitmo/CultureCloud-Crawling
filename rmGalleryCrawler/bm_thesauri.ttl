@@ -2,6 +2,9 @@
 @prefix ecrm: <http://erlangen-crm.org/current/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+<http://collection.britishmuseum.org/id/thesauri> rdf:type owl:Ontology .
 
 <http://collection.britishmuseum.org/id/thesauri> rdf:type owl:Ontology .
 
