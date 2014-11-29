@@ -6,10 +6,10 @@ include RDF
 
 @p14_carried_out_by = RDF::URI.new('http://erlangen-crm.org/current/P14_carried_out_by')
 
-def gen_statement(author_id, object_id)
-  author_uri = RDF::URI.new("http://rm-lod.org/author/#{author_id}")
+def gen_statement(person_id, object_id)
+  person_uri = RDF::URI.new("http://rm-lod.org/person/#{person_id}")
   production_uri = RDF::URI.new("http://rm-lod.org/object/#{object_id}/production")
-  RDF::Statement(production_uri, @p14_carried_out_by, author_uri)
+  RDF::Statement(production_uri, @p14_carried_out_by, person_uri)
 end
 
 @graph = RDF::Graph.new(:format => :ttl)
@@ -37,14 +37,14 @@ end
 puts
 puts '== Crawling =='
 puts
-Nokogiri::HTML(open_html(@base_url + '/ru/author')).css(@css_path).css('a').each do |author|
-  author_id = author['href'][4, author['href'].length]
-  author_name = author.text.strip
-  puts author_name + ' ' + author['href'] + ' ' + author_id
-  Nokogiri::HTML(open_html(@base_url + author['href'])).css(@css_path).css('a').each do |artwork|
+Nokogiri::HTML(open_html(@base_url + '/ru/author')).css(@css_path).css('a').each do |person|
+  person_id = person['href'][4, person['href'].length]
+  person_name = person.text.strip
+  puts person_name + ' ' + person['href'] + ' ' + person_id
+  Nokogiri::HTML(open_html(@base_url + person['href'])).css(@css_path).css('a').each do |artwork|
     object_id = artwork['href'][4, artwork['href'].length]
     puts '  ' + object_id + ' ' + artwork['href']
-    @graph << gen_statement(author_id, object_id)
+    @graph << gen_statement(person_id, object_id)
   end
 end
 
