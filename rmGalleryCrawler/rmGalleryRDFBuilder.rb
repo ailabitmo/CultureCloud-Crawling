@@ -20,6 +20,7 @@ require 'nokogiri'
 require 'rdf/turtle'
 include RDF # Additional built-in vocabularies: http://rdf.greggkellogg.net/yard/RDF/Vocabulary.html
 require 'securerandom'
+require 'digest/md5'
 
 
 # TODO: cotribute to dbpediafinder: https://github.com/moustaki/dbpediafinder/
@@ -93,7 +94,7 @@ def authorsRdfGenerator()
         
         authorsGraph << [authorURI,RDFS.label,authorFullNameLiteral]
 
-        new_E82_ActorAppellation =  RDF::URI.new("#{@rdf_prefixes['rm-lod']}authors/#{authorID}/appelations/#{SecureRandom.urlsafe_base64(5)}")          
+        new_E82_ActorAppellation =  RDF::URI.new("#{@rdf_prefixes['rm-lod']}authors/#{authorID}/appelation/#{SecureRandom.urlsafe_base64(5)}")          
                       
         authorsGraph << [new_E82_ActorAppellation,RDFS.label,authorFullNameLiteral]
         authorsGraph << [new_E82_ActorAppellation,RDF.type,@ecrmVocabulary.E82_Actor_Appellation]
@@ -177,21 +178,25 @@ def artRdfGenerator()
         #authorFullName = works[i].attributes["authorName"].text
         #authorFullNameLiteral = RDF::Literal.new(authorFullName, :language => currentLocale)
         worksGraph << [workURI, RDF.type, @ecrmVocabulary["E22_Man-Made_Object"]]
-		
+
         new_E12_Production =  RDF::URI.new("#{@rdf_prefixes['rm-lod']}objects/#{workID}/production/#{SecureRandom.urlsafe_base64(5)}") 
         worksGraph << [new_E12_Production, RDF.type, @ecrmVocabulary.E12_Production]            
-		worksGraph << [workURI, @ecrmVocabulary[:P108i_was_produced_by], new_E12_Production]              
+        worksGraph << [workURI, @ecrmVocabulary[:P108i_was_produced_by], new_E12_Production]              
         
-		          
-        
-        workTitle = works[i].attributes["label"].text
+  
+        workTitle = works[i].attributes["label"].text.strip
         workTitleLiteral = RDF::Literal.new(workTitle, :language => currentLocale)
-        new_E35_Title =  RDF::URI.new("#{@rdf_prefixes['rm-lod']}objects/#{workID}/titles/#{SecureRandom.urlsafe_base64(5)}")
+        if (RDF::Query::Pattern.new(:s, RDFS.label, workTitleLiteral).execute(worksGraph).size>0)
+        then
+            puts "warning: work title #{workTitle} already exists..."            
+        end
+        new_E35_Title =  RDF::URI.new("#{@rdf_prefixes['rm-lod']}objects/#{workID}/title/#{SecureRandom.urlsafe_base64(5)}")
         worksGraph << [new_E35_Title, RDF.type, @ecrmVocabulary.E35_Title]
         worksGraph << [new_E35_Title, RDFS.label, workTitleLiteral]           
         worksGraph << [workURI, @ecrmVocabulary[:P102_has_title], new_E35_Title]
                     
-        annotationText = works[i].css("annotation")[0].text # FIXME
+                    
+        annotationText = works[i].css("annotation")[0].text.strip # FIXME
         annotationTextLiteral = RDF::Literal.new(annotationText, :language => currentLocale)             
         #new_E62_String =  RDF::URI.new("#{@rdf_prefixes['rm-lod']}objects/#{SecureRandom.urlsafe_base64(5)}")
         #worksGraph << [new_E62_String, RDF.type, @ecrmVocabulary.E62_String]
@@ -215,7 +220,7 @@ def artRdfGenerator()
                 worksGraph << [workURI, @ecrmVocabulary[:P43_has_dimension] ,new_E54_Dimension]
                 workDescriptions.delete(wd)
             end
-        }
+        }         
         new_E55_Type =  RDF::URI.new("#{@rdf_prefixes['rm-lod']}objects/thetypes/#{SecureRandom.urlsafe_base64(5)}") #TODO: unify
         worksGraph << [new_E55_Type, RDF.type, @ecrmVocabulary.E55_Type]
         workDescriptionsLiteral =  workDescriptions.join(". ")
@@ -307,8 +312,8 @@ end
 puts "please, uncomment functions calls you need in sources"
 artFile = File.open("rmgallery_art.xml","r")
 @doc = Nokogiri::XML(artFile)
-authorsRdfGenerator()
-#artRdfGenerator()
+#authorsRdfGenerator()
+artRdfGenerator()
 #genresTypesRdfGenerator()
 artFile.close
 puts "done. exiting."
