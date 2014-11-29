@@ -88,11 +88,11 @@ def authorsRdfGenerator()
         authorURI =  RDF::URI.new("#{@rdf_prefixes['rm-lod']}authors/#{authorID}") #FIXME: generate real URI
         authorsGraph <<[authorURI, RDF.type, @ecrmVocabulary.E21_Person]              
                       
-        authorFullName = authors[i].attributes["label"].text
+        authorFullName = authors[i].attributes["label"].text.strip
         authorFullNameLiteral = RDF::Literal.new(authorFullName, :language => currentLocale)
         
-		authorsGraph << [authorURI,RDFS.label,authorFullNameLiteral]
-		
+        authorsGraph << [authorURI,RDFS.label,authorFullNameLiteral]
+
         new_E82_ActorAppellation =  RDF::URI.new("#{@rdf_prefixes['rm-lod']}authors/#{authorID}/appelations/#{SecureRandom.urlsafe_base64(5)}")          
                       
         authorsGraph << [new_E82_ActorAppellation,RDFS.label,authorFullNameLiteral]
@@ -308,7 +308,7 @@ puts "please, uncomment functions calls you need in sources"
 artFile = File.open("rmgallery_art.xml","r")
 @doc = Nokogiri::XML(artFile)
 authorsRdfGenerator()
-artRdfGenerator()
-genresTypesRdfGenerator()
+#artRdfGenerator()
+#genresTypesRdfGenerator()
 artFile.close
 puts "done. exiting."

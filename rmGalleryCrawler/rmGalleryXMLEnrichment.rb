@@ -116,9 +116,9 @@ end
 def dpdepiaSpotlighAnnotator(inputText,locale)
     case locale
     when "ru" # http://impact.dlsi.ua.es/wiki/index.php/DBPedia_Spotlight
-        u = "http://spotlight.sztaki.hu:2227/rest/annotate"
+        u = "http://ru.spotlight.dbpedia.org/rest/annotate"# "http://spotlight.sztaki.hu:2227/rest/annotate"
     when "en"
-        u = "http://spotlight.sztaki.hu:2222/rest/annotate"
+        u = "http://en.spotlight.dbpedia.org/rest/annotate"# "http://spotlight.sztaki.hu:2222/rest/annotate"
     else
         u = "http://spotlight.dbpedia.org/rest/annotate"
     end
@@ -170,6 +170,7 @@ def authorsEnrichment()
                     artFileEnriched.write(xml.to_xml)
                 else
                     puts "already enriched"
+                    if !(Nokogiri::XML(xml.to_xml).xpath("//author/@id='#{authorID}'/"))           
                 end
 
 
@@ -216,4 +217,4 @@ def worksEnrichment()
 end
 
 authorsEnrichment()
-worksEnrichment()
+#worksEnrichment()
