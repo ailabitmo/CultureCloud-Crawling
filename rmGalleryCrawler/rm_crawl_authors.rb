@@ -7,23 +7,6 @@ require 'digest/md5'
 require 'russian'
 include RDF
 
-puts OWL.to_uri
-
-@prefixes = {
-    :rdf => RDF.to_uri,
-    :rdfs => RDFS.to_uri,
-}
-@owl_named_individual = RDF::URI.new('http://www.w3.org/2002/07/owl#NamedIndividual')
-@e21_person = RDF::URI.new('http://erlangen-crm.org/current/E21_Person')
-@e82_actor_appellation = RDF::URI.new('http://erlangen-crm.org/current/E82_Actor_Appellation')
-@p2_has_type = RDF::URI.new('http://erlangen-crm.org/current/P2_has_type')
-@p3_has_note = RDF::URI.new('http://erlangen-crm.org/current/P3_has_note')
-@p131_is_identified_by = RDF::URI.new('http://erlangen-crm.org/current/P131_is_identified_by')
-
-
-@graph = RDF::Graph.new(:format => :ttl)
-
-
 def open_html (url)
   uri = URI.parse(url)
   http = Net::HTTP.new(uri.host, uri.port)
@@ -38,6 +21,51 @@ def open_html (url)
   end
   response.body
 end
+
+@artwork_ownerships = RDF::Graph.load('rm_artwork_ownerships.ttl')
+
+def crawl_bio(object_id)
+  bio = Hash.new
+  Nokogiri::HTML(open_html("http://rmgallery.ru/en/#{object_id}")).\
+      css('div[data-role=collapsible]').each do |collapsible|
+    if collapsible.css('h3').text == "Author's Biogrphy"
+      b = collapsible.css('p').text
+      bio['en'] = b unless b.empty?
+    end
+  end
+  Nokogiri::HTML(open_html("http://rmgallery.ru/ru/#{object_id}")).\
+      css('div[data-role=collapsible]').each do |collapsible|
+    if collapsible.css('h3').text == 'Биография автора'
+      b = collapsible.css('p').text
+      bio['ru'] = b unless b.empty?
+    end
+  end
+  bio
+end
+
+def get_author_bio(person_id)
+  q = RDF::Query.new({
+                         :obj => {
+                             RDF::URI.new('http://erlangen-crm.org/current/P14_carried_out_by') =>
+                                 RDF::URI.new("http://rm-lod.org/person/#{person_id}")
+                         }})
+  production = q.execute(@artwork_ownerships).first[:obj].to_s
+  object_id = /http:\/\/rm-lod.org\/object\/([0-9]+)\/production\/?/.match(production)[1]
+  crawl_bio(object_id)
+end
+
+@prefixes = {
+    :rdf => RDF.to_uri,
+    :rdfs => RDFS.to_uri,
+}
+@owl_named_individual = RDF::URI.new('http://www.w3.org/2002/07/owl#NamedIndividual')
+@e21_person = RDF::URI.new('http://erlangen-crm.org/current/E21_Person')
+@e82_actor_appellation = RDF::URI.new('http://erlangen-crm.org/current/E82_Actor_Appellation')
+@p2_has_type = RDF::URI.new('http://erlangen-crm.org/current/P2_has_type')
+@p3_has_note = RDF::URI.new('http://erlangen-crm.org/current/P3_has_note')
+@p131_is_identified_by = RDF::URI.new('http://erlangen-crm.org/current/P131_is_identified_by')
+
+@graph = RDF::Graph.new(:format => :ttl)
 
 def gen_person_uri(person_id)
   RDF::URI.new("http://rm-lod.org/person/#{person_id}")
@@ -74,9 +102,9 @@ Nokogiri::HTML(open_html(@author_url_en)).css(@css_path).css('a').each do |perso
   @authors_en[person_id] = person_name
 end
 
-def get_author_bio(person_id)
 
-end
+
+
 
 @authors_ru.each do |person_id, appellation_ru|
   a_ru = appellation_ru
@@ -92,8 +120,9 @@ end
   @graph << [person_uri, RDF.type, @e21_person]
   @graph << [person_uri, RDF.type, @owl_named_individual]
   @graph << [person_uri, @p131_is_identified_by, appellation_uri]
-  # @graph << [person_uri, @p3_has_note, RDF::Literal.new(bio_ru, :language => :ru)]
-  # @graph << [person_uri, @p3_has_note, RDF::Literal.new(bio_en, :language => :en)]
+  bio = get_author_bio(person_id)
+  @graph << [person_uri, @p3_has_note, RDF::Literal.new(bio['ru'], :language => :ru)] if bio['ru']
+  @graph << [person_uri, @p3_has_note, RDF::Literal.new(bio['en'], :language => :en)] if bio['en']
 
   # Appellation triplets
   @graph << [appellation_uri, RDF.type, @e82_actor_appellation]
