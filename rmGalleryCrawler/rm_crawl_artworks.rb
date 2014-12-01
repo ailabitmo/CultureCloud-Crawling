@@ -112,23 +112,23 @@ def crawlDescriptionAndSizes(objectId)
             then
                 dimentions = descr.split("х")
                 dimentions.each_index { |i|
-                    dimentions[i]=dimentions[i].strip
+                    dimentions[i]=dimentions[i].strip.gsub!(",",".")
                 }
                 dimention << dimentions
             elsif !(descr.index(" x ").nil?)
                 dimentions = descr.split("x")
                 dimentions.each_index { |i|
-                    dimentions[i]=dimentions[i].strip
+                    dimentions[i]=dimentions[i].strip.gsub!(",",".")
                 }
                 dimention << dimentions
             elsif !(descr.index(" × ").nil?)
                 dimentions = descr.split("×")
                 dimentions.each_index { |i|
-                    dimentions[i]=dimentions[i].strip
+                    dimentions[i]=dimentions[i].strip.gsub!(",",".")
                 }
                 dimention << dimentions
             elsif !(descr.index("61,5 x51,5 (овал)").nil?)
-                dimentions = ["61,5","51,5"]
+                dimentions = ["61.5","51.5"]
                 dimention << dimentions
             elsif !(descr.index("46х 80").nil?)
                 dimentions = ["46","80"]
@@ -137,7 +137,7 @@ def crawlDescriptionAndSizes(objectId)
                 dimentions = ["140","168"]
                 dimention << dimentions
             elsif !(descr.index("Диаметр ").nil?)
-                diameter = descr
+                diameter = descr.gsub!(",",".")
                 diameter.slice! "Диаметр "
             elsif !(descr.index("Высота – 22; верхний диаметр – 13,3; нижний диаметр – 13,9").nil?)
                 puts "TODO: Высота и диаметры"
@@ -208,7 +208,7 @@ artworksIds.to_a.each { |artworksId|
     puts "artworkID: #{artworksId}"
 
     # Images
-    currentArtworkURI = RDF::URI.new(getImageUrl(artworksId)['rm-lod'])
+    currentArtworkURI = RDF::URI.new(getImageUrl(artworksId)[:vismart])
     @graph_images << [currentArtworkURI,RDF.type,@ecrmVocabulary[:E38_Image]]
     @graph_images << [currentArtworkURI,RDF.type,OWL.NamedIndividual]
     @graph_images << [currentArtworkURI,RDFS.label,RDF::URI.new(getImageUrl(artworksId)[:rmgallery])]
