@@ -45,7 +45,8 @@ BilingualLabel = Struct.new(:en, :ru)
     :rdfs => RDFS.to_uri,
     :dbp =>  "http://dbpedia.org/resource/",
     :owl => OWL.to_uri,
-    'rm-lod' => "http://rm-lod.org/"
+    'rm-lod' => "http://rm-lod.org/",
+    'xsd' => XSD.to_uri
 }
 
 def getRandomString()
@@ -168,7 +169,13 @@ end
 #crawlTitleAndDate("189")
 #gets
 
-@graph = RDF::Graph.new(:format => :ttl)
+@graph_images = RDF::Graph.new(:format => :ttl)
+@graph_artwork = RDF::Graph.new(:format => :ttl)
+@graph_materials = RDF::Graph.new(:format => :ttl)
+@graph_representation = RDF::Graph.new(:format => :ttl)
+@graph_titles = RDF::Graph.new(:format => :ttl)
+@graph_dates = RDF::Graph.new(:format => :ttl)
+
 @artwork_ownerships_ttl = RDF::Graph.load('rm_artwork_ownerships.ttl')
 @genres_ttl = RDF::Graph.load('rm_genres.ttl')
 
@@ -199,17 +206,23 @@ puts 'Done!'
 
 artworksIds.to_a.each { |artworksId|
     puts "artworkID: #{artworksId}"
+
+    # Images
     currentArtworkURI = RDF::URI.new(getImageUrl(artworksId)['rm-lod'])
-    @graph << [currentArtworkURI,RDF.type,@ecrmVocabulary[:E38_Image]]
-    @graph << [currentArtworkURI,RDF.type,OWL.NamedIndividual]
-    @graph << [currentArtworkURI,RDFS.label,RDF::URI.new(getImageUrl(artworksId)['rmgallery'])]
-    newManMadeObject = RDF::URI.new("#{@rdf_prefixes['rm-lod']}/object/#{artworksId}")
-    @graph << [newManMadeObject,RDF.type,@ecrmVocabulary['E22_Man-Made_Object']]
-    @graph << [newManMadeObject,RDF.type,OWL.NamedIndividual]
+    @graph_images << [currentArtworkURI,RDF.type,@ecrmVocabulary[:E38_Image]]
+    @graph_images << [currentArtworkURI,RDF.type,OWL.NamedIndividual]
+    @graph_images << [currentArtworkURI,RDFS.label,RDF::URI.new(getImageUrl(artworksId)[:rmgallery])]
+
+    # Man-made-objects with notes
+    newManMadeObject = RDF::URI.new("#{@rdf_prefixes['rm-lod']}object/#{artworksId}")
+    @graph_artwork << [newManMadeObject,RDF.type,@ecrmVocabulary['E22_Man-Made_Object']]
+    @graph_artwork << [newManMadeObject,RDF.type,OWL.NamedIndividual]
 
     crawlAnnotation(artworksId).each { |localeLabel, annotation|
-        @graph << [newManMadeObject,@ecrmVocabulary[:P3_has_note],RDF::Literal.new(annotation, :language => localeLabel)]
+        @graph_artwork << [newManMadeObject,@ecrmVocabulary[:P3_has_note],RDF::Literal.new(annotation, :language => localeLabel)]
     }
+
+    # Materials (todo) and dimentions
 
     currentDescriptionAndSizes = crawlDescriptionAndSizes(artworksId)
     # TODO: newManMadeObject -- ecrm:P45_consists_of -- http://collection.britishmuseum.org/id/thesauri/x10489
@@ -219,12 +232,12 @@ artworksIds.to_a.each { |artworksId|
     then
         dimentionLabel = "diameter"
         dimentionURI = RDF::URI.new("#{newManMadeObject.to_s}/#{dimentionLabel}/#{diameter}")
-        @graph << [dimentionURI,RDF.type,@ecrmVocabulary['E54_Dimension']]
-        @graph << [dimentionURI,RDF.type,OWL.NamedIndividual]
-        @graph << [dimentionURI,@ecrmVocabulary['P90_has_value'], RDF::Literal::Float.new(diameter)]
+        @graph_materials << [dimentionURI,RDF.type,@ecrmVocabulary['E54_Dimension']]
+        @graph_materials << [dimentionURI,RDF.type,OWL.NamedIndividual]
+        @graph_materials << [dimentionURI,@ecrmVocabulary['P90_has_value'], RDF::Literal::Float.new(diameter)]
         bmTypeURI = RDF::URI.new("http://collection.britishmuseum.org/id/thesauri/dimension/#{dimentionLabel}")
-        @graph << [dimentionURI,@ecrmVocabulary['P2_has_type'],bmTypeURI]
-        @graph << [newManMadeObject,@ecrmVocabulary['P43_has_dimension'],dimentionURI]
+        @graph_materials << [dimentionURI,@ecrmVocabulary['P2_has_type'],bmTypeURI]
+        @graph_materials << [newManMadeObject,@ecrmVocabulary['P43_has_dimension'],dimentionURI]
     end
     currentSizes = currentDescriptionAndSizes[:sizes]
     if !(currentSizes.nil?)
@@ -240,38 +253,42 @@ artworksIds.to_a.each { |artworksId|
                     dimentionLabel = "depth"
             end
             dimentionURI = RDF::URI.new("#{newManMadeObject.to_s}/#{dimentionLabel}/#{currentSizes[i]}")
-            @graph << [dimentionURI,RDF.type,@ecrmVocabulary['E54_Dimension']]
-            @graph << [dimentionURI,RDF.type,OWL.NamedIndividual]
-            @graph << [dimentionURI,@ecrmVocabulary['P90_has_value'], RDF::Literal::Float.new(currentSizes[i])]
+            @graph_materials << [dimentionURI,RDF.type,@ecrmVocabulary['E54_Dimension']]
+            @graph_materials << [dimentionURI,RDF.type,OWL.NamedIndividual]
+            @graph_materials << [dimentionURI,@ecrmVocabulary['P90_has_value'], RDF::Literal::Float.new(currentSizes[i])]
             bmTypeURI = RDF::URI.new("http://collection.britishmuseum.org/id/thesauri/dimension/#{dimentionLabel}")
-            @graph << [dimentionURI,@ecrmVocabulary['P2_has_type'],bmTypeURI]
-            @graph << [newManMadeObject,@ecrmVocabulary['P43_has_dimension'],dimentionURI]
+            @graph_materials << [dimentionURI,@ecrmVocabulary['P2_has_type'],bmTypeURI]
+            @graph_materials << [newManMadeObject,@ecrmVocabulary['P43_has_dimension'],dimentionURI]
         }
     end
 
+    # Representation
+    @graph_representation << [newManMadeObject,@ecrmVocabulary['P138i_has_representation'],currentArtworkURI]
 
-    @graph << [newManMadeObject,@ecrmVocabulary['P138i_has_representation'],currentArtworkURI]
+    # Titles
 
     currentTitleAndDate = crawlTitleAndDate(artworksId)
     currentTitle = currentTitleAndDate[:title]
     titleURI = RDF::URI.new("#{newManMadeObject.to_s}/title/#{getRandomString}")
-    @graph << [newManMadeObject,@ecrmVocabulary[:P102_has_title],titleURI]
-    @graph << [titleURI,RDF.type,@ecrmVocabulary[:E35_Title]]
-    @graph << [titleURI,RDF.type,OWL.NamedIndividual]
+    @graph_titles << [newManMadeObject,@ecrmVocabulary[:P102_has_title],titleURI]
+    @graph_titles << [titleURI,RDF.type,@ecrmVocabulary[:E35_Title]]
+    @graph_titles << [titleURI,RDF.type,OWL.NamedIndividual]
     currentTitle.each { |localeLabel, title|
-        @graph << [titleURI,RDFS.label,RDF::Literal.new(title, :language => localeLabel)]
+        @graph_titles << [titleURI,RDFS.label,RDF::Literal.new(title, :language => localeLabel)]
     }
+
+    # Dates
 
     currentDate = currentTitleAndDate[:date]
     if (currentDate.size>0)
     then
         productionURI = RDF::URI.new("#{newManMadeObject.to_s}/production")
-        @graph << [productionURI,RDF.type,@ecrmVocabulary[:E12_Production]]
-        @graph << [productionURI,RDF.type,OWL.NamedIndividual]
+        @graph_dates << [productionURI,RDF.type,@ecrmVocabulary[:E12_Production]]
+        @graph_dates << [productionURI,RDF.type,OWL.NamedIndividual]
         currentDate.each { |localeLabel, date|
-            @graph << [productionURI,@ecrmVocabulary[:P82_at_some_time_within],RDF::Literal.new(date, :language => localeLabel)]
+            @graph_dates << [productionURI,@ecrmVocabulary[:P82_at_some_time_within],RDF::Literal.new(date, :language => localeLabel)]
         }
-        @graph << [productionURI,@ecrmVocabulary[:P108_has_produced],newManMadeObject]
+        @graph_dates << [productionURI,@ecrmVocabulary[:P108_has_produced],newManMadeObject]
     end
 
 }
@@ -279,9 +296,36 @@ artworksIds.to_a.each { |artworksId|
 
 
 puts
-puts '== Writing file =='
+puts '== Writing files =='
 puts
-file = File.new('rm_artwork.ttl', 'w')
-file.write(@graph.dump(:ttl, :prefixes => @rdf_prefixes))
+
+puts '== graph_images =='
+file = File.new('rm_artwork_images.ttl', 'w')
+file.write(@graph_images.dump(:ttl, :prefixes => @rdf_prefixes))
+file.close
+
+puts '== graph_artwork =='
+file = File.new('rm_artwork_objects.ttl', 'w')
+file.write(@graph_artwork.dump(:ttl, :prefixes => @rdf_prefixes))
+file.close
+
+puts '== graph_materials =='
+file = File.new('rm_artwork_materials.ttl', 'w')
+file.write(@graph_materials.dump(:ttl, :prefixes => @rdf_prefixes))
+file.close
+
+puts '== graph_representation =='
+file = File.new('rm_artwork_representation.ttl', 'w')
+file.write(@graph_representation.dump(:ttl, :prefixes => @rdf_prefixes))
+file.close
+
+puts '== graph_titles =='
+file = File.new('rm_artwork_titles.ttl', 'w')
+file.write(@graph_titles.dump(:ttl, :prefixes => @rdf_prefixes))
+file.close
+
+puts '== graph_dates =='
+file = File.new('rm_artwork_dates.ttl', 'w')
+file.write(@graph_dates.dump(:ttl, :prefixes => @rdf_prefixes))
 file.close
 puts 'Done!'
