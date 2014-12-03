@@ -108,9 +108,7 @@ def crawlDescriptionAndSizes(objectId)
         artItemDescriptionCss = artItemHTML.css("b").inner_html.split("<br>")
         artItemDescriptionCss.shift
         artItemDescriptionCss.each { |descr|
-            # TODO: ----
-            # TODO: 87 х 65 (овал, вписанный в прямоугольник)
-
+            parse_next = false
             if (descr=='20,8 x 11,1 x 9,5 ("Гармонист"); 21,4 x 12,7 x 10 ("Плясунья")')
             then
                 puts "TODO: Гармонист-плясунья"
@@ -142,8 +140,11 @@ def crawlDescriptionAndSizes(objectId)
             then
                 puts "TODO: с рамкой и без рамки?"
                 descr = descr.split(";")[1] # TODO: we should also use inner size somehow
+                parse_next = true
+            end
+            if (parse_next) then
             #TODO: we should use regexps not this elsif-elsif-elsif...
-            elsif !(descr.index(" х ").nil?)
+            if !(descr.index(" х ").nil?)
             then
                 dimentions = descr.split("х")
                 dimentions.each_index { |i|
@@ -169,6 +170,7 @@ def crawlDescriptionAndSizes(objectId)
                     description[localeLabel] = ""
                 end
                 description[localeLabel] += descr.strip unless descr.empty?
+            end
             end
         }
         #artItemDescription = artItemDescriptionCss.join(". ")
