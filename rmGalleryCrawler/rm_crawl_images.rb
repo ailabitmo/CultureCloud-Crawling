@@ -22,9 +22,6 @@ then
     RDF::Query::Pattern.new(:s, @ecrmVocabulary['P14_carried_out_by'], :o).execute(@artwork_ownerships_ttl).each { |statement|
         artworksIds << /\d+/.match(statement.subject)[0]
     }
-    RDF::Query::Pattern.new(:s, @ecrmVocabulary['P2_has_type'], :o).execute(@genres_ttl).each { |statement|
-        artworksIds << /\d+/.match(statement.subject)[0]
-    }
     i=1
     artworksIds.to_a.each { |artworksId|
         puts "#{i}.artworkID: #{artworksId}"
