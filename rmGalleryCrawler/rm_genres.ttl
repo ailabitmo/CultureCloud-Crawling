@@ -7,39 +7,17 @@
 
 <http://rm-lod.org/object/1003> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12718> .
 
-<http://rm-lod.org/object/1020> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12542> .
-
-<http://rm-lod.org/object/1023> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12542> .
-
 <http://rm-lod.org/object/1026> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
 
 <http://rm-lod.org/object/1030> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12718> .
 
 <http://rm-lod.org/object/1034> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12718> .
 
-<http://rm-lod.org/object/1037> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
-<http://rm-lod.org/object/1038> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
-<http://rm-lod.org/object/1039> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
-<http://rm-lod.org/object/1040> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
-<http://rm-lod.org/object/1041> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13025> .
-
-<http://rm-lod.org/object/1048> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12859> .
-
-<http://rm-lod.org/object/1049> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13025> .
-
 <http://rm-lod.org/object/1056> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
 
 <http://rm-lod.org/object/1057> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12718> .
 
 <http://rm-lod.org/object/1058> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12718> .
-
-<http://rm-lod.org/object/1059> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12542> .
-
-<http://rm-lod.org/object/1060> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
 
 <http://rm-lod.org/object/1065> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13409> .
 
@@ -137,81 +115,13 @@
 
 <http://rm-lod.org/object/1145> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12718> .
 
-<http://rm-lod.org/object/1149> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12542> .
-
-<http://rm-lod.org/object/1150> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12542> .
-
-<http://rm-lod.org/object/1151> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12542> .
-
-<http://rm-lod.org/object/1152> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12542> .
-
-<http://rm-lod.org/object/1153> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12542> .
-
-<http://rm-lod.org/object/1156> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
-<http://rm-lod.org/object/1158> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
-<http://rm-lod.org/object/1161> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
-<http://rm-lod.org/object/1162> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12718> .
-
-<http://rm-lod.org/object/1170> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13025> .
-
-<http://rm-lod.org/object/1176> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
-<http://rm-lod.org/object/1177> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
-<http://rm-lod.org/object/1178> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12718> .
-
-<http://rm-lod.org/object/118> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12542> .
-
-<http://rm-lod.org/object/1180> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
-<http://rm-lod.org/object/1181> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12934> .
-
-<http://rm-lod.org/object/1182> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12934> .
-
-<http://rm-lod.org/object/1183> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12934> .
-
-<http://rm-lod.org/object/1187> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12542> .
-
-<http://rm-lod.org/object/1188> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12542> .
-
-<http://rm-lod.org/object/1189> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12542> .
-
-<http://rm-lod.org/object/119> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12542> .
-
-<http://rm-lod.org/object/1192> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12542> .
-
-<http://rm-lod.org/object/1206> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13025> .
-
-<http://rm-lod.org/object/1207> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13025> .
-
-<http://rm-lod.org/object/1208> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13025> .
-
 <http://rm-lod.org/object/1209> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12934> .
-
-<http://rm-lod.org/object/121> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12542> .
 
 <http://rm-lod.org/object/122> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12934> .
 
-<http://rm-lod.org/object/1234> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12542> .
-
-<http://rm-lod.org/object/1235> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12542> .
-
-<http://rm-lod.org/object/1236> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12542> .
-
 <http://rm-lod.org/object/1238> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12934> .
 
-<http://rm-lod.org/object/1239> <http://erlangen-crm.org/current/P2_has_type> <http://rm-lod.org/thesauri/theatrical_scenery> .
-
 <http://rm-lod.org/object/124> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
-<http://rm-lod.org/object/1240> <http://erlangen-crm.org/current/P2_has_type> <http://rm-lod.org/thesauri/theatrical_scenery> .
-
-<http://rm-lod.org/object/1241> <http://erlangen-crm.org/current/P2_has_type> <http://rm-lod.org/thesauri/theatrical_scenery> .
-
-<http://rm-lod.org/object/1242> <http://erlangen-crm.org/current/P2_has_type> <http://rm-lod.org/thesauri/theatrical_scenery> .
 
 <http://rm-lod.org/object/1243> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12934> .
 
@@ -251,21 +161,9 @@
 
 <http://rm-lod.org/object/137> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
 
-<http://rm-lod.org/object/1376> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12542> .
-
 <http://rm-lod.org/object/138> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
 
-<http://rm-lod.org/object/1389> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12542> .
-
 <http://rm-lod.org/object/139> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
-<http://rm-lod.org/object/1391> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
-<http://rm-lod.org/object/1392> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13025> .
-
-<http://rm-lod.org/object/1393> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13025> .
-
-<http://rm-lod.org/object/1394> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
 
 <http://rm-lod.org/object/140> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
 
@@ -307,21 +205,7 @@
 
 <http://rm-lod.org/object/143> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12934> .
 
-<http://rm-lod.org/object/1430> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12542> .
-
-<http://rm-lod.org/object/1431> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12542> .
-
-<http://rm-lod.org/object/1432> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12542> .
-
-<http://rm-lod.org/object/1433> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12542> .
-
 <http://rm-lod.org/object/1434> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12542> .
-
-<http://rm-lod.org/object/1435> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12542> .
-
-<http://rm-lod.org/object/1436> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12542> .
-
-<http://rm-lod.org/object/1439> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12542> .
 
 <http://rm-lod.org/object/144> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12542> .
 
@@ -344,10 +228,6 @@
 <http://rm-lod.org/object/1449> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
 
 <http://rm-lod.org/object/145> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12934> .
-
-<http://rm-lod.org/object/1451> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
-<http://rm-lod.org/object/1452> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
 
 <http://rm-lod.org/object/1453> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
 
@@ -441,10 +321,6 @@
 
 <http://rm-lod.org/object/1526> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
 
-<http://rm-lod.org/object/155> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12542> .
-
-<http://rm-lod.org/object/156> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12542> .
-
 <http://rm-lod.org/object/1579> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13025> .
 
 <http://rm-lod.org/object/1580> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13409> .
@@ -453,19 +329,9 @@
 
 <http://rm-lod.org/object/161> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12542> .
 
-<http://rm-lod.org/object/1618> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12859> .
-
-<http://rm-lod.org/object/1619> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
 <http://rm-lod.org/object/162> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
 
-<http://rm-lod.org/object/1629> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
 <http://rm-lod.org/object/163> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13025> .
-
-<http://rm-lod.org/object/1634> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12859> .
-
-<http://rm-lod.org/object/1635> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12859> .
 
 <http://rm-lod.org/object/164> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
 
@@ -486,8 +352,6 @@
 <http://rm-lod.org/object/167> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
 
 <http://rm-lod.org/object/1673> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12718> .
-
-<http://rm-lod.org/object/1675> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
 
 <http://rm-lod.org/object/1676> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
 
@@ -559,10 +423,6 @@
 
 <http://rm-lod.org/object/175> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12718> .
 
-<http://rm-lod.org/object/1762> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
-<http://rm-lod.org/object/1765> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
 <http://rm-lod.org/object/177> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12718> .
 
 <http://rm-lod.org/object/178> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12993> .
@@ -581,11 +441,7 @@
 
 <http://rm-lod.org/object/1816> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12934> .
 
-<http://rm-lod.org/object/1817> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12934> .
-
 <http://rm-lod.org/object/1818> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12934> .
-
-<http://rm-lod.org/object/1823> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
 
 <http://rm-lod.org/object/183> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
 
@@ -609,8 +465,6 @@
 
 <http://rm-lod.org/object/189> <http://erlangen-crm.org/current/P2_has_type> <http://rm-lod.org/thesauri/abstraction> .
 
-<http://rm-lod.org/object/1890> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
 <http://rm-lod.org/object/1895> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
 
 <http://rm-lod.org/object/1897> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
@@ -621,17 +475,11 @@
 
 <http://rm-lod.org/object/1903> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
 
-<http://rm-lod.org/object/1906> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
 <http://rm-lod.org/object/1909> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
 
 <http://rm-lod.org/object/1911> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
 
 <http://rm-lod.org/object/1912> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
-<http://rm-lod.org/object/1914> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
-<http://rm-lod.org/object/1924> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
 
 <http://rm-lod.org/object/1926> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
 
@@ -651,21 +499,11 @@
 
 <http://rm-lod.org/object/1962> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
 
-<http://rm-lod.org/object/1963> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
 <http://rm-lod.org/object/1975> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
 
 <http://rm-lod.org/object/1980> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
 
-<http://rm-lod.org/object/1981> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
 <http://rm-lod.org/object/1982> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
-<http://rm-lod.org/object/1983> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12934> .
-
-<http://rm-lod.org/object/1984> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12934> .
-
-<http://rm-lod.org/object/1985> <http://erlangen-crm.org/current/P2_has_type> <http://rm-lod.org/thesauri/illustration> .
 
 <http://rm-lod.org/object/1992> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13409> .
 
@@ -712,8 +550,6 @@
 <http://rm-lod.org/object/2110> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
 
 <http://rm-lod.org/object/2112> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
-<http://rm-lod.org/object/2116> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
 
 <http://rm-lod.org/object/2137> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
 
@@ -799,48 +635,6 @@
 
 <http://rm-lod.org/object/2239> <http://erlangen-crm.org/current/P2_has_type> <http://rm-lod.org/thesauri/illustration> .
 
-<http://rm-lod.org/object/2241> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12542> .
-
-<http://rm-lod.org/object/2243> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12542> .
-
-<http://rm-lod.org/object/2245> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13025> .
-
-<http://rm-lod.org/object/2246> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13025> .
-
-<http://rm-lod.org/object/2252> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12542> .
-
-<http://rm-lod.org/object/2254> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12542> .
-
-<http://rm-lod.org/object/2255> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12542> .
-
-<http://rm-lod.org/object/2260> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12542> .
-
-<http://rm-lod.org/object/2261> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13025> .
-
-<http://rm-lod.org/object/2262> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13025> .
-
-<http://rm-lod.org/object/2264> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13025> .
-
-<http://rm-lod.org/object/2266> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13025> .
-
-<http://rm-lod.org/object/2268> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13025> .
-
-<http://rm-lod.org/object/2269> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
-<http://rm-lod.org/object/2270> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13025> .
-
-<http://rm-lod.org/object/2271> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13025> .
-
-<http://rm-lod.org/object/2272> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13025> .
-
-<http://rm-lod.org/object/2274> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13025> .
-
-<http://rm-lod.org/object/2276> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13025> .
-
-<http://rm-lod.org/object/2277> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13025> .
-
-<http://rm-lod.org/object/2278> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13025> .
-
 <http://rm-lod.org/object/2281> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13025> .
 
 <http://rm-lod.org/object/2283> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13025> .
@@ -899,12 +693,6 @@
 
 <http://rm-lod.org/object/2381> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12859> .
 
-<http://rm-lod.org/object/2383> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12859> .
-
-<http://rm-lod.org/object/2385> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12859> .
-
-<http://rm-lod.org/object/2388> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12859> .
-
 <http://rm-lod.org/object/2389> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
 
 <http://rm-lod.org/object/2390> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
@@ -915,17 +703,11 @@
 
 <http://rm-lod.org/object/2394> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
 
-<http://rm-lod.org/object/2395> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12859> .
-
 <http://rm-lod.org/object/2397> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12993> .
 
 <http://rm-lod.org/object/2400> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12859> .
 
-<http://rm-lod.org/object/2403> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12859> .
-
 <http://rm-lod.org/object/2417> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
-<http://rm-lod.org/object/2418> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
 
 <http://rm-lod.org/object/2421> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12934> .
 
@@ -995,8 +777,6 @@
 
 <http://rm-lod.org/object/2485> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
 
-<http://rm-lod.org/object/2487> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
 <http://rm-lod.org/object/2492> <http://erlangen-crm.org/current/P2_has_type> <http://rm-lod.org/thesauri/caricature> .
 
 <http://rm-lod.org/object/2494> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12469> .
@@ -1014,10 +794,6 @@
 <http://rm-lod.org/object/2502> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13025> .
 
 <http://rm-lod.org/object/2503> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12859> .
-
-<http://rm-lod.org/object/2504> <http://erlangen-crm.org/current/P2_has_type> <http://rm-lod.org/thesauri/theatrical_scenery> .
-
-<http://rm-lod.org/object/2505> <http://erlangen-crm.org/current/P2_has_type> <http://rm-lod.org/thesauri/theatrical_scenery> .
 
 <http://rm-lod.org/object/2506> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
 
@@ -1099,53 +875,7 @@
 
 <http://rm-lod.org/object/2570> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12934> .
 
-<http://rm-lod.org/object/2612> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12469> .
-
-<http://rm-lod.org/object/2644> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12934> .
-
-<http://rm-lod.org/object/2645> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12542> .
-
-<http://rm-lod.org/object/2646> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12718> .
-
-<http://rm-lod.org/object/2647> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12718> .
-
-<http://rm-lod.org/object/2649> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13409> .
-
-<http://rm-lod.org/object/2650> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12718> .
-
-<http://rm-lod.org/object/2651> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13409> .
-
-<http://rm-lod.org/object/2652> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12718> .
-
-<http://rm-lod.org/object/2653> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12859> .
-
-<http://rm-lod.org/object/2654> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12718> .
-
-<http://rm-lod.org/object/2655> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12718> .
-
-<http://rm-lod.org/object/2656> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12718> .
-
-<http://rm-lod.org/object/2657> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12718> .
-
-<http://rm-lod.org/object/2659> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12718> .
-
-<http://rm-lod.org/object/2660> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12859> .
-
-<http://rm-lod.org/object/2661> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12718> .
-
-<http://rm-lod.org/object/2662> <http://erlangen-crm.org/current/P2_has_type> <http://rm-lod.org/thesauri/illustration> .
-
-<http://rm-lod.org/object/2663> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12718> .
-
-<http://rm-lod.org/object/2664> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12859> .
-
-<http://rm-lod.org/object/2665> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12859> .
-
-<http://rm-lod.org/object/2670> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12718> .
-
 <http://rm-lod.org/object/2685> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
-<http://rm-lod.org/object/2704> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12934> .
 
 <http://rm-lod.org/object/2705> <http://erlangen-crm.org/current/P2_has_type> <http://rm-lod.org/thesauri/illustration> .
 
@@ -1163,13 +893,7 @@
 
 <http://rm-lod.org/object/2712> <http://erlangen-crm.org/current/P2_has_type> <http://rm-lod.org/thesauri/illustration> .
 
-<http://rm-lod.org/object/2713> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12934> .
-
-<http://rm-lod.org/object/2714> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12934> .
-
 <http://rm-lod.org/object/2716> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12934> .
-
-<http://rm-lod.org/object/2717> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12934> .
 
 <http://rm-lod.org/object/2794> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12718> .
 
@@ -1180,8 +904,6 @@
 <http://rm-lod.org/object/2802> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12718> .
 
 <http://rm-lod.org/object/2815> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13025> .
-
-<http://rm-lod.org/object/2817> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12934> .
 
 <http://rm-lod.org/object/2848> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12934> .
 
@@ -1197,16 +919,6 @@
 
 <http://rm-lod.org/object/2854> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
 
-<http://rm-lod.org/object/2905> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13025> .
-
-<http://rm-lod.org/object/2906> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13251> .
-
-<http://rm-lod.org/object/2907> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13025> .
-
-<http://rm-lod.org/object/2908> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13025> .
-
-<http://rm-lod.org/object/2909> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12859> .
-
 <http://rm-lod.org/object/2927> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13025> .
 
 <http://rm-lod.org/object/2948> <http://erlangen-crm.org/current/P2_has_type> <http://rm-lod.org/thesauri/illustration> .
@@ -1215,205 +927,13 @@
 
 <http://rm-lod.org/object/2950> <http://erlangen-crm.org/current/P2_has_type> <http://rm-lod.org/thesauri/illustration> .
 
-<http://rm-lod.org/object/2995> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
-<http://rm-lod.org/object/2997> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
-<http://rm-lod.org/object/3000> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12718> .
-
-<http://rm-lod.org/object/3002> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
-<http://rm-lod.org/object/3003> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
-<http://rm-lod.org/object/3004> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
-<http://rm-lod.org/object/3005> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
-<http://rm-lod.org/object/3006> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
-<http://rm-lod.org/object/3007> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
-<http://rm-lod.org/object/3009> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
-<http://rm-lod.org/object/3010> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
-<http://rm-lod.org/object/3011> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
-<http://rm-lod.org/object/3012> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
-<http://rm-lod.org/object/3013> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
-<http://rm-lod.org/object/3014> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
-<http://rm-lod.org/object/3016> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
-<http://rm-lod.org/object/3018> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
-<http://rm-lod.org/object/3019> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13251> .
-
-<http://rm-lod.org/object/3020> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
-<http://rm-lod.org/object/3021> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
-<http://rm-lod.org/object/3022> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
-<http://rm-lod.org/object/3024> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
-<http://rm-lod.org/object/3028> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
-<http://rm-lod.org/object/3029> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
-<http://rm-lod.org/object/3031> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
-<http://rm-lod.org/object/3032> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
-<http://rm-lod.org/object/3033> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13409> .
-
-<http://rm-lod.org/object/3035> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
-<http://rm-lod.org/object/3037> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
-<http://rm-lod.org/object/3038> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
-<http://rm-lod.org/object/3043> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
-<http://rm-lod.org/object/3044> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
-<http://rm-lod.org/object/3045> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
-<http://rm-lod.org/object/3047> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
-<http://rm-lod.org/object/3048> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
-<http://rm-lod.org/object/3050> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12718> .
-
-<http://rm-lod.org/object/3051> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
-<http://rm-lod.org/object/3052> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
 <http://rm-lod.org/object/3053> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
-<http://rm-lod.org/object/3054> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
-<http://rm-lod.org/object/3055> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
-<http://rm-lod.org/object/3056> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12934> .
-
-<http://rm-lod.org/object/3057> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
-<http://rm-lod.org/object/3058> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
-<http://rm-lod.org/object/3059> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12718> .
-
-<http://rm-lod.org/object/3060> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12934> .
-
-<http://rm-lod.org/object/3062> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
-<http://rm-lod.org/object/3063> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
-<http://rm-lod.org/object/3065> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
-<http://rm-lod.org/object/3066> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
-<http://rm-lod.org/object/3068> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12859> .
-
-<http://rm-lod.org/object/3069> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
-<http://rm-lod.org/object/3070> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12718> .
-
-<http://rm-lod.org/object/3073> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
-<http://rm-lod.org/object/3075> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
-<http://rm-lod.org/object/3076> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
-<http://rm-lod.org/object/3077> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
-<http://rm-lod.org/object/3079> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
-<http://rm-lod.org/object/3081> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
-<http://rm-lod.org/object/3083> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
-<http://rm-lod.org/object/3084> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
-<http://rm-lod.org/object/3085> <http://erlangen-crm.org/current/P2_has_type> <http://rm-lod.org/thesauri/abstraction> .
-
-<http://rm-lod.org/object/3088> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
-<http://rm-lod.org/object/3089> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
-<http://rm-lod.org/object/3090> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
-<http://rm-lod.org/object/3091> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
-<http://rm-lod.org/object/3092> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
-<http://rm-lod.org/object/3093> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
-<http://rm-lod.org/object/3094> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
-<http://rm-lod.org/object/3095> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
-<http://rm-lod.org/object/3096> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
-<http://rm-lod.org/object/3097> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
-<http://rm-lod.org/object/3098> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
-<http://rm-lod.org/object/3099> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
-<http://rm-lod.org/object/3108> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
-<http://rm-lod.org/object/3113> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
-<http://rm-lod.org/object/3116> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
-<http://rm-lod.org/object/3117> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
-<http://rm-lod.org/object/3118> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
-<http://rm-lod.org/object/3119> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
-<http://rm-lod.org/object/3121> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
-<http://rm-lod.org/object/3122> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
-<http://rm-lod.org/object/3124> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
-<http://rm-lod.org/object/3290> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
-<http://rm-lod.org/object/3291> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
-<http://rm-lod.org/object/3294> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
-<http://rm-lod.org/object/3295> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
-<http://rm-lod.org/object/3299> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
-<http://rm-lod.org/object/3302> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
-<http://rm-lod.org/object/3307> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
-<http://rm-lod.org/object/3309> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
-<http://rm-lod.org/object/3387> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
-<http://rm-lod.org/object/3388> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
 
 <http://rm-lod.org/object/3391> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12859> .
 
 <http://rm-lod.org/object/3392> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12993> .
 
 <http://rm-lod.org/object/3395> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12993> .
-
-<http://rm-lod.org/object/3396> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12993> .
-
-<http://rm-lod.org/object/3397> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12993> .
-
-<http://rm-lod.org/object/3398> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12993> .
-
-<http://rm-lod.org/object/3399> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12993> .
 
 <http://rm-lod.org/object/3403> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
 
@@ -1434,8 +954,6 @@
 <http://rm-lod.org/object/3424> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
 
 <http://rm-lod.org/object/3425> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
-<http://rm-lod.org/object/3426> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
 
 <http://rm-lod.org/object/3427> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13025> .
 
@@ -1467,10 +985,6 @@
 
 <http://rm-lod.org/object/3457> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12934> .
 
-<http://rm-lod.org/object/3460> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
-<http://rm-lod.org/object/3462> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
 <http://rm-lod.org/object/3467> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
 
 <http://rm-lod.org/object/3473> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
@@ -1492,8 +1006,6 @@
 <http://rm-lod.org/object/3486> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
 
 <http://rm-lod.org/object/3602> <http://erlangen-crm.org/current/P2_has_type> <http://rm-lod.org/thesauri/abstraction> .
-
-<http://rm-lod.org/object/3608> <http://erlangen-crm.org/current/P2_has_type> <http://rm-lod.org/thesauri/abstraction> .
 
 <http://rm-lod.org/object/3646> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
 
@@ -1559,35 +1071,11 @@
 
 <http://rm-lod.org/object/3756> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12859> .
 
-<http://rm-lod.org/object/3758> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12542> .
-
-<http://rm-lod.org/object/3763> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12859> .
-
-<http://rm-lod.org/object/3769> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12993> .
-
 <http://rm-lod.org/object/3783> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12718> .
 
 <http://rm-lod.org/object/3785> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
 
 <http://rm-lod.org/object/3787> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
-<http://rm-lod.org/object/3792> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
-<http://rm-lod.org/object/3793> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
-<http://rm-lod.org/object/3795> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
-<http://rm-lod.org/object/3797> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
-<http://rm-lod.org/object/3798> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
-<http://rm-lod.org/object/3800> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
-<http://rm-lod.org/object/3802> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
-<http://rm-lod.org/object/3803> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
-<http://rm-lod.org/object/3804> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
 
 <http://rm-lod.org/object/3856> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
 
@@ -1599,29 +1087,13 @@
 
 <http://rm-lod.org/object/3890> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12859> .
 
-<http://rm-lod.org/object/3891> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
 <http://rm-lod.org/object/3895> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12859> .
-
-<http://rm-lod.org/object/3927> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
-<http://rm-lod.org/object/3929> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
-<http://rm-lod.org/object/3930> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
-<http://rm-lod.org/object/3933> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
-<http://rm-lod.org/object/3937> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
-<http://rm-lod.org/object/3940> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
 
 <http://rm-lod.org/object/4007> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12934> .
 
 <http://rm-lod.org/object/4008> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12934> .
 
 <http://rm-lod.org/object/4009> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
-<http://rm-lod.org/object/4017> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
 
 <http://rm-lod.org/object/4018> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
 
@@ -1630,8 +1102,6 @@
 <http://rm-lod.org/object/4025> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
 
 <http://rm-lod.org/object/4031> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12718> .
-
-<http://rm-lod.org/object/4032> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
 
 <http://rm-lod.org/object/4035> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12718> .
 
@@ -1658,10 +1128,6 @@
 <http://rm-lod.org/object/4058> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
 
 <http://rm-lod.org/object/4059> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
-<http://rm-lod.org/object/4062> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
-<http://rm-lod.org/object/4063> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
 
 <http://rm-lod.org/object/4064> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
 
@@ -1695,8 +1161,6 @@
 
 <http://rm-lod.org/object/4087> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
 
-<http://rm-lod.org/object/4088> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12934> .
-
 <http://rm-lod.org/object/4089> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12934> .
 
 <http://rm-lod.org/object/4090> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12934> .
@@ -1725,8 +1189,6 @@
 
 <http://rm-lod.org/object/4114> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
 
-<http://rm-lod.org/object/4115> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
 <http://rm-lod.org/object/4119> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
 
 <http://rm-lod.org/object/4121> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
@@ -1748,22 +1210,6 @@
 <http://rm-lod.org/object/4135> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
 
 <http://rm-lod.org/object/4136> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12934> .
-
-<http://rm-lod.org/object/4137> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12859> .
-
-<http://rm-lod.org/object/4140> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
-<http://rm-lod.org/object/4141> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
-<http://rm-lod.org/object/4142> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
-<http://rm-lod.org/object/4144> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
-<http://rm-lod.org/object/4147> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
-<http://rm-lod.org/object/4148> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
-<http://rm-lod.org/object/4149> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
 
 <http://rm-lod.org/object/4150> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
 
@@ -1799,13 +1245,7 @@
 
 <http://rm-lod.org/object/4181> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
 
-<http://rm-lod.org/object/4182> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
 <http://rm-lod.org/object/4183> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
-<http://rm-lod.org/object/4184> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
-<http://rm-lod.org/object/4185> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12542> .
 
 <http://rm-lod.org/object/4370> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
 
@@ -1823,11 +1263,7 @@
 
 <http://rm-lod.org/object/4402> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12934> .
 
-<http://rm-lod.org/object/4412> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12934> .
-
 <http://rm-lod.org/object/4413> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13409> .
-
-<http://rm-lod.org/object/4414> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12934> .
 
 <http://rm-lod.org/object/4526> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
 
@@ -1855,45 +1291,7 @@
 
 <http://rm-lod.org/object/4745> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12718> .
 
-<http://rm-lod.org/object/4746> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12934> .
-
 <http://rm-lod.org/object/4750> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
-
-<http://rm-lod.org/object/4765> <http://erlangen-crm.org/current/P2_has_type> <http://rm-lod.org/thesauri/illustration> .
-
-<http://rm-lod.org/object/499> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12542> .
-
-<http://rm-lod.org/object/500> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12542> .
-
-<http://rm-lod.org/object/501> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12542> .
-
-<http://rm-lod.org/object/502> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12542> .
-
-<http://rm-lod.org/object/503> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12542> .
-
-<http://rm-lod.org/object/504> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12542> .
-
-<http://rm-lod.org/object/505> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12542> .
-
-<http://rm-lod.org/object/506> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12542> .
-
-<http://rm-lod.org/object/507> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12542> .
-
-<http://rm-lod.org/object/508> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12542> .
-
-<http://rm-lod.org/object/509> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12542> .
-
-<http://rm-lod.org/object/510> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12542> .
-
-<http://rm-lod.org/object/511> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12542> .
-
-<http://rm-lod.org/object/512> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12542> .
-
-<http://rm-lod.org/object/513> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12542> .
-
-<http://rm-lod.org/object/514> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12542> .
-
-<http://rm-lod.org/object/515> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12542> .
 
 <http://rm-lod.org/object/555> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x12718> .
 
@@ -2260,8 +1658,6 @@
 <http://rm-lod.org/object/871> <http://erlangen-crm.org/current/P2_has_type> <http://rm-lod.org/thesauri/abstraction> .
 
 <http://rm-lod.org/object/873> <http://erlangen-crm.org/current/P2_has_type> <http://rm-lod.org/thesauri/abstraction> .
-
-<http://rm-lod.org/object/874> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
 
 <http://rm-lod.org/object/876> <http://erlangen-crm.org/current/P2_has_type> <http://collection.britishmuseum.org/id/thesauri/x13360> .
 
