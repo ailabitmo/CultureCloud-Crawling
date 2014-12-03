@@ -25,7 +25,6 @@ def openHtml(url)
     response = http.get(uri.path)
   rescue Net::OpenTimeout
     puts 'Catched new Net::OpenTimeout exception. Press return to retry (recommended) or Ctrl+C to interrupt (the data will be lost in that case).'
-    # gets
     retry
   end
   return response.body
@@ -205,9 +204,6 @@ artworksIds = Set.new
 RDF::Query::Pattern.new(:s, @ecrmVocabulary['P14_carried_out_by'], :o).execute(@artwork_ownerships_ttl).each { |statement|
     artworksIds << /\d+/.match(statement.subject)[0]
 }
-RDF::Query::Pattern.new(:s, @ecrmVocabulary['P2_has_type'], :o).execute(@genres_ttl).each { |statement|
-    artworksIds << /\d+/.match(statement.subject)[0]
-}
 
 #TODO: prepare materials
 =begin
@@ -305,12 +301,13 @@ artworksIds.to_a.each { |artworksId|
     if (currentDate.size>0)
     then
         productionURI = RDF::URI.new("#{newManMadeObject.to_s}/production")
-        @graph_dates << [productionURI,RDF.type,@ecrmVocabulary[:E12_Production]]
-        @graph_dates << [productionURI,RDF.type,OWL.NamedIndividual]
+        @graph_artwork << [productionURI,RDF.type,@ecrmVocabulary[:E12_Production]]
+        @graph_artwork << [productionURI,RDF.type,OWL.NamedIndividual]
         currentDate.each { |localeLabel, date|
             @graph_dates << [productionURI,@ecrmVocabulary[:P82_at_some_time_within],RDF::Literal.new(date, :language => localeLabel)]
         }
-        @graph_dates << [productionURI,@ecrmVocabulary[:P108_has_produced],newManMadeObject]
+        @graph_artwork << [productionURI,@ecrmVocabulary[:P108_has_produced],newManMadeObject]
+        @graph_artwork << [newManMadeObject,@ecrmVocabulary[:P108i_was_produced_by], productionURI]
     end
 
 }
