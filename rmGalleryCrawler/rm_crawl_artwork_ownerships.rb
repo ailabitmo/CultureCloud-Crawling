@@ -2,6 +2,7 @@ require 'nokogiri'
 require 'rdf/turtle'
 require 'net/http'
 require 'unicode'
+require 'set'
 include RDF
 
 @p14_carried_out_by = RDF::URI.new('http://erlangen-crm.org/current/P14_carried_out_by')
@@ -24,7 +25,6 @@ def open_html (url)
     response = http.get(uri.path)
   rescue Net::OpenTimeout
     puts 'Catched new Net::OpenTimeout exception. Press return to retry (recommended) or Ctrl+C to interrupt (all data will be lost in that case).'
-    gets
     retry
   end
   response.body
@@ -35,15 +35,27 @@ end
 @css_path = 'div[data-role=controlgroup]'
 
 puts
+puts '== Getting paintings and drawing IDs =='
+puts
+@object_ids = Set.new
+%w(216 217).each do |page|
+  Nokogiri::HTML(open_html('http://rmgallery.ru/ru/' + page)).
+      css(@css_path).css('a').each do |link|
+    @object_ids << link['href'][4, link['href'].length]
+  end
+end
+puts @object_ids.size.to_s + ' IDs in total'
+
+puts
 puts '== Crawling =='
 puts
 Nokogiri::HTML(open_html(@base_url + '/ru/author')).css(@css_path).css('a').each do |person|
-  person_id = person['href'][4, person['href'].length]
+  person_id = person['href'][4, person['href'].length].strip
   person_name = person.text.strip
-  puts person_name + ' ' + person['href'] + ' ' + person_id
   Nokogiri::HTML(open_html(@base_url + person['href'])).css(@css_path).css('a').each do |artwork|
-    object_id = artwork['href'][4, artwork['href'].length]
-    puts '  ' + object_id + ' ' + artwork['href']
+    object_id = artwork['href'][4, artwork['href'].length].strip
+    next unless @object_ids.include?(object_id)
+    puts person_name + ' ' + object_id + ' ' + artwork['href']
     @graph << gen_statement(person_id, object_id)
   end
 end
