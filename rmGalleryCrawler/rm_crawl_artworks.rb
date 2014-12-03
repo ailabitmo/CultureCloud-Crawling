@@ -25,7 +25,7 @@ def openHtml(url)
     response = http.get(uri.path)
   rescue Net::OpenTimeout
     puts 'Catched new Net::OpenTimeout exception. Press return to retry (recommended) or Ctrl+C to interrupt (the data will be lost in that case).'
-    gets
+    # gets
     retry
   end
   return response.body
@@ -124,6 +124,7 @@ def crawlDescriptionAndSizes(objectId)
                 dimentions = ["61.5","51.5"]
                 dimention << dimentions
             elsif !(descr.index("46х 80").nil?)
+
                 dimentions = ["46","80"]
                 dimention << dimentions
             elsif !(descr.index("140х168").nil?)
@@ -146,19 +147,19 @@ def crawlDescriptionAndSizes(objectId)
             then
                 dimentions = descr.split("х")
                 dimentions.each_index { |i|
-                    dimentions[i]=dimentions[i].strip.gsub!(",",".")
+                    dimentions[i]=dimentions[i].strip.gsub(",",".")
                 }
                 dimention << dimentions
             elsif !(descr.index(" x ").nil?)
                 dimentions = descr.split("x")
                 dimentions.each_index { |i|
-                    dimentions[i]=dimentions[i].strip.gsub!(",",".")
+                    dimentions[i]=dimentions[i].strip.gsub(",",".")
                 }
                 dimention << dimentions
             elsif !(descr.index(" × ").nil?)
                 dimentions = descr.split("×")
                 dimentions.each_index { |i|
-                    dimentions[i]=dimentions[i].strip.gsub!(",",".")
+                    dimentions[i]=dimentions[i].strip.gsub(",",".")
                 }
                 dimention << dimentions
 
@@ -184,7 +185,7 @@ def crawlDescriptionAndSizes(objectId)
     return descriptionAndSizes
 end
 
-#crawlDescriptionAndSize("189")
+#crawlDescriptionAndSize("189")crawlDescriptionAndSizes('1081')
 #crawlTitleAndDate("189")
 #gets
 
