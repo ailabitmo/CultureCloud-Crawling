@@ -143,34 +143,34 @@ def crawlDescriptionAndSizes(objectId)
                 parse_next = true
             end
             if (parse_next) then
-            #TODO: we should use regexps not this elsif-elsif-elsif...
-            if !(descr.index(" х ").nil?)
-            then
-                dimentions = descr.split("х")
-                dimentions.each_index { |i|
-                    dimentions[i]=dimentions[i].strip.gsub(",",".")
-                }
-                dimention << dimentions
-            elsif !(descr.index(" x ").nil?)
-                dimentions = descr.split("x")
-                dimentions.each_index { |i|
-                    dimentions[i]=dimentions[i].strip.gsub(",",".")
-                }
-                dimention << dimentions
-            elsif !(descr.index(" × ").nil?)
-                dimentions = descr.split("×")
-                dimentions.each_index { |i|
-                    dimentions[i]=dimentions[i].strip.gsub(",",".")
-                }
-                dimention << dimentions
-
-            else
-                if description[localeLabel].nil?
+                #TODO: we should use regexps not this elsif-elsif-elsif...
+                if !(descr.index(" х ").nil?)
                 then
-                    description[localeLabel] = ""
+                    dimentions = descr.split("х")
+                    dimentions.each_index { |i|
+                        dimentions[i]=dimentions[i].strip.gsub(",",".")
+                    }
+                    dimention << dimentions
+                elsif !(descr.index(" x ").nil?)
+                    dimentions = descr.split("x")
+                    dimentions.each_index { |i|
+                        dimentions[i]=dimentions[i].strip.gsub(",",".")
+                    }
+                    dimention << dimentions
+                elsif !(descr.index(" × ").nil?)
+                    dimentions = descr.split("×")
+                    dimentions.each_index { |i|
+                        dimentions[i]=dimentions[i].strip.gsub(",",".")
+                    }
+                    dimention << dimentions
+
+                else
+                    if description[localeLabel].nil?
+                    then
+                        description[localeLabel] = ""
+                    end
+                    description[localeLabel] += descr.strip unless descr.empty?
                 end
-                description[localeLabel] += descr.strip unless descr.empty?
-            end
             end
         }
         #artItemDescription = artItemDescriptionCss.join(". ")
