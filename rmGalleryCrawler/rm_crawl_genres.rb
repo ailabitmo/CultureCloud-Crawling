@@ -2,6 +2,7 @@ require 'nokogiri'
 require 'rdf/turtle'
 require 'net/http'
 require 'unicode'
+require 'set'
 include RDF
 
 @p2_has_type = RDF::URI.new('http://erlangen-crm.org/current/P2_has_type')
@@ -42,11 +43,20 @@ def open_html (url)
     response = http.get(uri.path)
   rescue Net::OpenTimeout
     puts 'Catched new Net::OpenTimeout exception. Press return to retry (recommended) or Ctrl+C to interrupt (all data will be lost in that case).'
-    gets
     retry
   end
   response.body
 end
+
+
+@artwork_ids = (Proc.new {
+  artworks_ids = Set.new
+  RDF::Query::Pattern.new(:s, RDF::URI.new('http://erlangen-crm.org/current/P14_carried_out_by'), :o).
+      execute(RDF::Graph.load('rm_artwork_ownerships.ttl')).each do |statement|
+    artworks_ids << /\d+/.match(statement.subject)[0]
+  end
+  artworks_ids
+}).call
 
 # Crawl targets
 @base_url = 'http://rmgallery.ru'
@@ -59,11 +69,12 @@ puts
 puts '== Crawling =='
 puts
 Nokogiri::HTML(open_html(@genre_url)).css(@css_path).css('a').each do |genre|
-  genre_url = genre['href']
+  genre_url = genre['href'].strip
   genre_name = Unicode::downcase(genre.text.strip)
   puts genre_name + ' ' + genre_url
   Nokogiri::HTML(open_html(@base_url + genre['href'])).css(@css_path).css('a').each do |artwork|
-    object_id = artwork['href'][4, artwork['href'].length]
+    object_id = artwork['href'][4, artwork['href'].length].strip
+    next unless @artwork_ids.include?(object_id)
     puts '  ' + object_id
     @graph << @genre_to_uri[genre_name].(object_id)
   end

@@ -13,10 +13,6 @@
 
 <http://rm-lod.org/object/1005> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1005.jpg> .
 
-<http://rm-lod.org/object/1020> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1020.jpg> .
-
-<http://rm-lod.org/object/1023> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1023.jpg> .
-
 <http://rm-lod.org/object/1024> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1024.jpg> .
 
 <http://rm-lod.org/object/1026> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1026.jpg> .
@@ -25,33 +21,11 @@
 
 <http://rm-lod.org/object/1034> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1034.jpg> .
 
-<http://rm-lod.org/object/1036> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1036.jpg> .
-
-<http://rm-lod.org/object/1037> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1037.jpg> .
-
-<http://rm-lod.org/object/1038> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1038.jpg> .
-
-<http://rm-lod.org/object/1039> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1039.jpg> .
-
-<http://rm-lod.org/object/1040> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1040.jpg> .
-
-<http://rm-lod.org/object/1041> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1041.jpg> .
-
-<http://rm-lod.org/object/1048> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1048.jpg> .
-
-<http://rm-lod.org/object/1049> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1049.jpg> .
-
 <http://rm-lod.org/object/1056> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1056.jpg> .
 
 <http://rm-lod.org/object/1057> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1057.jpg> .
 
 <http://rm-lod.org/object/1058> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1058.jpg> .
-
-<http://rm-lod.org/object/1059> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1059.jpg> .
-
-<http://rm-lod.org/object/1060> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1060.jpg> .
-
-<http://rm-lod.org/object/1061> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1061.jpg> .
 
 <http://rm-lod.org/object/1065> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1065.jpg> .
 
@@ -171,93 +145,13 @@
 
 <http://rm-lod.org/object/1145> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1145.jpg> .
 
-<http://rm-lod.org/object/1149> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1149.jpg> .
-
-<http://rm-lod.org/object/1150> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1150.jpg> .
-
-<http://rm-lod.org/object/1151> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1151.jpg> .
-
-<http://rm-lod.org/object/1152> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1152.jpg> .
-
-<http://rm-lod.org/object/1153> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1153.jpg> .
-
-<http://rm-lod.org/object/1154> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1154.jpg> .
-
-<http://rm-lod.org/object/1155> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1155.jpg> .
-
-<http://rm-lod.org/object/1156> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1156.jpg> .
-
-<http://rm-lod.org/object/1158> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1158.jpg> .
-
-<http://rm-lod.org/object/1159> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1159.jpg> .
-
-<http://rm-lod.org/object/1161> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1161.jpg> .
-
-<http://rm-lod.org/object/1162> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1162.jpg> .
-
-<http://rm-lod.org/object/1164> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1164.jpg> .
-
-<http://rm-lod.org/object/1165> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1165.jpg> .
-
-<http://rm-lod.org/object/1170> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1170.jpg> .
-
-<http://rm-lod.org/object/1176> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1176.jpg> .
-
-<http://rm-lod.org/object/1177> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1177.jpg> .
-
-<http://rm-lod.org/object/1178> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1178.jpg> .
-
-<http://rm-lod.org/object/118> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/118.jpg> .
-
-<http://rm-lod.org/object/1180> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1180.jpg> .
-
-<http://rm-lod.org/object/1181> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1181.jpg> .
-
-<http://rm-lod.org/object/1182> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1182.jpg> .
-
-<http://rm-lod.org/object/1183> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1183.jpg> .
-
-<http://rm-lod.org/object/1184> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1184.jpg> .
-
-<http://rm-lod.org/object/1187> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1187.jpg> .
-
-<http://rm-lod.org/object/1188> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1188.jpg> .
-
-<http://rm-lod.org/object/1189> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1189.jpg> .
-
-<http://rm-lod.org/object/119> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/119.jpg> .
-
-<http://rm-lod.org/object/1192> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1192.jpg> .
-
-<http://rm-lod.org/object/1206> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1206.jpg> .
-
-<http://rm-lod.org/object/1207> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1207.jpg> .
-
-<http://rm-lod.org/object/1208> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1208.jpg> .
-
 <http://rm-lod.org/object/1209> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1209.jpg> .
-
-<http://rm-lod.org/object/121> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/121.jpg> .
 
 <http://rm-lod.org/object/122> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/122.jpg> .
 
-<http://rm-lod.org/object/1234> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1234.jpg> .
-
-<http://rm-lod.org/object/1235> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1235.jpg> .
-
-<http://rm-lod.org/object/1236> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1236.jpg> .
-
 <http://rm-lod.org/object/1238> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1238.jpg> .
 
-<http://rm-lod.org/object/1239> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1239.jpg> .
-
 <http://rm-lod.org/object/124> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/124.jpg> .
-
-<http://rm-lod.org/object/1240> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1240.jpg> .
-
-<http://rm-lod.org/object/1241> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1241.jpg> .
-
-<http://rm-lod.org/object/1242> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1242.jpg> .
 
 <http://rm-lod.org/object/1243> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1243.jpg> .
 
@@ -299,29 +193,11 @@
 
 <http://rm-lod.org/object/137> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/137.jpg> .
 
-<http://rm-lod.org/object/1376> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1376.jpg> .
-
 <http://rm-lod.org/object/1377> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1377.jpg> .
 
 <http://rm-lod.org/object/138> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/138.jpg> .
 
-<http://rm-lod.org/object/1389> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1389.jpg> .
-
 <http://rm-lod.org/object/139> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/139.jpg> .
-
-<http://rm-lod.org/object/1391> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1391.jpg> .
-
-<http://rm-lod.org/object/1392> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1392.jpg> .
-
-<http://rm-lod.org/object/1393> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1393.jpg> .
-
-<http://rm-lod.org/object/1394> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1394.jpg> .
-
-<http://rm-lod.org/object/1395> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1395.jpg> .
-
-<http://rm-lod.org/object/1396> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1396.jpg> .
-
-<http://rm-lod.org/object/1397> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1397.jpg> .
 
 <http://rm-lod.org/object/140> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/140.jpg> .
 
@@ -363,21 +239,7 @@
 
 <http://rm-lod.org/object/143> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/143.jpg> .
 
-<http://rm-lod.org/object/1430> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1430.jpg> .
-
-<http://rm-lod.org/object/1431> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1431.jpg> .
-
-<http://rm-lod.org/object/1432> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1432.jpg> .
-
-<http://rm-lod.org/object/1433> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1433.jpg> .
-
 <http://rm-lod.org/object/1434> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1434.jpg> .
-
-<http://rm-lod.org/object/1435> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1435.jpg> .
-
-<http://rm-lod.org/object/1436> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1436.jpg> .
-
-<http://rm-lod.org/object/1439> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1439.jpg> .
 
 <http://rm-lod.org/object/144> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/144.jpg> .
 
@@ -402,10 +264,6 @@
 <http://rm-lod.org/object/1449> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1449.jpg> .
 
 <http://rm-lod.org/object/145> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/145.jpg> .
-
-<http://rm-lod.org/object/1451> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1451.jpg> .
-
-<http://rm-lod.org/object/1452> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1452.jpg> .
 
 <http://rm-lod.org/object/1453> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1453.jpg> .
 
@@ -507,10 +365,6 @@
 
 <http://rm-lod.org/object/1527> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1527.jpg> .
 
-<http://rm-lod.org/object/155> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/155.jpg> .
-
-<http://rm-lod.org/object/156> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/156.jpg> .
-
 <http://rm-lod.org/object/1579> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1579.jpg> .
 
 <http://rm-lod.org/object/1580> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1580.jpg> .
@@ -519,47 +373,9 @@
 
 <http://rm-lod.org/object/161> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/161.jpg> .
 
-<http://rm-lod.org/object/1615> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1615.jpg> .
-
-<http://rm-lod.org/object/1618> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1618.jpg> .
-
-<http://rm-lod.org/object/1619> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1619.jpg> .
-
 <http://rm-lod.org/object/162> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/162.jpg> .
 
-<http://rm-lod.org/object/1620> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1620.jpg> .
-
-<http://rm-lod.org/object/1621> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1621.jpg> .
-
-<http://rm-lod.org/object/1622> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1622.jpg> .
-
-<http://rm-lod.org/object/1623> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1623.jpg> .
-
-<http://rm-lod.org/object/1624> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1624.jpg> .
-
-<http://rm-lod.org/object/1625> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1625.jpg> .
-
-<http://rm-lod.org/object/1626> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1626.jpg> .
-
-<http://rm-lod.org/object/1627> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1627.jpg> .
-
-<http://rm-lod.org/object/1628> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1628.jpg> .
-
-<http://rm-lod.org/object/1629> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1629.jpg> .
-
 <http://rm-lod.org/object/163> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/163.jpg> .
-
-<http://rm-lod.org/object/1630> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1630.jpg> .
-
-<http://rm-lod.org/object/1632> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1632.jpg> .
-
-<http://rm-lod.org/object/1633> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1633.jpg> .
-
-<http://rm-lod.org/object/1634> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1634.jpg> .
-
-<http://rm-lod.org/object/1635> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1635.jpg> .
-
-<http://rm-lod.org/object/1636> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1636.jpg> .
 
 <http://rm-lod.org/object/164> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/164.jpg> .
 
@@ -579,13 +395,7 @@
 
 <http://rm-lod.org/object/167> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/167.jpg> .
 
-<http://rm-lod.org/object/1670> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1670.jpg> .
-
-<http://rm-lod.org/object/1671> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1671.jpg> .
-
 <http://rm-lod.org/object/1673> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1673.jpg> .
-
-<http://rm-lod.org/object/1675> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1675.jpg> .
 
 <http://rm-lod.org/object/1676> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1676.jpg> .
 
@@ -657,10 +467,6 @@
 
 <http://rm-lod.org/object/175> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/175.jpg> .
 
-<http://rm-lod.org/object/1762> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1762.jpg> .
-
-<http://rm-lod.org/object/1765> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1765.jpg> .
-
 <http://rm-lod.org/object/177> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/177.jpg> .
 
 <http://rm-lod.org/object/178> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/178.jpg> .
@@ -681,13 +487,9 @@
 
 <http://rm-lod.org/object/1816> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1816.jpg> .
 
-<http://rm-lod.org/object/1817> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1817.jpg> .
-
 <http://rm-lod.org/object/1818> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1818.jpg> .
 
 <http://rm-lod.org/object/182> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/182.jpg> .
-
-<http://rm-lod.org/object/1823> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1823.jpg> .
 
 <http://rm-lod.org/object/183> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/183.jpg> .
 
@@ -713,8 +515,6 @@
 
 <http://rm-lod.org/object/189> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/189.jpg> .
 
-<http://rm-lod.org/object/1890> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1890.jpg> .
-
 <http://rm-lod.org/object/1895> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1895.jpg> .
 
 <http://rm-lod.org/object/1897> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1897.jpg> .
@@ -725,17 +525,11 @@
 
 <http://rm-lod.org/object/1903> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1903.jpg> .
 
-<http://rm-lod.org/object/1906> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1906.jpg> .
-
 <http://rm-lod.org/object/1909> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1909.jpg> .
 
 <http://rm-lod.org/object/1911> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1911.jpg> .
 
 <http://rm-lod.org/object/1912> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1912.jpg> .
-
-<http://rm-lod.org/object/1914> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1914.jpg> .
-
-<http://rm-lod.org/object/1924> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1924.jpg> .
 
 <http://rm-lod.org/object/1926> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1926.jpg> .
 
@@ -755,21 +549,11 @@
 
 <http://rm-lod.org/object/1962> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1962.jpg> .
 
-<http://rm-lod.org/object/1963> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1963.jpg> .
-
 <http://rm-lod.org/object/1975> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1975.jpg> .
 
 <http://rm-lod.org/object/1980> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1980.jpg> .
 
-<http://rm-lod.org/object/1981> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1981.jpg> .
-
 <http://rm-lod.org/object/1982> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1982.jpg> .
-
-<http://rm-lod.org/object/1983> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1983.jpg> .
-
-<http://rm-lod.org/object/1984> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1984.jpg> .
-
-<http://rm-lod.org/object/1985> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1985.jpg> .
 
 <http://rm-lod.org/object/1992> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/1992.jpg> .
 
@@ -816,8 +600,6 @@
 <http://rm-lod.org/object/2110> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/2110.jpg> .
 
 <http://rm-lod.org/object/2112> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/2112.jpg> .
-
-<http://rm-lod.org/object/2116> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/2116.jpg> .
 
 <http://rm-lod.org/object/2137> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/2137.jpg> .
 
@@ -905,48 +687,6 @@
 
 <http://rm-lod.org/object/2239> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/2239.jpg> .
 
-<http://rm-lod.org/object/2241> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/2241.jpg> .
-
-<http://rm-lod.org/object/2243> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/2243.jpg> .
-
-<http://rm-lod.org/object/2245> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/2245.jpg> .
-
-<http://rm-lod.org/object/2246> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/2246.jpg> .
-
-<http://rm-lod.org/object/2252> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/2252.jpg> .
-
-<http://rm-lod.org/object/2254> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/2254.jpg> .
-
-<http://rm-lod.org/object/2255> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/2255.jpg> .
-
-<http://rm-lod.org/object/2260> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/2260.jpg> .
-
-<http://rm-lod.org/object/2261> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/2261.jpg> .
-
-<http://rm-lod.org/object/2262> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/2262.jpg> .
-
-<http://rm-lod.org/object/2264> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/2264.jpg> .
-
-<http://rm-lod.org/object/2266> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/2266.jpg> .
-
-<http://rm-lod.org/object/2268> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/2268.jpg> .
-
-<http://rm-lod.org/object/2269> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/2269.jpg> .
-
-<http://rm-lod.org/object/2270> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/2270.jpg> .
-
-<http://rm-lod.org/object/2271> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/2271.jpg> .
-
-<http://rm-lod.org/object/2272> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/2272.jpg> .
-
-<http://rm-lod.org/object/2274> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/2274.jpg> .
-
-<http://rm-lod.org/object/2276> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/2276.jpg> .
-
-<http://rm-lod.org/object/2277> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/2277.jpg> .
-
-<http://rm-lod.org/object/2278> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/2278.jpg> .
-
 <http://rm-lod.org/object/2281> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/2281.jpg> .
 
 <http://rm-lod.org/object/2283> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/2283.jpg> .
@@ -1013,12 +753,6 @@
 
 <http://rm-lod.org/object/2381> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/2381.jpg> .
 
-<http://rm-lod.org/object/2383> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/2383.jpg> .
-
-<http://rm-lod.org/object/2385> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/2385.jpg> .
-
-<http://rm-lod.org/object/2388> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/2388.jpg> .
-
 <http://rm-lod.org/object/2389> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/2389.jpg> .
 
 <http://rm-lod.org/object/2390> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/2390.jpg> .
@@ -1029,23 +763,13 @@
 
 <http://rm-lod.org/object/2394> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/2394.jpg> .
 
-<http://rm-lod.org/object/2395> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/2395.jpg> .
-
 <http://rm-lod.org/object/2397> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/2397.jpg> .
 
 <http://rm-lod.org/object/2400> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/2400.jpg> .
 
-<http://rm-lod.org/object/2403> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/2403.jpg> .
-
-<http://rm-lod.org/object/2407> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/2407.jpg> .
-
-<http://rm-lod.org/object/2412> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/2412.jpg> .
-
 <http://rm-lod.org/object/2415> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/2415.jpg> .
 
 <http://rm-lod.org/object/2417> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/2417.jpg> .
-
-<http://rm-lod.org/object/2418> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/2418.jpg> .
 
 <http://rm-lod.org/object/2421> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/2421.jpg> .
 
@@ -1115,8 +839,6 @@
 
 <http://rm-lod.org/object/2485> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/2485.jpg> .
 
-<http://rm-lod.org/object/2487> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/2487.jpg> .
-
 <http://rm-lod.org/object/2492> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/2492.jpg> .
 
 <http://rm-lod.org/object/2494> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/2494.jpg> .
@@ -1138,10 +860,6 @@
 <http://rm-lod.org/object/2502> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/2502.jpg> .
 
 <http://rm-lod.org/object/2503> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/2503.jpg> .
-
-<http://rm-lod.org/object/2504> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/2504.jpg> .
-
-<http://rm-lod.org/object/2505> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/2505.jpg> .
 
 <http://rm-lod.org/object/2506> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/2506.jpg> .
 
@@ -1223,53 +941,7 @@
 
 <http://rm-lod.org/object/2570> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/2570.jpg> .
 
-<http://rm-lod.org/object/2612> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/2612.jpg> .
-
-<http://rm-lod.org/object/2644> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/2644.jpg> .
-
-<http://rm-lod.org/object/2645> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/2645.jpg> .
-
-<http://rm-lod.org/object/2646> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/2646.jpg> .
-
-<http://rm-lod.org/object/2647> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/2647.jpg> .
-
-<http://rm-lod.org/object/2649> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/2649.jpg> .
-
-<http://rm-lod.org/object/2650> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/2650.jpg> .
-
-<http://rm-lod.org/object/2651> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/2651.jpg> .
-
-<http://rm-lod.org/object/2652> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/2652.jpg> .
-
-<http://rm-lod.org/object/2653> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/2653.jpg> .
-
-<http://rm-lod.org/object/2654> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/2654.jpg> .
-
-<http://rm-lod.org/object/2655> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/2655.jpg> .
-
-<http://rm-lod.org/object/2656> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/2656.jpg> .
-
-<http://rm-lod.org/object/2657> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/2657.jpg> .
-
-<http://rm-lod.org/object/2659> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/2659.jpg> .
-
-<http://rm-lod.org/object/2660> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/2660.jpg> .
-
-<http://rm-lod.org/object/2661> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/2661.jpg> .
-
-<http://rm-lod.org/object/2662> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/2662.jpg> .
-
-<http://rm-lod.org/object/2663> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/2663.jpg> .
-
-<http://rm-lod.org/object/2664> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/2664.jpg> .
-
-<http://rm-lod.org/object/2665> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/2665.jpg> .
-
-<http://rm-lod.org/object/2670> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/2670.jpg> .
-
 <http://rm-lod.org/object/2685> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/2685.jpg> .
-
-<http://rm-lod.org/object/2704> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/2704.jpg> .
 
 <http://rm-lod.org/object/2705> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/2705.jpg> .
 
@@ -1287,15 +959,7 @@
 
 <http://rm-lod.org/object/2712> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/2712.jpg> .
 
-<http://rm-lod.org/object/2713> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/2713.jpg> .
-
-<http://rm-lod.org/object/2714> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/2714.jpg> .
-
 <http://rm-lod.org/object/2716> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/2716.jpg> .
-
-<http://rm-lod.org/object/2717> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/2717.jpg> .
-
-<http://rm-lod.org/object/2771> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/2771.jpg> .
 
 <http://rm-lod.org/object/2776> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/2776.jpg> .
 
@@ -1308,8 +972,6 @@
 <http://rm-lod.org/object/2802> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/2802.jpg> .
 
 <http://rm-lod.org/object/2815> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/2815.jpg> .
-
-<http://rm-lod.org/object/2817> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/2817.jpg> .
 
 <http://rm-lod.org/object/2847> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/2847.jpg> .
 
@@ -1327,16 +989,6 @@
 
 <http://rm-lod.org/object/2854> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/2854.jpg> .
 
-<http://rm-lod.org/object/2905> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/2905.jpg> .
-
-<http://rm-lod.org/object/2906> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/2906.jpg> .
-
-<http://rm-lod.org/object/2907> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/2907.jpg> .
-
-<http://rm-lod.org/object/2908> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/2908.jpg> .
-
-<http://rm-lod.org/object/2909> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/2909.jpg> .
-
 <http://rm-lod.org/object/2927> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/2927.jpg> .
 
 <http://rm-lod.org/object/2948> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/2948.jpg> .
@@ -1345,205 +997,13 @@
 
 <http://rm-lod.org/object/2950> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/2950.jpg> .
 
-<http://rm-lod.org/object/2995> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/2995.jpg> .
-
-<http://rm-lod.org/object/2997> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/2997.jpg> .
-
-<http://rm-lod.org/object/3000> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3000.jpg> .
-
-<http://rm-lod.org/object/3002> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3002.jpg> .
-
-<http://rm-lod.org/object/3003> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3003.jpg> .
-
-<http://rm-lod.org/object/3004> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3004.jpg> .
-
-<http://rm-lod.org/object/3005> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3005.jpg> .
-
-<http://rm-lod.org/object/3006> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3006.jpg> .
-
-<http://rm-lod.org/object/3007> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3007.jpg> .
-
-<http://rm-lod.org/object/3009> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3009.jpg> .
-
-<http://rm-lod.org/object/3010> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3010.jpg> .
-
-<http://rm-lod.org/object/3011> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3011.jpg> .
-
-<http://rm-lod.org/object/3012> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3012.jpg> .
-
-<http://rm-lod.org/object/3013> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3013.jpg> .
-
-<http://rm-lod.org/object/3014> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3014.jpg> .
-
-<http://rm-lod.org/object/3016> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3016.jpg> .
-
-<http://rm-lod.org/object/3018> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3018.jpg> .
-
-<http://rm-lod.org/object/3019> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3019.jpg> .
-
-<http://rm-lod.org/object/3020> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3020.jpg> .
-
-<http://rm-lod.org/object/3021> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3021.jpg> .
-
-<http://rm-lod.org/object/3022> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3022.jpg> .
-
-<http://rm-lod.org/object/3024> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3024.jpg> .
-
-<http://rm-lod.org/object/3028> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3028.jpg> .
-
-<http://rm-lod.org/object/3029> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3029.jpg> .
-
-<http://rm-lod.org/object/3031> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3031.jpg> .
-
-<http://rm-lod.org/object/3032> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3032.jpg> .
-
-<http://rm-lod.org/object/3033> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3033.jpg> .
-
-<http://rm-lod.org/object/3035> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3035.jpg> .
-
-<http://rm-lod.org/object/3037> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3037.jpg> .
-
-<http://rm-lod.org/object/3038> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3038.jpg> .
-
-<http://rm-lod.org/object/3043> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3043.jpg> .
-
-<http://rm-lod.org/object/3044> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3044.jpg> .
-
-<http://rm-lod.org/object/3045> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3045.jpg> .
-
-<http://rm-lod.org/object/3047> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3047.jpg> .
-
-<http://rm-lod.org/object/3048> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3048.jpg> .
-
-<http://rm-lod.org/object/3050> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3050.jpg> .
-
-<http://rm-lod.org/object/3051> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3051.jpg> .
-
-<http://rm-lod.org/object/3052> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3052.jpg> .
-
 <http://rm-lod.org/object/3053> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3053.jpg> .
-
-<http://rm-lod.org/object/3054> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3054.jpg> .
-
-<http://rm-lod.org/object/3055> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3055.jpg> .
-
-<http://rm-lod.org/object/3056> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3056.jpg> .
-
-<http://rm-lod.org/object/3057> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3057.jpg> .
-
-<http://rm-lod.org/object/3058> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3058.jpg> .
-
-<http://rm-lod.org/object/3059> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3059.jpg> .
-
-<http://rm-lod.org/object/3060> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3060.jpg> .
-
-<http://rm-lod.org/object/3062> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3062.jpg> .
-
-<http://rm-lod.org/object/3063> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3063.jpg> .
-
-<http://rm-lod.org/object/3065> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3065.jpg> .
-
-<http://rm-lod.org/object/3066> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3066.jpg> .
-
-<http://rm-lod.org/object/3068> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3068.jpg> .
-
-<http://rm-lod.org/object/3069> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3069.jpg> .
-
-<http://rm-lod.org/object/3070> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3070.jpg> .
-
-<http://rm-lod.org/object/3073> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3073.jpg> .
-
-<http://rm-lod.org/object/3075> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3075.jpg> .
-
-<http://rm-lod.org/object/3076> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3076.jpg> .
-
-<http://rm-lod.org/object/3077> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3077.jpg> .
-
-<http://rm-lod.org/object/3079> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3079.jpg> .
-
-<http://rm-lod.org/object/3081> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3081.jpg> .
-
-<http://rm-lod.org/object/3083> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3083.jpg> .
-
-<http://rm-lod.org/object/3084> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3084.jpg> .
-
-<http://rm-lod.org/object/3085> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3085.jpg> .
-
-<http://rm-lod.org/object/3088> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3088.jpg> .
-
-<http://rm-lod.org/object/3089> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3089.jpg> .
-
-<http://rm-lod.org/object/3090> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3090.jpg> .
-
-<http://rm-lod.org/object/3091> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3091.jpg> .
-
-<http://rm-lod.org/object/3092> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3092.jpg> .
-
-<http://rm-lod.org/object/3093> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3093.jpg> .
-
-<http://rm-lod.org/object/3094> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3094.jpg> .
-
-<http://rm-lod.org/object/3095> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3095.jpg> .
-
-<http://rm-lod.org/object/3096> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3096.jpg> .
-
-<http://rm-lod.org/object/3097> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3097.jpg> .
-
-<http://rm-lod.org/object/3098> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3098.jpg> .
-
-<http://rm-lod.org/object/3099> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3099.jpg> .
-
-<http://rm-lod.org/object/3108> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3108.jpg> .
-
-<http://rm-lod.org/object/3113> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3113.jpg> .
-
-<http://rm-lod.org/object/3116> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3116.jpg> .
-
-<http://rm-lod.org/object/3117> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3117.jpg> .
-
-<http://rm-lod.org/object/3118> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3118.jpg> .
-
-<http://rm-lod.org/object/3119> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3119.jpg> .
-
-<http://rm-lod.org/object/3121> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3121.jpg> .
-
-<http://rm-lod.org/object/3122> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3122.jpg> .
-
-<http://rm-lod.org/object/3124> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3124.jpg> .
-
-<http://rm-lod.org/object/3290> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3290.jpg> .
-
-<http://rm-lod.org/object/3291> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3291.jpg> .
-
-<http://rm-lod.org/object/3294> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3294.jpg> .
-
-<http://rm-lod.org/object/3295> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3295.jpg> .
-
-<http://rm-lod.org/object/3299> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3299.jpg> .
-
-<http://rm-lod.org/object/3302> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3302.jpg> .
-
-<http://rm-lod.org/object/3307> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3307.jpg> .
-
-<http://rm-lod.org/object/3309> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3309.jpg> .
-
-<http://rm-lod.org/object/3387> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3387.jpg> .
-
-<http://rm-lod.org/object/3388> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3388.jpg> .
 
 <http://rm-lod.org/object/3391> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3391.jpg> .
 
 <http://rm-lod.org/object/3392> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3392.jpg> .
 
 <http://rm-lod.org/object/3395> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3395.jpg> .
-
-<http://rm-lod.org/object/3396> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3396.jpg> .
-
-<http://rm-lod.org/object/3397> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3397.jpg> .
-
-<http://rm-lod.org/object/3398> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3398.jpg> .
-
-<http://rm-lod.org/object/3399> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3399.jpg> .
 
 <http://rm-lod.org/object/3403> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3403.jpg> .
 
@@ -1564,8 +1024,6 @@
 <http://rm-lod.org/object/3424> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3424.jpg> .
 
 <http://rm-lod.org/object/3425> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3425.jpg> .
-
-<http://rm-lod.org/object/3426> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3426.jpg> .
 
 <http://rm-lod.org/object/3427> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3427.jpg> .
 
@@ -1597,10 +1055,6 @@
 
 <http://rm-lod.org/object/3457> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3457.jpg> .
 
-<http://rm-lod.org/object/3460> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3460.jpg> .
-
-<http://rm-lod.org/object/3462> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3462.jpg> .
-
 <http://rm-lod.org/object/3467> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3467.jpg> .
 
 <http://rm-lod.org/object/3473> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3473.jpg> .
@@ -1622,8 +1076,6 @@
 <http://rm-lod.org/object/3486> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3486.jpg> .
 
 <http://rm-lod.org/object/3602> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3602.jpg> .
-
-<http://rm-lod.org/object/3608> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3608.jpg> .
 
 <http://rm-lod.org/object/3646> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3646.jpg> .
 
@@ -1691,35 +1143,11 @@
 
 <http://rm-lod.org/object/3756> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3756.jpg> .
 
-<http://rm-lod.org/object/3758> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3758.jpg> .
-
-<http://rm-lod.org/object/3763> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3763.jpg> .
-
-<http://rm-lod.org/object/3769> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3769.jpg> .
-
 <http://rm-lod.org/object/3783> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3783.jpg> .
 
 <http://rm-lod.org/object/3785> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3785.jpg> .
 
 <http://rm-lod.org/object/3787> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3787.jpg> .
-
-<http://rm-lod.org/object/3792> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3792.jpg> .
-
-<http://rm-lod.org/object/3793> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3793.jpg> .
-
-<http://rm-lod.org/object/3795> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3795.jpg> .
-
-<http://rm-lod.org/object/3797> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3797.jpg> .
-
-<http://rm-lod.org/object/3798> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3798.jpg> .
-
-<http://rm-lod.org/object/3800> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3800.jpg> .
-
-<http://rm-lod.org/object/3802> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3802.jpg> .
-
-<http://rm-lod.org/object/3803> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3803.jpg> .
-
-<http://rm-lod.org/object/3804> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3804.jpg> .
 
 <http://rm-lod.org/object/3856> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3856.jpg> .
 
@@ -1731,29 +1159,13 @@
 
 <http://rm-lod.org/object/3890> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3890.jpg> .
 
-<http://rm-lod.org/object/3891> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3891.jpg> .
-
 <http://rm-lod.org/object/3895> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3895.jpg> .
-
-<http://rm-lod.org/object/3927> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3927.jpg> .
-
-<http://rm-lod.org/object/3929> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3929.jpg> .
-
-<http://rm-lod.org/object/3930> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3930.jpg> .
-
-<http://rm-lod.org/object/3933> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3933.jpg> .
-
-<http://rm-lod.org/object/3937> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3937.jpg> .
-
-<http://rm-lod.org/object/3940> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/3940.jpg> .
 
 <http://rm-lod.org/object/4007> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/4007.jpg> .
 
 <http://rm-lod.org/object/4008> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/4008.jpg> .
 
 <http://rm-lod.org/object/4009> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/4009.jpg> .
-
-<http://rm-lod.org/object/4017> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/4017.jpg> .
 
 <http://rm-lod.org/object/4018> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/4018.jpg> .
 
@@ -1762,8 +1174,6 @@
 <http://rm-lod.org/object/4025> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/4025.jpg> .
 
 <http://rm-lod.org/object/4031> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/4031.jpg> .
-
-<http://rm-lod.org/object/4032> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/4032.jpg> .
 
 <http://rm-lod.org/object/4035> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/4035.jpg> .
 
@@ -1790,10 +1200,6 @@
 <http://rm-lod.org/object/4058> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/4058.jpg> .
 
 <http://rm-lod.org/object/4059> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/4059.jpg> .
-
-<http://rm-lod.org/object/4062> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/4062.jpg> .
-
-<http://rm-lod.org/object/4063> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/4063.jpg> .
 
 <http://rm-lod.org/object/4064> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/4064.jpg> .
 
@@ -1827,8 +1233,6 @@
 
 <http://rm-lod.org/object/4087> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/4087.jpg> .
 
-<http://rm-lod.org/object/4088> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/4088.jpg> .
-
 <http://rm-lod.org/object/4089> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/4089.jpg> .
 
 <http://rm-lod.org/object/4090> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/4090.jpg> .
@@ -1857,8 +1261,6 @@
 
 <http://rm-lod.org/object/4114> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/4114.jpg> .
 
-<http://rm-lod.org/object/4115> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/4115.jpg> .
-
 <http://rm-lod.org/object/4119> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/4119.jpg> .
 
 <http://rm-lod.org/object/4121> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/4121.jpg> .
@@ -1880,22 +1282,6 @@
 <http://rm-lod.org/object/4135> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/4135.jpg> .
 
 <http://rm-lod.org/object/4136> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/4136.jpg> .
-
-<http://rm-lod.org/object/4137> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/4137.jpg> .
-
-<http://rm-lod.org/object/4140> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/4140.jpg> .
-
-<http://rm-lod.org/object/4141> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/4141.jpg> .
-
-<http://rm-lod.org/object/4142> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/4142.jpg> .
-
-<http://rm-lod.org/object/4144> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/4144.jpg> .
-
-<http://rm-lod.org/object/4147> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/4147.jpg> .
-
-<http://rm-lod.org/object/4148> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/4148.jpg> .
-
-<http://rm-lod.org/object/4149> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/4149.jpg> .
 
 <http://rm-lod.org/object/4150> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/4150.jpg> .
 
@@ -1933,13 +1319,7 @@
 
 <http://rm-lod.org/object/4181> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/4181.jpg> .
 
-<http://rm-lod.org/object/4182> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/4182.jpg> .
-
 <http://rm-lod.org/object/4183> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/4183.jpg> .
-
-<http://rm-lod.org/object/4184> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/4184.jpg> .
-
-<http://rm-lod.org/object/4185> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/4185.jpg> .
 
 <http://rm-lod.org/object/4370> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/4370.jpg> .
 
@@ -1963,15 +1343,9 @@
 
 <http://rm-lod.org/object/4406> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/4406.jpg> .
 
-<http://rm-lod.org/object/4407> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/4407.jpg> .
-
 <http://rm-lod.org/object/4408> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/4408.jpg> .
 
-<http://rm-lod.org/object/4412> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/4412.jpg> .
-
 <http://rm-lod.org/object/4413> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/4413.jpg> .
-
-<http://rm-lod.org/object/4414> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/4414.jpg> .
 
 <http://rm-lod.org/object/4526> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/4526.jpg> .
 
@@ -1999,47 +1373,7 @@
 
 <http://rm-lod.org/object/4745> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/4745.jpg> .
 
-<http://rm-lod.org/object/4746> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/4746.jpg> .
-
 <http://rm-lod.org/object/4750> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/4750.jpg> .
-
-<http://rm-lod.org/object/4765> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/4765.jpg> .
-
-<http://rm-lod.org/object/4766> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/4766.jpg> .
-
-<http://rm-lod.org/object/499> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/499.jpg> .
-
-<http://rm-lod.org/object/500> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/500.jpg> .
-
-<http://rm-lod.org/object/501> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/501.jpg> .
-
-<http://rm-lod.org/object/502> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/502.jpg> .
-
-<http://rm-lod.org/object/503> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/503.jpg> .
-
-<http://rm-lod.org/object/504> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/504.jpg> .
-
-<http://rm-lod.org/object/505> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/505.jpg> .
-
-<http://rm-lod.org/object/506> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/506.jpg> .
-
-<http://rm-lod.org/object/507> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/507.jpg> .
-
-<http://rm-lod.org/object/508> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/508.jpg> .
-
-<http://rm-lod.org/object/509> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/509.jpg> .
-
-<http://rm-lod.org/object/510> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/510.jpg> .
-
-<http://rm-lod.org/object/511> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/511.jpg> .
-
-<http://rm-lod.org/object/512> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/512.jpg> .
-
-<http://rm-lod.org/object/513> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/513.jpg> .
-
-<http://rm-lod.org/object/514> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/514.jpg> .
-
-<http://rm-lod.org/object/515> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/515.jpg> .
 
 <http://rm-lod.org/object/555> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/555.jpg> .
 
@@ -2436,8 +1770,6 @@
 <http://rm-lod.org/object/871> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/871.jpg> .
 
 <http://rm-lod.org/object/873> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/873.jpg> .
-
-<http://rm-lod.org/object/874> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/874.jpg> .
 
 <http://rm-lod.org/object/876> ecrm:P138i_has_representation <http://heritage.vismart.biz/image/876.jpg> .
 

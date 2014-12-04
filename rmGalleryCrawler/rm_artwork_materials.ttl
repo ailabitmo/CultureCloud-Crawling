@@ -4,6 +4,7 @@
 @prefix rm-lod: <http://rm-lod.org/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
+<<<<<<< HEAD
 <http://rm-lod.org/object/1000> ecrm:P43_has_dimension <http://rm-lod.org/object/1000/width/152>,
      <http://rm-lod.org/object/1000/height/187> .
 
@@ -16466,17 +16467,51 @@
      owl:NamedIndividual;
    ecrm:P2_has_type <http://collection.britishmuseum.org/id/thesauri/dimension/width>;
    ecrm:P90_has_value "67"^^xsd:float .
+=======
+<http://rm-lod.org/object/139> ecrm:P43_has_dimension <http://rm-lod.org/object/139/width/71.5>,
+     <http://rm-lod.org/object/139/height/56> .
 
-<http://rm-lod.org/object/997/height/111.5> a ecrm:E54_Dimension,
+<http://rm-lod.org/object/1912> ecrm:P43_has_dimension <http://rm-lod.org/object/1912/width/87>,
+     <http://rm-lod.org/object/1912/height/65> .
+
+<http://rm-lod.org/object/1994> ecrm:P43_has_dimension <http://rm-lod.org/object/1994/width/140>,
+     <http://rm-lod.org/object/1994/height/168> .
+
+<http://rm-lod.org/object/3429> ecrm:P43_has_dimension <http://rm-lod.org/object/3429/width/46>,
+     <http://rm-lod.org/object/3429/height/80> .
+
+<http://rm-lod.org/object/139/height/56> a ecrm:E54_Dimension,
      owl:NamedIndividual;
    ecrm:P2_has_type <http://collection.britishmuseum.org/id/thesauri/dimension/height>;
-   ecrm:P90_has_value "111.5"^^xsd:float .
+   ecrm:P90_has_value "56"^^xsd:float .
 
-<http://rm-lod.org/object/997/width/58.5> a ecrm:E54_Dimension,
+<http://rm-lod.org/object/139/width/71.5> a ecrm:E54_Dimension,
      owl:NamedIndividual;
    ecrm:P2_has_type <http://collection.britishmuseum.org/id/thesauri/dimension/width>;
-   ecrm:P90_has_value "58.5"^^xsd:float .
+   ecrm:P90_has_value "71.5"^^xsd:float .
 
+<http://rm-lod.org/object/1912/height/65> a ecrm:E54_Dimension,
+     owl:NamedIndividual;
+   ecrm:P2_has_type <http://collection.britishmuseum.org/id/thesauri/dimension/height>;
+   ecrm:P90_has_value "65"^^xsd:float .
+
+<http://rm-lod.org/object/1912/width/87> a ecrm:E54_Dimension,
+     owl:NamedIndividual;
+   ecrm:P2_has_type <http://collection.britishmuseum.org/id/thesauri/dimension/width>;
+   ecrm:P90_has_value "87"^^xsd:float .
+>>>>>>> d353e99207b185c5888a2e1db2f110bd1b23dba4
+
+<http://rm-lod.org/object/1994/height/168> a ecrm:E54_Dimension,
+     owl:NamedIndividual;
+   ecrm:P2_has_type <http://collection.britishmuseum.org/id/thesauri/dimension/height>;
+   ecrm:P90_has_value "168"^^xsd:float .
+
+<http://rm-lod.org/object/1994/width/140> a ecrm:E54_Dimension,
+     owl:NamedIndividual;
+   ecrm:P2_has_type <http://collection.britishmuseum.org/id/thesauri/dimension/width>;
+   ecrm:P90_has_value "140"^^xsd:float .
+
+<<<<<<< HEAD
 <http://rm-lod.org/object/999/height/170> a ecrm:E54_Dimension,
      owl:NamedIndividual;
    ecrm:P2_has_type <http://collection.britishmuseum.org/id/thesauri/dimension/height>;
@@ -16486,3 +16521,14 @@
      owl:NamedIndividual;
    ecrm:P2_has_type <http://collection.britishmuseum.org/id/thesauri/dimension/width>;
    ecrm:P90_has_value "150"^^xsd:float .
+=======
+<http://rm-lod.org/object/3429/height/80> a ecrm:E54_Dimension,
+     owl:NamedIndividual;
+   ecrm:P2_has_type <http://collection.britishmuseum.org/id/thesauri/dimension/height>;
+   ecrm:P90_has_value "80"^^xsd:float .
+
+<http://rm-lod.org/object/3429/width/46> a ecrm:E54_Dimension,
+     owl:NamedIndividual;
+   ecrm:P2_has_type <http://collection.britishmuseum.org/id/thesauri/dimension/width>;
+   ecrm:P90_has_value "46"^^xsd:float .
+>>>>>>> d353e99207b185c5888a2e1db2f110bd1b23dba4

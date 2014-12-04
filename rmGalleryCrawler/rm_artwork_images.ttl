@@ -27,14 +27,6 @@
      owl:NamedIndividual;
    rdfs:label <http://rmgallery.ru/files/medium/1005_98.jpg> .
 
-<http://heritage.vismart.biz/image/1020.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/1020_98.jpg> .
-
-<http://heritage.vismart.biz/image/1023.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/1023_98.jpg> .
-
 <http://heritage.vismart.biz/image/1024.jpg> a ecrm:E38_Image,
      owl:NamedIndividual;
    rdfs:label <http://rmgallery.ru/files/medium/1024_98.jpg> .
@@ -51,38 +43,6 @@
      owl:NamedIndividual;
    rdfs:label <http://rmgallery.ru/files/medium/1034_98.jpg> .
 
-<http://heritage.vismart.biz/image/1036.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/1036_98.jpg> .
-
-<http://heritage.vismart.biz/image/1037.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/1037_98.jpg> .
-
-<http://heritage.vismart.biz/image/1038.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/1038_98.jpg> .
-
-<http://heritage.vismart.biz/image/1039.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/1039_98.jpg> .
-
-<http://heritage.vismart.biz/image/1040.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/1040_98.jpg> .
-
-<http://heritage.vismart.biz/image/1041.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/1041_98.jpg> .
-
-<http://heritage.vismart.biz/image/1048.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/1048_98.jpg> .
-
-<http://heritage.vismart.biz/image/1049.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/1049_98.jpg> .
-
 <http://heritage.vismart.biz/image/1056.jpg> a ecrm:E38_Image,
      owl:NamedIndividual;
    rdfs:label <http://rmgallery.ru/files/medium/1056_98.jpg> .
@@ -94,18 +54,6 @@
 <http://heritage.vismart.biz/image/1058.jpg> a ecrm:E38_Image,
      owl:NamedIndividual;
    rdfs:label <http://rmgallery.ru/files/medium/1058_98.jpg> .
-
-<http://heritage.vismart.biz/image/1059.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/1059_98.jpg> .
-
-<http://heritage.vismart.biz/image/1060.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/1060_98.jpg> .
-
-<http://heritage.vismart.biz/image/1061.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/1061_98.jpg> .
 
 <http://heritage.vismart.biz/image/1065.jpg> a ecrm:E38_Image,
      owl:NamedIndividual;
@@ -343,181 +291,21 @@
      owl:NamedIndividual;
    rdfs:label <http://rmgallery.ru/files/medium/1145_98.jpg> .
 
-<http://heritage.vismart.biz/image/1149.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/1149_98.jpg> .
-
-<http://heritage.vismart.biz/image/1150.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/1150_98.jpg> .
-
-<http://heritage.vismart.biz/image/1151.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/1151_98.jpg> .
-
-<http://heritage.vismart.biz/image/1152.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/1152_98.jpg> .
-
-<http://heritage.vismart.biz/image/1153.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/1153_98.jpg> .
-
-<http://heritage.vismart.biz/image/1154.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/1154_98.jpg> .
-
-<http://heritage.vismart.biz/image/1155.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/1155_98.jpg> .
-
-<http://heritage.vismart.biz/image/1156.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/1156_98.jpg> .
-
-<http://heritage.vismart.biz/image/1158.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/1158_98.jpg> .
-
-<http://heritage.vismart.biz/image/1159.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/1159_98.jpg> .
-
-<http://heritage.vismart.biz/image/1161.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/1161_98.jpg> .
-
-<http://heritage.vismart.biz/image/1162.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/1162_98.jpg> .
-
-<http://heritage.vismart.biz/image/1164.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/1164_98.jpg> .
-
-<http://heritage.vismart.biz/image/1165.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/1165_98.jpg> .
-
-<http://heritage.vismart.biz/image/1170.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/1170_98.jpg> .
-
-<http://heritage.vismart.biz/image/1176.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/1176_98.jpg> .
-
-<http://heritage.vismart.biz/image/1177.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/1177_98.jpg> .
-
-<http://heritage.vismart.biz/image/1178.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/1178_98.jpg> .
-
-<http://heritage.vismart.biz/image/118.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/118_98.jpg> .
-
-<http://heritage.vismart.biz/image/1180.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/1180_98.jpg> .
-
-<http://heritage.vismart.biz/image/1181.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/1181_98.jpg> .
-
-<http://heritage.vismart.biz/image/1182.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/1182_98.jpg> .
-
-<http://heritage.vismart.biz/image/1183.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/1183_98.jpg> .
-
-<http://heritage.vismart.biz/image/1184.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/1184_98.jpg> .
-
-<http://heritage.vismart.biz/image/1187.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/1187_98.jpg> .
-
-<http://heritage.vismart.biz/image/1188.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/1188_98.jpg> .
-
-<http://heritage.vismart.biz/image/1189.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/1189_98.jpg> .
-
-<http://heritage.vismart.biz/image/119.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/119_98.jpg> .
-
-<http://heritage.vismart.biz/image/1192.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/1192_98.jpg> .
-
-<http://heritage.vismart.biz/image/1206.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/1206_98.jpg> .
-
-<http://heritage.vismart.biz/image/1207.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/1207_98.jpg> .
-
-<http://heritage.vismart.biz/image/1208.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/1208_98.jpg> .
-
 <http://heritage.vismart.biz/image/1209.jpg> a ecrm:E38_Image,
      owl:NamedIndividual;
    rdfs:label <http://rmgallery.ru/files/medium/1209_98.jpg> .
-
-<http://heritage.vismart.biz/image/121.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/121_98.jpg> .
 
 <http://heritage.vismart.biz/image/122.jpg> a ecrm:E38_Image,
      owl:NamedIndividual;
    rdfs:label <http://rmgallery.ru/files/medium/122_98.jpg> .
 
-<http://heritage.vismart.biz/image/1234.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/1234_98.jpg> .
-
-<http://heritage.vismart.biz/image/1235.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/1235_98.jpg> .
-
-<http://heritage.vismart.biz/image/1236.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/1236_98.jpg> .
-
 <http://heritage.vismart.biz/image/1238.jpg> a ecrm:E38_Image,
      owl:NamedIndividual;
    rdfs:label <http://rmgallery.ru/files/medium/1238_98.jpg> .
 
-<http://heritage.vismart.biz/image/1239.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/1239_98.jpg> .
-
 <http://heritage.vismart.biz/image/124.jpg> a ecrm:E38_Image,
      owl:NamedIndividual;
    rdfs:label <http://rmgallery.ru/files/medium/124_98.jpg> .
-
-<http://heritage.vismart.biz/image/1240.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/1240_98.jpg> .
-
-<http://heritage.vismart.biz/image/1241.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/1241_98.jpg> .
-
-<http://heritage.vismart.biz/image/1242.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/1242_98.jpg> .
 
 <http://heritage.vismart.biz/image/1243.jpg> a ecrm:E38_Image,
      owl:NamedIndividual;
@@ -599,10 +387,6 @@
      owl:NamedIndividual;
    rdfs:label <http://rmgallery.ru/files/medium/137_98.jpg> .
 
-<http://heritage.vismart.biz/image/1376.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/1376_98.jpg> .
-
 <http://heritage.vismart.biz/image/1377.jpg> a ecrm:E38_Image,
      owl:NamedIndividual;
    rdfs:label <http://rmgallery.ru/files/medium/1377_98.jpg> .
@@ -611,41 +395,9 @@
      owl:NamedIndividual;
    rdfs:label <http://rmgallery.ru/files/medium/138_98.jpg> .
 
-<http://heritage.vismart.biz/image/1389.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/1389_98.jpg> .
-
 <http://heritage.vismart.biz/image/139.jpg> a ecrm:E38_Image,
      owl:NamedIndividual;
    rdfs:label <http://rmgallery.ru/files/medium/139_98.jpg> .
-
-<http://heritage.vismart.biz/image/1391.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/1391_98.jpg> .
-
-<http://heritage.vismart.biz/image/1392.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/1392_98.jpg> .
-
-<http://heritage.vismart.biz/image/1393.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/1393_98.jpg> .
-
-<http://heritage.vismart.biz/image/1394.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/1394_98.jpg> .
-
-<http://heritage.vismart.biz/image/1395.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/1395_98.jpg> .
-
-<http://heritage.vismart.biz/image/1396.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/1396_98.jpg> .
-
-<http://heritage.vismart.biz/image/1397.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/1397_98.jpg> .
 
 <http://heritage.vismart.biz/image/140.jpg> a ecrm:E38_Image,
      owl:NamedIndividual;
@@ -727,37 +479,9 @@
      owl:NamedIndividual;
    rdfs:label <http://rmgallery.ru/files/medium/143_98.jpg> .
 
-<http://heritage.vismart.biz/image/1430.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/1430_98.jpg> .
-
-<http://heritage.vismart.biz/image/1431.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/1431_98.jpg> .
-
-<http://heritage.vismart.biz/image/1432.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/1432_98.jpg> .
-
-<http://heritage.vismart.biz/image/1433.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/1433_98.jpg> .
-
 <http://heritage.vismart.biz/image/1434.jpg> a ecrm:E38_Image,
      owl:NamedIndividual;
    rdfs:label <http://rmgallery.ru/files/medium/1434_98.jpg> .
-
-<http://heritage.vismart.biz/image/1435.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/1435_98.jpg> .
-
-<http://heritage.vismart.biz/image/1436.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/1436_98.jpg> .
-
-<http://heritage.vismart.biz/image/1439.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/1439_98.jpg> .
 
 <http://heritage.vismart.biz/image/144.jpg> a ecrm:E38_Image,
      owl:NamedIndividual;
@@ -806,14 +530,6 @@
 <http://heritage.vismart.biz/image/145.jpg> a ecrm:E38_Image,
      owl:NamedIndividual;
    rdfs:label <http://rmgallery.ru/files/medium/145_98.jpg> .
-
-<http://heritage.vismart.biz/image/1451.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/1451_98.jpg> .
-
-<http://heritage.vismart.biz/image/1452.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/1452_98.jpg> .
 
 <http://heritage.vismart.biz/image/1453.jpg> a ecrm:E38_Image,
      owl:NamedIndividual;
@@ -1015,14 +731,6 @@
      owl:NamedIndividual;
    rdfs:label <http://rmgallery.ru/files/medium/1527_98.jpg> .
 
-<http://heritage.vismart.biz/image/155.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/155_98.jpg> .
-
-<http://heritage.vismart.biz/image/156.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/156_98.jpg> .
-
 <http://heritage.vismart.biz/image/1579.jpg> a ecrm:E38_Image,
      owl:NamedIndividual;
    rdfs:label <http://rmgallery.ru/files/medium/1579_98.jpg> .
@@ -1039,89 +747,13 @@
      owl:NamedIndividual;
    rdfs:label <http://rmgallery.ru/files/medium/161_98.jpg> .
 
-<http://heritage.vismart.biz/image/1615.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/1615_98.jpg> .
-
-<http://heritage.vismart.biz/image/1618.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/1618_98.jpg> .
-
-<http://heritage.vismart.biz/image/1619.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/1619_98.jpg> .
-
 <http://heritage.vismart.biz/image/162.jpg> a ecrm:E38_Image,
      owl:NamedIndividual;
    rdfs:label <http://rmgallery.ru/files/medium/162_98.jpg> .
 
-<http://heritage.vismart.biz/image/1620.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/1620_98.jpg> .
-
-<http://heritage.vismart.biz/image/1621.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/1621_98.jpg> .
-
-<http://heritage.vismart.biz/image/1622.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/1622_98.jpg> .
-
-<http://heritage.vismart.biz/image/1623.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/1623_98.jpg> .
-
-<http://heritage.vismart.biz/image/1624.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/1624_98.jpg> .
-
-<http://heritage.vismart.biz/image/1625.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/1625_98.jpg> .
-
-<http://heritage.vismart.biz/image/1626.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/1626_98.jpg> .
-
-<http://heritage.vismart.biz/image/1627.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/1627_98.jpg> .
-
-<http://heritage.vismart.biz/image/1628.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/1628_98.jpg> .
-
-<http://heritage.vismart.biz/image/1629.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/1629_98.jpg> .
-
 <http://heritage.vismart.biz/image/163.jpg> a ecrm:E38_Image,
      owl:NamedIndividual;
    rdfs:label <http://rmgallery.ru/files/medium/163_98.jpg> .
-
-<http://heritage.vismart.biz/image/1630.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/1630_98.jpg> .
-
-<http://heritage.vismart.biz/image/1632.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/1632_98.jpg> .
-
-<http://heritage.vismart.biz/image/1633.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/1633_98.jpg> .
-
-<http://heritage.vismart.biz/image/1634.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/1634_98.jpg> .
-
-<http://heritage.vismart.biz/image/1635.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/1635_98.jpg> .
-
-<http://heritage.vismart.biz/image/1636.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/1636_98.jpg> .
 
 <http://heritage.vismart.biz/image/164.jpg> a ecrm:E38_Image,
      owl:NamedIndividual;
@@ -1159,21 +791,9 @@
      owl:NamedIndividual;
    rdfs:label <http://rmgallery.ru/files/medium/167_98.jpg> .
 
-<http://heritage.vismart.biz/image/1670.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/1670_98.jpg> .
-
-<http://heritage.vismart.biz/image/1671.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/1671_98.jpg> .
-
 <http://heritage.vismart.biz/image/1673.jpg> a ecrm:E38_Image,
      owl:NamedIndividual;
    rdfs:label <http://rmgallery.ru/files/medium/1673_98.jpg> .
-
-<http://heritage.vismart.biz/image/1675.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/1675_98.jpg> .
 
 <http://heritage.vismart.biz/image/1676.jpg> a ecrm:E38_Image,
      owl:NamedIndividual;
@@ -1315,14 +935,6 @@
      owl:NamedIndividual;
    rdfs:label <http://rmgallery.ru/files/medium/175_98.jpg> .
 
-<http://heritage.vismart.biz/image/1762.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/1762_98.jpg> .
-
-<http://heritage.vismart.biz/image/1765.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/1765_98.jpg> .
-
 <http://heritage.vismart.biz/image/177.jpg> a ecrm:E38_Image,
      owl:NamedIndividual;
    rdfs:label <http://rmgallery.ru/files/medium/177_98.jpg> .
@@ -1363,10 +975,6 @@
      owl:NamedIndividual;
    rdfs:label <http://rmgallery.ru/files/medium/1816_98.jpg> .
 
-<http://heritage.vismart.biz/image/1817.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/1817_98.jpg> .
-
 <http://heritage.vismart.biz/image/1818.jpg> a ecrm:E38_Image,
      owl:NamedIndividual;
    rdfs:label <http://rmgallery.ru/files/medium/1818_98.jpg> .
@@ -1374,10 +982,6 @@
 <http://heritage.vismart.biz/image/182.jpg> a ecrm:E38_Image,
      owl:NamedIndividual;
    rdfs:label <http://rmgallery.ru/files/medium/182_98.jpg> .
-
-<http://heritage.vismart.biz/image/1823.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/1823_98.jpg> .
 
 <http://heritage.vismart.biz/image/183.jpg> a ecrm:E38_Image,
      owl:NamedIndividual;
@@ -1427,10 +1031,6 @@
      owl:NamedIndividual;
    rdfs:label <http://rmgallery.ru/files/medium/189_98.jpg> .
 
-<http://heritage.vismart.biz/image/1890.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/1890_98.jpg> .
-
 <http://heritage.vismart.biz/image/1895.jpg> a ecrm:E38_Image,
      owl:NamedIndividual;
    rdfs:label <http://rmgallery.ru/files/medium/1895_98.jpg> .
@@ -1451,10 +1051,6 @@
      owl:NamedIndividual;
    rdfs:label <http://rmgallery.ru/files/medium/1903_98.jpg> .
 
-<http://heritage.vismart.biz/image/1906.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/1906_98.jpg> .
-
 <http://heritage.vismart.biz/image/1909.jpg> a ecrm:E38_Image,
      owl:NamedIndividual;
    rdfs:label <http://rmgallery.ru/files/medium/1909_98.jpg> .
@@ -1466,14 +1062,6 @@
 <http://heritage.vismart.biz/image/1912.jpg> a ecrm:E38_Image,
      owl:NamedIndividual;
    rdfs:label <http://rmgallery.ru/files/medium/1912_98.jpg> .
-
-<http://heritage.vismart.biz/image/1914.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/1914_98.jpg> .
-
-<http://heritage.vismart.biz/image/1924.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/1924_98.jpg> .
 
 <http://heritage.vismart.biz/image/1926.jpg> a ecrm:E38_Image,
      owl:NamedIndividual;
@@ -1511,10 +1099,6 @@
      owl:NamedIndividual;
    rdfs:label <http://rmgallery.ru/files/medium/1962_98.jpg> .
 
-<http://heritage.vismart.biz/image/1963.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/1963_98.jpg> .
-
 <http://heritage.vismart.biz/image/1975.jpg> a ecrm:E38_Image,
      owl:NamedIndividual;
    rdfs:label <http://rmgallery.ru/files/medium/1975_98.jpg> .
@@ -1523,25 +1107,9 @@
      owl:NamedIndividual;
    rdfs:label <http://rmgallery.ru/files/medium/1980_98.jpg> .
 
-<http://heritage.vismart.biz/image/1981.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/1981_98.jpg> .
-
 <http://heritage.vismart.biz/image/1982.jpg> a ecrm:E38_Image,
      owl:NamedIndividual;
    rdfs:label <http://rmgallery.ru/files/medium/1982_98.jpg> .
-
-<http://heritage.vismart.biz/image/1983.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/1983_98.jpg> .
-
-<http://heritage.vismart.biz/image/1984.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/1984_98.jpg> .
-
-<http://heritage.vismart.biz/image/1985.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/1985_98.jpg> .
 
 <http://heritage.vismart.biz/image/1992.jpg> a ecrm:E38_Image,
      owl:NamedIndividual;
@@ -1634,10 +1202,6 @@
 <http://heritage.vismart.biz/image/2112.jpg> a ecrm:E38_Image,
      owl:NamedIndividual;
    rdfs:label <http://rmgallery.ru/files/medium/2112_98.jpg> .
-
-<http://heritage.vismart.biz/image/2116.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/2116_98.jpg> .
 
 <http://heritage.vismart.biz/image/2137.jpg> a ecrm:E38_Image,
      owl:NamedIndividual;
@@ -1811,90 +1375,6 @@
      owl:NamedIndividual;
    rdfs:label <http://rmgallery.ru/files/medium/2239_98.jpg> .
 
-<http://heritage.vismart.biz/image/2241.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/2241_98.jpg> .
-
-<http://heritage.vismart.biz/image/2243.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/2243_98.jpg> .
-
-<http://heritage.vismart.biz/image/2245.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/2245_98.jpg> .
-
-<http://heritage.vismart.biz/image/2246.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/2246_98.jpg> .
-
-<http://heritage.vismart.biz/image/2252.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/2252_98.jpg> .
-
-<http://heritage.vismart.biz/image/2254.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/2254_98.jpg> .
-
-<http://heritage.vismart.biz/image/2255.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/2255_98.jpg> .
-
-<http://heritage.vismart.biz/image/2260.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/2260_98.jpg> .
-
-<http://heritage.vismart.biz/image/2261.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/2261_98.jpg> .
-
-<http://heritage.vismart.biz/image/2262.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/2262_98.jpg> .
-
-<http://heritage.vismart.biz/image/2264.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/2264_98.jpg> .
-
-<http://heritage.vismart.biz/image/2266.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/2266_98.jpg> .
-
-<http://heritage.vismart.biz/image/2268.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/2268_98.jpg> .
-
-<http://heritage.vismart.biz/image/2269.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/2269_98.jpg> .
-
-<http://heritage.vismart.biz/image/2270.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/2270_98.jpg> .
-
-<http://heritage.vismart.biz/image/2271.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/2271_98.jpg> .
-
-<http://heritage.vismart.biz/image/2272.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/2272_98.jpg> .
-
-<http://heritage.vismart.biz/image/2274.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/2274_98.jpg> .
-
-<http://heritage.vismart.biz/image/2276.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/2276_98.jpg> .
-
-<http://heritage.vismart.biz/image/2277.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/2277_98.jpg> .
-
-<http://heritage.vismart.biz/image/2278.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/2278_98.jpg> .
-
 <http://heritage.vismart.biz/image/2281.jpg> a ecrm:E38_Image,
      owl:NamedIndividual;
    rdfs:label <http://rmgallery.ru/files/medium/2281_98.jpg> .
@@ -2027,18 +1507,6 @@
      owl:NamedIndividual;
    rdfs:label <http://rmgallery.ru/files/medium/2381_98.jpg> .
 
-<http://heritage.vismart.biz/image/2383.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/2383_98.jpg> .
-
-<http://heritage.vismart.biz/image/2385.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/2385_98.jpg> .
-
-<http://heritage.vismart.biz/image/2388.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/2388_98.jpg> .
-
 <http://heritage.vismart.biz/image/2389.jpg> a ecrm:E38_Image,
      owl:NamedIndividual;
    rdfs:label <http://rmgallery.ru/files/medium/2389_98.jpg> .
@@ -2059,10 +1527,6 @@
      owl:NamedIndividual;
    rdfs:label <http://rmgallery.ru/files/medium/2394_98.jpg> .
 
-<http://heritage.vismart.biz/image/2395.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/2395_98.jpg> .
-
 <http://heritage.vismart.biz/image/2397.jpg> a ecrm:E38_Image,
      owl:NamedIndividual;
    rdfs:label <http://rmgallery.ru/files/medium/2397_98.jpg> .
@@ -2071,18 +1535,6 @@
      owl:NamedIndividual;
    rdfs:label <http://rmgallery.ru/files/medium/2400_98.jpg> .
 
-<http://heritage.vismart.biz/image/2403.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/2403_98.jpg> .
-
-<http://heritage.vismart.biz/image/2407.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/2407_98.jpg> .
-
-<http://heritage.vismart.biz/image/2412.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/2412_98.jpg> .
-
 <http://heritage.vismart.biz/image/2415.jpg> a ecrm:E38_Image,
      owl:NamedIndividual;
    rdfs:label <http://rmgallery.ru/files/medium/2415_98.jpg> .
@@ -2090,10 +1542,6 @@
 <http://heritage.vismart.biz/image/2417.jpg> a ecrm:E38_Image,
      owl:NamedIndividual;
    rdfs:label <http://rmgallery.ru/files/medium/2417_98.jpg> .
-
-<http://heritage.vismart.biz/image/2418.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/2418_98.jpg> .
 
 <http://heritage.vismart.biz/image/2421.jpg> a ecrm:E38_Image,
      owl:NamedIndividual;
@@ -2231,10 +1679,6 @@
      owl:NamedIndividual;
    rdfs:label <http://rmgallery.ru/files/medium/2485_98.jpg> .
 
-<http://heritage.vismart.biz/image/2487.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/2487_98.jpg> .
-
 <http://heritage.vismart.biz/image/2492.jpg> a ecrm:E38_Image,
      owl:NamedIndividual;
    rdfs:label <http://rmgallery.ru/files/medium/2492_98.jpg> .
@@ -2278,14 +1722,6 @@
 <http://heritage.vismart.biz/image/2503.jpg> a ecrm:E38_Image,
      owl:NamedIndividual;
    rdfs:label <http://rmgallery.ru/files/medium/2503_98.jpg> .
-
-<http://heritage.vismart.biz/image/2504.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/2504_98.jpg> .
-
-<http://heritage.vismart.biz/image/2505.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/2505_98.jpg> .
 
 <http://heritage.vismart.biz/image/2506.jpg> a ecrm:E38_Image,
      owl:NamedIndividual;
@@ -2447,101 +1883,9 @@
      owl:NamedIndividual;
    rdfs:label <http://rmgallery.ru/files/medium/2570_98.jpg> .
 
-<http://heritage.vismart.biz/image/2612.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/2612_98.jpg> .
-
-<http://heritage.vismart.biz/image/2644.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/2644_98.jpg> .
-
-<http://heritage.vismart.biz/image/2645.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/2645_98.jpg> .
-
-<http://heritage.vismart.biz/image/2646.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/2646_98.jpg> .
-
-<http://heritage.vismart.biz/image/2647.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/2647_98.jpg> .
-
-<http://heritage.vismart.biz/image/2649.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/2649_98.jpg> .
-
-<http://heritage.vismart.biz/image/2650.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/2650_98.jpg> .
-
-<http://heritage.vismart.biz/image/2651.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/2651_98.jpg> .
-
-<http://heritage.vismart.biz/image/2652.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/2652_98.jpg> .
-
-<http://heritage.vismart.biz/image/2653.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/2653_98.jpg> .
-
-<http://heritage.vismart.biz/image/2654.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/2654_98.jpg> .
-
-<http://heritage.vismart.biz/image/2655.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/2655_98.jpg> .
-
-<http://heritage.vismart.biz/image/2656.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/2656_98.jpg> .
-
-<http://heritage.vismart.biz/image/2657.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/2657_98.jpg> .
-
-<http://heritage.vismart.biz/image/2659.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/2659_98.jpg> .
-
-<http://heritage.vismart.biz/image/2660.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/2660_98.jpg> .
-
-<http://heritage.vismart.biz/image/2661.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/2661_98.jpg> .
-
-<http://heritage.vismart.biz/image/2662.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/2662_98.jpg> .
-
-<http://heritage.vismart.biz/image/2663.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/2663_98.jpg> .
-
-<http://heritage.vismart.biz/image/2664.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/2664_98.jpg> .
-
-<http://heritage.vismart.biz/image/2665.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/2665_98.jpg> .
-
-<http://heritage.vismart.biz/image/2670.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/2670_98.jpg> .
-
 <http://heritage.vismart.biz/image/2685.jpg> a ecrm:E38_Image,
      owl:NamedIndividual;
    rdfs:label <http://rmgallery.ru/files/medium/2685_98.jpg> .
-
-<http://heritage.vismart.biz/image/2704.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/2704_98.jpg> .
 
 <http://heritage.vismart.biz/image/2705.jpg> a ecrm:E38_Image,
      owl:NamedIndividual;
@@ -2575,25 +1919,9 @@
      owl:NamedIndividual;
    rdfs:label <http://rmgallery.ru/files/medium/2712_98.jpg> .
 
-<http://heritage.vismart.biz/image/2713.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/2713_98.jpg> .
-
-<http://heritage.vismart.biz/image/2714.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/2714_98.jpg> .
-
 <http://heritage.vismart.biz/image/2716.jpg> a ecrm:E38_Image,
      owl:NamedIndividual;
    rdfs:label <http://rmgallery.ru/files/medium/2716_98.jpg> .
-
-<http://heritage.vismart.biz/image/2717.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/2717_98.jpg> .
-
-<http://heritage.vismart.biz/image/2771.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/2771_98.jpg> .
 
 <http://heritage.vismart.biz/image/2776.jpg> a ecrm:E38_Image,
      owl:NamedIndividual;
@@ -2618,10 +1946,6 @@
 <http://heritage.vismart.biz/image/2815.jpg> a ecrm:E38_Image,
      owl:NamedIndividual;
    rdfs:label <http://rmgallery.ru/files/medium/2815_98.jpg> .
-
-<http://heritage.vismart.biz/image/2817.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/2817_98.jpg> .
 
 <http://heritage.vismart.biz/image/2847.jpg> a ecrm:E38_Image,
      owl:NamedIndividual;
@@ -2655,26 +1979,6 @@
      owl:NamedIndividual;
    rdfs:label <http://rmgallery.ru/files/medium/2854_98.jpg> .
 
-<http://heritage.vismart.biz/image/2905.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/2905_98.jpg> .
-
-<http://heritage.vismart.biz/image/2906.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/2906_98.jpg> .
-
-<http://heritage.vismart.biz/image/2907.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/2907_98.jpg> .
-
-<http://heritage.vismart.biz/image/2908.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/2908_98.jpg> .
-
-<http://heritage.vismart.biz/image/2909.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/2909_98.jpg> .
-
 <http://heritage.vismart.biz/image/2927.jpg> a ecrm:E38_Image,
      owl:NamedIndividual;
    rdfs:label <http://rmgallery.ru/files/medium/2927_98.jpg> .
@@ -2691,377 +1995,9 @@
      owl:NamedIndividual;
    rdfs:label <http://rmgallery.ru/files/medium/2950_98.jpg> .
 
-<http://heritage.vismart.biz/image/2995.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/2995_98.jpg> .
-
-<http://heritage.vismart.biz/image/2997.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/2997_98.jpg> .
-
-<http://heritage.vismart.biz/image/3000.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/3000_98.jpg> .
-
-<http://heritage.vismart.biz/image/3002.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/3002_98.jpg> .
-
-<http://heritage.vismart.biz/image/3003.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/3003_98.jpg> .
-
-<http://heritage.vismart.biz/image/3004.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/3004_98.jpg> .
-
-<http://heritage.vismart.biz/image/3005.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/3005_98.jpg> .
-
-<http://heritage.vismart.biz/image/3006.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/3006_98.jpg> .
-
-<http://heritage.vismart.biz/image/3007.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/3007_98.jpg> .
-
-<http://heritage.vismart.biz/image/3009.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/3009_98.jpg> .
-
-<http://heritage.vismart.biz/image/3010.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/3010_98.jpg> .
-
-<http://heritage.vismart.biz/image/3011.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/3011_98.jpg> .
-
-<http://heritage.vismart.biz/image/3012.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/3012_98.jpg> .
-
-<http://heritage.vismart.biz/image/3013.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/3013_98.jpg> .
-
-<http://heritage.vismart.biz/image/3014.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/3014_98.jpg> .
-
-<http://heritage.vismart.biz/image/3016.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/3016_98.jpg> .
-
-<http://heritage.vismart.biz/image/3018.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/3018_98.jpg> .
-
-<http://heritage.vismart.biz/image/3019.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/3019_98.jpg> .
-
-<http://heritage.vismart.biz/image/3020.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/3020_98.jpg> .
-
-<http://heritage.vismart.biz/image/3021.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/3021_98.jpg> .
-
-<http://heritage.vismart.biz/image/3022.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/3022_98.jpg> .
-
-<http://heritage.vismart.biz/image/3024.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/3024_98.jpg> .
-
-<http://heritage.vismart.biz/image/3028.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/3028_98.jpg> .
-
-<http://heritage.vismart.biz/image/3029.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/3029_98.jpg> .
-
-<http://heritage.vismart.biz/image/3031.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/3031_98.jpg> .
-
-<http://heritage.vismart.biz/image/3032.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/3032_98.jpg> .
-
-<http://heritage.vismart.biz/image/3033.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/3033_98.jpg> .
-
-<http://heritage.vismart.biz/image/3035.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/3035_98.jpg> .
-
-<http://heritage.vismart.biz/image/3037.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/3037_98.jpg> .
-
-<http://heritage.vismart.biz/image/3038.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/3038_98.jpg> .
-
-<http://heritage.vismart.biz/image/3043.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/3043_98.jpg> .
-
-<http://heritage.vismart.biz/image/3044.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/3044_98.jpg> .
-
-<http://heritage.vismart.biz/image/3045.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/3045_98.jpg> .
-
-<http://heritage.vismart.biz/image/3047.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/3047_98.jpg> .
-
-<http://heritage.vismart.biz/image/3048.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/3048_98.jpg> .
-
-<http://heritage.vismart.biz/image/3050.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/3050_98.jpg> .
-
-<http://heritage.vismart.biz/image/3051.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/3051_98.jpg> .
-
-<http://heritage.vismart.biz/image/3052.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/3052_98.jpg> .
-
 <http://heritage.vismart.biz/image/3053.jpg> a ecrm:E38_Image,
      owl:NamedIndividual;
    rdfs:label <http://rmgallery.ru/files/medium/3053_98.jpg> .
-
-<http://heritage.vismart.biz/image/3054.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/3054_98.jpg> .
-
-<http://heritage.vismart.biz/image/3055.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/3055_98.jpg> .
-
-<http://heritage.vismart.biz/image/3056.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/3056_98.jpg> .
-
-<http://heritage.vismart.biz/image/3057.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/3057_98.jpg> .
-
-<http://heritage.vismart.biz/image/3058.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/3058_98.jpg> .
-
-<http://heritage.vismart.biz/image/3059.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/3059_98.jpg> .
-
-<http://heritage.vismart.biz/image/3060.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/3060_98.jpg> .
-
-<http://heritage.vismart.biz/image/3062.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/3062_98.jpg> .
-
-<http://heritage.vismart.biz/image/3063.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/3063_98.jpg> .
-
-<http://heritage.vismart.biz/image/3065.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/3065_98.jpg> .
-
-<http://heritage.vismart.biz/image/3066.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/3066_98.jpg> .
-
-<http://heritage.vismart.biz/image/3068.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/3068_98.jpg> .
-
-<http://heritage.vismart.biz/image/3069.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/3069_98.jpg> .
-
-<http://heritage.vismart.biz/image/3070.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/3070_98.jpg> .
-
-<http://heritage.vismart.biz/image/3073.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/3073_98.jpg> .
-
-<http://heritage.vismart.biz/image/3075.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/3075_98.jpg> .
-
-<http://heritage.vismart.biz/image/3076.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/3076_98.jpg> .
-
-<http://heritage.vismart.biz/image/3077.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/3077_98.jpg> .
-
-<http://heritage.vismart.biz/image/3079.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/3079_98.jpg> .
-
-<http://heritage.vismart.biz/image/3081.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/3081_98.jpg> .
-
-<http://heritage.vismart.biz/image/3083.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/3083_98.jpg> .
-
-<http://heritage.vismart.biz/image/3084.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/3084_98.jpg> .
-
-<http://heritage.vismart.biz/image/3085.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/3085_98.jpg> .
-
-<http://heritage.vismart.biz/image/3088.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/3088_98.jpg> .
-
-<http://heritage.vismart.biz/image/3089.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/3089_98.jpg> .
-
-<http://heritage.vismart.biz/image/3090.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/3090_98.jpg> .
-
-<http://heritage.vismart.biz/image/3091.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/3091_98.jpg> .
-
-<http://heritage.vismart.biz/image/3092.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/3092_98.jpg> .
-
-<http://heritage.vismart.biz/image/3093.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/3093_98.jpg> .
-
-<http://heritage.vismart.biz/image/3094.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/3094_98.jpg> .
-
-<http://heritage.vismart.biz/image/3095.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/3095_98.jpg> .
-
-<http://heritage.vismart.biz/image/3096.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/3096_98.jpg> .
-
-<http://heritage.vismart.biz/image/3097.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/3097_98.jpg> .
-
-<http://heritage.vismart.biz/image/3098.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/3098_98.jpg> .
-
-<http://heritage.vismart.biz/image/3099.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/3099_98.jpg> .
-
-<http://heritage.vismart.biz/image/3108.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/3108_98.jpg> .
-
-<http://heritage.vismart.biz/image/3113.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/3113_98.jpg> .
-
-<http://heritage.vismart.biz/image/3116.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/3116_98.jpg> .
-
-<http://heritage.vismart.biz/image/3117.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/3117_98.jpg> .
-
-<http://heritage.vismart.biz/image/3118.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/3118_98.jpg> .
-
-<http://heritage.vismart.biz/image/3119.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/3119_98.jpg> .
-
-<http://heritage.vismart.biz/image/3121.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/3121_98.jpg> .
-
-<http://heritage.vismart.biz/image/3122.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/3122_98.jpg> .
-
-<http://heritage.vismart.biz/image/3124.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/3124_98.jpg> .
-
-<http://heritage.vismart.biz/image/3290.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/3290_98.jpg> .
-
-<http://heritage.vismart.biz/image/3291.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/3291_98.jpg> .
-
-<http://heritage.vismart.biz/image/3294.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/3294_98.jpg> .
-
-<http://heritage.vismart.biz/image/3295.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/3295_98.jpg> .
-
-<http://heritage.vismart.biz/image/3299.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/3299_98.jpg> .
-
-<http://heritage.vismart.biz/image/3302.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/3302_98.jpg> .
-
-<http://heritage.vismart.biz/image/3307.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/3307_98.jpg> .
-
-<http://heritage.vismart.biz/image/3309.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/3309_98.jpg> .
-
-<http://heritage.vismart.biz/image/3387.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/3387_98.jpg> .
-
-<http://heritage.vismart.biz/image/3388.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/3388_98.jpg> .
 
 <http://heritage.vismart.biz/image/3391.jpg> a ecrm:E38_Image,
      owl:NamedIndividual;
@@ -3074,22 +2010,6 @@
 <http://heritage.vismart.biz/image/3395.jpg> a ecrm:E38_Image,
      owl:NamedIndividual;
    rdfs:label <http://rmgallery.ru/files/medium/3395_98.jpg> .
-
-<http://heritage.vismart.biz/image/3396.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/3396_98.jpg> .
-
-<http://heritage.vismart.biz/image/3397.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/3397_98.jpg> .
-
-<http://heritage.vismart.biz/image/3398.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/3398_98.jpg> .
-
-<http://heritage.vismart.biz/image/3399.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/3399_98.jpg> .
 
 <http://heritage.vismart.biz/image/3403.jpg> a ecrm:E38_Image,
      owl:NamedIndividual;
@@ -3130,10 +2050,6 @@
 <http://heritage.vismart.biz/image/3425.jpg> a ecrm:E38_Image,
      owl:NamedIndividual;
    rdfs:label <http://rmgallery.ru/files/medium/3425_98.jpg> .
-
-<http://heritage.vismart.biz/image/3426.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/3426_98.jpg> .
 
 <http://heritage.vismart.biz/image/3427.jpg> a ecrm:E38_Image,
      owl:NamedIndividual;
@@ -3195,14 +2111,6 @@
      owl:NamedIndividual;
    rdfs:label <http://rmgallery.ru/files/medium/3457_98.jpg> .
 
-<http://heritage.vismart.biz/image/3460.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/3460_98.jpg> .
-
-<http://heritage.vismart.biz/image/3462.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/3462_98.jpg> .
-
 <http://heritage.vismart.biz/image/3467.jpg> a ecrm:E38_Image,
      owl:NamedIndividual;
    rdfs:label <http://rmgallery.ru/files/medium/3467_98.jpg> .
@@ -3246,10 +2154,6 @@
 <http://heritage.vismart.biz/image/3602.jpg> a ecrm:E38_Image,
      owl:NamedIndividual;
    rdfs:label <http://rmgallery.ru/files/medium/3602_98.jpg> .
-
-<http://heritage.vismart.biz/image/3608.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/3608_98.jpg> .
 
 <http://heritage.vismart.biz/image/3646.jpg> a ecrm:E38_Image,
      owl:NamedIndividual;
@@ -3383,18 +2287,6 @@
      owl:NamedIndividual;
    rdfs:label <http://rmgallery.ru/files/medium/3756_98.jpg> .
 
-<http://heritage.vismart.biz/image/3758.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/3758_98.jpg> .
-
-<http://heritage.vismart.biz/image/3763.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/3763_98.jpg> .
-
-<http://heritage.vismart.biz/image/3769.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/3769_98.jpg> .
-
 <http://heritage.vismart.biz/image/3783.jpg> a ecrm:E38_Image,
      owl:NamedIndividual;
    rdfs:label <http://rmgallery.ru/files/medium/3783_98.jpg> .
@@ -3406,42 +2298,6 @@
 <http://heritage.vismart.biz/image/3787.jpg> a ecrm:E38_Image,
      owl:NamedIndividual;
    rdfs:label <http://rmgallery.ru/files/medium/3787_98.jpg> .
-
-<http://heritage.vismart.biz/image/3792.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/3792_98.jpg> .
-
-<http://heritage.vismart.biz/image/3793.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/3793_98.jpg> .
-
-<http://heritage.vismart.biz/image/3795.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/3795_98.jpg> .
-
-<http://heritage.vismart.biz/image/3797.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/3797_98.jpg> .
-
-<http://heritage.vismart.biz/image/3798.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/3798_98.jpg> .
-
-<http://heritage.vismart.biz/image/3800.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/3800_98.jpg> .
-
-<http://heritage.vismart.biz/image/3802.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/3802_98.jpg> .
-
-<http://heritage.vismart.biz/image/3803.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/3803_98.jpg> .
-
-<http://heritage.vismart.biz/image/3804.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/3804_98.jpg> .
 
 <http://heritage.vismart.biz/image/3856.jpg> a ecrm:E38_Image,
      owl:NamedIndividual;
@@ -3463,37 +2319,9 @@
      owl:NamedIndividual;
    rdfs:label <http://rmgallery.ru/files/medium/3890_98.jpg> .
 
-<http://heritage.vismart.biz/image/3891.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/3891_98.jpg> .
-
 <http://heritage.vismart.biz/image/3895.jpg> a ecrm:E38_Image,
      owl:NamedIndividual;
    rdfs:label <http://rmgallery.ru/files/medium/3895_98.jpg> .
-
-<http://heritage.vismart.biz/image/3927.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/3927_98.jpg> .
-
-<http://heritage.vismart.biz/image/3929.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/3929_98.jpg> .
-
-<http://heritage.vismart.biz/image/3930.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/3930_98.jpg> .
-
-<http://heritage.vismart.biz/image/3933.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/3933_98.jpg> .
-
-<http://heritage.vismart.biz/image/3937.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/3937_98.jpg> .
-
-<http://heritage.vismart.biz/image/3940.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/3940_98.jpg> .
 
 <http://heritage.vismart.biz/image/4007.jpg> a ecrm:E38_Image,
      owl:NamedIndividual;
@@ -3506,10 +2334,6 @@
 <http://heritage.vismart.biz/image/4009.jpg> a ecrm:E38_Image,
      owl:NamedIndividual;
    rdfs:label <http://rmgallery.ru/files/medium/4009_98.jpg> .
-
-<http://heritage.vismart.biz/image/4017.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/4017_98.jpg> .
 
 <http://heritage.vismart.biz/image/4018.jpg> a ecrm:E38_Image,
      owl:NamedIndividual;
@@ -3526,10 +2350,6 @@
 <http://heritage.vismart.biz/image/4031.jpg> a ecrm:E38_Image,
      owl:NamedIndividual;
    rdfs:label <http://rmgallery.ru/files/medium/4031_98.jpg> .
-
-<http://heritage.vismart.biz/image/4032.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/4032_98.jpg> .
 
 <http://heritage.vismart.biz/image/4035.jpg> a ecrm:E38_Image,
      owl:NamedIndividual;
@@ -3582,14 +2402,6 @@
 <http://heritage.vismart.biz/image/4059.jpg> a ecrm:E38_Image,
      owl:NamedIndividual;
    rdfs:label <http://rmgallery.ru/files/medium/4059_98.jpg> .
-
-<http://heritage.vismart.biz/image/4062.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/4062_98.jpg> .
-
-<http://heritage.vismart.biz/image/4063.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/4063_98.jpg> .
 
 <http://heritage.vismart.biz/image/4064.jpg> a ecrm:E38_Image,
      owl:NamedIndividual;
@@ -3655,10 +2467,6 @@
      owl:NamedIndividual;
    rdfs:label <http://rmgallery.ru/files/medium/4087_98.jpg> .
 
-<http://heritage.vismart.biz/image/4088.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/4088_98.jpg> .
-
 <http://heritage.vismart.biz/image/4089.jpg> a ecrm:E38_Image,
      owl:NamedIndividual;
    rdfs:label <http://rmgallery.ru/files/medium/4089_98.jpg> .
@@ -3715,10 +2523,6 @@
      owl:NamedIndividual;
    rdfs:label <http://rmgallery.ru/files/medium/4114_98.jpg> .
 
-<http://heritage.vismart.biz/image/4115.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/4115_98.jpg> .
-
 <http://heritage.vismart.biz/image/4119.jpg> a ecrm:E38_Image,
      owl:NamedIndividual;
    rdfs:label <http://rmgallery.ru/files/medium/4119_98.jpg> .
@@ -3762,38 +2566,6 @@
 <http://heritage.vismart.biz/image/4136.jpg> a ecrm:E38_Image,
      owl:NamedIndividual;
    rdfs:label <http://rmgallery.ru/files/medium/4136_98.jpg> .
-
-<http://heritage.vismart.biz/image/4137.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/4137_98.jpg> .
-
-<http://heritage.vismart.biz/image/4140.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/4140_98.jpg> .
-
-<http://heritage.vismart.biz/image/4141.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/4141_98.jpg> .
-
-<http://heritage.vismart.biz/image/4142.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/4142_98.jpg> .
-
-<http://heritage.vismart.biz/image/4144.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/4144_98.jpg> .
-
-<http://heritage.vismart.biz/image/4147.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/4147_98.jpg> .
-
-<http://heritage.vismart.biz/image/4148.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/4148_98.jpg> .
-
-<http://heritage.vismart.biz/image/4149.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/4149_98.jpg> .
 
 <http://heritage.vismart.biz/image/4150.jpg> a ecrm:E38_Image,
      owl:NamedIndividual;
@@ -3867,21 +2639,9 @@
      owl:NamedIndividual;
    rdfs:label <http://rmgallery.ru/files/medium/4181_98.jpg> .
 
-<http://heritage.vismart.biz/image/4182.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/4182_98.jpg> .
-
 <http://heritage.vismart.biz/image/4183.jpg> a ecrm:E38_Image,
      owl:NamedIndividual;
    rdfs:label <http://rmgallery.ru/files/medium/4183_98.jpg> .
-
-<http://heritage.vismart.biz/image/4184.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/4184_98.jpg> .
-
-<http://heritage.vismart.biz/image/4185.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/4185_98.jpg> .
 
 <http://heritage.vismart.biz/image/4370.jpg> a ecrm:E38_Image,
      owl:NamedIndividual;
@@ -3927,25 +2687,13 @@
      owl:NamedIndividual;
    rdfs:label <http://rmgallery.ru/files/medium/4406_98.jpg> .
 
-<http://heritage.vismart.biz/image/4407.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/4407_98.jpg> .
-
 <http://heritage.vismart.biz/image/4408.jpg> a ecrm:E38_Image,
      owl:NamedIndividual;
    rdfs:label <http://rmgallery.ru/files/medium/4408_98.jpg> .
 
-<http://heritage.vismart.biz/image/4412.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/4412_98.jpg> .
-
 <http://heritage.vismart.biz/image/4413.jpg> a ecrm:E38_Image,
      owl:NamedIndividual;
    rdfs:label <http://rmgallery.ru/files/medium/4413_98.jpg> .
-
-<http://heritage.vismart.biz/image/4414.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/4414_98.jpg> .
 
 <http://heritage.vismart.biz/image/4526.jpg> a ecrm:E38_Image,
      owl:NamedIndividual;
@@ -3999,89 +2747,9 @@
      owl:NamedIndividual;
    rdfs:label <http://rmgallery.ru/files/medium/4745_98.jpg> .
 
-<http://heritage.vismart.biz/image/4746.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/4746_98.jpg> .
-
 <http://heritage.vismart.biz/image/4750.jpg> a ecrm:E38_Image,
      owl:NamedIndividual;
    rdfs:label <http://rmgallery.ru/files/medium/4750_98.jpg> .
-
-<http://heritage.vismart.biz/image/4765.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/4765_98.jpg> .
-
-<http://heritage.vismart.biz/image/4766.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/4766_98.jpg> .
-
-<http://heritage.vismart.biz/image/499.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/499_98.jpg> .
-
-<http://heritage.vismart.biz/image/500.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/500_98.jpg> .
-
-<http://heritage.vismart.biz/image/501.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/501_98.jpg> .
-
-<http://heritage.vismart.biz/image/502.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/502_98.jpg> .
-
-<http://heritage.vismart.biz/image/503.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/503_98.jpg> .
-
-<http://heritage.vismart.biz/image/504.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/504_98.jpg> .
-
-<http://heritage.vismart.biz/image/505.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/505_98.jpg> .
-
-<http://heritage.vismart.biz/image/506.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/506_98.jpg> .
-
-<http://heritage.vismart.biz/image/507.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/507_98.jpg> .
-
-<http://heritage.vismart.biz/image/508.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/508_98.jpg> .
-
-<http://heritage.vismart.biz/image/509.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/509_98.jpg> .
-
-<http://heritage.vismart.biz/image/510.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/510_98.jpg> .
-
-<http://heritage.vismart.biz/image/511.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/511_98.jpg> .
-
-<http://heritage.vismart.biz/image/512.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/512_98.jpg> .
-
-<http://heritage.vismart.biz/image/513.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/513_98.jpg> .
-
-<http://heritage.vismart.biz/image/514.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/514_98.jpg> .
-
-<http://heritage.vismart.biz/image/515.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/515_98.jpg> .
 
 <http://heritage.vismart.biz/image/555.jpg> a ecrm:E38_Image,
      owl:NamedIndividual;
@@ -4874,10 +3542,6 @@
 <http://heritage.vismart.biz/image/873.jpg> a ecrm:E38_Image,
      owl:NamedIndividual;
    rdfs:label <http://rmgallery.ru/files/medium/873_98.jpg> .
-
-<http://heritage.vismart.biz/image/874.jpg> a ecrm:E38_Image,
-     owl:NamedIndividual;
-   rdfs:label <http://rmgallery.ru/files/medium/874_98.jpg> .
 
 <http://heritage.vismart.biz/image/876.jpg> a ecrm:E38_Image,
      owl:NamedIndividual;

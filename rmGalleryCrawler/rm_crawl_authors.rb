@@ -16,7 +16,6 @@ def open_html (url)
     response = http.get(uri.path)
   rescue Net::OpenTimeout
     puts 'Catched new Net::OpenTimeout exception. Press return to retry (recommended) or Ctrl+C to interrupt (all data will be lost in that case).'
-    gets
     retry
   end
   response.body
@@ -41,6 +40,12 @@ def crawl_bio(object_id)
     end
   end
   bio
+end
+
+def author_of_crawled_artwork?(person_id)
+  q = RDF::Query::Pattern.new(:s, RDF::URI.new('http://erlangen-crm.org/current/P14_carried_out_by'),
+                              RDF::URI.new("http://rm-lod.org/person/#{person_id}"));
+  q.execute(@artwork_ownerships).size > 0
 end
 
 def get_author_bio(person_id)
@@ -87,23 +92,22 @@ puts
 puts '== Crawling =='
 puts
 Nokogiri::HTML(open_html(@author_url_ru)).css(@css_path).css('a').each do |person|
-  person_url = person['href']
-  person_id = person['href'][4, person['href'].length]
+  person_url = person['href'].strip
+  person_id = person['href'][4, person['href'].length].strip
+  next unless author_of_crawled_artwork?(person_id)
   person_name = person.text.strip
   puts person_name + ' ' + person_url + ' ' + person_id
   @authors_ru[person_id] = person_name
 end
 
 Nokogiri::HTML(open_html(@author_url_en)).css(@css_path).css('a').each do |person|
-  person_url = person['href']
-  person_id = person['href'][4, person['href'].length]
+  person_url = person['href'].strip
+  person_id = person['href'][4, person['href'].length].strip
+  next unless author_of_crawled_artwork?(person_id)
   person_name = person.text.strip
   puts person_name + ' ' + person_url + ' ' + person_id
   @authors_en[person_id] = person_name
 end
-
-
-
 
 
 @authors_ru.each do |person_id, appellation_ru|
