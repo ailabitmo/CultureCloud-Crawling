@@ -139,7 +139,7 @@ def crawlDescriptionAndSizes(objectId)
             elsif !(/\AИ.:.+; л.:.+\z/.match(descr).nil?)
             then
                 puts "TODO: с рамкой и без рамки?"
-                descr = descr.split(";")[1] # TODO: we should also use inner size somehow
+                descr = descr.split(";")[1].slice!(' л.:') # TODO: we should also use inner size somehow
                 parse_next = true
             end
             if (parse_next) then
