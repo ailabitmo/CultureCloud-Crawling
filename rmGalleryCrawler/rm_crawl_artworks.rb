@@ -108,41 +108,48 @@ def crawlDescriptionAndSizes(objectId)
         artItemDescriptionCss = artItemHTML.css("b").inner_html.split("<br>")
         artItemDescriptionCss.shift
         artItemDescriptionCss.each { |descr|
-            parse_next = false
+            already_parsed = false
             if (descr=='20,8 x 11,1 x 9,5 ("Гармонист"); 21,4 x 12,7 x 10 ("Плясунья")')
             then
                 puts "TODO: Гармонист-плясунья"
+                already_parsed = true
             elsif (descr=="87 х 65 (овал, вписанный в прямоугольник)")
                 dimentions = ["87","65"]
                 dimention << dimentions
+                already_parsed = true
             elsif (descr=="Середина 1790-х71,5 x 56")
                 dimentions = ["71.5","56"]
                 dimention << dimentions
+                already_parsed = true
             elsif !(descr.index("61,5 x51,5 (овал)").nil?)
                 dimentions = ["61.5","51.5"]
                 dimention << dimentions
+                already_parsed = true
             elsif !(descr.index("46х 80").nil?)
-
                 dimentions = ["46","80"]
                 dimention << dimentions
+                already_parsed = true
             elsif !(descr.index("140х168").nil?)
                 dimentions = ["140","168"]
                 dimention << dimentions
+                already_parsed = true
             elsif !(descr.index("Диаметр ").nil?)
                 diameter = descr.gsub!(",",".")
                 diameter.slice! "Диаметр "
+                already_parsed = true
             elsif !(descr.index("Высота – 22; верхний диаметр – 13,3; нижний диаметр – 13,9").nil?)
                 puts "TODO: Высота и диаметры"
+                already_parsed = true
             elsif !(descr.index("Высота – 4; диаметр основания – 13; диаметр – 24,5").nil?)
                 puts "TODO: Высота и диаметры"
+                already_parsed = true
             # ----
             elsif !(/\AИ.:.+; л.:.+\z/.match(descr).nil?)
             then
                 puts "TODO: с рамкой и без рамки?"
                 descr = descr.split(";")[1].slice!(' л.:') # TODO: we should also use inner size somehow
-                parse_next = true
             end
-            if (parse_next) then
+            if (!already_parsed) then
                 #TODO: we should use regexps not this elsif-elsif-elsif...
                 if !(descr.index(" х ").nil?)
                 then
