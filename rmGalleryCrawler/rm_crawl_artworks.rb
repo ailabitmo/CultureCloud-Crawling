@@ -294,7 +294,7 @@ artworksIds.to_a.each { |artworksId|
 
     currentTitleAndDate = crawlTitleAndDate(artworksId)
     currentTitle = currentTitleAndDate[:title]
-    titleURI = RDF::URI.new("#{newManMadeObject.to_s}/title/#{getRandomString}")
+    titleURI = RDF::URI.new("#{newManMadeObject.to_s}/title/1")
     @graph_titles << [newManMadeObject,@ecrmVocabulary[:P102_has_title],titleURI]
     @graph_titles << [titleURI,RDF.type,@ecrmVocabulary[:E35_Title]]
     @graph_titles << [titleURI,RDF.type,OWL.NamedIndividual]
