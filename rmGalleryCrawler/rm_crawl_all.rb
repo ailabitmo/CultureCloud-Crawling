@@ -15,3 +15,6 @@ require './rm_crawl_authors.rb'
 
 puts "\nrm_crawl_artworks\n"
 require './rm_crawl_artworks.rb'
+
+puts "\nrm_enrichment_builder\n"
+require './rm_enrichment_builder.rb'
