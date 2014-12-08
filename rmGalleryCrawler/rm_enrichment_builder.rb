@@ -11,6 +11,7 @@ require 'rubygems'
 require 'net/http'
 require 'uri'
 require 'json'
+require 'set'
 
 require 'pathname'
 require 'colorize'
@@ -35,27 +36,17 @@ require 'securerandom'
 @rmlodVocabulary = RDF::Vocabulary.new(@rdf_prefixes['rm-lod-schema'])
 
 def authorsEnrichmentRdfGenerator
-
-    authorsPrefix = "#{@rdf_prefixes["rm-lod"]}authors"
-
-    idsArray = []
-
-    authorIdRegexp = Regexp.new("^#{authorsPrefix}\/[0-9]+$")
-
-    RDF::Reader.open("rmgallery_authors.ttl") { |reader|
-        reader.each_statement { |statement|
-            authorIdRegexpMatch = authorIdRegexp.match(statement.subject)
-            if !(authorIdRegexpMatch.nil?)
-            then
-                id = authorIdRegexpMatch.to_s.split("\/").last
-                if (idsArray.index(id).nil?)
-                then
-                    idsArray.push(id)
-                end
+    authorsPrefix = "#{@rdf_prefixes["rm-lod"]}person/"
+    idsArray = (Proc.new {
+        ids = Set.new
+        RDF::Reader.open('rm_persons.ttl') do |reader|
+            reader.each_statement do |s|
+                id = /^http:\/\/rm\-lod\.org\/person\/(\d+)$/.match(s.subject)
+                ids << id[1] unless id.nil?
             end
-
-        }
-    }
+        end
+        ids
+    }).call
 
     authorsGraph = RDF::Graph.new(:format => :ttl, :prefixes => @rdf_prefixes)
 
@@ -63,7 +54,7 @@ def authorsEnrichmentRdfGenerator
     doc = Nokogiri::XML(authorsEnrichmentXMLFile)
 
     idsArray.each { |authorId|
-        authorURI =  RDF::URI.new("#{@rdf_prefixes['rm-lod']}authors/#{authorId}")
+        authorURI =  RDF::URI.new("#{authorsPrefix}#{authorId}")
         authorNode = doc.xpath("/rmGalleryAuthorsEnrichment/author[@id='#{authorId}']")
 
         dbpResUrl = authorNode.css("dbpURI").text # FIXME: want to use xpath, but smth wrong with it
@@ -83,7 +74,7 @@ def authorsEnrichmentRdfGenerator
         if !(annotationTexts.empty?)
         then
             aid = authorId # FIXME !!1 Why authorId is invisible for next method?
-            newAnnotationObject = RDF::URI.new("#{@rdf_prefixes['rm-lod']}authors/#{aid}/annotations/#{SecureRandom.urlsafe_base64(5)}")
+            newAnnotationObject = RDF::URI.new("#{authorsPrefix}#{aid}/annotation/1")
             authorsGraph << [newAnnotationObject, RDF.type, @rmlodVocabulary.AnnotationObject]
             authorsGraph << [authorURI, @rmlodVocabulary[:hasAnnotation], newAnnotationObject]
             annotationTexts.each { |dbpRes|
@@ -95,7 +86,7 @@ def authorsEnrichmentRdfGenerator
 
     authorsEnrichmentXMLFile.close
 
-    rmgalleryAuthorsEnrichmentRdfFile = File.open("rmgallery_authors_enrichment.ttl","w")
+    rmgalleryAuthorsEnrichmentRdfFile = File.open("rm_persons_enrichment.ttl","w")
     rmgalleryAuthorsEnrichmentRdfFile.write(authorsGraph.dump(:ttl, :prefixes => @rdf_prefixes))
     rmgalleryAuthorsEnrichmentRdfFile.close
 
@@ -103,7 +94,7 @@ end
 
 def worksEnrichmentRdfGenerator
 
-    worksPrefix = "#{@rdf_prefixes["rm-lod"]}objects"
+    worksPrefix = "#{@rdf_prefixes["rm-lod"]}object"
 
     idsArray = []
 
@@ -130,7 +121,7 @@ def worksEnrichmentRdfGenerator
     doc = Nokogiri::XML(worksEnrichmentXMLFile)
 
     idsArray.each { |workId|
-        workURI =  RDF::URI.new("#{@rdf_prefixes['rm-lod']}objects/#{workId}")
+        workURI =  RDF::URI.new("#{@rdf_prefixes['rm-lod']}object/#{workId}")
         workNode = doc.xpath("/rmGalleryWorksEnrichment/work[@id='#{workId}']")
 
         dbpResUrl = ""
@@ -169,4 +160,4 @@ def worksEnrichmentRdfGenerator
 end
 
 authorsEnrichmentRdfGenerator
-worksEnrichmentRdfGenerator
+# worksEnrichmentRdfGenerator
