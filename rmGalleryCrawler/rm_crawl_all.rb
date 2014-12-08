@@ -13,6 +13,9 @@ require './rm_crawl_authors.rb'
 # puts "\nrm_crawl_images\n"
 # require './rm_crawl_images.rb'
 
+puts "\nrm_crawl_artwork_dimensions.rb\n"
+require './rm_crawl_artwork_dimensions.rb'
+
 puts "\nrm_crawl_artworks\n"
 require './rm_crawl_artworks.rb'
 
