@@ -47,6 +47,7 @@ def add_to_graph(bindings, skos_in_scheme, ecrm_type)
         @graph << [s, @uri['skos:inScheme'], skos_in_scheme]
         @graph << [s, RDF.type, @uri['skos:Concept']]
         @graph << [s, RDF.type, ecrm_type]
+        @graph << [s, RDF.type, OWL.NamedIndividual]
     end
 end
 
