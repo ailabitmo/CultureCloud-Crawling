@@ -42,6 +42,7 @@ def add_to_graph(bindings, skos_in_scheme, ecrm_type)
             o = RDF::URI.new(statement['o']['value'])
         else
             o = RDF::Literal.new(statement['o']['value'], :language => :en)
+            @graph << [s, RDFS.label, o]
         end
         @graph << [s,p,o]
         @graph << [s, @uri['skos:inScheme'], skos_in_scheme]
@@ -59,7 +60,7 @@ puts 'add_to_graph'
 add_to_graph(bm_subj, @uri['bmthes:subj'], @uri['ecrm:E55_Type'])
 
 puts 'Writing file'
-file = File.new('bm_thesauri.ttl', 'w')
+file = File.new('../bm_thesauri.ttl', 'w')
 file.write(@graph.dump(:ttl, :prefixes => @rdf_prefixes))
 file.close
 
