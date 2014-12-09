@@ -299,7 +299,9 @@ artworksIds.to_a.each { |artworksId|
     @graph_titles << [titleURI,RDF.type,@ecrmVocabulary[:E35_Title]]
     @graph_titles << [titleURI,RDF.type,OWL.NamedIndividual]
     currentTitle.each { |localeLabel, title|
-        @graph_titles << [titleURI,RDFS.label,RDF::Literal.new(title, :language => localeLabel)]
+        titleLiteral = RDF::Literal.new(title, :language => localeLabel)
+        @graph_titles << [titleURI,RDFS.label,titleLiteral]
+        @graph_titles << [newManMadeObject,RDFS.label,titleLiteral]
     }
 
     # Dates

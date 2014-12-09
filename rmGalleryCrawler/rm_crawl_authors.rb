@@ -133,6 +133,8 @@ end
   @graph << [appellation_uri, RDF.type, @owl_named_individual]
   @graph << [appellation_uri, RDFS.label, RDF::Literal.new(a_ru, :language => :ru)]
   @graph << [appellation_uri, RDFS.label, RDF::Literal.new(a_en, :language => :en)]
+  @graph << [person_uri, RDFS.label, RDF::Literal.new(a_ru, :language => :ru)]
+  @graph << [person_uri, RDFS.label, RDF::Literal.new(a_en, :language => :en)]
 end
 
 
