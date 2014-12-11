@@ -312,9 +312,6 @@ artworksIds.to_a.each { |artworksId|
         productionURI = RDF::URI.new("#{newManMadeObject.to_s}/production")
         @graph_artwork << [productionURI,RDF.type,@ecrmVocabulary[:E12_Production]]
         @graph_artwork << [productionURI,RDF.type,OWL.NamedIndividual]
-        currentDate.each { |localeLabel, date|
-            @graph_dates << [productionURI,@ecrmVocabulary[:P82_at_some_time_within],RDF::Literal.new(date, :language => localeLabel)]
-        }
         @graph_artwork << [productionURI,@ecrmVocabulary[:P108_has_produced],newManMadeObject]
         @graph_artwork << [newManMadeObject,@ecrmVocabulary[:P108i_was_produced_by], productionURI]
     end

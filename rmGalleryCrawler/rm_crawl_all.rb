@@ -19,5 +19,8 @@ require './rm_crawl_artwork_dimensions.rb'
 puts "\nrm_crawl_artworks\n"
 require './rm_crawl_artworks.rb'
 
+puts "\nrm_crawl_dates\n"
+require './rm_crawl_dates.rb'
+
 puts "\nrm_enrichment_builder\n"
 require './rm_enrichment_builder.rb'
