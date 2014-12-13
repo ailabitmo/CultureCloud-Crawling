@@ -1,0 +1,368 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rm-lod: <http://rm-lod.org/> .
+
+<http://rm-lod.org/person/1006> owl:sameAs <http://dbpedia.org/resource/Aleksandr_Deyneka> .
+
+<http://rm-lod.org/person/1007> owl:sameAs <http://dbpedia.org/resource/Mstislav_Dobuzhinsky> .
+
+<http://rm-lod.org/person/1008> owl:sameAs <http://ru.dbpedia.org/resource/Иванов,_Сергей_Васильевич> .
+
+<http://rm-lod.org/person/1010> owl:sameAs <http://ru.dbpedia.org/resource/Пакулин,_Вячеслав_Владимирович> .
+
+<http://rm-lod.org/person/1011> owl:sameAs <http://dbpedia.org/resource/Zinaida_Serebriakova> .
+
+<http://rm-lod.org/person/1018> owl:sameAs <http://dbpedia.org/resource/Evsey_Moiseenko> .
+
+<http://rm-lod.org/person/1027> owl:sameAs <http://ru.dbpedia.org/resource/Жилинский,_Дмитрий_Дмитриевич> .
+
+<http://rm-lod.org/person/1028> owl:sameAs <http://dbpedia.org/resource/Gely_Korzhev> .
+
+<http://rm-lod.org/person/1031> owl:sameAs <http://dbpedia.org/resource/Arkady_Plastov> .
+
+<http://rm-lod.org/person/1126> owl:sameAs <http://ru.dbpedia.org/resource/Шевченко,_Александр_Васильевич> .
+
+<http://rm-lod.org/person/1130> owl:sameAs <http://ru.dbpedia.org/resource/Горюшкин-Сорокопудов,_Иван_Силыч> .
+
+<http://rm-lod.org/person/1132> owl:sameAs <http://ru.dbpedia.org/resource/Ломтев,_Николай_Петрович> .
+
+<http://rm-lod.org/person/1134> owl:sameAs <http://dbpedia.org/resource/Leonid_Pasternak> .
+
+<http://rm-lod.org/person/1136> owl:sameAs <http://ru.dbpedia.org/resource/Удальцова,_Надежда_Андреевна> .
+
+<http://rm-lod.org/person/1138> owl:sameAs <http://dbpedia.org/resource/Robert_Falk> .
+
+<http://rm-lod.org/person/1147> owl:sameAs <http://dbpedia.org/resource/Aleksander_Or%C5%82owski> .
+
+<http://rm-lod.org/person/1253> owl:sameAs <http://dbpedia.org/resource/Konstantin_Yuon> .
+
+<http://rm-lod.org/person/1278> owl:sameAs <http://dbpedia.org/resource/Apollinary_Vasnetsov> .
+
+<http://rm-lod.org/person/1280> owl:sameAs <http://dbpedia.org/resource/Ivan_Khrutsky> .
+
+<http://rm-lod.org/person/1411> owl:sameAs <http://dbpedia.org/resource/Alexander_V._Kuprin> .
+
+<http://rm-lod.org/person/1413> owl:sameAs <http://dbpedia.org/resource/David_Shterenberg> .
+
+<http://rm-lod.org/person/1415> owl:sameAs <http://dbpedia.org/resource/Aleksandra_Ekster> .
+
+<http://rm-lod.org/person/1426> owl:sameAs <http://dbpedia.org/resource/Pyotr_Konchalovsky> .
+
+<http://rm-lod.org/person/1458> owl:sameAs <http://dbpedia.org/resource/Olga_Della-Vos-Kardovskaya> .
+
+<http://rm-lod.org/person/1460> owl:sameAs <http://ru.dbpedia.org/resource/Заболотский,_Пётр_Ефимович> .
+
+<http://rm-lod.org/person/1464> owl:sameAs <http://dbpedia.org/resource/Alexei_Korzukhin> .
+
+<http://rm-lod.org/person/1466> owl:sameAs <http://dbpedia.org/resource/Nikolay_Koshelev> .
+
+<http://rm-lod.org/person/1491> owl:sameAs <http://dbpedia.org/resource/Mikhail_Avilov> .
+
+<http://rm-lod.org/person/1492> owl:sameAs <http://dbpedia.org/resource/Vecheslav_Zagonek> .
+
+<http://rm-lod.org/person/1493> owl:sameAs <http://dbpedia.org/resource/Alexander_Kotzebue> .
+
+<http://rm-lod.org/person/1495> owl:sameAs <http://dbpedia.org/resource/Boris_Shamanov> .
+
+<http://rm-lod.org/person/1496> owl:sameAs <http://dbpedia.org/resource/Andrei_Mylnikov> .
+
+<http://rm-lod.org/person/1504> owl:sameAs <http://ru.dbpedia.org/resource/Аргунов,_Николай_Иванович> .
+
+<http://rm-lod.org/person/1516> owl:sameAs <http://dbpedia.org/resource/Fyodor_Petrovich_Tolstoy> .
+
+<http://rm-lod.org/person/1581> owl:sameAs <http://ru.dbpedia.org/resource/Милиоти,_Николай_Дмитриевич> .
+
+<http://rm-lod.org/person/1587> owl:sameAs <http://ru.dbpedia.org/resource/Басин,_Пётр_Васильевич> .
+
+<http://rm-lod.org/person/1687> owl:sameAs <http://dbpedia.org/resource/Vasily_Sadovnikov> .
+
+<http://rm-lod.org/person/1715> owl:sameAs <http://ru.dbpedia.org/resource/Зарянко,_Сергей_Константинович> .
+
+<http://rm-lod.org/person/1723> owl:sameAs <http://dbpedia.org/resource/Stanislav_Zhukovsky> .
+
+<http://rm-lod.org/person/1738> owl:sameAs <http://ru.dbpedia.org/resource/Горавский,_Аполлинарий_Гиляриевич> .
+
+<http://rm-lod.org/person/1742> owl:sameAs <http://dbpedia.org/resource/Vitold_Byalynitsky-Birulya> .
+
+<http://rm-lod.org/person/1746> owl:sameAs <http://ru.dbpedia.org/resource/Беггров,_Карл_Петрович> .
+
+<http://rm-lod.org/person/1901> owl:sameAs <http://dbpedia.org/resource/Alexander_Varnek> .
+
+<http://rm-lod.org/person/1910> owl:sameAs <http://dbpedia.org/resource/Johann_Baptist_von_Lampi_the_Elder> .
+
+<http://rm-lod.org/person/2005> owl:sameAs <http://dbpedia.org/resource/Aleksandr_Gerasimov_(painter)> .
+
+<http://rm-lod.org/person/2084> owl:sameAs <http://dbpedia.org/resource/Alexander_Brullov> .
+
+<http://rm-lod.org/person/2141> owl:sameAs <http://dbpedia.org/resource/Charles_de_Steuben> .
+
+<http://rm-lod.org/person/2143> owl:sameAs <http://ru.dbpedia.org/resource/Ладюрнер,_Адольф_Игнатьевич> .
+
+<http://rm-lod.org/person/2175> owl:sameAs <http://ru.dbpedia.org/resource/Акимов,_Иван_Акимович> .
+
+<http://rm-lod.org/person/2188> owl:sameAs <http://ru.dbpedia.org/resource/Герасимов,_Сергей_Васильевич> .
+
+<http://rm-lod.org/person/2198> owl:sameAs <http://ru.dbpedia.org/resource/Калмаков,_Николай_Константинович> .
+
+<http://rm-lod.org/person/2210> owl:sameAs <http://ru.dbpedia.org/resource/Соколов,_Пётр_Иванович_(художник)> .
+
+<http://rm-lod.org/person/2219> owl:sameAs <http://ru.dbpedia.org/resource/Химона,_Николай_Петрович> .
+
+<http://rm-lod.org/person/2401> owl:sameAs <http://ru.dbpedia.org/resource/Соколов-Скаля,_Павел_Петрович> .
+
+<http://rm-lod.org/person/2422> owl:sameAs <http://ru.dbpedia.org/resource/Остроумова-Лебедева,_Анна_Петровна> .
+
+<http://rm-lod.org/person/2425> owl:sameAs <http://dbpedia.org/resource/Alexei_Egorovich_Egorov> .
+
+<http://rm-lod.org/person/2427> owl:sameAs <http://ru.dbpedia.org/resource/Шебуев,_Василий_Козьмич> .
+
+<http://rm-lod.org/person/2428> owl:sameAs <http://ru.dbpedia.org/resource/Гагарин,_Григорий_Григорьевич> .
+
+<http://rm-lod.org/person/2436> owl:sameAs <http://dbpedia.org/resource/Pyotr_Fyodorovich_Sokolov> .
+
+<http://rm-lod.org/person/2480> owl:sameAs <http://ru.dbpedia.org/resource/Иванов,_Иван_Алексеевич_(живописец)> .
+
+<http://rm-lod.org/person/2510> owl:sameAs <http://dbpedia.org/resource/Grigory_Chernetsov> .
+
+<http://rm-lod.org/person/2517> owl:sameAs <http://ru.dbpedia.org/resource/Яненко,_Яков_Феодосиевич> .
+
+<http://rm-lod.org/person/2523> owl:sameAs <http://dbpedia.org/resource/Otto_Friedrich_Theodor_von_M%C3%B6ller> .
+
+<http://rm-lod.org/person/2536> owl:sameAs <http://ru.dbpedia.org/resource/Чемесов,_Евграф_Петрович> .
+
+<http://rm-lod.org/person/2539> owl:sameAs <http://ru.dbpedia.org/resource/Щукин,_Степан_Семёнович> .
+
+<http://rm-lod.org/person/2556> owl:sameAs <http://ru.dbpedia.org/resource/Тюрин,_Платон_Семёнович> .
+
+<http://rm-lod.org/person/2571> owl:sameAs <http://dbpedia.org/resource/Konstantin_Bogaevsky> .
+
+<http://rm-lod.org/person/2779> owl:sameAs <http://ru.dbpedia.org/resource/Макаров,_Евгений_Кириллович> .
+
+<http://rm-lod.org/person/2822> owl:sameAs <http://dbpedia.org/resource/Alexey_Bogolyubov> .
+
+<http://rm-lod.org/person/3676> owl:sameAs <http://ru.dbpedia.org/resource/Кившенко,_Алексей_Данилович> .
+
+<http://rm-lod.org/person/3682> owl:sameAs <http://dbpedia.org/resource/Valery_Jacobi> .
+
+<http://rm-lod.org/person/3684> owl:sameAs <http://dbpedia.org/resource/Alexey_Tyranov> .
+
+<http://rm-lod.org/person/3729> owl:sameAs <http://dbpedia.org/resource/Volodymyr_Orlovsky> .
+
+<http://rm-lod.org/person/3732> owl:sameAs <http://ru.dbpedia.org/resource/Раев,_Василий_Егорович> .
+
+<http://rm-lod.org/person/3746> owl:sameAs <http://ru.dbpedia.org/resource/Макаров,_Иван_Кузьмич> .
+
+<http://rm-lod.org/person/3780> owl:sameAs <http://ru.dbpedia.org/resource/Соколов,_Павел_Петрович_(художник)> .
+
+<http://rm-lod.org/person/3812> owl:sameAs <http://dbpedia.org/resource/Andrey_Yefimovich_Martynov> .
+
+<http://rm-lod.org/person/3814> owl:sameAs <http://dbpedia.org/resource/Ernst_Friedrich_von_Liphart> .
+
+<http://rm-lod.org/person/3838> owl:sameAs <http://ru.dbpedia.org/resource/Сверчков,_Николай_Егорович> .
+
+<http://rm-lod.org/person/3854> owl:sameAs <http://ru.dbpedia.org/resource/Дрождин,_Пётр_Семёнович> .
+
+<http://rm-lod.org/person/4172> owl:sameAs <http://ru.dbpedia.org/resource/Вебер,_Яков_Яковлевич> .
+
+<http://rm-lod.org/person/4380> owl:sameAs <http://ru.dbpedia.org/resource/Милиоти,_Василий_Дмитриевич> .
+
+<http://rm-lod.org/person/4594> owl:sameAs <http://ru.dbpedia.org/resource/Межиров,_Юрий_Александрович> .
+
+<http://rm-lod.org/person/4629> owl:sameAs <http://dbpedia.org/resource/Mikhail_Scotti> .
+
+<http://rm-lod.org/person/527> owl:sameAs <http://dbpedia.org/resource/Fyodor_Alekseyev> .
+
+<http://rm-lod.org/person/528> owl:sameAs <http://dbpedia.org/resource/Aleksey_Antropov> .
+
+<http://rm-lod.org/person/529> owl:sameAs <http://dbpedia.org/resource/Ivan_Argunov> .
+
+<http://rm-lod.org/person/530> owl:sameAs <http://dbpedia.org/resource/Vladimir_Borovikovsky> .
+
+<http://rm-lod.org/person/531> owl:sameAs <http://dbpedia.org/resource/Ivan_Vishnyakov> .
+
+<http://rm-lod.org/person/533> owl:sameAs <http://dbpedia.org/resource/Dmitry_Levitzky> .
+
+<http://rm-lod.org/person/534> owl:sameAs <http://dbpedia.org/resource/Anton_Losenko> .
+
+<http://rm-lod.org/person/536> owl:sameAs <http://ru.dbpedia.org/resource/Никитин,_Иван_Никитич> .
+
+<http://rm-lod.org/person/537> owl:sameAs <http://ru.dbpedia.org/resource/Никитин,_Роман_Никитич> .
+
+<http://rm-lod.org/person/538> owl:sameAs <http://dbpedia.org/resource/Fyodor_Rokotov> .
+
+<http://rm-lod.org/person/539> owl:sameAs <http://ru.dbpedia.org/resource/Таннауер,_Иоганн_Готфрид> .
+
+<http://rm-lod.org/person/540> owl:sameAs <http://dbpedia.org/resource/Grigory_Ugryumov> .
+
+<http://rm-lod.org/person/542> owl:sameAs <http://dbpedia.org/resource/Fyodor_Bruni> .
+
+<http://rm-lod.org/person/543> owl:sameAs <http://dbpedia.org/resource/Karl_Bryullov> .
+
+<http://rm-lod.org/person/544> owl:sameAs <http://dbpedia.org/resource/Alexey_Venetsianov> .
+
+<http://rm-lod.org/person/546> owl:sameAs <http://dbpedia.org/resource/Alexander_Andreyevich_Ivanov> .
+
+<http://rm-lod.org/person/547> owl:sameAs <http://ru.dbpedia.org/resource/Иванов,_Андрей_Иванович> .
+
+<http://rm-lod.org/person/548> owl:sameAs <http://dbpedia.org/resource/Orest_Kiprensky> .
+
+<http://rm-lod.org/person/550> owl:sameAs <http://dbpedia.org/resource/Mikhail_Lebedev> .
+
+<http://rm-lod.org/person/551> owl:sameAs <http://dbpedia.org/resource/Grigory_Soroka> .
+
+<http://rm-lod.org/person/552> owl:sameAs <http://dbpedia.org/resource/Vasily_Tropinin> .
+
+<http://rm-lod.org/person/553> owl:sameAs <http://dbpedia.org/resource/Pavel_Fedotov> .
+
+<http://rm-lod.org/person/554> owl:sameAs <http://ru.dbpedia.org/resource/Щедрин,_Семён_Фёдорович> .
+
+<http://rm-lod.org/person/589> owl:sameAs <http://dbpedia.org/resource/Ivan_Aivazovsky> .
+
+<http://rm-lod.org/person/590> owl:sameAs <http://dbpedia.org/resource/Fyodor_Vasilyev> .
+
+<http://rm-lod.org/person/591> owl:sameAs <http://dbpedia.org/resource/Vasily_Vereshchagin> .
+
+<http://rm-lod.org/person/592> owl:sameAs <http://dbpedia.org/resource/Nikolai_Ge> .
+
+<http://rm-lod.org/person/594> owl:sameAs <http://dbpedia.org/resource/Nikolay_Kasatkin> .
+
+<http://rm-lod.org/person/595> owl:sameAs <http://dbpedia.org/resource/Ivan_Kramskoi> .
+
+<http://rm-lod.org/person/596> owl:sameAs <http://dbpedia.org/resource/Arkhip_Kuindzhi> .
+
+<http://rm-lod.org/person/597> owl:sameAs <http://dbpedia.org/resource/Isaac_Levitan> .
+
+<http://rm-lod.org/person/598> owl:sameAs <http://dbpedia.org/resource/Vladimir_Makovsky> .
+
+<http://rm-lod.org/person/599> owl:sameAs <http://ru.dbpedia.org/resource/Маковский,_Константин_Егорович> .
+
+<http://rm-lod.org/person/600> owl:sameAs <http://dbpedia.org/resource/Vassily_Maximov> .
+
+<http://rm-lod.org/person/602> owl:sameAs <http://ru.dbpedia.org/resource/Мясоедов,_Григорий_Григорьевич> .
+
+<http://rm-lod.org/person/603> owl:sameAs <http://ru.dbpedia.org/resource/Перов,_Василий_Григорьевич> .
+
+<http://rm-lod.org/person/604> owl:sameAs <http://ru.dbpedia.org/resource/Плешанов,_Павел_Фёдорович> .
+
+<http://rm-lod.org/person/605> owl:sameAs <http://dbpedia.org/resource/Vasily_Polenov> .
+
+<http://rm-lod.org/person/606> owl:sameAs <http://dbpedia.org/resource/Ilya_Repin> .
+
+<http://rm-lod.org/person/607> owl:sameAs <http://dbpedia.org/resource/Alexei_Savrasov> .
+
+<http://rm-lod.org/person/608> owl:sameAs <http://ru.dbpedia.org/resource/Семирадский,_Генрих_Ипполитович> .
+
+<http://rm-lod.org/person/609> owl:sameAs <http://dbpedia.org/resource/Leonid_Solomatkin> .
+
+<http://rm-lod.org/person/610> owl:sameAs <http://ru.dbpedia.org/resource/Суриков,_Василий_Иванович> .
+
+<http://rm-lod.org/person/611> owl:sameAs <http://dbpedia.org/resource/Konstantin_Flavitsky> .
+
+<http://rm-lod.org/person/612> owl:sameAs <http://dbpedia.org/resource/Ivan_Shishkin> .
+
+<http://rm-lod.org/person/613> owl:sameAs <http://dbpedia.org/resource/Nikolai_Yaroshenko> .
+
+<http://rm-lod.org/person/707> owl:sameAs <http://dbpedia.org/resource/Nathan_Altman> .
+
+<http://rm-lod.org/person/708> owl:sameAs <http://dbpedia.org/resource/Abram_Arkhipov> .
+
+<http://rm-lod.org/person/710> owl:sameAs <http://dbpedia.org/resource/Alexandre_Benois> .
+
+<http://rm-lod.org/person/711> owl:sameAs <http://dbpedia.org/resource/Alexander_Bogomazov> .
+
+<http://rm-lod.org/person/712> owl:sameAs <http://dbpedia.org/resource/Victor_Borisov-Musatov> .
+
+<http://rm-lod.org/person/713> owl:sameAs <http://dbpedia.org/resource/Wladimir_Burliuk> .
+
+<http://rm-lod.org/person/714> owl:sameAs <http://ru.dbpedia.org/resource/Васнецов,_Виктор_Михайлович> .
+
+<http://rm-lod.org/person/715> owl:sameAs <http://dbpedia.org/resource/Mikhail_Vrubel> .
+
+<http://rm-lod.org/person/716> owl:sameAs <http://dbpedia.org/resource/Aleksandr_Golovin_(artist)> .
+
+<http://rm-lod.org/person/717> owl:sameAs <http://ru.dbpedia.org/resource/Гончарова,_Наталья_Сергеевна> .
+
+<http://rm-lod.org/person/718> owl:sameAs <http://dbpedia.org/resource/Boris_Grigoriev> .
+
+<http://rm-lod.org/person/719> owl:sameAs <http://dbpedia.org/resource/Elena_Guro> .
+
+<http://rm-lod.org/person/720> owl:sameAs <http://dbpedia.org/resource/Wassily_Kandinsky> .
+
+<http://rm-lod.org/person/721> owl:sameAs <http://dbpedia.org/resource/Konstantin_Korovin> .
+
+<http://rm-lod.org/person/723> owl:sameAs <http://dbpedia.org/resource/Aristarkh_Lentulov> .
+
+<http://rm-lod.org/person/724> owl:sameAs <http://ru.dbpedia.org/resource/Нестеров,_Михаил_Васильевич> .
+
+<http://rm-lod.org/person/725> owl:sameAs <http://ru.dbpedia.org/resource/Розанова,_Ольга_Владимировна> .
+
+<http://rm-lod.org/person/726> owl:sameAs <http://dbpedia.org/resource/Andrei_Ryabushkin> .
+
+<http://rm-lod.org/person/727> owl:sameAs <http://dbpedia.org/resource/Nikolai_Sapunov> .
+
+<http://rm-lod.org/person/728> owl:sameAs <http://ru.dbpedia.org/resource/Серов,_Владимир_Александрович> .
+
+<http://rm-lod.org/person/729> owl:sameAs <http://dbpedia.org/resource/Konstantin_Somov> .
+
+<http://rm-lod.org/person/730> owl:sameAs <http://ru.dbpedia.org/resource/Школьник,_Иосиф_Соломонович> .
+
+<http://rm-lod.org/person/732> owl:sameAs <http://dbpedia.org/resource/Pavel_Kuznetsov> .
+
+<http://rm-lod.org/person/733> owl:sameAs <http://dbpedia.org/resource/Boris_Kustodiev> .
+
+<http://rm-lod.org/person/734> owl:sameAs <http://dbpedia.org/resource/Mikhail_Larionov> .
+
+<http://rm-lod.org/person/735> owl:sameAs <http://dbpedia.org/resource/Kazimir_Malevich> .
+
+<http://rm-lod.org/person/736> owl:sameAs <http://dbpedia.org/resource/Filipp_Malyavin> .
+
+<http://rm-lod.org/person/737> owl:sameAs <http://dbpedia.org/resource/Mikhail_Matyushin> .
+
+<http://rm-lod.org/person/738> owl:sameAs <http://ru.dbpedia.org/resource/Машков,_Илья_Иванович> .
+
+<http://rm-lod.org/person/740> owl:sameAs <http://ru.dbpedia.org/resource/Моргунов,_Алексей_Алексеевич> .
+
+<http://rm-lod.org/person/741> owl:sameAs <http://dbpedia.org/resource/Kuzma_Petrov-Vodkin> .
+
+<http://rm-lod.org/person/742> owl:sameAs <http://dbpedia.org/resource/Lyubov_Popova> .
+
+<http://rm-lod.org/person/743> owl:sameAs <http://dbpedia.org/resource/Ivan_Puni> .
+
+<http://rm-lod.org/person/744> owl:sameAs <http://dbpedia.org/resource/Nicholas_Roerich> .
+
+<http://rm-lod.org/person/745> owl:sameAs <http://dbpedia.org/resource/Alexander_Rodchenko> .
+
+<http://rm-lod.org/person/746> owl:sameAs <http://dbpedia.org/resource/Arkady_Rylov> .
+
+<http://rm-lod.org/person/747> owl:sameAs <http://dbpedia.org/resource/Alexander_Nikolayevich_Samokhvalov> .
+
+<http://rm-lod.org/person/748> owl:sameAs <http://ru.dbpedia.org/resource/Татлин,_Владимир_Евграфович> .
+
+<http://rm-lod.org/person/750> owl:sameAs <http://dbpedia.org/resource/Marc_Chagall> .
+
+<http://rm-lod.org/person/751> owl:sameAs <http://ru.dbpedia.org/resource/Шухаев,_Василий_Иванович> .
+
+<http://rm-lod.org/person/752> owl:sameAs <http://dbpedia.org/resource/Alexandre_Jacovleff> .
+
+<http://rm-lod.org/person/845> owl:sameAs <http://dbpedia.org/resource/Yury_Annenkov> .
+
+<http://rm-lod.org/person/921> owl:sameAs <http://dbpedia.org/resource/Eugene_Lanceray> .
+
+<http://rm-lod.org/person/963> owl:sameAs <http://ru.dbpedia.org/resource/Виноградов,_Сергей_Арсеньевич> .
+
+<http://rm-lod.org/person/964> owl:sameAs <http://ru.dbpedia.org/resource/Грабарь,_Игорь_Эммануилович> .
+
+<http://rm-lod.org/person/966> owl:sameAs <http://dbpedia.org/resource/Aleksei_Gritsai> .
+
+<http://rm-lod.org/person/967> owl:sameAs <http://dbpedia.org/resource/Nikolay_Nikanorovich_Dubovskoy> .
+
+<http://rm-lod.org/person/968> owl:sameAs <http://ru.dbpedia.org/resource/Клевер,_Юлий_Юльевич> .
+
+<http://rm-lod.org/person/969> owl:sameAs <http://ru.dbpedia.org/resource/Нисский,_Георгий_Григорьевич> .
+
+<http://rm-lod.org/person/970> owl:sameAs <http://ru.dbpedia.org/resource/Петровичев,_Пётр_Иванович> .
+
+<http://rm-lod.org/person/971> owl:sameAs <http://ru.dbpedia.org/resource/Пименов,_Юрий_Иванович> .
+
+<http://rm-lod.org/person/972> owl:sameAs <http://ru.dbpedia.org/resource/Попков,_Виктор_Ефимович> .
+
+<http://rm-lod.org/person/973> owl:sameAs <http://ru.dbpedia.org/resource/Степанов,_Алексей_Степанович> .
