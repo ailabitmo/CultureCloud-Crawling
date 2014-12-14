@@ -190,16 +190,23 @@ RDF::Query::Pattern.new(:s, RDF.type,@ecrmVocabulary[:E21_Person]).execute(@pers
     persons << personURI
 }
 
-persons_enrichment_ttl_path = "rm_persons_enrichment.ttl"
-if (File.exists?(persons_enrichment_ttl_path))
+persons_sameas_ttl_path = "rm_persons_sameas.ttl"
+if (File.exists?(persons_sameas_ttl_path))
 then
-    persons_enriched_ttl = RDF::Graph.load(persons_enrichment_ttl_file)
+    persons_sameas_ttl = RDF::Graph.load(persons_sameas_ttl_path)
 else
-    persons_enriched_ttl = RDF::Graph.new(:format => :ttl)
+    persons_sameas_ttl = RDF::Graph.new(:format => :ttl)
+end
+persons_notes_ttl_path = "rm_persons_annotations.ttl"
+if (File.exists?(persons_notes_ttl_path))
+then
+    persons_notes_ttl = RDF::Graph.load(persons_notes_ttl_path)
+else
+    persons_notes_ttl = RDF::Graph.new(:format => :ttl)
 end
 
 persons.to_a.each { |personURI|
-    if (RDF::Query::Pattern.new(personURI, OWL.sameAs,:o).execute(persons_enriched_ttl).empty?)
+    if (RDF::Query::Pattern.new(personURI, OWL.sameAs,:o).execute(persons_sameas_ttl).empty?)
     then
         new_dbp_uri = getDPediaUrl(personsLabels[personURI][:ru],"ru")
         if (new_dbp_uri.nil?)
@@ -208,7 +215,7 @@ persons.to_a.each { |personURI|
         end
         if !(new_dbp_uri.nil?)
         then
-            persons_enriched_ttl << [personURI, OWL.sameAs,new_dbp_uri]
+            persons_sameas_ttl << [personURI, OWL.sameAs,new_dbp_uri]
         else
             puts "found nothing for #{personURI}"
         end
@@ -216,22 +223,25 @@ persons.to_a.each { |personURI|
         puts "#{personURI} already linked with dbp"
     end
 
-    if (RDF::Query::Pattern.new(personURI, @rmlodVocabulary[:hasAnnotation], :o).execute(persons_enriched_ttl).empty?)
+=begin
+    if (RDF::Query::Pattern.new(personURI, @rmlodVocabulary[:hasAnnotation], :o).execute(persons_notes_ttl).empty?)
     then
         personsNotes[personURI].each { |locale,note|
             annotation=dbpepiaSpotlighAnnotator(note,locale)
-            persons_enriched_ttl << [personURI, @rmlodVocabulary[:hasAnnotation], RDF::Literal.new(annotation.force_encoding('utf-8'), :language => locale)] unless annotation.empty?
+            persons_notes_ttl << [personURI, @rmlodVocabulary[:hasAnnotation], RDF::Literal.new(annotation.force_encoding('utf-8'), :language => locale)] unless annotation.empty?
         }
     end
-    puts '== saving data =='
-    file = File.new(persons_enrichment_ttl_path, 'w')
-    file.write(persons_enriched_ttl.dump(:ttl, :prefixes => @rdf_prefixes))
-    file.close
+=end    
 }
 
 puts '== saving data =='
-file = File.new(persons_enrichment_ttl_path, 'w')
-file.write(persons_enriched_ttl.dump(:ttl, :prefixes => @rdf_prefixes))
+file = File.new(persons_sameas_ttl_path, 'w')
+file.write(persons_sameas_ttl.dump(:ttl, :prefixes => @rdf_prefixes))
+file.close
+
+puts '== saving data =='
+file = File.new(persons_notes_ttl_path, 'w')
+file.write(persons_notes_ttl.dump(:ttl, :prefixes => @rdf_prefixes))
 file.close
 =begin
 
