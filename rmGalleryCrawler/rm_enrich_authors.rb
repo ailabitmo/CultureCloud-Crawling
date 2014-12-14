@@ -206,6 +206,8 @@ else
 end
 
 persons.to_a.each { |personURI|
+                    
+=begin                    
     if (RDF::Query::Pattern.new(personURI, OWL.sameAs,:o).execute(persons_sameas_ttl).empty?)
     then
         new_dbp_uri = getDPediaUrl(personsLabels[personURI][:ru],"ru")
@@ -222,8 +224,8 @@ persons.to_a.each { |personURI|
     else
         puts "#{personURI} already linked with dbp"
     end
+=end 
 
-=begin
     if (RDF::Query::Pattern.new(personURI, @rmlodVocabulary[:hasAnnotation], :o).execute(persons_notes_ttl).empty?)
     then
         personsNotes[personURI].each { |locale,note|
@@ -231,13 +233,15 @@ persons.to_a.each { |personURI|
             persons_notes_ttl << [personURI, @rmlodVocabulary[:hasAnnotation], RDF::Literal.new(annotation.force_encoding('utf-8'), :language => locale)] unless annotation.empty?
         }
     end
-=end    
+   
 }
 
+=begin
 puts '== saving data =='
 file = File.new(persons_sameas_ttl_path, 'w')
 file.write(persons_sameas_ttl.dump(:ttl, :prefixes => @rdf_prefixes))
 file.close
+=end
 
 puts '== saving data =='
 file = File.new(persons_notes_ttl_path, 'w')
