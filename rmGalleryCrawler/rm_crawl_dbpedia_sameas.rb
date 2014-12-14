@@ -73,9 +73,9 @@ puts 'Matching strings'
     next if dbp_person_initials.nil?
 
     if dbp_person_initials == rm_person_label
-      @linked[rm_person_uri] = dbp_person_uri
+      @linked[rm_person_uri] = [] if @linked[rm_person_uri].nil?
+      @linked[rm_person_uri] << dbp_person_uri
       @is_linked = true
-      break
     end
   end
   @unlinked[rm_person_uri] = rm_person_label unless @is_linked
@@ -84,7 +84,9 @@ end
 puts 'Writing graph'
 @graph = RDF::Graph.new(:format => :ttl)
 @linked.each do |rm_person_uri, dbp_person_uri|
-  @graph << [RDF::URI.new(rm_person_uri), OWL.sameAs, RDF::URI.new(dbp_person_uri)]
+  dbp_person_uri.each do |sameAs|
+      @graph << [RDF::URI.new(rm_person_uri), OWL.sameAs, RDF::URI.new(sameAs)]
+  end
 end
 File.open('rm_persons_sameas.ttl', 'w') do |f|
   f << @graph.dump(:ttl, :prefixes => @rdf_prefixes)
