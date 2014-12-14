@@ -34,6 +34,7 @@ end
     :rdf  => RDF.to_uri,
     :rdfs => RDFS.to_uri,
     :owl  => OWL.to_uri,
+    :skos  => SKOS.to_uri,
     :ecrm => RDF::URI.new('http://erlangen-crm.org/current/'),
     'rm-lod' => RDF::URI.new('http://rm-lod.org/')
 }

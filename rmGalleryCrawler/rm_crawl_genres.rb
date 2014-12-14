@@ -1,9 +1,13 @@
+require './rm_crawl_common.rb'
 require 'nokogiri'
 require 'rdf/turtle'
 require 'net/http'
 require 'unicode'
 require 'set'
 include RDF
+
+@ecrmPrefix = "http://erlangen-crm.org/current/"
+@ecrmVocabulary = RDF::Vocabulary.new(@ecrmPrefix)
 
 @p2_has_type = RDF::URI.new('http://erlangen-crm.org/current/P2_has_type')
 
@@ -31,8 +35,26 @@ end
     'театральная декорация' => gen_statement.curry.('http://rm-lod.org/thesauri/theatrical_scenery'),
 }
 
-@graph = RDF::Graph.new(:format => :ttl)
+@genres_hash = {
+    'абстракция' => RDF::URI.new('http://rm-lod.org/thesauri/abstraction'),
+    'аллегория' => RDF::URI.new('http://collection.britishmuseum.org/id/thesauri/x13251'),
+    'анималистика' => RDF::URI.new('http://collection.britishmuseum.org/id/thesauri/x12469'),
+    'батальный жанр' => RDF::URI.new('http://collection.britishmuseum.org/id/thesauri/x12993'),
+    'библейский сюжет' => RDF::URI.new('http://collection.britishmuseum.org/id/thesauri/x12542'),
+    'бытовой жанр' => RDF::URI.new('http://collection.britishmuseum.org/id/thesauri/x12718'),
+    'иллюстрация' => RDF::URI.new('http://rm-lod.org/thesauri/illustration'),
+    'интерьер' => RDF::URI.new('http://rm-lod.org/thesauri/abstraction'),
+    'исторический сюжет' => RDF::URI.new('http://collection.britishmuseum.org/id/thesauri/x12859'),
+    'карикатура' => RDF::URI.new('http://rm-lod.org/thesauri/caricature'),
+    'мифологический сюжет' => RDF::URI.new('http://collection.britishmuseum.org/id/thesauri/x13025'),
+    'натюрморт' => RDF::URI.new('http://collection.britishmuseum.org/id/thesauri/x13409'),
+    'пейзаж' => RDF::URI.new('http://collection.britishmuseum.org/id/thesauri/x12934'),
+    'портрет' => RDF::URI.new('http://collection.britishmuseum.org/id/thesauri/x13360'),
+    'театральная декорация' => RDF::URI.new('http://rm-lod.org/thesauri/theatrical_scenery'),
+}
 
+@graph = RDF::Graph.new(:format => :ttl)
+@graph_titles = RDF::Graph.new(:format => :ttl)
 
 def open_html (url)
   uri = URI.parse(url)
@@ -79,6 +101,21 @@ Nokogiri::HTML(open_html(@genre_url)).css(@css_path).css('a').each do |genre|
     @graph << @genre_to_uri[genre_name].(object_id)
   end
 end
+
+puts
+puts '== Writing genres translations =='
+puts
+
+@genres_hash.each { |title,uri|
+  @graph_titles << [uri,RDF.type,SKOS.Concept]
+  @graph_titles << [uri,RDF.type,@ecrmVocabulary['E55_Type']]                  
+  @graph_titles << [uri,SKOS.prefLabel,RDF::Literal.new(title, :language => :ru)]  
+}
+
+file = File.new('rm_genres_titles.ttl', 'w')
+file.write(@graph_titles.dump(:ttl, :prefixes => @rdf_prefixes))
+file.close
+
 
 puts
 puts '== Writing file =='
