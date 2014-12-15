@@ -4,6 +4,7 @@ require 'rubygems'
 
 require 'net/http'
 require 'uri'
+require 'cgi'
 require 'json'
 require 'set'
 
@@ -132,10 +133,10 @@ end
 # https://github.com/dbpedia-spotlight/dbpedia-spotlight/wiki
 def dbpepiaSpotlighAnnotator(inputText,locale)
     case locale
-    when "ru" # http://impact.dlsi.ua.es/wiki/index.php/DBPedia_Spotlight
-        u = "http://ru.spotlight.dbpedia.org/rest/annotate"# "http://spotlight.sztaki.hu:2227/rest/annotate"
-    when "en"
-        u = "http://en.spotlight.dbpedia.org/rest/annotate"# "http://spotlight.sztaki.hu:2222/rest/annotate"
+    when :ru # http://impact.dlsi.ua.es/wiki/index.php/DBPedia_Spotlight
+        u = "http://spotlight.sztaki.hu:2227/rest/annotate" #"http://ru.spotlight.dbpedia.org/rest/annotate"
+    when :en
+        u = "http://spotlight.sztaki.hu:2222/rest/annotate" #"http://en.spotlight.dbpedia.org/rest/annotate"
     else
         u = "http://spotlight.dbpedia.org/rest/annotate"
     end
@@ -143,13 +144,15 @@ def dbpepiaSpotlighAnnotator(inputText,locale)
     headers = {'text' => inputText, 'confidence' => @dbPediaSpotlightConfidence, 'support' => @dbPediaSpotlightSupport}
     spotlighthttp = Net::HTTP.new(uri.host, uri.port)
     begin
-        response = spotlighthttp.post(uri.path, URI.encode_www_form(headers),{ "Accept" => "application/xhtml+xml"})
+        response = spotlighthttp.post(uri.path, URI.encode_www_form(headers),{ "Accept" => "text/html"})
     rescue Exception => e
         puts "#{e.message}. Press return to retry."
-        gets
+        # gets
         retry
     end
-    return response.body
+    result = Nokogiri::HTML(response.body).xpath("//html/body/div").first.inner_html.gsub(/http:\/\/(ru.|)dbpedia.org\/resource\//,URI.unescape("http://heritage.vismart.biz/resource/?uri="+'\0'))
+    #Nokogiri::HTML(response.body).xpath("//html/body/div").first.inner_html.gsub("http://dbpedia.org/resource/","http://heritage.vismart.biz/resource/?uri=http://dbpedia.org/resource/").gsub("http://ru.dbpedia.org/resource/","http://heritage.vismart.biz/resource/?uri=http://ru.dbpedia.org/resource/")
+    return result
 end
 
 BilingualLabel = Struct.new(:en, :ru)
@@ -224,7 +227,7 @@ persons.to_a.each { |personURI|
     else
         puts "#{personURI} already linked with dbp"
     end
-=end 
+=end
 
     if (RDF::Query::Pattern.new(personURI, @rmlodVocabulary[:hasAnnotation], :o).execute(persons_notes_ttl).empty?)
     then
