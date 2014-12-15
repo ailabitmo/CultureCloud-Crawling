@@ -208,7 +208,10 @@ else
     persons_notes_ttl = RDF::Graph.new(:format => :ttl)
 end
 
+i = 1
 persons.to_a.each { |personURI|
+    puts i
+    i+=1
                     
 =begin                    
     if (RDF::Query::Pattern.new(personURI, OWL.sameAs,:o).execute(persons_sameas_ttl).empty?)
