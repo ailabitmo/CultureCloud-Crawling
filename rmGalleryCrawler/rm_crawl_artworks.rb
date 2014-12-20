@@ -244,9 +244,11 @@ artworksIds.to_a.each { |artworksId|
     @graph_artwork << [newManMadeObject,RDF.type,@ecrmVocabulary['E22_Man-Made_Object']]
     @graph_artwork << [newManMadeObject,RDF.type,OWL.NamedIndividual]
 
+=begin
     crawlAnnotation(artworksId).each { |localeLabel, annotation|
         @graph_artwork << [newManMadeObject,@ecrmVocabulary[:P3_has_note],RDF::Literal.new(annotation, :language => localeLabel)]
     }
+=end
 
     # Materials (todo) and dimentions
 
