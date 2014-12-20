@@ -102,7 +102,7 @@ persons.to_a.each { |personURI|
                         persons_notes_ttl << [res_uri, @rmlodVocabulary[:res_offet], RDF::Literal.new(json_res["@offset"])]
                         persons_notes_ttl << [res_uri, @rmlodVocabulary[:res_similarityScore], RDF::Literal.new(json_res["@similarityScore"])]
                         persons_notes_ttl << [res_uri, @rmlodVocabulary[:res_percentageOfSecondRank], RDF::Literal.new(json_res["@percentageOfSecondRank"])]
-                    }
+                    } unless json_annotation["Resources"].nil?
 
 
                 end
@@ -110,7 +110,6 @@ persons.to_a.each { |personURI|
             }
         end
     end
-    if (i>2) then break end
 }
 
 if (@action_number==1)
