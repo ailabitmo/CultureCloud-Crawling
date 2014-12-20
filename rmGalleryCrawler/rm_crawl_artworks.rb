@@ -200,6 +200,7 @@ end
 
 @graph_images = RDF::Graph.new(:format => :ttl)
 @graph_artwork = RDF::Graph.new(:format => :ttl)
+@graph_notes = RDF::Graph.new(:format => :ttl)
 @graph_materials = RDF::Graph.new(:format => :ttl)
 @graph_representation = RDF::Graph.new(:format => :ttl)
 @graph_titles = RDF::Graph.new(:format => :ttl)
@@ -244,11 +245,13 @@ artworksIds.to_a.each { |artworksId|
     @graph_artwork << [newManMadeObject,RDF.type,@ecrmVocabulary['E22_Man-Made_Object']]
     @graph_artwork << [newManMadeObject,RDF.type,OWL.NamedIndividual]
 
-=begin
     crawlAnnotation(artworksId).each { |localeLabel, annotation|
-        @graph_artwork << [newManMadeObject,@ecrmVocabulary[:P3_has_note],RDF::Literal.new(annotation, :language => localeLabel)]
+        if (annotation!="")
+        then
+            @graph_notes << [newManMadeObject,@ecrmVocabulary[:P3_has_note],RDF::Literal.new(annotation, :language => localeLabel)]
+        end
+
     }
-=end
 
     # Materials (todo) and dimentions
 
@@ -326,6 +329,11 @@ artworksIds.to_a.each { |artworksId|
 puts
 puts '== Writing files =='
 puts
+
+puts '== graph_notes =='
+file = File.new('rm_artwork_notes.ttl', 'w')
+file.write(@graph_notes.dump(:ttl, :prefixes => @rdf_prefixes))
+file.close
 
 puts '== graph_images =='
 file = File.new('rm_artwork_images.ttl', 'w')
