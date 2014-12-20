@@ -1,4 +1,9 @@
+# encoding: utf-8
+
+require 'rubygems'
+require 'io/console'
 require 'set'
+require 'uri'
 require 'net/http'
 require 'nokogiri'
 require 'rdf/turtle'
@@ -9,6 +14,8 @@ include RDF
 def open_html(url)
   uri = URI.parse(url)
   http = Net::HTTP.new(uri.host, uri.port)
+  # http.open_timeout = 1
+  # http.read_timeout = 10
   begin
     response = http.get(uri.path, 'User-Agent' => @user_agent)
   rescue Net::OpenTimeout
@@ -16,6 +23,11 @@ def open_html(url)
     retry
   end
   response.body
+end
+
+# Get final Url After Redirects
+def getFinalUrl(url)
+    return Net::HTTP.get_response(URI(url))['location']
 end
 
 def get_artwork_ids()
@@ -28,13 +40,19 @@ def get_artwork_ids()
   artworks_ids
 end
 
-@ecrm = RDF::Vocabulary.new('http://erlangen-crm.org/current/')
 @rdf_prefixes = {
     :xsd  => XSD.to_uri,
     :rdf  => RDF.to_uri,
     :rdfs => RDFS.to_uri,
     :owl  => OWL.to_uri,
     :skos  => SKOS.to_uri,
-    :ecrm => RDF::URI.new('http://erlangen-crm.org/current/'),
-    'rm-lod' => RDF::URI.new('http://rm-lod.org/')
+    #:dbp =>  "http://dbpedia.org/resource/",
+    #'dbp-ru' => "http://ru.dbpedia.org/resource/",
+    'ecrm' => RDF::URI.new('http://erlangen-crm.org/current/'),
+    'rm-lod' => RDF::URI.new('http://rm-lod.org/'),
+    'rm-lod-schema' => "http://rm-lod.org/schema/",
 }
+
+@ecrm = RDF::Vocabulary.new('http://erlangen-crm.org/current/') # remove it?
+@ecrmVocabulary = RDF::Vocabulary.new(@rdf_prefixes['ecrm'])
+@rmlodVocabulary = RDF::Vocabulary.new(@rdf_prefixes['rm-lod-schema'])
