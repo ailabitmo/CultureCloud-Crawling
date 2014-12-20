@@ -38,34 +38,37 @@ artworks.to_a.each { |workURI|
     if (RDF::Query::Pattern.new(workURI, @ecrmVocabulary[:P3_has_note], :o).execute(artworks_notes_ttl).empty?)
     then
         artworksNotes[workURI].each { |locale,note|
-            annotation=dbpepiaSpotlightAnnotator(note,locale)
-            annotation=Nokogiri::HTML(annotation).xpath("//html/body/div").first.inner_html.gsub(/http:\/\/(ru.|)dbpedia.org\/resource\//,URI.unescape("http://heritage.vismart.biz/resource/?uri="+'\0'))
-            artworks_notes_ttl << [workURI, @ecrmVocabulary[:P3_has_note], RDF::Literal.new(annotation.force_encoding('utf-8'), :language => locale)] unless annotation.empty?
-
-            json_annotation=JSON.parse(dbpepiaSpotlightAnnotator(note,locale,'application/json'))
-            if !(json_annotation.empty?)
+            if (note!="")
             then
-                annotation_uri = RDF::URI.new("#{workURI}/annotation/#{getRandomString}")
-                artworks_notes_ttl << [workURI, @rmlodVocabulary[:has_annotation], annotation_uri]
+                annotation=dbpepiaSpotlightAnnotator(note,locale)
+                annotation=Nokogiri::HTML(annotation).xpath("//html/body/div").first.inner_html.gsub(/http:\/\/(ru.|)dbpedia.org\/resource\//,URI.unescape("http://heritage.vismart.biz/resource/?uri="+'\0'))
+                artworks_notes_ttl << [workURI, @ecrmVocabulary[:P3_has_note], RDF::Literal.new(annotation.force_encoding('utf-8'), :language => locale)] unless annotation.empty?
 
-                artworks_notes_ttl << [annotation_uri, @rmlodVocabulary[:annotation_text], RDF::Literal.new(json_annotation["@text"])]
-                artworks_notes_ttl << [annotation_uri, @rmlodVocabulary[:annotation_confidence], RDF::Literal.new(json_annotation["@confidence"])]
-                artworks_notes_ttl << [annotation_uri, @rmlodVocabulary[:annotation_support], RDF::Literal.new(json_annotation["@support"])]
-                artworks_notes_ttl << [annotation_uri, @rmlodVocabulary[:annotation_types], RDF::Literal.new(json_annotation["@types"])]
-                artworks_notes_ttl << [annotation_uri, @rmlodVocabulary[:annotation_sparql], RDF::Literal.new(json_annotation["@sparql"])]
-                artworks_notes_ttl << [annotation_uri, @rmlodVocabulary[:annotation_policy], RDF::Literal.new(json_annotation["@policy"])]
+                json_annotation=JSON.parse(dbpepiaSpotlightAnnotator(note,locale,'application/json'))
+                if !(json_annotation.empty?)
+                then
+                    annotation_uri = RDF::URI.new("#{workURI}/annotation/#{getRandomString}")
+                    artworks_notes_ttl << [workURI, @rmlodVocabulary[:has_annotation], annotation_uri]
 
-                json_annotation["Resources"].each { |json_res|
-                    res_uri = RDF::URI.new("#{annotation_uri}/dbp-res/#{json_res["@URI"].split('/').last}")
-                    artworks_notes_ttl << [annotation_uri, @rmlodVocabulary[:includes_resource], res_uri]
-                    artworks_notes_ttl << [res_uri, @rmlodVocabulary[:res_URI], RDF::Literal.new(json_res["@URI"])]
-                    artworks_notes_ttl << [res_uri, @rmlodVocabulary[:res_support], RDF::Literal.new(json_res["@support"])]
-                    artworks_notes_ttl << [res_uri, @rmlodVocabulary[:res_types], RDF::Literal.new(json_res["@types"])]
-                    artworks_notes_ttl << [res_uri, @rmlodVocabulary[:res_surfaceForm], RDF::Literal.new(json_res["@surfaceForm"])]
-                    artworks_notes_ttl << [res_uri, @rmlodVocabulary[:res_offet], RDF::Literal.new(json_res["@offset"])]
-                    artworks_notes_ttl << [res_uri, @rmlodVocabulary[:res_similarityScore], RDF::Literal.new(json_res["@similarityScore"])]
-                    artworks_notes_ttl << [res_uri, @rmlodVocabulary[:res_percentageOfSecondRank], RDF::Literal.new(json_res["@percentageOfSecondRank"])]
-                } unless json_annotation["Resources"].nil?
+                    artworks_notes_ttl << [annotation_uri, @rmlodVocabulary[:annotation_text], RDF::Literal.new(json_annotation["@text"])]
+                    artworks_notes_ttl << [annotation_uri, @rmlodVocabulary[:annotation_confidence], RDF::Literal.new(json_annotation["@confidence"])]
+                    artworks_notes_ttl << [annotation_uri, @rmlodVocabulary[:annotation_support], RDF::Literal.new(json_annotation["@support"])]
+                    artworks_notes_ttl << [annotation_uri, @rmlodVocabulary[:annotation_types], RDF::Literal.new(json_annotation["@types"])]
+                    artworks_notes_ttl << [annotation_uri, @rmlodVocabulary[:annotation_sparql], RDF::Literal.new(json_annotation["@sparql"])]
+                    artworks_notes_ttl << [annotation_uri, @rmlodVocabulary[:annotation_policy], RDF::Literal.new(json_annotation["@policy"])]
+
+                    json_annotation["Resources"].each { |json_res|
+                        res_uri = RDF::URI.new("#{annotation_uri}/dbp-res/#{json_res["@URI"].split('/').last}")
+                        artworks_notes_ttl << [annotation_uri, @rmlodVocabulary[:includes_resource], res_uri]
+                        artworks_notes_ttl << [res_uri, @rmlodVocabulary[:res_URI], RDF::Literal.new(json_res["@URI"])]
+                        artworks_notes_ttl << [res_uri, @rmlodVocabulary[:res_support], RDF::Literal.new(json_res["@support"])]
+                        artworks_notes_ttl << [res_uri, @rmlodVocabulary[:res_types], RDF::Literal.new(json_res["@types"])]
+                        artworks_notes_ttl << [res_uri, @rmlodVocabulary[:res_surfaceForm], RDF::Literal.new(json_res["@surfaceForm"])]
+                        artworks_notes_ttl << [res_uri, @rmlodVocabulary[:res_offet], RDF::Literal.new(json_res["@offset"])]
+                        artworks_notes_ttl << [res_uri, @rmlodVocabulary[:res_similarityScore], RDF::Literal.new(json_res["@similarityScore"])]
+                        artworks_notes_ttl << [res_uri, @rmlodVocabulary[:res_percentageOfSecondRank], RDF::Literal.new(json_res["@percentageOfSecondRank"])]
+                    } unless json_annotation["Resources"].nil?
+                end
             end
         }
     end
