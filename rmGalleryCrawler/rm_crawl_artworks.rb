@@ -48,6 +48,7 @@ BilingualLabel = Struct.new(:en, :ru)
     'xsd' => XSD.to_uri
 }
 
+#TODO: move to common
 def getRandomString()
     return SecureRandom.urlsafe_base64(5)
 end

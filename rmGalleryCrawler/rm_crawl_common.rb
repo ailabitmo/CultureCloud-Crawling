@@ -9,6 +9,11 @@ require 'nokogiri'
 require 'rdf/turtle'
 require 'rdf/xsd'
 include RDF
+require 'securerandom'
+
+def getRandomString()
+    return SecureRandom.urlsafe_base64(5)
+end
 
 @user_agent = 'Mozilla/5.0 (Windows NT 6.3; rv:36.0) Gecko/20100101 Firefox/36.0'
 def open_html(url)

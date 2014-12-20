@@ -82,7 +82,7 @@ persons.to_a.each { |personURI|
                 json_annotation=JSON.parse(dbpepiaSpotlightAnnotator(note,locale,'application/json'))
                 if !(json_annotation.empty?)
                 then
-                    annotation_uri = RDF::URI.new("#{personURI}/annotation/1")
+                    annotation_uri = RDF::URI.new("#{personURI}/annotation/#{getRandomString}")
                     persons_notes_ttl << [personURI, @rmlodVocabulary[:has_annotation], annotation_uri]
 
                     persons_notes_ttl << [annotation_uri, @rmlodVocabulary[:annotation_text], RDF::Literal.new(json_annotation["@text"])]
