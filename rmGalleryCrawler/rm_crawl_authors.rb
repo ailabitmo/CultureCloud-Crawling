@@ -71,6 +71,7 @@ end
 @p131_is_identified_by = RDF::URI.new('http://erlangen-crm.org/current/P131_is_identified_by')
 
 @graph = RDF::Graph.new(:format => :ttl)
+@graph_notes = RDF::Graph.new(:format => :ttl)
 
 def gen_person_uri(person_id)
   RDF::URI.new("http://rm-lod.org/person/#{person_id}")
@@ -125,8 +126,8 @@ end
   @graph << [person_uri, RDF.type, @owl_named_individual]
   @graph << [person_uri, @p131_is_identified_by, appellation_uri]
   bio = get_author_bio(person_id)
-  @graph << [person_uri, @p3_has_note, RDF::Literal.new(bio['ru'], :language => :ru)] if bio['ru']
-  @graph << [person_uri, @p3_has_note, RDF::Literal.new(bio['en'], :language => :en)] if bio['en']
+  @graph_notes << [person_uri, @p3_has_note, RDF::Literal.new(bio['ru'], :language => :ru)] if bio['ru']
+  @graph_notes << [person_uri, @p3_has_note, RDF::Literal.new(bio['en'], :language => :en)] if bio['en']
 
   # Appellation triplets
   @graph << [appellation_uri, RDF.type, @e82_actor_appellation]
@@ -137,12 +138,17 @@ end
   @graph << [person_uri, RDFS.label, RDF::Literal.new(a_en, :language => :en)]
 end
 
-
 puts
 puts '== Writing file =='
 puts
 file = File.new('rm_persons.ttl', 'w')
 file.write(@graph.dump(:ttl, :prefixes => @prefixes))
+file.close
+puts
+puts '== Writing notes =='
+puts
+file = File.new('rm_persons_notes.ttl', 'w')
+file.write(@graph_notes.dump(:ttl, :prefixes => @prefixes))
 file.close
 puts 'Done!'
 

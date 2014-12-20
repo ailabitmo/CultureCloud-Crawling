@@ -7,6 +7,7 @@ BilingualLabel = Struct.new(:en, :ru)
 @localeLabels = BilingualLabel.new("en","ru")
 
 @persons_ttl = RDF::Graph.load('rm_persons.ttl')
+@persons_notes_ttl = RDF::Graph.load('rm_persons_notes.ttl')
 
 puts "Working with persons. Enter action number"
 puts "1. Generate dbp-same-as"
@@ -26,7 +27,7 @@ RDF::Query::Pattern.new(:s, RDF.type,@ecrmVocabulary[:E21_Person]).execute(@pers
         personLabel[label_statement.object.language]=label_statement.object.to_s
     }
     personNote = Hash.new
-    RDF::Query::Pattern.new(personURI, @ecrmVocabulary[:P3_has_note],:o).execute(@persons_ttl).each { |note_statement|
+    RDF::Query::Pattern.new(personURI, @ecrmVocabulary[:P3_has_note],:o).execute(@persons_notes_ttl).each { |note_statement|
         personNote[note_statement.object.language]=note_statement.object.to_s
     }
     personsLabels[personURI]=personLabel

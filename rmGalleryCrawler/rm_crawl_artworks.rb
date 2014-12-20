@@ -325,6 +325,7 @@ artworksIds.to_a.each { |artworksId|
 }
 
 
+#TODO: add option to select
 
 puts
 puts '== Writing files =='
