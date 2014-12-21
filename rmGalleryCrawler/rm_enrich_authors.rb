@@ -85,15 +85,21 @@ persons.to_a.each { |personURI|
                 then
                     annotation_uri = RDF::URI.new("#{personURI}/annotation/#{getRandomString}")
                     persons_notes_ttl << [personURI, @rmlodVocabulary[:has_annotation], annotation_uri]
+                    persons_notes_ttl << [annotation_uri, RDF.type, @rmlodVocabulary[:AnnotationObject]]
+=begin
 
+=begin
                     persons_notes_ttl << [annotation_uri, @rmlodVocabulary[:annotation_text], RDF::Literal.new(json_annotation["@text"])]
                     persons_notes_ttl << [annotation_uri, @rmlodVocabulary[:annotation_confidence], RDF::Literal.new(json_annotation["@confidence"])]
                     persons_notes_ttl << [annotation_uri, @rmlodVocabulary[:annotation_support], RDF::Literal.new(json_annotation["@support"])]
                     persons_notes_ttl << [annotation_uri, @rmlodVocabulary[:annotation_types], RDF::Literal.new(json_annotation["@types"])]
                     persons_notes_ttl << [annotation_uri, @rmlodVocabulary[:annotation_sparql], RDF::Literal.new(json_annotation["@sparql"])]
                     persons_notes_ttl << [annotation_uri, @rmlodVocabulary[:annotation_policy], RDF::Literal.new(json_annotation["@policy"])]
-
+=end
                     json_annotation["Resources"].each { |json_res|
+                        res_uri = RDF::URI.new(json_res["@URI"])
+                        persons_notes_ttl << [annotation_uri, @rmlodVocabulary[:dbpRes], res_uri]
+=begin
                         res_uri = RDF::URI.new("#{annotation_uri}/dbp-res/#{json_res["@URI"].split('/').last}")
                         persons_notes_ttl << [annotation_uri, @rmlodVocabulary[:includes_resource], res_uri]
                         persons_notes_ttl << [res_uri, @rmlodVocabulary[:res_URI], RDF::URI.new(json_res["@URI"])]
@@ -103,6 +109,7 @@ persons.to_a.each { |personURI|
                         persons_notes_ttl << [res_uri, @rmlodVocabulary[:res_offet], RDF::Literal.new(json_res["@offset"])]
                         persons_notes_ttl << [res_uri, @rmlodVocabulary[:res_similarityScore], RDF::Literal.new(json_res["@similarityScore"])]
                         persons_notes_ttl << [res_uri, @rmlodVocabulary[:res_percentageOfSecondRank], RDF::Literal.new(json_res["@percentageOfSecondRank"])]
+=end
                     } unless json_annotation["Resources"].nil?
 
 
