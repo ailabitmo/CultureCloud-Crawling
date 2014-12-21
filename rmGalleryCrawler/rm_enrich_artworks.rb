@@ -7,6 +7,7 @@ BilingualLabel = Struct.new(:en, :ru)
 @localeLabels = BilingualLabel.new("en","ru")
 
 @artworks_ttl = RDF::Graph.load('rm_artwork_objects.ttl')
+@artworks_notes_ttl = RDF::Graph.load('rm_artwork_notes.ttl')
 artworks = Set.new
 
 artworksLabels = Hash.new
@@ -16,7 +17,7 @@ artworksNotes = Hash.new
 RDF::Query::Pattern.new(:s, RDF.type,@ecrmVocabulary['E22_Man-Made_Object']).execute(@artworks_ttl).each { |e22artwork_statement|
     workURI = e22artwork_statement.subject
     artworkNote = Hash.new
-    RDF::Query::Pattern.new(workURI, @ecrmVocabulary[:P3_has_note],:o).execute(@artworks_ttl).each { |note_statement|
+    RDF::Query::Pattern.new(workURI, @ecrmVocabulary[:P3_has_note],:o).execute(@artworks_notes_ttl).each { |note_statement|
         artworkNote[note_statement.object.language]=note_statement.object.to_s
     }
     artworksNotes[workURI]=artworkNote
