@@ -34,7 +34,7 @@ end
 @sectionsLabels = ["author","genre","type"] # TODO: "projects"-section with multiple images
 BilingualLabel = Struct.new(:en, :ru)
 @localeLabels = BilingualLabel.new("en","ru")
-@annotationLabels = BilingualLabel.new("Аnnotation","Аннотация")
+@annotationLabels = BilingualLabel.new("Annotation","Аннотация")
 
 @ecrmPrefix = "http://erlangen-crm.org/current/"
 @ecrmVocabulary = RDF::Vocabulary.new(@ecrmPrefix)
@@ -66,7 +66,8 @@ def crawlAnnotation(objectId)
     @localeLabels.each { |localeLabel|
         Nokogiri::HTML(openHtml("#{@hostUrl}#{localeLabel}/#{objectId}")).\
             css('div[data-role=collapsible]').each do |collapsible|
-            if collapsible.css('h3').text == @annotationLabels[localeLabel]
+            if (collapsible.css('h3').text.strip == @annotationLabels[localeLabel])
+            then
                 a = collapsible.css('p').text
                 annotation[localeLabel] = a.strip unless a.empty?
             end
