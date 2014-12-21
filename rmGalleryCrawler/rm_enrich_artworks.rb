@@ -41,7 +41,7 @@ artworks.to_a.each { |workURI|
             if (note!="")
             then
                 annotation=dbpepiaSpotlightAnnotator(note,locale)
-                annotation=Nokogiri::HTML(annotation).xpath("//html/body/div").first.inner_html.gsub(/http:\/\/(ru.|)dbpedia.org\/resource\//,URI.unescape("http://heritage.vismart.biz/resource/?uri="+'\0'))
+                annotation=Nokogiri::HTML(annotation).xpath("//html/body/div").first.inner_html.gsub(/http:\/\/(ru.|)dbpedia.org\/resource\//,URI.unescape("/resource/?uri="+'\0'))
                 artworks_notes_ttl << [workURI, @ecrmVocabulary[:P3_has_note], RDF::Literal.new(annotation.force_encoding('utf-8'), :language => locale)] unless annotation.empty?
 
                 json_annotation=JSON.parse(dbpepiaSpotlightAnnotator(note,locale,'application/json'))
@@ -60,7 +60,7 @@ artworks.to_a.each { |workURI|
                     json_annotation["Resources"].each { |json_res|
                         res_uri = RDF::URI.new("#{annotation_uri}/dbp-res/#{json_res["@URI"].split('/').last}")
                         artworks_notes_ttl << [annotation_uri, @rmlodVocabulary[:includes_resource], res_uri]
-                        artworks_notes_ttl << [res_uri, @rmlodVocabulary[:res_URI], RDF::Literal.new(json_res["@URI"])]
+                        artworks_notes_ttl << [res_uri, @rmlodVocabulary[:res_URI], RDF::URI.new(json_res["@URI"])]
                         artworks_notes_ttl << [res_uri, @rmlodVocabulary[:res_support], RDF::Literal.new(json_res["@support"])]
                         artworks_notes_ttl << [res_uri, @rmlodVocabulary[:res_types], RDF::Literal.new(json_res["@types"])]
                         artworks_notes_ttl << [res_uri, @rmlodVocabulary[:res_surfaceForm], RDF::Literal.new(json_res["@surfaceForm"])]
