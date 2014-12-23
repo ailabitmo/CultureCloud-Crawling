@@ -51,6 +51,7 @@ artworks.to_a.each { |workURI|
                     annotation_uri = RDF::URI.new("#{workURI}/annotation/#{getRandomString}")
                     artworks_notes_ttl << [workURI, @rmlodVocabulary[:has_annotation], annotation_uri]
                     artworks_notes_ttl << [annotation_uri, RDF.type, @rmlodVocabulary[:AnnotationObject]]
+                    artworks_notes_ttl << [annotation_uri, DC.language, locale]
 =begin
 
                     artworks_notes_ttl << [workURI, @rmlodVocabulary[:has_annotation], annotation_uri]
