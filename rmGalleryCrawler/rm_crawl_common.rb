@@ -51,6 +51,7 @@ end
     :rdfs => RDFS.to_uri,
     :owl  => OWL.to_uri,
     :skos  => SKOS.to_uri,
+    :dc  => DC.to_uri,
     #:dbp =>  "http://dbpedia.org/resource/",
     #'dbp-ru' => "http://ru.dbpedia.org/resource/",
     'ecrm' => RDF::URI.new('http://erlangen-crm.org/current/'),
