@@ -85,6 +85,7 @@ persons.to_a.each { |personURI|
                 then
                     annotation_uri = RDF::URI.new("#{personURI}/annotation/#{getRandomString}")
                     persons_notes_ttl << [personURI, @rmlodVocabulary[:has_annotation], annotation_uri]
+                    persons_notes_ttl << [personURI, DC.language, locale]
                     persons_notes_ttl << [annotation_uri, RDF.type, @rmlodVocabulary[:AnnotationObject]]
 =begin
 
