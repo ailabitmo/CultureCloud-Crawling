@@ -47,7 +47,7 @@ owl:imports ecrm: , <http://www.w3.org/2004/02/skos/core> .
                                                  owl:NamedIndividual ,
                                                  skos:Concept ;
                                         skos:prefLabel "caricature"@en ,
-                                                       "каррикатура"@en ;
+                                                       "каррикатура"@ru ;
                                         skos:inScheme <http://collection.britishmuseum.org/id/thesauri/subject> .
 
 
@@ -69,7 +69,7 @@ owl:imports ecrm: , <http://www.w3.org/2004/02/skos/core> .
                                                          owl:NamedIndividual ,
                                                          skos:Concept ;
                                                 skos:prefLabel "theatrical scenery"@en ,
-                                                               "театральные декорации"@en ;
+                                                               "театральные декорации"@ru ;
                                                 skos:inScheme <http://collection.britishmuseum.org/id/thesauri/subject> .
 
 
@@ -79,5 +79,5 @@ owl:imports ecrm: , <http://www.w3.org/2004/02/skos/core> .
                                                owl:NamedIndividual ,
                                                skos:Concept ;
                                       skos:prefLabel "portrait"@en ,
-                                                     "портрет"@en ;
+                                                     "портрет"@ru ;
                                       skos:inScheme <http://collection.britishmuseum.org/id/thesauri/subject> .
