@@ -13,13 +13,6 @@
 owl:imports ecrm: , <http://www.w3.org/2004/02/skos/core> .
 
 
-#################################################################
-#
-#    Individuals
-#
-#################################################################
-
-
 ###  http://collection.britishmuseum.org/id/thesauri/subject
 
 <http://collection.britishmuseum.org/id/thesauri/subject> rdf:type owl:NamedIndividual ,

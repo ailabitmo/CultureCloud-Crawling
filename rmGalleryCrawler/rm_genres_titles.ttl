@@ -1,6 +1,6 @@
+@prefix cc: <http://culturecloud.ru/id/> .
 @prefix ecrm: <http://erlangen-crm.org/current/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix rm-lod: <http://rm-lod.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
 <http://collection.britishmuseum.org/id/thesauri/x12469> a skos:Concept,
@@ -35,27 +35,27 @@
      ecrm:E55_Type;
    skos:prefLabel "аллегория"@ru .
 
-<http://collection.britishmuseum.org/id/thesauri/x13360> a skos:Concept,
-     ecrm:E55_Type;
-   skos:prefLabel "портрет"@ru .
-
 <http://collection.britishmuseum.org/id/thesauri/x13409> a skos:Concept,
      ecrm:E55_Type;
    skos:prefLabel "натюрморт"@ru .
 
-<http://rm-lod.org/thesauri/abstraction> a skos:Concept,
+<http://culturecloud.ru/id/thesauri/abstraction> a skos:Concept,
      ecrm:E55_Type;
    skos:prefLabel "абстракция"@ru,
      "интерьер"@ru .
 
-<http://rm-lod.org/thesauri/caricature> a skos:Concept,
+<http://culturecloud.ru/id/thesauri/caricature> a skos:Concept,
      ecrm:E55_Type;
    skos:prefLabel "карикатура"@ru .
 
-<http://rm-lod.org/thesauri/illustration> a skos:Concept,
+<http://culturecloud.ru/id/thesauri/illustration> a skos:Concept,
      ecrm:E55_Type;
    skos:prefLabel "иллюстрация"@ru .
 
-<http://rm-lod.org/thesauri/theatrical_scenery> a skos:Concept,
+<http://culturecloud.ru/id/thesauri/portrait> a skos:Concept,
+     ecrm:E55_Type;
+   skos:prefLabel "портрет"@ru .
+
+<http://culturecloud.ru/id/thesauri/theatrical_scenery> a skos:Concept,
      ecrm:E55_Type;
    skos:prefLabel "театральная декорация"@ru .
