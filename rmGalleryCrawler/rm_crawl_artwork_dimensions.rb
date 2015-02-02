@@ -4,30 +4,7 @@ require 'nokogiri'
 require 'rdf/turtle'
 include RDF
 require 'rdf/xsd'
-
-def open_html(url)
-  uri = URI.parse(url)
-  http = Net::HTTP.new(uri.host, uri.port)
-  http.open_timeout = 1
-  http.read_timeout = 10
-  begin
-    response = http.get(uri.path)
-  rescue Net::OpenTimeout
-    puts 'Catched new Net::OpenTimeout exception. Press return to retry (recommended) or Ctrl+C to interrupt (the data will be lost in that case).'
-    retry
-  end
-  response.body
-end
-
-@artwork_ids = (Proc.new {
-  artworks_ids = Set.new
-  RDF::Query::Pattern.new(:s, RDF::URI.new('http://erlangen-crm.org/current/P14_carried_out_by'), :o).
-      execute(RDF::Graph.load('rm_artwork_ownerships.ttl')).each do |statement|
-    artworks_ids << /\d+/.match(statement.subject)[0]
-  end
-  artworks_ids
-}).call
-puts 'IDs loaded'
+require './rm_crawl_common'
 
 @ecrm = RDF::Vocabulary.new('http://erlangen-crm.org/current/')
 @graph = RDF::Graph.new(:format => :ttl)
@@ -35,7 +12,7 @@ puts 'IDs loaded'
 @bmthes_height = RDF::URI.new('http://collection.britishmuseum.org/id/thesauri/dimension/height')
 
 def add_dimensions(object_id, width, height)
-  object_uri_str = "http://rm-lod.org/object/#{object_id}"
+  object_uri_str = "http://culturecloud.ru/id/object/#{object_id}"
   object_uri = RDF::URI.new(object_uri_str)
   width_uri = RDF::URI.new("#{object_uri_str}/width/#{width}")
   height_uri = RDF::URI.new("#{object_uri_str}/height/#{height}")
@@ -54,7 +31,7 @@ def add_dimensions(object_id, width, height)
 end
 
 def crawl_dimensions(object_id)
-  Nokogiri::HTML(open_html("http://rmgallery.ru/ru/#{object_id}")).css('b').each do |descr|
+  Nokogiri::HTML(get_cached_artwork_page(object_id, :ru)).css('b').each do |descr|
     s = descr.to_s.gsub(' ','').gsub(',','.').gsub('×','x').gsub('х', 'x')
     m = /(\d+\.?\d*)x(\d+\.?\d*).*/.match(s)
     if m.nil?
@@ -65,18 +42,9 @@ def crawl_dimensions(object_id)
   end
 end
 
-@artwork_ids.each do |id|
+get_artwork_ids.each do |id|
   crawl_dimensions(id)
 end
-
-@rdf_prefixes = {
-    :xsd  => XSD.to_uri,
-    :rdf  => RDF.to_uri,
-    :rdfs => RDFS.to_uri,
-    :owl  => OWL.to_uri,
-    :ecrm => RDF::URI.new('http://erlangen-crm.org/current/'),
-    'rm-lod' => RDF::URI.new('http://rm-lod.org/')
-}
 
 puts 'Writing file'
 File.open('rm_artwork_dimensions.ttl', 'w') do |f|

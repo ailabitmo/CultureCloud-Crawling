@@ -3,8 +3,7 @@ require 'json'
 
 @dates = Hash.new
 get_artwork_ids.each do |object_id|
-  path = "./rmgallery_site/objects/#{object_id}.html"
-  Nokogiri::HTML(IO.read(path)).css('h2[align=center]').each do |html|
+  Nokogiri::HTML(get_cached_artwork_page(object_id, :ru)).css('h2[align=center]').each do |html|
     date = html.text.split('.').last.strip
     @dates[object_id] = date
     # puts "#{object_id} #{date}"
@@ -153,8 +152,8 @@ end
 puts "\nGenerating graph triples"
 @graph = RDF::Graph.new(:format => :ttl)
 @structured_dates.each do |object_id, date_struct|
-  production_uri = RDF::URI.new("http://rm-lod.org/object/#{object_id}/production")
-  time_span_uri = RDF::URI.new("http://rm-lod.org/object/#{object_id}/production/date")
+  production_uri = RDF::URI.new("http://culturecloud.ru/id/object/#{object_id}/production")
+  time_span_uri = RDF::URI.new("http://culturecloud.ru/id/object/#{object_id}/production/date")
 
   @graph << [production_uri, @ecrm['P4_has_time-span'], time_span_uri]
   @graph << [time_span_uri, RDF.type, @ecrm['E52_Time-Span']]

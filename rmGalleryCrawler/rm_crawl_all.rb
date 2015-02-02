@@ -1,26 +1,34 @@
-puts '== Starting main big script =='
+puts 'Executing scripts:'
+#
+# puts '=========================================='
+# puts 'rm_crawl_artwork_ownerships'
+# require './rm_crawl_artwork_ownerships.rb'
+#
+# puts '=========================================='
+# puts 'rm_crawl_artwork_dimensions'
+# require './rm_crawl_artwork_dimensions.rb'
+#
+# puts '=========================================='
+# puts 'rm_crawl_genres'
+# require './rm_crawl_genres.rb'
+#
+# puts '=========================================='
+# puts 'rm_crawl_dates'
+# require './rm_crawl_dates.rb'
+#
+# puts '=========================================='
+# puts 'rm_crawl_authors'
+# require './rm_crawl_authors.rb'
+#
+# puts '=========================================='
+# puts 'rm_crawl_artwork_dimensions.rb'
+# require './rm_crawl_artwork_dimensions.rb'
 
-puts "\nrm_crawl_artwork_ownerships\n"
-require './rm_crawl_artwork_ownerships.rb'
+puts '=========================================='
+puts 'rm_crawl_artworks'
+require './rm_crawl_artworks.rb'
 
-puts "\nrm_crawl_genres\n"
-require './rm_crawl_genres.rb'
-
-puts "rm_crawl_authors\n"
-require './rm_crawl_authors.rb'
 
 # we already crawled all the images from rmgallery
 # puts "\nrm_crawl_images\n"
 # require './rm_crawl_images.rb'
-
-puts "\nrm_crawl_artwork_dimensions.rb\n"
-require './rm_crawl_artwork_dimensions.rb'
-
-puts "\nrm_crawl_artworks\n"
-require './rm_crawl_artworks.rb'
-
-puts "\nrm_crawl_dates\n"
-require './rm_crawl_dates.rb'
-
-puts "\nrm_enrichment_builder\n"
-require './rm_enrichment_builder.rb'

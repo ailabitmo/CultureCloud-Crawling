@@ -23,6 +23,7 @@ def open_html(url)
   # http.read_timeout = 10
   begin
     response = http.get(uri.path, 'User-Agent' => @user_agent)
+    return nil if response.code == '500'
   rescue Net::OpenTimeout
     puts 'open_html: Net::OpenTimeout exception. Retrying...'
     retry
@@ -45,6 +46,10 @@ def get_artwork_ids()
   artworks_ids
 end
 
+def get_cached_artwork_page(artwork_id, language)
+  IO.read("./rmgallery_site/objects/#{language}/#{artwork_id}.html")
+end
+
 @rdf_prefixes = {
     :xsd  => XSD.to_uri,
     :rdf  => RDF.to_uri,
@@ -52,13 +57,13 @@ end
     :owl  => OWL.to_uri,
     :skos  => SKOS.to_uri,
     :dc  => DC.to_uri,
-    #:dbp =>  "http://dbpedia.org/resource/",
+    :dbp =>  "http://dbpedia.org/resource/",
     #'dbp-ru' => "http://ru.dbpedia.org/resource/",
-    'ecrm' => RDF::URI.new('http://erlangen-crm.org/current/'),
-    'rm-lod' => RDF::URI.new('http://rm-lod.org/'),
-    'rm-lod-schema' => "http://rm-lod.org/schema/",
+    :ecrm => RDF::URI.new('http://erlangen-crm.org/current/'),
+    :cc => RDF::URI.new('http://culturecloud.ru/id/'),
+    :cc_schema => RDF::URI.new('http://culturecloud.ru/schema/'),
 }
 
-@ecrm = RDF::Vocabulary.new('http://erlangen-crm.org/current/') # remove it?
-@ecrmVocabulary = RDF::Vocabulary.new(@rdf_prefixes['ecrm'])
-@rmlodVocabulary = RDF::Vocabulary.new(@rdf_prefixes['rm-lod-schema'])
+@ecrm = RDF::Vocabulary.new(@rdf_prefixes[:ecrm]) # remove it? <- I think it is used somewhere
+@ecrmVocabulary = RDF::Vocabulary.new(@rdf_prefixes[:ecrm])
+@rmlodVocabulary = RDF::Vocabulary.new(@rdf_prefixes[:cc_schema])

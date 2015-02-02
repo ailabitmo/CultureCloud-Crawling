@@ -13,44 +13,44 @@ include RDF
 
 gen_statement = lambda do |genre, object_id|
   genre_uri = RDF::URI.new(genre)
-  object_uri = RDF::URI.new("http://rm-lod.org/object/#{object_id}")
+  object_uri = RDF::URI.new("http://culturecloud.ru/id/object/#{object_id}")
   RDF::Statement(object_uri, @p2_has_type, genre_uri)
 end
 
 @genre_to_uri = {
-    'абстракция' => gen_statement.curry.('http://rm-lod.org/thesauri/abstraction'),
+    'абстракция' => gen_statement.curry.('http://culturecloud.ru/id/thesauri/abstraction'),
     'аллегория' => gen_statement.curry.('http://collection.britishmuseum.org/id/thesauri/x13251'),
     'анималистика' => gen_statement.curry.('http://collection.britishmuseum.org/id/thesauri/x12469'),
     'батальный жанр' => gen_statement.curry.('http://collection.britishmuseum.org/id/thesauri/x12993'),
     'библейский сюжет' => gen_statement.curry.('http://collection.britishmuseum.org/id/thesauri/x12542'),
     'бытовой жанр' => gen_statement.curry.('http://collection.britishmuseum.org/id/thesauri/x12718'),
-    'иллюстрация' => gen_statement.curry.('http://rm-lod.org/thesauri/illustration'),
-    'интерьер' => gen_statement.curry.('http://rm-lod.org/thesauri/abstraction'),
+    'иллюстрация' => gen_statement.curry.('http://culturecloud.ru/id/thesauri/illustration'),
+    'интерьер' => gen_statement.curry.('http://culturecloud.ru/id/thesauri/abstraction'),
     'исторический сюжет' => gen_statement.curry.('http://collection.britishmuseum.org/id/thesauri/x12859'),
-    'карикатура' => gen_statement.curry.('http://rm-lod.org/thesauri/caricature'),
+    'карикатура' => gen_statement.curry.('http://culturecloud.ru/id/thesauri/caricature'),
     'мифологический сюжет' => gen_statement.curry.('http://collection.britishmuseum.org/id/thesauri/x13025'),
     'натюрморт' => gen_statement.curry.('http://collection.britishmuseum.org/id/thesauri/x13409'),
     'пейзаж' => gen_statement.curry.('http://collection.britishmuseum.org/id/thesauri/x12934'),
-    'портрет' => gen_statement.curry.('http://collection.britishmuseum.org/id/thesauri/x13360'),
-    'театральная декорация' => gen_statement.curry.('http://rm-lod.org/thesauri/theatrical_scenery'),
+    'портрет' => gen_statement.curry.('http://culturecloud.ru/id/thesauri/portrait'),
+    'театральная декорация' => gen_statement.curry.('http://culturecloud.ru/id/thesauri/theatrical_scenery'),
 }
 
 @genres_hash = {
-    'абстракция' => RDF::URI.new('http://rm-lod.org/thesauri/abstraction'),
+    'абстракция' => RDF::URI.new('http://culturecloud.ru/id/thesauri/abstraction'),
     'аллегория' => RDF::URI.new('http://collection.britishmuseum.org/id/thesauri/x13251'),
     'анималистика' => RDF::URI.new('http://collection.britishmuseum.org/id/thesauri/x12469'),
     'батальный жанр' => RDF::URI.new('http://collection.britishmuseum.org/id/thesauri/x12993'),
     'библейский сюжет' => RDF::URI.new('http://collection.britishmuseum.org/id/thesauri/x12542'),
     'бытовой жанр' => RDF::URI.new('http://collection.britishmuseum.org/id/thesauri/x12718'),
-    'иллюстрация' => RDF::URI.new('http://rm-lod.org/thesauri/illustration'),
-    'интерьер' => RDF::URI.new('http://rm-lod.org/thesauri/abstraction'),
+    'иллюстрация' => RDF::URI.new('http://culturecloud.ru/id/thesauri/illustration'),
+    'интерьер' => RDF::URI.new('http://culturecloud.ru/id/thesauri/abstraction'),
     'исторический сюжет' => RDF::URI.new('http://collection.britishmuseum.org/id/thesauri/x12859'),
-    'карикатура' => RDF::URI.new('http://rm-lod.org/thesauri/caricature'),
+    'карикатура' => RDF::URI.new('http://culturecloud.ru/id/thesauri/caricature'),
     'мифологический сюжет' => RDF::URI.new('http://collection.britishmuseum.org/id/thesauri/x13025'),
     'натюрморт' => RDF::URI.new('http://collection.britishmuseum.org/id/thesauri/x13409'),
     'пейзаж' => RDF::URI.new('http://collection.britishmuseum.org/id/thesauri/x12934'),
-    'портрет' => RDF::URI.new('http://collection.britishmuseum.org/id/thesauri/x13360'),
-    'театральная декорация' => RDF::URI.new('http://rm-lod.org/thesauri/theatrical_scenery'),
+    'портрет' => RDF::URI.new('http://culturecloud.ru/id/thesauri/portrait'),
+    'театральная декорация' => RDF::URI.new('http://culturecloud.ru/id/thesauri/theatrical_scenery'),
 }
 
 @graph = RDF::Graph.new(:format => :ttl)

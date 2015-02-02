@@ -10,7 +10,6 @@ BilingualLabel = Struct.new(:en, :ru)
 @artworks_notes_ttl = RDF::Graph.load('rm_artwork_notes.ttl')
 artworks = Set.new
 
-artworksLabels = Hash.new
 artworksNotes = Hash.new
 
 #TODO: use get_artworks_ids() instead of this
