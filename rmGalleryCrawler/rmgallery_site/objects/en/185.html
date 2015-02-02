@@ -1,0 +1,247 @@
+﻿<!DOCTYPE html> 
+<html> 
+﻿<head> 
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title></title>
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<link rel="stylesheet" href="/jquery.mobile-1.3.0.min.css" />
+	
+	<script src="/jquery-1.9.1.min.js"></script>
+	<script src="/jquery.mobile-1.3.0.min.js"></script>
+<script>
+$(document).bind("mobileinit", function(){
+    $.mobile.defaultPageTransition = 'none';
+    $.mobile.ajaxenabled = false;
+});
+</script>
+<style>
+body, html
+{
+	width: 100%;
+	height: 100%;
+	color: #2e3891;
+	background-color: #ffffff;
+	font-family: Arial, Verdana;
+	Font-size: 14px;
+	margin: 0px;
+}
+.htop
+{
+	border-width: 0px 0px 2px 0px;
+	border-style: solid;
+	border-color: #2e3891;
+	width: 100%;
+	height: 32px;
+}
+.hbot
+{
+	border-width: 2px 0px 0px 0px;
+	border-style: solid;
+	border-color: #2e3891;
+	width: 100%;
+
+}
+
+.htl
+{
+	width: 33px;
+	height: 32px;
+	
+}
+.htr
+{
+	width: 33px;
+	height: 32px;
+}
+.htc, .htc a
+{
+	width: 100%;
+	text-align: center;
+	height: 32px;
+	font-weight: bold;
+	font-size: 18px;
+	text-decoration: none;
+}
+.htl, .htc, .htr
+{
+	border-width: 0px 0px 2px 0px;
+	border-style: solid;
+	border-color: #2e3891;
+}
+.htb
+{
+	border-width: 2px 0px 0px 0px;
+	border-style: solid;
+	border-color: #2e3891;
+	padding: 4px;
+}
+.btnblock
+{
+	width: 100%;
+	text-align:center; 
+	align: center;
+	
+}
+.b2
+{
+margin-bottom: 20px;
+}
+.btn
+{
+	align: center;
+	background-color: #e6a227;
+	text-color: #2e3891;
+	color: #2e3891;
+	width: 80%;
+	padding: 6px;
+	margin: 6px;
+}
+.btn a
+{
+	text-decoration: none;
+	font-size: 18px;
+	text-color: #2e3891;
+	color: #2e3891;
+}
+.sth
+{
+	color: #f0f0f0;
+	text-color: #f0f0f0;
+	text-decoration: none;
+}
+a.sth:visited
+{
+	color: #f0f0f0;
+	text-color: #f0f0f0;
+}
+div.ptxt, div.ptxt p, div.paddr, div.paddr p
+{
+	trxt-align: left;
+}
+.ui-icon-vficon {
+	background-image: url("/img/vf.png");
+}
+
+.ui-bar-b {
+	border: 1px solid #b3b3b3 /*{b-bar-border}*/;
+	background: #4f6bb3 /*{b-bar-background-color}*/;
+	color: #ffffff /*{b-bar-color}*/;
+	font-weight: bold;
+	text-shadow: 0 /*{b-bar-shadow-x}*/ 0px /*{b-bar-shadow-y}*/ 0 /*{b-bar-shadow-radius}*/ #ffffff /*{b-bar-shadow-color}*/;
+	background-image: -webkit-gradient(linear, left top, left bottom, from( #a2b2dc /*{b-bar-background-start}*/), to( #4b65aa /*{b-bar-background-end}*/)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient( #a2b2dc /*{b-bar-background-start}*/, #4b65aa /*{b-bar-background-end}*/); /* Chrome 10+, Saf5.1+ */
+	background-image:    -moz-linear-gradient( #a2b2dc /*{b-bar-background-start}*/, #4b65aa /*{b-bar-background-end}*/); /* FF3.6 */
+	background-image:     -ms-linear-gradient( #a2b2dc /*{b-bar-background-start}*/, #4b65aa /*{b-bar-background-end}*/); /* IE10 */
+	background-image:      -o-linear-gradient( #a2b2dc /*{b-bar-background-start}*/, #4b65aa /*{b-bar-background-end}*/); /* Opera 11.10+ */
+	background-image:         linear-gradient( #a2b2dc /*{b-bar-background-start}*/, #4b65aa /*{b-bar-background-end}*/);
+}
+
+.ui-header .ui-title {
+  overflow: visible !important;
+  white-space: normal !important;
+  margin: 6px;
+}
+.ui-body-c{
+{
+	background: #e4e4e4;
+}
+</style>
+</head>
+<body>
+<div data-role="page">
+<div data-role="header" data-theme="b" data-position="fixed">
+<h1 style="vertical-align:middle; height:44px;"><img src="/img/rm2.png" class="ui-btn-left" style="padding-left:8px;"><img src="/img/vf2.png"  class="ui-btn-right" style="padding-right:8px;"><a href="/en/" style="text-decoration: none;" data-transition="none">Russian Museum <br>Augmented Reality</a></h1>
+</div><!-- /header -->
+<div data-role="content">
+<div align=center><form method=get data-ajax="false" data-transition="none" action="/en/search"><table cellpadding=4><tr><td><input style="max-width: 200px;" data-mini="true" name="searchword"></td><td width=110><button type="submit" name="submit" value="" data-icon="search"  data-transition="none">Search</button></td></tr></table></form></div>
+<div data-role="navbar"  data-theme="b">
+<ul data-theme="b">
+<li><a href="/en/author"  data-transition="none" class="">Authors</a></li>
+<li><a href="/en/genre"  data-transition="none" class="">Genres</a></li>
+<li><a href="/en/type"  data-transition="none" class="">Types</a></li>
+<li><a href="/en/project"  data-transition="none" class="">Projects</a></li>
+</ul>
+</div><!-- /navbar --><table width=100% cellpadding=8 cellspacing=0><tr><td align=center>
+
+<center><script type="text/javascript" src="//yandex.st/share/share.js" charset="utf-8"></script>
+<div class="yashare-auto-init" data-yashareL10n="ru" data-yashareQuickServices="vkontakte,facebook,twitter" data-yashareTheme="counter"></div> </center>
+</td></tr></table>
+
+<h2 align=center></h2><script>
+var sel_img_id=0;
+function chimg(t, imgid)
+{
+	
+	im=document.getElementById("mainimg");
+	im.src=t.src.replace("/small/","/medium/");
+	if (sel_img_id>0)
+	{
+		oldtitleobj=document.getElementById("t_"+sel_img_id);
+		olddescrobj=document.getElementById("d_"+sel_img_id);
+		if (oldtitleobj!=null) oldtitleobj.style.display='none';
+		if (olddescrobj!=null) olddescrobj.style.display='none';
+	}
+	if (imgid>0)
+	{
+		titleobj=document.getElementById("t_"+imgid);
+		descrobj=document.getElementById("d_"+imgid);
+		if (titleobj!=null) titleobj.style.display='block';
+		if (descrobj!=null) descrobj.style.display='block';
+	}
+	sel_img_id=imgid;
+}
+</script>
+<div align=center><img id="mainimg" width=95% src="http://rmgallery.ru/files/medium/185_98.jpg" align=center/></div>
+
+
+<p><b><a href="/en/735" data-transition="none">Malevich Kazimir </a><br/><br/>142 x 164<br/></b></p>
+
+<div data-role="collapsible-set">
+<div data-role="collapsible"><h3>Author's Biogrphy</h3><h2>Malevich Kazimir </h2><p>Malevich, Kazimir Severinovich<br/>1878, Kiev - 1935, Leningrad<br/>Painter, graphic artist, writer on art, portraitist, landscapist, abstractionist. Studied at the Kiev School of Art (1895-96) and Fyodor Roehrberg''s studio in Moscow (1906-10). Contributed to exhibitions (from 1905). Contributed to the exhibitions of the Moscow Fellowship of Artists (from 1907), Donkey''s Tail (1912), Target (1913), Der blaue Reiter (1912), Salon des Independants (1914), Tramcar V. First Futurist Exhibition (1915) and 0,10. Last Futurist Exhibition (1915-16). Designed the sets and costumes for the Futurist opera Victory Over the Sun (1913). Member of the Union of Youth (1910) and Jack of Diamonds (1910, 1916). Founded the AFFIRMES OF THE NEW ARTgroup (1920). Worked for Department of An, People''s Commissariat of Education (1918-19). Director of the Museum/Institute of Artistic Culture in Petrograd/Leningrad (1923-26). <br/></p></div>
+</div>
+
+
+
+
+<br></div><!-- /content -->
+<div data-role="footer" data-theme="b"  data-position="fixed" style="padding: 6px;">&copy; <a href="http://www.rusmuseum.ru/" data-transition="none" data-role="none" style="color: #f0f0f0;">Russian museum</a> 2013</div> 
+</div><!-- /page -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-45522978-1', 'rmgallery.ru');
+  ga('send', 'pageview');
+
+</script>
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+(function (d, w, c) {
+    (w[c] = w[c] || []).push(function() {
+        try {
+            w.yaCounter22849291 = new Ya.Metrika({id:22849291,
+                    webvisor:true,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true});
+        } catch(e) { }
+    });
+
+    var n = d.getElementsByTagName("script")[0],
+        s = d.createElement("script"),
+        f = function () { n.parentNode.insertBefore(s, n); };
+    s.type = "text/javascript";
+    s.async = true;
+    s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+
+    if (w.opera == "[object Opera]") {
+        d.addEventListener("DOMContentLoaded", f, false);
+    } else { f(); }
+})(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="//mc.yandex.ru/watch/22849291" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+</body>
+</html>
