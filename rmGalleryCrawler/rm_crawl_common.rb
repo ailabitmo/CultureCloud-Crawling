@@ -30,6 +30,13 @@ def open_html(url)
   response.body
 end
 
+def UrlAvailable?(urlStr)
+  url = URI.parse(urlStr)
+  Net::HTTP.start(url.host, url.port) do |http|
+    return http.head(url.request_uri).code == "200"
+  end
+end
+
 # Get final Url After Redirects
 def getFinalUrl(url)
     return Net::HTTP.get_response(URI(url))['location']

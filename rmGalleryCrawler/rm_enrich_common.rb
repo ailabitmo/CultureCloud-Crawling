@@ -1,13 +1,17 @@
 # encoding: utf-8
 
-require './rm_crawl_common.rb'
 require 'colorize'
 
+# Get final Url After Redirects
+def getFinalUrl(url)
+    return Net::HTTP.get_response(URI(url))['location']
+end
 
 # transform wikipedia link to dbpedia resource link
 def wikipediaToDBbpedia(wikipedia)
     if ((wikipedia.nil?) or (wikipedia.empty?)) then return nil end
     #TODO: check string with regexp
+    if !(wikipedia.start_with?("http://en.wikipedia.org/wiki/")) then return nil end    
     url_key = wikipedia.split('/').last
     return "http://dbpedia.org/resource/" + url_key
 end
