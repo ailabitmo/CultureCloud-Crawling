@@ -10,8 +10,8 @@ require 'rdf/turtle'
 
 @ecrmPrefix = "http://erlangen-crm.org/current/"
 @ecrmVocabulary = RDF::Vocabulary.new(@ecrmPrefix)
-@artwork_ownerships_ttl = RDF::Graph.load('rm_artwork_ownerships.ttl')
-@genres_ttl = RDF::Graph.load('rm_genres.ttl')
+@artwork_ownerships_ttl = RDF::Graph.load('../results/rmgallery_artwork_ownerships.ttl')
+@genres_ttl = RDF::Graph.load('../results/rmgallery_genres.ttl')
 
 puts "rm_genres.ttl and rm_artwork_ownerships.ttl should be in the same folder"
 puts "enter save path:"

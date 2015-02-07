@@ -1,13 +1,13 @@
 # encoding: utf-8
 
 require 'json'
-require './rm_enrich_common.rb'
+require '../rm_enrich_common.rb'
 
 BilingualLabel = Struct.new(:en, :ru)
 @localeLabels = BilingualLabel.new("en","ru")
 
-@artworks_ttl = RDF::Graph.load('rm_artwork_objects.ttl')
-@artworks_notes_ttl = RDF::Graph.load('rm_artwork_notes.ttl')
+@artworks_ttl = RDF::Graph.load('../results/rmgallery_artwork_objects.ttl')
+@artworks_notes_ttl = RDF::Graph.load('../results/rmgallery_artwork_notes.ttl')
 artworks = Set.new
 
 artworksLabels = Hash.new
@@ -24,7 +24,7 @@ RDF::Query::Pattern.new(:s, RDF.type,@ecrmVocabulary['E22_Man-Made_Object']).exe
     artworks << workURI
 }
 
-artworks_notes_ttl_path = "rm_artworks_annotations.ttl"
+artworks_notes_ttl_path = "../results/rmgallery_artworks_annotations.ttl"
 if (File.exists?(artworks_notes_ttl_path))
 then
     artworks_notes_ttl = RDF::Graph.load(artworks_notes_ttl_path)

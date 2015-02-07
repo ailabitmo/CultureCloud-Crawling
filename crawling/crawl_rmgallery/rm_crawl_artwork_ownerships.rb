@@ -63,7 +63,7 @@ end
 puts
 puts '== Writing file =='
 puts
-file = File.new('rm_artwork_ownerships.ttl', 'w')
+file = File.new('../results/rmgallery_artwork_ownerships.ttl', 'w')
 file.write(@graph.dump(:ttl))
 file.close
 puts 'Done!'

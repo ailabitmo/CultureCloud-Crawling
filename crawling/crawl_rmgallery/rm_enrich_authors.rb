@@ -1,13 +1,13 @@
 # encoding: utf-8
 
 require 'json'
-require './rm_enrich_common.rb'
+require '../rm_enrich_common.rb'
 
 BilingualLabel = Struct.new(:en, :ru)
 @localeLabels = BilingualLabel.new("en","ru")
 
-@persons_ttl = RDF::Graph.load('rm_persons.ttl')
-@persons_notes_ttl = RDF::Graph.load('rm_persons_notes.ttl')
+@persons_ttl = RDF::Graph.load('../results/rmgallery_persons.ttl')
+@persons_notes_ttl = RDF::Graph.load('../results/rmgallery_persons_notes.ttl')
 
 puts "Working with persons. Enter action number"
 puts "1. Generate dbp-same-as"
@@ -35,14 +35,14 @@ RDF::Query::Pattern.new(:s, RDF.type,@ecrmVocabulary[:E21_Person]).execute(@pers
     persons << personURI
 }
 
-persons_sameas_ttl_path = "rm_persons_sameas.ttl"
+persons_sameas_ttl_path = "../results/rmgallery_persons_sameas.ttl"
 if (File.exists?(persons_sameas_ttl_path))
 then
     persons_sameas_ttl = RDF::Graph.load(persons_sameas_ttl_path)
 else
     persons_sameas_ttl = RDF::Graph.new(:format => :ttl)
 end
-persons_notes_ttl_path = "rm_persons_annotations.ttl"
+persons_notes_ttl_path = "../results/rmgallery_persons_annotations.ttl"
 if (File.exists?(persons_notes_ttl_path))
 then
     persons_notes_ttl = RDF::Graph.load(persons_notes_ttl_path)

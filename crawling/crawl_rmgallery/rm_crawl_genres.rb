@@ -1,4 +1,4 @@
-require './rm_crawl_common.rb'
+require '../rm_crawl_common.rb'
 require 'nokogiri'
 require 'rdf/turtle'
 require 'net/http'
@@ -74,7 +74,7 @@ end
 @artwork_ids = (Proc.new {
   artworks_ids = Set.new
   RDF::Query::Pattern.new(:s, RDF::URI.new('http://erlangen-crm.org/current/P14_carried_out_by'), :o).
-      execute(RDF::Graph.load('rm_artwork_ownerships.ttl')).each do |statement|
+      execute(RDF::Graph.load('../results/rmgallery_artwork_ownerships.ttl')).each do |statement|
     artworks_ids << /\d+/.match(statement.subject)[0]
   end
   artworks_ids
@@ -112,7 +112,7 @@ puts
   @graph_titles << [uri,SKOS.prefLabel,RDF::Literal.new(title, :language => :ru)]  
 }
 
-file = File.new('rm_genres_titles.ttl', 'w')
+file = File.new('../results/rmgallery_genres_titles.ttl', 'w')
 file.write(@graph_titles.dump(:ttl, :prefixes => @rdf_prefixes))
 file.close
 
@@ -120,7 +120,7 @@ file.close
 puts
 puts '== Writing file =='
 puts
-file = File.new('rm_genres.ttl', 'w')
+file = File.new('../results/rmgallery_genres.ttl', 'w')
 file.write(@graph.dump(:ttl))
 file.close
 puts 'Done!'

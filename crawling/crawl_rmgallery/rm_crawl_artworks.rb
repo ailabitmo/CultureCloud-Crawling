@@ -207,8 +207,8 @@ end
 @graph_titles = RDF::Graph.new(:format => :ttl)
 @graph_dates = RDF::Graph.new(:format => :ttl)
 
-@artwork_ownerships_ttl = RDF::Graph.load('rm_artwork_ownerships.ttl')
-@genres_ttl = RDF::Graph.load('rm_genres.ttl')
+@artwork_ownerships_ttl = RDF::Graph.load('../results/rmgallery_artwork_ownerships.ttl')
+@genres_ttl = RDF::Graph.load('../results/rmgallery_genres.ttl')
 
 artworksIds = Set.new
 RDF::Query::Pattern.new(:s, @ecrmVocabulary['P14_carried_out_by'], :o).execute(@artwork_ownerships_ttl).each { |statement|
@@ -333,37 +333,37 @@ puts '== Writing files =='
 puts
 
 puts '== graph_notes =='
-file = File.new('rm_artwork_notes.ttl', 'w')
+file = File.new('../results/rmgallery_artwork_notes.ttl', 'w')
 file.write(@graph_notes.dump(:ttl, :prefixes => @rdf_prefixes))
 file.close
 
 puts '== graph_images =='
-file = File.new('rm_artwork_images.ttl', 'w')
+file = File.new('../results/rmgallery_artwork_images.ttl', 'w')
 file.write(@graph_images.dump(:ttl, :prefixes => @rdf_prefixes))
 file.close
 
 puts '== graph_artwork =='
-file = File.new('rm_artwork_objects.ttl', 'w')
+file = File.new('../results/rmgallery_artwork_objects.ttl', 'w')
 file.write(@graph_artwork.dump(:ttl, :prefixes => @rdf_prefixes))
 file.close
 
 puts '== graph_materials =='
-file = File.new('rm_artwork_materials.ttl', 'w')
+file = File.new('../results/rmgallery_artwork_materials.ttl', 'w')
 file.write(@graph_materials.dump(:ttl, :prefixes => @rdf_prefixes))
 file.close
 
 puts '== graph_representation =='
-file = File.new('rm_artwork_representation.ttl', 'w')
+file = File.new('../results/rmgallery_artwork_representation.ttl', 'w')
 file.write(@graph_representation.dump(:ttl, :prefixes => @rdf_prefixes))
 file.close
 
 puts '== graph_titles =='
-file = File.new('rm_artwork_titles.ttl', 'w')
+file = File.new('../results/rmgallery_artwork_titles.ttl', 'w')
 file.write(@graph_titles.dump(:ttl, :prefixes => @rdf_prefixes))
 file.close
 
 puts '== graph_dates =='
-file = File.new('rm_artwork_dates.ttl', 'w')
+file = File.new('../results/rmgallery_artwork_dates.ttl', 'w')
 file.write(@graph_dates.dump(:ttl, :prefixes => @rdf_prefixes))
 file.close
 puts 'Done!'

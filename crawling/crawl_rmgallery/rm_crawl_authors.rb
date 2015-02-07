@@ -21,7 +21,7 @@ def open_html (url)
   response.body
 end
 
-@artwork_ownerships = RDF::Graph.load('rm_artwork_ownerships.ttl')
+@artwork_ownerships = RDF::Graph.load('../results/rmgallery_artwork_ownerships.ttl')
 
 def crawl_bio(object_id)
   bio = Hash.new
@@ -141,13 +141,13 @@ end
 puts
 puts '== Writing file =='
 puts
-file = File.new('rm_persons.ttl', 'w')
+file = File.new('../results/rmgallery_persons.ttl', 'w')
 file.write(@graph.dump(:ttl, :prefixes => @prefixes))
 file.close
 puts
 puts '== Writing notes =='
 puts
-file = File.new('rm_persons_notes.ttl', 'w')
+file = File.new('../results/rmgallery_persons_notes.ttl', 'w')
 file.write(@graph_notes.dump(:ttl, :prefixes => @prefixes))
 file.close
 puts 'Done!'

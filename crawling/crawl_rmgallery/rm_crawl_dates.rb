@@ -1,4 +1,4 @@
-require './rm_crawl_common'
+require '../rm_crawl_common'
 require 'json'
 
 @dates = Hash.new
@@ -168,6 +168,6 @@ puts "\nGenerating graph triples"
 end
 
 puts "Writing rm_artwork_dates.ttl\n"
-File.open('rm_artwork_dates.ttl', 'w') do |f|
+File.open('../results/rmgallery_artwork_dates.ttl', 'w') do |f|
   f << @graph.dump(:ttl, :prefixes => @rdf_prefixes)
 end
