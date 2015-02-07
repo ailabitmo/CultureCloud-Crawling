@@ -6,8 +6,8 @@ require 'unicode'
 require 'set'
 include RDF
 
-@ecrmPrefix = "http://erlangen-crm.org/current/"
-@ecrmVocabulary = RDF::Vocabulary.new(@ecrmPrefix)
+@ecrm_prefix = "http://erlangen-crm.org/current/"
+@ecrm_vocabulary = RDF::Vocabulary(@ecrm_prefix)
 
 @p2_has_type = RDF::URI.new('http://erlangen-crm.org/current/P2_has_type')
 
@@ -108,7 +108,7 @@ puts
 
 @genres_hash.each { |title,uri|
   @graph_titles << [uri,RDF.type,SKOS.Concept]
-  @graph_titles << [uri,RDF.type,@ecrmVocabulary['E55_Type']]                  
+  @graph_titles << [uri,RDF.type,@ecrm_vocabulary['E55_Type']]
   @graph_titles << [uri,SKOS.prefLabel,RDF::Literal.new(title, :language => :ru)]  
 }
 

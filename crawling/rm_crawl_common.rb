@@ -11,8 +11,8 @@ require 'rdf/xsd'
 include RDF
 require 'securerandom'
 
-def getRandomString()
-    return SecureRandom.urlsafe_base64(5)
+def get_random_string
+  SecureRandom.urlsafe_base64(5)
 end
 
 @user_agent = 'Mozilla/5.0 (Windows NT 6.3; rv:36.0) Gecko/20100101 Firefox/36.0'
@@ -30,16 +30,16 @@ def open_html(url)
   response.body
 end
 
-def UrlAvailable?(urlStr)
-  url = URI.parse(urlStr)
+def url_available?(url_str)
+  url = URI.parse(url_str)
   Net::HTTP.start(url.host, url.port) do |http|
     return http.head(url.request_uri).code == "200"
   end
 end
 
 # Get final Url After Redirects
-def getFinalUrl(url)
-    return Net::HTTP.get_response(URI(url))['location']
+def get_final_url(url)
+    Net::HTTP.get_response(URI(url))['location']
 end
 
 def get_artwork_ids()
@@ -66,6 +66,6 @@ end
     'rm-lod-schema' => "http://rm-lod.org/schema/",
 }
 
-@ecrm = RDF::Vocabulary.new('http://erlangen-crm.org/current/') # remove it?
-@ecrmVocabulary = RDF::Vocabulary.new(@rdf_prefixes['ecrm'])
-@rmlodVocabulary = RDF::Vocabulary.new(@rdf_prefixes['rm-lod-schema'])
+@ecrm = RDF::Vocabulary('http://erlangen-crm.org/current/') # remove it?
+@ecrm_vocabulary = RDF::Vocabulary(@rdf_prefixes['ecrm'])
+@rmlod_vocabulary = RDF::Vocabulary(@rdf_prefixes['rm-lod-schema'])

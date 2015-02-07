@@ -13,7 +13,7 @@ def open_html(url)
   begin
     response = http.get(uri.path)
   rescue Net::OpenTimeout
-    puts 'Catched new Net::OpenTimeout exception. Press return to retry (recommended) or Ctrl+C to interrupt (the data will be lost in that case).'
+    puts 'Caught new Net::OpenTimeout exception. Press return to retry (recommended) or Ctrl+C to interrupt (the data will be lost in that case).'
     retry
   end
   response.body
@@ -29,7 +29,7 @@ end
 }).call
 puts 'IDs loaded'
 
-@ecrm = RDF::Vocabulary.new('http://erlangen-crm.org/current/')
+@ecrm = RDF::Vocabulary('http://erlangen-crm.org/current/')
 @graph = RDF::Graph.new(:format => :ttl)
 @bmthes_width = RDF::URI.new('http://collection.britishmuseum.org/id/thesauri/dimension/width')
 @bmthes_height = RDF::URI.new('http://collection.britishmuseum.org/id/thesauri/dimension/height')

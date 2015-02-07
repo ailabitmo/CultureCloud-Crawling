@@ -3,6 +3,7 @@ require 'rdf/xsd'
 require 'sparql/client'
 require 'sparql'
 
+#TODO: do we really should send exactly this parameters?
 @sparql = SPARQL::Client.new('http://192.168.1.100:9999/bigdata/sparql', :read_timeout => 3600)
 # @sparql = SPARQL::Client.new('http://heritage.vismart.biz/sparql', :read_timeout => 3600)
 
