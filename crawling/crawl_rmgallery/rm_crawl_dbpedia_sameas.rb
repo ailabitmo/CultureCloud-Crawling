@@ -1,5 +1,5 @@
 # encoding: utf-8
-require '../rm_crawl_common'
+require './rm_crawl_common'
 require 'sparql/client'
 require 'json'
 include RDF
@@ -88,7 +88,7 @@ puts 'Writing graph'
       @graph << [RDF::URI.new(rm_person_uri), OWL.sameAs, RDF::URI.new(sameAs)]
   end
 end
-File.open('../results/rmgallery_persons_sameas.ttl', 'w') do |f|
+File.open('rm_persons_sameas.ttl', 'w') do |f|
   f << @graph.dump(:ttl, :prefixes => @rdf_prefixes)
 end
 

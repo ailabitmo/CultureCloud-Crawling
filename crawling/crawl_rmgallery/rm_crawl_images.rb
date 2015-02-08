@@ -8,23 +8,24 @@ require 'open-uri'
 require 'rdf'
 require 'rdf/turtle'
 
-@ecrm_prefix = "http://erlangen-crm.org/current/"
-@ecrm_vocabulary = RDF::Vocabulary(@ecrm_prefix)
-@artwork_ownerships_ttl = RDF::Graph.load('../results/rmgallery_artwork_ownerships.ttl')
-@genres_ttl = RDF::Graph.load('../results/rmgallery_genres.ttl')
+@ecrmPrefix = "http://erlangen-crm.org/current/"
+@ecrmVocabulary = RDF::Vocabulary.new(@ecrmPrefix)
+@artwork_ownerships_ttl = RDF::Graph.load('rm_artwork_ownerships.ttl')
+@genres_ttl = RDF::Graph.load('rm_genres.ttl')
 
 puts "rm_genres.ttl and rm_artwork_ownerships.ttl should be in the same folder"
 puts "enter save path:"
 savepath = gets.strip
-if File.directory? File.expand_path(savepath)
-    artworks_ids = Set.new
-    RDF::Query::Pattern.new(:s, @ecrm_vocabulary['P14_carried_out_by'], :o).execute(@artwork_ownerships_ttl).each { |statement|
-        artworks_ids << /\d+/.match(statement.subject)[0]
+if (File.directory? File.expand_path(savepath))
+then
+    artworksIds = Set.new
+    RDF::Query::Pattern.new(:s, @ecrmVocabulary['P14_carried_out_by'], :o).execute(@artwork_ownerships_ttl).each { |statement|
+        artworksIds << /\d+/.match(statement.subject)[0]
     }
     i=1
-    artworks_ids.to_a.each { |artworksId|
+    artworksIds.to_a.each { |artworksId|
         puts "#{i}.artworkID: #{artworksId}"
-        if savepath[-1, 1]=="/"
+        if (savepath[-1,1]=="/")
         then
             savepath.chop!                  
         end
