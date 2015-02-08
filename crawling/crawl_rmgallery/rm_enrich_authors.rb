@@ -84,9 +84,9 @@ persons.to_a.each { |personURI|
                 if !(json_annotation.empty?)
                 then
                     annotation_uri = RDF::URI.new("#{personURI}/annotation/#{getRandomString}")
-                    persons_notes_ttl << [personURI, @rmlodVocabulary[:has_annotation], annotation_uri]
+                    persons_notes_ttl << [personURI, @rmlod_vocabulary[:has_annotation], annotation_uri]
                     persons_notes_ttl << [annotation_uri, DC.language, locale]
-                    persons_notes_ttl << [annotation_uri, RDF.type, @rmlodVocabulary[:AnnotationObject]]
+                    persons_notes_ttl << [annotation_uri, RDF.type, @rmlod_vocabulary[:AnnotationObject]]
 =begin
 
 =begin
@@ -99,7 +99,7 @@ persons.to_a.each { |personURI|
 =end
                     json_annotation["Resources"].each { |json_res|
                         res_uri = RDF::URI.new(json_res["@URI"])
-                        persons_notes_ttl << [annotation_uri, @rmlodVocabulary[:dbpRes], res_uri]
+                        persons_notes_ttl << [annotation_uri, @rmlod_vocabulary[:dbpRes], res_uri]
 =begin
                         res_uri = RDF::URI.new("#{annotation_uri}/dbp-res/#{json_res["@URI"].split('/').last}")
                         persons_notes_ttl << [annotation_uri, @rmlodVocabulary[:includes_resource], res_uri]

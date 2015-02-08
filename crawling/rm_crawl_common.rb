@@ -72,9 +72,9 @@ end
     'dbpedia' => @dbpedia_ontology_prefix
 }
 
-@ecrm = RDF::Vocabulary('http://erlangen-crm.org/current/') # remove it?
-@ecrm_vocabulary = RDF::Vocabulary(@rdf_prefixes['ecrm'])
-@rmlod_vocabulary = RDF::Vocabulary(@rdf_prefixes['rm-lod-schema'])
+@ecrm = RDF::Vocabulary.new('http://erlangen-crm.org/current/') # remove it?
+@ecrm_vocabulary = RDF::Vocabulary.new(@rdf_prefixes['ecrm'])
+@rmlod_vocabulary = RDF::Vocabulary.new(@rdf_prefixes['rm-lod-schema'])
 @dbpedia_vocabulary = RDF::Vocabulary.new(@dbpedia_ontology_prefix)
 
 
