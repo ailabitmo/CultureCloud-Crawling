@@ -15,7 +15,7 @@ def open_html (url)
   begin
     response = http.get(uri.path)
   rescue Net::OpenTimeout
-    puts 'Catched new Net::OpenTimeout exception. Press return to retry (recommended) or Ctrl+C to interrupt (all data will be lost in that case).'
+    puts 'Caught new Net::OpenTimeout exception.'
     retry
   end
   response.body

@@ -52,6 +52,11 @@ def get_artwork_ids()
   artworks_ids
 end
 
+@dbpedia_host = "http://dbpedia.org"
+@dbpedia_resource_prefix = "#{@dbpedia_host}/resource"
+@dbpedia_ontology_prefix = "#{@dbpedia_host}/ontology/"
+
+
 @rdf_prefixes = {
     :xsd  => XSD.to_uri,
     :rdf  => RDF.to_uri,
@@ -64,8 +69,12 @@ end
     'ecrm' => RDF::URI.new('http://erlangen-crm.org/current/'),
     'rm-lod' => RDF::URI.new('http://rm-lod.org/'),
     'rm-lod-schema' => "http://rm-lod.org/schema/",
+    'dbpedia' => @dbpedia_ontology_prefix
 }
 
 @ecrm = RDF::Vocabulary('http://erlangen-crm.org/current/') # remove it?
 @ecrm_vocabulary = RDF::Vocabulary(@rdf_prefixes['ecrm'])
 @rmlod_vocabulary = RDF::Vocabulary(@rdf_prefixes['rm-lod-schema'])
+@dbpedia_vocabulary = RDF::Vocabulary.new(@dbpedia_ontology_prefix)
+
+

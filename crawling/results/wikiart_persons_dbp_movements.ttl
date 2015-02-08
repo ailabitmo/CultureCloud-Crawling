@@ -1,0 +1,155 @@
+@prefix dbpedia: <http://dbpedia.org/ontology/> .
+
+<http://dbpedia.org/resource/Aleksandra_Ekster> dbpedia:movement <http://dbpedia.org/resource/Cubo-Futurism>,
+     <http://dbpedia.org/resource/Suprematism>,
+     <http://dbpedia.org/resource/Constructivism_(art)>,
+     <http://dbpedia.org/resource/Art_Deco> .
+
+<http://dbpedia.org/resource/Aleksey_Antropov> dbpedia:movement <http://dbpedia.org/resource/Baroque> .
+
+<http://dbpedia.org/resource/Alexander_Andreyevich_Ivanov> dbpedia:movement <http://dbpedia.org/resource/Academic_Art> .
+
+<http://dbpedia.org/resource/Alexander_Bogomazov> dbpedia:movement <http://dbpedia.org/resource/Cubo-Futurism> .
+
+<http://dbpedia.org/resource/Alexandre_Benois> dbpedia:movement <http://dbpedia.org/resource/Art_Nouveau> .
+
+<http://dbpedia.org/resource/Alexandre_Jacovleff> dbpedia:movement <http://dbpedia.org/resource/Neoclassicism> .
+
+<http://dbpedia.org/resource/Alexei_Savrasov> dbpedia:movement <http://dbpedia.org/resource/Realism_(arts)> .
+
+<http://dbpedia.org/resource/Alexey_Bogolyubov> dbpedia:movement <http://dbpedia.org/resource/Romanticism>,
+     <http://dbpedia.org/resource/Realism_(arts)> .
+
+<http://dbpedia.org/resource/Alexey_Venetsianov> dbpedia:movement <http://dbpedia.org/resource/Realism_(arts)> .
+
+<http://dbpedia.org/resource/Aristarkh_Lentulov> dbpedia:movement <http://dbpedia.org/resource/Cubo-Futurism> .
+
+<http://dbpedia.org/resource/Arkhip_Kuindzhi> dbpedia:movement <http://dbpedia.org/resource/Realism_(arts)>,
+     <http://dbpedia.org/resource/Impressionism> .
+
+<http://dbpedia.org/resource/Boris_Grigoriev> dbpedia:movement <http://dbpedia.org/resource/Expressionism> .
+
+<http://dbpedia.org/resource/Boris_Kustodiev> dbpedia:movement <http://dbpedia.org/resource/Realism_(arts)>,
+     <http://dbpedia.org/resource/Art_Nouveau> .
+
+<http://dbpedia.org/resource/Dmitry_Levitzky> dbpedia:movement <http://dbpedia.org/resource/Rococo>,
+     <http://dbpedia.org/resource/Neoclassicism> .
+
+<http://dbpedia.org/resource/Filipp_Malyavin> dbpedia:movement <http://dbpedia.org/resource/Art_Nouveau> .
+
+<http://dbpedia.org/resource/Fyodor_Alekseyev> dbpedia:movement <http://dbpedia.org/resource/Neoclassicism> .
+
+<http://dbpedia.org/resource/Fyodor_Rokotov> dbpedia:movement <http://dbpedia.org/resource/Rococo> .
+
+<http://dbpedia.org/resource/Fyodor_Vasilyev> dbpedia:movement <http://dbpedia.org/resource/Realism_(arts)> .
+
+<http://dbpedia.org/resource/Grigoriy_Myasoyedov> dbpedia:movement <http://dbpedia.org/resource/Realism_(arts)> .
+
+<http://dbpedia.org/resource/Henryk_Siemiradzki> dbpedia:movement <http://dbpedia.org/resource/Romanticism>,
+     <http://dbpedia.org/resource/Academic_Art> .
+
+<http://dbpedia.org/resource/Ilya_Mashkov> dbpedia:movement <http://dbpedia.org/resource/Post-Impressionism> .
+
+<http://dbpedia.org/resource/Ilya_Repin> dbpedia:movement <http://dbpedia.org/resource/Realism_(arts)> .
+
+<http://dbpedia.org/resource/Isaac_Levitan> dbpedia:movement <http://dbpedia.org/resource/Realism_(arts)> .
+
+<http://dbpedia.org/resource/Ivan_Aivazovsky> dbpedia:movement <http://dbpedia.org/resource/Romanticism> .
+
+<http://dbpedia.org/resource/Ivan_Kramskoi> dbpedia:movement <http://dbpedia.org/resource/Realism_(arts)> .
+
+<http://dbpedia.org/resource/Ivan_Nikitich_Nikitin> dbpedia:movement <http://dbpedia.org/resource/Baroque> .
+
+<http://dbpedia.org/resource/Ivan_Shishkin> dbpedia:movement <http://dbpedia.org/resource/Realism_(arts)> .
+
+<http://dbpedia.org/resource/Karl_Bryullov> dbpedia:movement <http://dbpedia.org/resource/Neoclassicism>,
+     <http://dbpedia.org/resource/Romanticism> .
+
+<http://dbpedia.org/resource/Kazimir_Malevich> dbpedia:movement <http://dbpedia.org/resource/Suprematism> .
+
+<http://dbpedia.org/resource/Konstantin_Bogaevsky> dbpedia:movement <http://dbpedia.org/resource/Symbolism_(arts)> .
+
+<http://dbpedia.org/resource/Konstantin_Flavitsky> dbpedia:movement <http://dbpedia.org/resource/Romanticism> .
+
+<http://dbpedia.org/resource/Konstantin_Korovin> dbpedia:movement <http://dbpedia.org/resource/Impressionism> .
+
+<http://dbpedia.org/resource/Konstantin_Makovsky> dbpedia:movement <http://dbpedia.org/resource/Romanticism>,
+     <http://dbpedia.org/resource/Academic_Art>,
+     <http://dbpedia.org/resource/Realism_(arts)> .
+
+<http://dbpedia.org/resource/Konstantin_Somov> dbpedia:movement <http://dbpedia.org/resource/Symbolism_(arts)>,
+     <http://dbpedia.org/resource/Art_Nouveau> .
+
+<http://dbpedia.org/resource/Kuzma_Petrov-Vodkin> dbpedia:movement <http://dbpedia.org/resource/Symbolism_(arts)> .
+
+<http://dbpedia.org/resource/Lyubov_Popova> dbpedia:movement <http://dbpedia.org/resource/Cubism>,
+     <http://dbpedia.org/resource/Suprematism>,
+     <http://dbpedia.org/resource/Constructivism_(art)> .
+
+<http://dbpedia.org/resource/Mikhail_Lebedev> dbpedia:movement <http://dbpedia.org/resource/Realism_(arts)> .
+
+<http://dbpedia.org/resource/Mikhail_Nesterov> dbpedia:movement <http://dbpedia.org/resource/Symbolism_(arts)> .
+
+<http://dbpedia.org/resource/Mikhail_Vrubel> dbpedia:movement <http://dbpedia.org/resource/Symbolism_(arts)> .
+
+<http://dbpedia.org/resource/Mstislav_Dobuzhinsky> dbpedia:movement <http://dbpedia.org/resource/Symbolism_(arts)>,
+     <http://dbpedia.org/resource/Art_Nouveau>,
+     <http://dbpedia.org/resource/Expressionism> .
+
+<http://dbpedia.org/resource/Natalia_Goncharova> dbpedia:movement <http://dbpedia.org/resource/Cubo-Futurism>,
+     <http://dbpedia.org/resource/Rayonism> .
+
+<http://dbpedia.org/resource/Nicholas_Roerich> dbpedia:movement <http://dbpedia.org/resource/Symbolism_(arts)> .
+
+<http://dbpedia.org/resource/Nikolai_Ge> dbpedia:movement <http://dbpedia.org/resource/Realism_(arts)> .
+
+<http://dbpedia.org/resource/Nikolai_Yaroshenko> dbpedia:movement <http://dbpedia.org/resource/Realism_(arts)> .
+
+<http://dbpedia.org/resource/Olga_Rozanova> dbpedia:movement <http://dbpedia.org/resource/Cubo-Futurism>,
+     <http://dbpedia.org/resource/Suprematism> .
+
+<http://dbpedia.org/resource/Orest_Kiprensky> dbpedia:movement <http://dbpedia.org/resource/Romanticism> .
+
+<http://dbpedia.org/resource/Pavel_Fedotov> dbpedia:movement <http://dbpedia.org/resource/Realism_(arts)> .
+
+<http://dbpedia.org/resource/Pyotr_Konchalovsky> dbpedia:movement <http://dbpedia.org/resource/Post-Impressionism>,
+     <http://dbpedia.org/resource/Socialist_realism> .
+
+<http://dbpedia.org/resource/Valentin_Serov> dbpedia:movement <http://dbpedia.org/resource/Realism_(arts)>,
+     <http://dbpedia.org/resource/Impressionism> .
+
+<http://dbpedia.org/resource/Vasily_Perov> dbpedia:movement <http://dbpedia.org/resource/Realism_(arts)> .
+
+<http://dbpedia.org/resource/Vasily_Polenov> dbpedia:movement <http://dbpedia.org/resource/Realism_(arts)> .
+
+<http://dbpedia.org/resource/Vasily_Sadovnikov> dbpedia:movement <http://dbpedia.org/resource/Realism_(arts)> .
+
+<http://dbpedia.org/resource/Vasily_Surikov> dbpedia:movement <http://dbpedia.org/resource/Realism_(arts)> .
+
+<http://dbpedia.org/resource/Vasily_Tropinin> dbpedia:movement <http://dbpedia.org/resource/Romanticism> .
+
+<http://dbpedia.org/resource/Vasily_Vereshchagin> dbpedia:movement <http://dbpedia.org/resource/Realism_(arts)> .
+
+<http://dbpedia.org/resource/Victor_Borisov-Musatov> dbpedia:movement <http://dbpedia.org/resource/Symbolism_(arts)> .
+
+<http://dbpedia.org/resource/Viktor_Vasnetsov> dbpedia:movement <http://dbpedia.org/resource/Romanticism>,
+     <http://dbpedia.org/resource/Symbolism_(arts)> .
+
+<http://dbpedia.org/resource/Vladimir_Borovikovsky> dbpedia:movement <http://dbpedia.org/resource/Rococo>,
+     <http://dbpedia.org/resource/Neoclassicism> .
+
+<http://dbpedia.org/resource/Vladimir_Makovsky> dbpedia:movement <http://dbpedia.org/resource/Realism_(arts)> .
+
+<http://dbpedia.org/resource/Vladimir_Tatlin> dbpedia:movement <http://dbpedia.org/resource/Constructivism_(art)> .
+
+<http://dbpedia.org/resource/Volodymyr_Orlovsky> dbpedia:movement <http://dbpedia.org/resource/Realism_(arts)> .
+
+<http://dbpedia.org/resource/Wassily_Kandinsky> dbpedia:movement <http://dbpedia.org/resource/Expressionism>,
+     <http://dbpedia.org/resource/Abstract_Art> .
+
+<http://dbpedia.org/resource/Yury_Annenkov> dbpedia:movement <http://dbpedia.org/resource/Cubism>,
+     <http://dbpedia.org/resource/Futurism> .
+
+<http://dbpedia.org/resource/Zinaida_Serebriakova> dbpedia:movement <http://dbpedia.org/resource/Symbolism_(arts)>,
+     <http://dbpedia.org/resource/Expressionism>,
+     <http://dbpedia.org/resource/Art_Deco> .
