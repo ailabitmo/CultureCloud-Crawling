@@ -60,7 +60,7 @@ puts 'add_to_graph'
 add_to_graph(bm_subj, @uri['bmthes:subj'], @uri['ecrm:E55_Type'])
 
 puts 'Writing file'
-file = File.new('../bm_thesauri.ttl', 'w')
+file = File.new('../results/bm_thesauri.ttl', 'w')
 file.write(@graph.dump(:ttl, :prefixes => @rdf_prefixes))
 file.close
 

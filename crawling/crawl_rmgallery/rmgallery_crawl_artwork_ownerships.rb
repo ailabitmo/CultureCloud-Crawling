@@ -24,7 +24,7 @@ def open_html (url)
   begin
     response = http.get(uri.path)
   rescue Net::OpenTimeout
-    puts 'Catched new Net::OpenTimeout exception. Press return to retry (recommended) or Ctrl+C to interrupt (all data will be lost in that case).'
+    puts 'Caught new Net::OpenTimeout exception.'
     retry
   end
   response.body
@@ -63,7 +63,7 @@ end
 puts
 puts '== Writing file =='
 puts
-file = File.new('rm_artwork_ownerships.ttl', 'w')
+file = File.new('../results/rmgallery_artwork_ownerships.ttl', 'w')
 file.write(@graph.dump(:ttl))
 file.close
 puts 'Done!'
