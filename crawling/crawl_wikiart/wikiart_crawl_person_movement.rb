@@ -42,7 +42,8 @@ authors_json.each_key { |dbpedia_key|
   puts dbpedia_key
   wikiart_url=authors_json[dbpedia_key]['wikiart_url']
   Nokogiri::HTML(open_html(wikiart_url)).css('body').css('span[itemprop="art movement"]').each { |art_movement|
-    @graph << [RDF.URI(dbpedia_key),@dbpedia_vocabulary['movement'],@movements_hash[art_movement.text]]
+    art_movement_text=art_movement.text
+    @graph << [RDF.URI(dbpedia_key),@dbpedia_vocabulary['movement'],RDF::Literal.new(@movements_hash[art_movement_text], :language => :en)]
   }
 }
 
