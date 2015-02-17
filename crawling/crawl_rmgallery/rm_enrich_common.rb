@@ -9,7 +9,13 @@ def wikipediaToDBbpedia(wikipedia)
     if ((wikipedia.nil?) or (wikipedia.empty?)) then return nil end
     #TODO: check string with regexp
     url_key = wikipedia.split('/').last
-    return "http://dbpedia.org/resource/" + url_key
+    if url_key.start_with?('http://dbpedia.org/resource/')
+    then
+      return "http://dbpedia.org/resource/" + url_key
+    else
+      # FIXME: fix generating other locale resources  
+      return "http://ru.dbpedia.org/resource/" + url_key  
+    end
 end
 
 # Search for wikipedia article links
