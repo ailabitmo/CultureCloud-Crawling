@@ -2,7 +2,8 @@
 Linked Data of the Russian Museum: data gathering tools
 # About
 This repository provides tools and utils (ruby scripts actually) to gather data for [Russian Museum Culture Cloud project](http://culturecloud.ru/) based on [FluidOps Informational WorkBench](https://www.fluidops.com/en/portfolio/information_workbench/) and [The CIDOC 
-Conceptual Reference Model](http://www.cidoc-crm.org/)
+Conceptual Reference Model](http://www.cidoc-crm.org/).
+
 Resulting datasets separeted to [CultureCloud-Datasets repository](https://github.com/ailabitmo/CultureCloud-Datasets)
 # Repository structure
 ## crawling directory
