@@ -1,10 +1,21 @@
-rm-lod
-======
+# rm-lod
+Linked Data of the Russian Museum: data gathering tools
+# About
+This repository provides tools and utils (ruby scripts actually) to gather data for [Russian Museum Culture Cloud project](http://culturecloud.ru/)
+Resulting datasets separeted to [CultureCloud-Datasets repositiry](https://github.com/ailabitmo/CultureCloud-Datasets)
+# Repository structure
+## crawling directory
+Contains directories with ruby script for crawling data from the data sources (such as: [Russian Museum Gallery](rmgallery.ru) and [WikiArt](wikiart.org))
+Common libraries stored into crawling dir.
 
-Linked Data of the Russian Museum
+Used 3rd party ruby libs:
+- [Nokogiri](https://github.com/sparklemotion/nokogiri)
+- [Ruby RDF](https://github.com/ruby-rdf)
 
-how to run current ruby scripts from windows:
----------------------------------------------
+## iwb-project
+Archived [iwb](https://www.fluidops.com/en/portfolio/information_workbench/) xml import rules
+
+## how to run current ruby scripts from windows:
 
 Newest version have some problems building Nokogiri ruby gem from sources,
 so I recommend to try Ruby 2.00:
