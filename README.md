@@ -5,7 +5,7 @@ This repository provides tools and utils (ruby scripts actually) to gather data 
 Resulting datasets separeted to [CultureCloud-Datasets repositiry](https://github.com/ailabitmo/CultureCloud-Datasets)
 # Repository structure
 ## crawling directory
-Contains directories with ruby script for crawling data from the data sources (such as: [Russian Museum Gallery](rmgallery.ru) and [WikiArt](wikiart.org))
+Contains directories with ruby script for crawling data from the data sources (such as: [Russian Museum Gallery](http://rmgallery.ru) and [WikiArt](http://wikiart.org))
 Common libraries stored into crawling dir.
 
 Used 3rd party ruby libs:
