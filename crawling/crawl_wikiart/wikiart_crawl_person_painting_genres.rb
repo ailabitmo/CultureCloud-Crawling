@@ -38,7 +38,7 @@ authors_json.each_key { |dbpedia_key|
   Nokogiri::HTML(open_html(wikiart_url)).css('body').css('span[itemprop="genre"]').each { |painting_genre|
     painting_genre_text=painting_genre.text
 
-    @graph << [RDF.URI(dbpedia_key),@ecrm_vocabulary[:P2_has_type],RDF::Literal.new(@genres_hash[painting_genre_text], :language => :en)]
+    @graph << [RDF.URI(dbpedia_key),@ecrm_vocabulary[:P2_has_type],@genres_hash[painting_genre_text]]
     genres.push(painting_genre.text)
   }
 }

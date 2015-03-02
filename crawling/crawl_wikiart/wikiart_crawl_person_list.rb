@@ -14,7 +14,7 @@ our_authors={}
  
 authors_number = 0
 # noinspection SpellCheckingInspection
-@persons_sameas_ttl = RDF::Graph.load('../rm_persons_sameas.ttl')
+@persons_sameas_ttl = RDF::Graph.load('../results/rmgallery.ru/rm_persons_sameas.ttl')
 #puts (RDF::Query::Pattern.new(:s, OWL.sameAs, RDF::URI.new("http://dbpedia.org/resource/Sergey_Ivanov_(painter)")).execute(@persons_sameas_ttl).empty?)
 #gets
 

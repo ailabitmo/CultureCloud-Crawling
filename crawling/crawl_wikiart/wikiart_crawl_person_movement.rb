@@ -13,6 +13,7 @@ include RDF
 file = File.read('our_authors.json')
 authors_json = JSON.parse(file)
 
+@dbpedia_resource_prefix="http://dbpedia.org/resoure"
 @movements_hash = {
     'Romanticism' => RDF::URI.new("#{@dbpedia_resource_prefix}/Romanticism"),
     'Neoclassicism' => RDF::URI.new("#{@dbpedia_resource_prefix}/Neoclassicism"),
@@ -43,7 +44,7 @@ authors_json.each_key { |dbpedia_key|
   wikiart_url=authors_json[dbpedia_key]['wikiart_url']
   Nokogiri::HTML(open_html(wikiart_url)).css('body').css('span[itemprop="art movement"]').each { |art_movement|
     art_movement_text=art_movement.text
-    @graph << [RDF.URI(dbpedia_key),@dbpedia_vocabulary['movement'],RDF::Literal.new(@movements_hash[art_movement_text], :language => :en)]
+    @graph << [RDF.URI(dbpedia_key),@dbpedia_vocabulary['movement'],@movements_hash[art_movement_text]]
   }
 }
 
