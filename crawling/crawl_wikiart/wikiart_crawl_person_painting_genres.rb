@@ -29,7 +29,7 @@ genres = []
     'landscape' => RDF::URI.new('http://collection.britishmuseum.org/id/thesauri/x12934'),
     'portrait' => RDF::URI.new('http://culturecloud.ru/resource/thesauri/portrait'),
     'veduta' => RDF::URI.new('http://culturecloud.ru/resource/thesauri/veduta'),
-    'cityscape' => RDF::URI.new('http://culturecloud.ru/resource/thesauri/cityscape')
+    'cityscape' => RDF::URI.new('http://culturecloud.ru/resource/thesauri/cityscape'),
 }
 
 authors_json.each_key { |dbpedia_key|

@@ -50,8 +50,13 @@ authors_json = JSON.parse(file)
     'symbolic painting' => RDF::URI.new('http://culturecloud.ru/resource/thesauri/symbolic_painting'),
     'nude painting (nu)' => RDF::URI.new('http://culturecloud.ru/resource/thesauri/nude_painting'),
     'interior' => RDF::URI.new('http://culturecloud.ru/resource/thesauri/interior'),
-
-
+    'still life' => RDF::URI.new('http://culturecloud.ru/resource/thesauri/still life'),
+    'cloudscape' => RDF::URI.new('http://culturecloud.ru/resource/thesauri/cloudscape'),
+    'poster' => RDF::URI.new('http://culturecloud.ru/resource/thesauri/poster'),
+    'literary painting' => RDF::URI.new('http://culturecloud.ru/resource/thesauri/literary painting'),
+    'animal painting' => RDF::URI.new('http://culturecloud.ru/resource/thesauri/animal painting'),
+    'pastorale' => RDF::URI.new('http://culturecloud.ru/resource/thesauri/pastorale'),
+    'sculpture' => RDF::URI.new('http://culturecloud.ru/resource/thesauri/sculpture'),
 }
 genres_s = Set.new()
 
@@ -126,16 +131,18 @@ authors_json.each_key { |dbpedia_key|
               end
               if completion_date!="" && start_date!=""
               then
+                dates_range="#{start_date}-#{completion_date}"
                 if completion_date!=start_date
                 then
                   #FIXME: dates_range not working
-                  dates_range="#{start_date}-#{completion_date}"
-                  puts "1"
+                  puts "1.1"
                   puts dates_range
                   #FIXME: why to repeat date en and ru?
                   @graph_dates << [date_uri, RDFS.label, RDF::Literal.new(dates_range, :language => 'ru')]
                   @graph_dates << [date_uri, RDFS.label, RDF::Literal.new(dates_range, :language => 'en')]
                 else
+                  puts "1.2"
+                  puts dates_range
                   @graph_dates << [date_uri, RDFS.label, RDF::Literal.new(completion_date, :language => 'ru')]
                   @graph_dates << [date_uri, RDFS.label, RDF::Literal.new(completion_date, :language => 'en')]
                 end
@@ -144,14 +151,14 @@ authors_json.each_key { |dbpedia_key|
               then
                 #FIXME: why to repeat date en and ru?
                 puts "2"
-                puts dates_range
+                puts start_date
                 @graph_dates << [date_uri, RDFS.label, RDF::Literal.new(start_date, :language => 'ru')]
                 @graph_dates << [date_uri, RDFS.label, RDF::Literal.new(start_date, :language => 'en')]
               end
               if start_date == "" && completion_date!=""
               then
                 puts "3"
-                puts dates_range
+                puts completion_date
                 @graph_dates << [date_uri, RDFS.label, RDF::Literal.new(completion_date, :language => 'ru')]
                 @graph_dates << [date_uri, RDFS.label, RDF::Literal.new(completion_date, :language => 'en')]
               end
@@ -160,6 +167,11 @@ authors_json.each_key { |dbpedia_key|
               #==========graph_dimensions
               if row_item_text.start_with?("Dimension")
               then
+                if object_uri.to_s == 'http://culturecloud.ru/resource/object/Carpenter'
+                  then
+                  puts row_item_text
+                  puts dbpedia_key
+                end
                 width = row_item_text.scan(/[\d\.]+/)[0]
                 width_uri = RDF::URI.new("#{object_uri.to_s}/width/#{width}")
                 height = row_item_text.scan(/[\d\.]+/)[1]
