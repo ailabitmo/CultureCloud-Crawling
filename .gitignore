@@ -1,4 +1,9 @@
 .DS_Store
 .idea
 .directory
-crawling/results
+crawling/results.DS_Store
+
+metrics/JWS-KnowledgeGraphSpecialIssue/.idea
+metrics/JWS-KnowledgeGraphSpecialIssue/.ipynb_checkpoints
+metrics/JWS-KnowledgeGraphSpecialIssue/blazegraph
+metrics/JWS-KnowledgeGraphSpecialIssue/bkp.*
