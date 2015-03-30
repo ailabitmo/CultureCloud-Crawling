@@ -9,9 +9,11 @@ sparql_dbp.setReturnFormat(JSON)
 sparql_wd = SPARQLWrapper('http://wikidata.metaphacts.com:8080/bigdata/sparql')
 sparql_wd.setReturnFormat(JSON)
 
+# Endpoint loaded with only crawled CultureCloud dataset (for the JWS paper: at the state of 30 Mar 15)
 sparql_raw = SPARQLWrapper('http://localhost:9999/bigdata/namespace/raw/sparql')
 sparql_raw.setReturnFormat(JSON)
 
+# Endpoint containing a copy of culturecloud.ru instance (for the JWS paper: at the state of 30 Mar 15)
 sparql_cc = SPARQLWrapper('http://localhost:9999/bigdata/sparql')
 sparql_cc.setReturnFormat(JSON)
 
