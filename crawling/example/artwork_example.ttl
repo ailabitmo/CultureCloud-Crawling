@@ -111,7 +111,9 @@
                                      ecrm:P3_has_note "Author's bio"@ru ,
                                                       "Биография автора"@ru ;
                                      
-                                     ecrm:P131_is_identified_by <http://rm-lod.org/person/person_id/appelation/appelation_id> .
+                                     ecrm:P131_is_identified_by <http://rm-lod.org/person/person_id/appelation/appelation_id> ;
+
+                                     bmo:PX_nationality <...Nationality_URI...> .
 
 
 
